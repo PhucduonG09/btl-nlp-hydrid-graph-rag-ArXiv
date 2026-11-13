@@ -1,0 +1,181 @@
+﻿A_id,A_title,B_id,B_title,bridge_term,df,B_introduces
+2508.17627,The Evolution of Thought: Tracking LLM Overthinking via Reasoning Dynamics Analysis,2311.12022,GPQA: A Graduate-Level Google-Proof Q&A Benchmark,GPQA,14,1
+2502.15727,Retrieval Augmented Generation Based LLM Evaluation For Protocol State Machine Inference With Chain-of-Thought Reasoning,2407.02964,FSM: A Finite State Machine Based Zero-Shot Prompting Paradigm for Multi-Hop Question Answering,FSM,2,1
+2409.18412,SciDFM: A Large Language Model with Mixture-of-Experts for Science,2308.13149,SciEval: A Multi-Level Large Language Model Evaluation Benchmark for Scientific Research,SciEval,2,1
+2510.17388,"The Atomic Instruction Gap: Instruction-Tuned LLMs Struggle with Simple, Self-Contained Directives",2406.01574,MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark,MMLU-Pro,9,1
+2308.07645,Steering Language Generation: Harnessing Contrastive Expert Guidance and Negative Prompting for Coherent and Diverse Synthetic Data Generation,2402.09552,STEER: Assessing the Economic Rationality of Large Language Models,STEER,4,1
+2510.27378,Measuring Chain-of-Thought Monitorability Through Faithfulness and Verbosity,2311.12022,GPQA: A Graduate-Level Google-Proof Q&A Benchmark,GPQA,14,1
+2503.12108,RECSIP: REpeated Clustering of Scores Improving the Precision,2406.01574,MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark,MMLU-Pro,9,1
+2406.09760,Bootstrapping Language Models with DPO Implicit Rewards,2507.23554,DICE: Dynamic In-Context Example Selection in LLM Agents via Efficient Knowledge Transfer,DICE,2,1
+2407.18690,Collaborative Evolving Strategy for Automatic Data-Centric Development,2402.09552,STEER: Assessing the Economic Rationality of Large Language Models,STEER,4,1
+2507.06013,CogniSQL-R1-Zero: Lightweight Reinforced Reasoning for Efficient SQL Generation,2404.12494,BIRD: A Trustworthy Bayesian Inference Framework for Large Language Models,BIRD,4,1
+2406.17588,LongIns: A Challenging Long-context Instruction-based Exam for LLMs,2407.13466,LIMT: Language-Informed Multi-Task Visual World Models,LIMT,2,1
+2508.00271,MetaAgent: Toward Self-Evolving Agent via Tool Meta-Learning,2311.12983,GAIA: a benchmark for General AI Assistants,GAIA,9,1
+2510.14438,WebAggregator: Enhancing Compositional Reasoning Capabilities of Deep Research Agent Foundation Models,2311.12983,GAIA: a benchmark for General AI Assistants,GAIA,9,1
+2510.21828,Structured and Abstractive Reasoning on Multi-modal Relational Knowledge Images,2503.06060,STAR: A Foundation Model-driven Framework for Robust Task Planning and Failure Recovery in Robotic Systems,STAR,3,1
+2508.21512,Accept or Deny? Evaluating LLM Fairness and Performance in Loan Approval across Table-to-Text Serialization Approaches,2502.14644,LIFT: A Novel Framework for Enhancing Long-Context Understanding of LLMs via Long Input Fine-Tuning,LIFT,2,1
+2512.14166,IntentMiner: Intent Inversion Attack via Tool Call Analysis in the Model Context Protocol,2409.00920,ToolACE: Winning the Points of LLM Function Calling,ToolACE,2,1
+2403.12776,Automated Data Curation for Robust Language Model Fine-Tuning,2504.07116,CLEAR: Contrasting Textual Feedback with Experts and Amateurs for Reasoning,CLEAR,3,1
+2512.11986,Learning to Extract Context for Context-Aware LLM Inference,2308.01263,XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models,XSTest,2,1
+2407.14088,Impact of Model Size on Fine-tuned LLM Performance in Data-to-Text Generation: A State-of-the-Art Investigation,2511.01170,DART: Difficulty-Adaptive Reasoning Truncation for Efficient Large Language Models,DART,2,1
+2502.01697,BARE: Leveraging Base Language Models for Few-Shot Synthetic Data Generation,2304.06767,RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment,RAFT,2,1
+2510.19338,Every Attention Matters: An Efficient Hybrid Architecture for Long-Context Reasoning,2310.18313,FP8-LM: Training FP8 Large Language Models,FP8,3,1
+2503.20384,MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation,2503.06060,STAR: A Foundation Model-driven Framework for Robust Task Planning and Failure Recovery in Robotic Systems,STAR,3,1
+2306.00739,SQL-PaLM: Improved Large Language Model Adaptation for Text-to-SQL (extended),2404.12494,BIRD: A Trustworthy Bayesian Inference Framework for Large Language Models,BIRD,4,1
+2412.04576,"Show, Don't Tell: Uncovering Implicit Character Portrayal using LLMs",2305.07759,TinyStories: How Small Can Language Models Be and Still Speak Coherent English?,TinyStories,3,1
+2406.11794,DataComp-LM: In search of the next generation of training sets for language models,2405.19327,MAP-Neo: Highly Capable and Transparent Bilingual Large Language Model Series,MAP-Neo,2,1
+2403.07191,"$\mathbf{(N,K)}$-Puzzle: A Cost-Efficient Testbed for Benchmarking Reinforcement Learning Algorithms in Generative Language Model",2502.16182,IPO: Your Language Model is Secretly a Preference Classifier,IPO,3,1
+2403.05636,Tuning-Free Accountable Intervention for LLM Deployment -- A Metacognitive Approach,2504.07116,CLEAR: Contrasting Textual Feedback with Experts and Amateurs for Reasoning,CLEAR,3,1
+2406.11715,Measuring memorization in RLHF for code completion,2502.16182,IPO: Your Language Model is Secretly a Preference Classifier,IPO,3,1
+2509.12875,LTA-thinker: Latent Thought-Augmented Training Framework for Large Language Models on Complex Reasoning,2502.12134,SoftCoT: Soft Chain-of-Thought for Efficient Reasoning with LLMs,SoftCoT,2,1
+2501.00032,Highly Optimized Kernels and Fine-Grained Codebooks for LLM Inference on Arm CPUs,2507.21159,MAC: Masked Agent Collaboration Boosts Large Language Model Medical Decision-Making,MAC,2,1
+2510.10849,Glance for Context: Learning When to Leverage LLMs for Node-Aware GNN-LLM Fusion,2405.18921,GLANCE: Global Actions in a Nutshell for Counterfactual Explainability,GLANCE,2,1
+2402.09052,L3GO: Language Agents with Chain-of-3D-Thoughts for Generating Unconventional Objects,2402.14690,UFO: a Unified and Flexible Framework for Evaluating Factuality of Large Language Models,UFO,2,1
+2412.13791,Physics Reasoner: Knowledge-Augmented Reasoning for Solving Physics Problems with Large Language Models,2307.10635,SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models,SciBench,2,1
+2512.12818,"Hindsight is 20/20: Building Agent Memory that Retains, Recalls, and Reflects",2410.10813,LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory,LongMemEval,2,1
+2411.15821,Is Training Data Quality or Quantity More Impactful to Small Language Model Performance?,2305.07759,TinyStories: How Small Can Language Models Be and Still Speak Coherent English?,TinyStories,3,1
+2509.13624,Latent Traits and Cross-Task Transfer: Deconstructing Dataset Interactions in LLM Fine-tuning,2301.11688,Can We Use Probing to Better Understand Fine-tuning and Knowledge Distillation of the BERT NLU?,NLU,9,0
+2510.02271,InfoMosaic-Bench: Evaluating Multi-Source Information Seeking in Tool-Augmented Agents,2511.23281,MCP vs RAG vs NLWeb vs HTML: A Comparison of the Effectiveness and Efficiency of Different Agent Interfaces to the Web (Technical Report),MCP,10,0
+2407.08693,Robotic Control via Embodied Chain-of-Thought Reasoning,2509.09674,SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning,VLA,3,0
+2310.04480,Auto-survey Challenge,2510.01842,Pre-Hoc Predictions in AutoML: Leveraging LLMs to Enhance Model Selection and Benchmarking for Tabular datasets,AutoML,5,0
+2305.06087,A Glimpse in ChatGPT Capabilities and its impact for AI research,2501.09171,"Generative AI Takes a Statistics Exam: A Comparison of Performance between ChatGPT3.5, ChatGPT4, and ChatGPT4o-mini",ChatGPT3,2,0
+2511.20468,DRAFT-RL: Multi-Agent Chain-of-Draft Reasoning for Reinforcement Learning-Enhanced LLMs,2503.22456,Entropy-guided sequence weighting for efficient exploration in RL-based LLM fine-tuning,RL-based,11,0
+2305.14763,Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large Language Models,2501.09056,Decompose-ToM: Enhancing Theory of Mind Reasoning in Large Language Models through Simulation and Task Decomposition,ToM,14,0
+2404.14395,PARAMANU-GANITA: Can Small Math Language Models Rival with Large Language Models on Mathematical Reasoning?,2407.16607,Data Mixture Inference: What do BPE Tokenizers Reveal about their Training Data?,BPE,4,0
+2501.04519,rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking,2412.18116,AutoDroid-V2: Boosting SLM-based GUI Agents via Code Generation,SLM-based,3,0
+2406.06596,Are Large Language Models the New Interface for Data Pipelines?,2510.01842,Pre-Hoc Predictions in AutoML: Leveraging LLMs to Enhance Model Selection and Benchmarking for Tabular datasets,AutoML,5,0
+2409.08027,iLLuMinaTE: An LLM-XAI Framework Leveraging Social Science Explanation Theories Towards Actionable Student Performance Feedback,2405.10446,Tell me more: Intent Fulfilment Framework for Enhancing User Experiences in Conversational XAI,XAI,10,0
+2509.17978,"The STAR-XAI Protocol: A Framework for Inducing and Verifying Agency, Reasoning, and Reliability in AI Agents",2505.13408,CoT-Kinetics: A Theoretical Modeling Assessing LRM Reasoning Process,LRM,5,0
+2510.08543,VideoNorms: Benchmarking Cultural Awareness of Video Language Models,2505.03829,VideoLLM Benchmarks and Evaluation: A Survey,VideoLLM,2,0
+2312.12936,Concept-based Explainable Artificial Intelligence: A Survey,2503.19813,Guidelines For The Choice Of The Baseline in XAI Attribution Methods,XAI,10,0
+2405.12750,Generative AI in Cybersecurity: A Comprehensive Review of LLM Applications and Vulnerabilities,2412.07412,"Generating Knowledge Graphs from Large Language Models: A Comparative Study of GPT-4, LLaMA 2, and BERT",BERT,13,0
+2402.06229,Exploring Interaction Patterns for Debugging: Enhancing Conversational Capabilities of AI-assistants,2412.15948,Trust Calibration in IDEs: Paving the Way for Widespread Adoption of AI Refactoring,IDEs,2,0
+2512.12692,WebOperator: Action-Aware Tree Search for Autonomous Agents in Web Environment,2511.21398,Prune4Web: DOM Tree Pruning Programming for Web Agent,DOM,3,0
+2305.16426,Not wacky vs. definitely wacky: A study of scalar adverbs in pretrained language models,2405.02024,Analyzing Narrative Processing in Large Language Models (LLMs): Using GPT4 to test BERT,BERT,13,0
+2510.15211,ReasonIF: Large Reasoning Models Fail to Follow Instructions During Reasoning,2511.19333,Learning to Reason: Training LLMs with GPT-OSS or DeepSeek R1 Reasoning Traces,GPT-OSS,5,0
+2404.05955,VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?,2310.16534,An Early Evaluation of GPT-4V(ision),GPT-4V,12,0
+2510.19767,SmartSwitch: Advancing LLM Reasoning by Overcoming Underthinking via Promoting Deeper Thought Exploration,2506.11474,"Med-PRM: Medical Reasoning Models with Stepwise, Guideline-verified Process Rewards",PRM,11,0
+2402.13089,Towards an empirical understanding of MoE design choices,2509.17238,MoEs Are Stronger than You Think: Hyper-Parallel Inference Scaling with RoE,MoEs,3,0
+2510.14885,You May Speak Freely: Improving the Fine-Grained Visual Recognition Capabilities of Multimodal Large Language Models with Answer Extraction,2503.08551,Reasoning and Sampling-Augmented MCQ Difficulty Prediction via LLMs,MCQ,9,0
+2307.00470,PatternGPT :A Pattern-Driven Framework for Large Language Model Text Generation,2312.03720,"Negotiating with LLMS: Prompt Hacks, Skill Gaps, and Reasoning Deficits",LLMS,3,0
+2407.14609,Adversarial Databases Improve Success in Retrieval-based Large Language Models,2503.08551,Reasoning and Sampling-Augmented MCQ Difficulty Prediction via LLMs,MCQ,9,0
+2405.14554,SearchLVLMs: A Plug-and-Play Framework for Augmenting Large Vision-Language Models by Searching Up-to-Date Internet Knowledge,2510.07545,Deploying Tiny LVLM Judges for Real-World Evaluation of Chart Models: Lessons Learned and Best Practices,LVLM,4,0
+2409.11704,From Lists to Emojis: How Format Bias Affects Model Alignment,2502.14191,Multimodal RewardBench: Holistic Evaluation of Reward Models for Vision Language Models,RewardBench,5,0
+2310.13669,Automatic Unit Test Data Generation and Actor-Critic Reinforcement Learning for Code Synthesis,2503.22456,Entropy-guided sequence weighting for efficient exploration in RL-based LLM fine-tuning,RL-based,11,0
+2510.13814,Reversing the Lens: Using Explainable AI to Understand Human Expertise,2405.10446,Tell me more: Intent Fulfilment Framework for Enhancing User Experiences in Conversational XAI,XAI,10,0
+2505.13427,MM-PRM: Enhancing Multimodal Mathematical Reasoning with Scalable Step-Level Supervision,2506.11474,"Med-PRM: Medical Reasoning Models with Stepwise, Guideline-verified Process Rewards",PRM,11,0
+2303.04091,Abstract Visual Reasoning Enabled by Language,2505.07859,Product of Experts with LLMs: Boosting Performance on ARC Is a Matter of Perspective,ARC,10,0
+2310.18366,A Multilingual Virtual Guide for Self-Attachment Technique,2408.07215,Can Large Language Models Reason? A Characterization via 3-SAT,SAT,5,0
+2410.09775,EasyJudge: an Easy-to-use Tool for Comprehensive Response Evaluation of LLMs,2501.00032,Highly Optimized Kernels and Fine-Grained Codebooks for LLM Inference on Arm CPUs,CPUs,2,0
+2308.04948,Extrapolating Large Language Models to Non-English by Aligning Languages,2309.07875,Safety-Tuned LLaMAs: Lessons From Improving the Safety of Large Language Models that Follow Instructions,LLaMAs,2,0
+2412.04447,EgoPlan-Bench2: A Benchmark for Multimodal Large Language Model Planning in Real-World Scenarios,2310.16534,An Early Evaluation of GPT-4V(ision),GPT-4V,12,0
+2410.15467,"Hey GPT, Can You be More Racist? Analysis from Crowdsourced Attempts to Elicit Biased Content from Generative AI",2507.05573,Prompt Migration: Stabilizing GenAI Applications with Evolving Large Language Models,GenAI,9,0
+2408.16032,An Extremely Data-efficient and Generative LLM-based Reinforcement Learning Agent for Recommenders,2301.11688,Can We Use Probing to Better Understand Fine-tuning and Knowledge Distillation of the BERT NLU?,BERT,13,0
+2403.02610,ChatGPT4PCG 2 Competition: Prompt Engineering for Science Birds Level Generation,2305.18243,Practical PCG Through Large Language Models,PCG,2,0
+2403.09705,A Novel Nuanced Conversation Evaluation Framework for Large Language Models in Mental Health,2405.02024,Analyzing Narrative Processing in Large Language Models (LLMs): Using GPT4 to test BERT,GPT4,12,0
+2508.09586,EvoCurr: Self-evolving Curriculum with Behavior Code Generation for Complex Decision-making,2409.18989,SC-Phi2: A Fine-tuned Small Language Model for StarCraft II Macromanagement Tasks,StarCraft,2,0
+2407.18219,Recursive Introspection: Teaching Language Model Agents How to Self-Improve,2512.11270,A-LAMP: Agentic LLM-Based Framework for Automated MDP Modeling and Policy Generation,MDP,7,0
+2507.21532,Automatic Classification of User Requirements from Online Feedback -- A Replication Study,2412.07412,"Generating Knowledge Graphs from Large Language Models: A Comparative Study of GPT-4, LLaMA 2, and BERT",BERT,13,0
+2505.23363,Discriminative Policy Optimization for Token-Level Reward Models,2505.11227,Is PRM Necessary? Problem-Solving RL Implicitly Induces PRM Capability in LLMs,PRM,11,0
+2502.14171,"Enhancing Conversational Agents with Theory of Mind: Aligning Beliefs, Desires, and Intentions for Human-Like Interaction",2501.09056,Decompose-ToM: Enhancing Theory of Mind Reasoning in Large Language Models through Simulation and Task Decomposition,ToM,14,0
+2510.25726,"The Tool Decathlon: Benchmarking Language Agents for Diverse, Realistic, and Long-Horizon Task Execution",2510.04536,3Dify: a Framework for Procedural 3D-CG Generation Assisted by LLMs Using MCP and RAG,MCP,10,0
+2506.13820,Structured Program Synthesis using LLMs: Results and Insights from the IPARC Challenge,2505.01081,MADIL: An MDL-based Framework for Efficient Program Synthesis in the ARC Benchmark,ARC,10,0
+2405.02105,Evaluating Large Language Models for Structured Science Summarization in the Open Research Knowledge Graph,2512.16425,Introducing ORKG ASK: an AI-driven Scholarly Literature Search and Exploration System Taking a Neuro-Symbolic Approach,ORKG,2,0
+2506.03592,From Understanding to Generation: An Efficient Shortcut for Evaluating Language Models,2411.16077,SAGEval: The frontiers of Satisfactory Agent based NLG Evaluation for reference-free open-ended text,NLG,11,0
+2504.01857,Cross-Lingual Consistency: A Novel Inference Framework for Advancing Reasoning in Large Language Models,2505.05946,Full-Parameter Continual Pretraining of Gemma2: Insights into Fluency and Domain Knowledge,Gemma2,6,0
+2510.12831,MTSQL-R1: Towards Long-Horizon Multi-Turn Text-to-SQL via Agentic Training,2512.11270,A-LAMP: Agentic LLM-Based Framework for Automated MDP Modeling and Policy Generation,MDP,7,0
+2501.12420,"Consolidating TinyML Lifecycle with Large Language Models: Reality, Illusion, or Opportunity?",2506.00002,Advancing AI-assisted Hardware Design with Hierarchical Decentralized Training and Personalized Inference-Time Optimization,AI-assisted,10,0
+2504.04927,Creating and Evaluating Personas Using Generative AI: A Scoping Review of 81 Articles,2507.05573,Prompt Migration: Stabilizing GenAI Applications with Evolving Large Language Models,GenAI,9,0
+2504.05520,Efficient Reinforcement Finetuning via Adaptive Curriculum Learning,2505.17826,Trinity-RFT: A General-Purpose and Unified Framework for Reinforcement Fine-Tuning of Large Language Models,RFT,9,0
+2507.05118,VerifyLLM: LLM-Based Pre-Execution Task Plan Verification for Robots,2501.17496,SemML: Enhancing Automata-Theoretic LTL Synthesis with Machine Learning,LTL,5,0
+2511.19483,Z-Space: A Multi-Agent Tool Orchestration Framework for Enterprise-Grade LLM Automation,2510.04536,3Dify: a Framework for Procedural 3D-CG Generation Assisted by LLMs Using MCP and RAG,MCP,10,0
+2404.09754,Resilience of Large Language Models for Noisy Instructions,2405.02132,Unveiling the Potential of LLM-Based ASR on Chinese Open-Source Datasets,ASR,14,0
+2511.19900,Agent0-VL: Exploring Self-Evolving Agent for Tool-Integrated Vision-Language Reasoning,2511.11301,EcoAlign: An Economically Rational Framework for Efficient LVLM Alignment,LVLM,4,0
+2510.23601,Alita-G: Self-Evolving Generative Agent for Agent Generation,2511.23281,MCP vs RAG vs NLWeb vs HTML: A Comparison of the Effectiveness and Efficiency of Different Agent Interfaces to the Web (Technical Report),MCP,10,0
+2505.19259,Towards Large Reasoning Models for Agriculture,2503.05139,Every FLOP Counts: Scaling a 300B Mixture-of-Experts LING LLM without Premium GPUs,GPUs,10,0
+2506.04851,Multiple-Choice Question Generation Using Large Language Models: Methodology and Educator Insights,2506.15598,From Model to Classroom: Evaluating Generated MCQs for Portuguese with Narrative and Difficulty Concerns,MCQs,11,0
+2505.01081,MADIL: An MDL-based Framework for Efficient Program Synthesis in the ARC Benchmark,2308.09393,Learning MDL logic programs from noisy data,MDL,2,0
+2508.02062,RICL: Adding In-Context Adaptability to Pre-Trained Vision-Language-Action Models,2509.09674,SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning,VLA,3,0
+2406.07025,Entropy-Reinforced Planning with Large Language Models for Drug Discovery,2312.03720,"Negotiating with LLMS: Prompt Hacks, Skill Gaps, and Reasoning Deficits",LLMS,3,0
+2512.03082,Alleviating Choice Supportive Bias in LLM with Reasoning Dependency Generation,2506.00002,Advancing AI-assisted Hardware Design with Hierarchical Decentralized Training and Personalized Inference-Time Optimization,AI-assisted,10,0
+2312.04748,Forcing Generative Models to Degenerate Ones: The Power of Data Poisoning Attacks,2411.16077,SAGEval: The frontiers of Satisfactory Agent based NLG Evaluation for reference-free open-ended text,NLG,11,0
+2506.21596,Evaluating Multimodal Large Language Models on Educational Textbook Question Answering,2409.18541,Align$^2$LLaVA: Cascaded Human and Large Language Model Preference Alignment for Multi-modal Instruction Curation,LLaVA,6,0
+2510.04536,3Dify: a Framework for Procedural 3D-CG Generation Assisted by LLMs Using MCP and RAG,2507.12806,MCPEval: Automatic MCP-based Deep Evaluation for AI Agent Models,MCP-based,3,0
+2506.04688,MMRefine: Unveiling the Obstacles to Robust Refinement in Multimodal Large Language Models,2401.13601,MM-LLMs: Recent Advances in MultiModal Large Language Models,MultiModal,2,0
+2510.00567,Are Large Language Models Chronically Online Surfers? A Dataset for Chinese Internet Meme Explanation,2506.15598,From Model to Classroom: Evaluating Generated MCQs for Portuguese with Narrative and Difficulty Concerns,MCQs,11,0
+2512.02593,Spoken Conversational Agents with Large Language Models,2405.02132,Unveiling the Potential of LLM-Based ASR on Chinese Open-Source Datasets,ASR,14,0
+2412.08347,SmolTulu: Higher Learning Rate to Batch Size Ratios Can Lead to Better Reasoning in SLMs,2505.07859,Product of Experts with LLMs: Boosting Performance on ARC Is a Matter of Perspective,ARC,10,0
+2410.04422,Long-context Language Models Fail in Basic Retrieval Tasks Without Sufficient Reasoning Steps,2505.08120,Putting It All into Context: Simplifying Agents with LCLMs,LCLMs,3,0
+2404.03608,Sailor: Open Language Models for South-East Asia,2407.16607,Data Mixture Inference: What do BPE Tokenizers Reveal about their Training Data?,BPE,4,0
+2408.03505,Optimus: Accelerating Large-Scale Multi-Modal LLM Training by Bubble Exploitation,2503.05139,Every FLOP Counts: Scaling a 300B Mixture-of-Experts LING LLM without Premium GPUs,GPUs,10,0
+2508.05766,A Framework for Inherently Safer AGI through Language-Mediated Active Inference,2505.01081,MADIL: An MDL-based Framework for Efficient Program Synthesis in the ARC Benchmark,ARC,10,0
+2504.03137,LightPROF: A Lightweight Reasoning Framework for Large Language Model on Knowledge Graph,2510.04607,From Imperative to Declarative: Towards LLM-friendly OS Interfaces for Boosted Computer-Use Agents,LLM-friendly,2,0
+2309.09917,Evaluation of Human-Understandability of Global Model Explanations using Decision Tree,2503.19813,Guidelines For The Choice Of The Baseline in XAI Attribution Methods,XAI,10,0
+2503.04618,Better Process Supervision with Bi-directional Rewarding Signals,2505.11227,Is PRM Necessary? Problem-Solving RL Implicitly Induces PRM Capability in LLMs,PRM,11,0
+2502.01901,Conceptual Metaphor Theory as a Prompting Paradigm for Large Language Models,2505.05946,Full-Parameter Continual Pretraining of Gemma2: Insights into Fluency and Domain Knowledge,Gemma2,6,0
+2510.03469,Bridging LLM Planning Agents and Formal Methods: A Case Study in Plan Verification,2501.17496,SemML: Enhancing Automata-Theoretic LTL Synthesis with Machine Learning,LTL,5,0
+2502.00682,"Guidance Source Matters: How Guidance from AI, Expert, or a Group of Analysts Impacts Visual Data Preparation and Analysis",2305.06453,Autonomous GIS: the next-generation AI-powered GIS,AI-powered,8,0
+2512.08810,Multicalibration for LLM-based Code Generation,2511.19333,Learning to Reason: Training LLMs with GPT-OSS or DeepSeek R1 Reasoning Traces,GPT-OSS,5,0
+2407.21040,Towards Automated Data Sciences with Natural Language and SageCopilot: Practices and Lessons Learned,2401.02997,"Blar-SQL: Faster, Stronger, Smaller NL2SQL",NL2SQL,3,0
+2410.11905,A Scalable Communication Protocol for Networks of Large Language Models,2305.06453,Autonomous GIS: the next-generation AI-powered GIS,AI-powered,8,0
+2510.06915,LongRM: Revealing and Unlocking the Context Boundary of Reward Modeling,2502.14191,Multimodal RewardBench: Holistic Evaluation of Reward Models for Vision Language Models,RewardBench,5,0
+2508.16688,Cybernaut: Towards Reliable Web Automation,2511.21398,Prune4Web: DOM Tree Pruning Programming for Web Agent,DOM,3,0
+2507.22608,Language Arithmetics: Towards Systematic Language Neuron Identification and Manipulation,2412.13942,A Rose by Any Other Name: LLM-Generated Explanations Are Good Proxies for Human Explanations to Collect Label Distributions on NLI,NLI,6,0
+2503.09341,An Evaluation of LLMs for Detecting Harmful Computing Terms,2402.05130,LB-KBQA: Large-language-model and BERT based Knowledge-Based Question and Answering System,BERT,13,0
+2310.11244,Entity Matching using Large Language Models,2402.05130,LB-KBQA: Large-language-model and BERT based Knowledge-Based Question and Answering System,BERT,13,0
+2308.01684,Baby's CoThought: Leveraging Large Language Models for Enhanced Reasoning in Compact Models,2503.11593,Do Construction Distributions Shape Formal Language Learning In German BabyLMs?,BabyLMs,4,0
+2505.15633,Listen to the Context: Towards Faithful Large Language Models for Retrieval Augmented Generation on Climate Questions,2312.09366,Arabic Mini-ClimateGPT : A Climate Change and Sustainability Tailored Arabic LLM,ClimateGPT,2,0
+2402.14830,Orca-Math: Unlocking the potential of SLMs in Grade School Math,2312.09241,TinyGSM: achieving >80% on GSM8k with small language models,GSM8k,4,0
+2406.13163,LLMatDesign: Autonomous Materials Discovery with Large Language Models,2412.07493,LLM-guided Task and Motion Planning using Knowledge-based Reasoning,LLM-guided,7,0
+2411.19628,Accelerating Multimodal Large Language Models via Dynamic Visual-Token Exit and the Empirical Findings,2409.18541,Align$^2$LLaVA: Cascaded Human and Large Language Model Preference Alignment for Multi-modal Instruction Curation,LLaVA,6,0
+2506.12667,Building Trustworthy AI by Addressing its 16+2 Desiderata with Goal-Directed Commonsense Reasoning,2310.14497,Counterfactual Explanation Generation with s(CASP),CASP,2,0
+2407.03282,LLM Internal States Reveal Hallucination Risk Faced With a Query,2402.01383,LLM-based NLG Evaluation: Current Status and Challenges,NLG,11,0
+2505.19345,PatentScore: Multi-dimensional Evaluation of LLM-Generated Patent Claims,2402.01383,LLM-based NLG Evaluation: Current Status and Challenges,NLG,11,0
+2410.10739,Balancing Continuous Pre-Training and Instruction Fine-Tuning: Optimizing Instruction-Following in LLMs,2502.20938,A Deep User Interface for Exploring LLaMa,LLaMa,3,0
+2502.06494,GuideLLM: Exploring LLM-Guided Conversation with Applications in Autobiography Interviewing,2412.07493,LLM-guided Task and Motion Planning using Knowledge-based Reasoning,LLM-guided,7,0
+2412.03310,Grounded Language Design for Lightweight Diagramming for Formal Methods,2505.14615,SATBench: Benchmarking LLMs' Logical Reasoning via Automated Puzzle Generation from SAT Formulas,SAT,5,0
+2510.01225,Utilizing Modern Large Language Models (LLM) for Financial Trend Analysis and Digest Creation,2510.14303,Constraint-Driven Small Language Models Based on Agent and OpenAlex Knowledge Graph: Mining Conceptual Pathways and Discovering Innovation Points in Academic Papers,OpenAlex,3,0
+2403.10557,Second-Order Information Matters: Revisiting Machine Unlearning for Large Language Models,2502.20938,A Deep User Interface for Exploring LLaMa,LLaMa,3,0
+2312.17543,Building Efficient Universal Classifiers with Natural Language Inference,2412.13942,A Rose by Any Other Name: LLM-Generated Explanations Are Good Proxies for Human Explanations to Collect Label Distributions on NLI,NLI,6,0
+2302.04449,Read and Reap the Rewards: Learning to Play Atari with the Help of Instruction Manuals,2502.12876,Continuous Learning Conversational AI: A Personalized Agent Framework via A2C Reinforcement Learning,A2C,2,0
+2506.23508,Why Reinforcement Fine-Tuning Enables MLLMs Preserve Prior Knowledge Better: A Data Perspective,2505.17826,Trinity-RFT: A General-Purpose and Unified Framework for Reinforcement Fine-Tuning of Large Language Models,RFT,9,0
+2409.15360,Reward-Robust RLHF in LLMs,2502.01116,Picky LLMs and Unreliable RMs: An Empirical Study on Safety Alignment after Instruction Tuning,RMs,6,0
+2505.10887,InfantAgent-Next: A Multimodal Generalist Agent for Automated Computer Interaction,2509.16941,SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?,SWE-Bench,3,0
+2408.13545,IQA-EVAL: Automatic Evaluation of Human-Model Interactive Question Answering,2404.05213,Evaluation of an LLM in Identifying Logical Fallacies: A Call for Rigor When Adopting LLMs in HCI Research,HCI,3,0
+2405.11458,CPS-LLM: Large Language Model based Safe Usage Plan Generator for Human-in-the-Loop Human-in-the-Plant Cyber-Physical System,2307.12166,The Imitation Game: Detecting Human and AI-Generated Texts in the Era of ChatGPT and BARD,BARD,2,0
+2305.07759,TinyStories: How Small Can Language Models Be and Still Speak Coherent English?,2311.06377,Heaps' Law in GPT-Neo Large Language Model Emulated Corpora,GPT-Neo,2,0
+2309.00667,Taken out of context: On measuring situational awareness in LLMs,2312.16171,"Principled Instructions Are All You Need for Questioning LLaMA-1/2, GPT-3.5/4",LLaMA-1,2,0
+2402.13372,EvoGrad: A Dynamic Take on the Winograd Schema Challenge with Human Adversaries,2401.17703,WSC+: Enhancing The Winograd Schema Challenge Using Tree-of-Experts,WSC,3,0
+2509.13547,AI Agents with Human-Like Collaborative Tools: Adaptive Strategies for Enhanced Problem-Solving,2507.12806,MCPEval: Automatic MCP-based Deep Evaluation for AI Agent Models,MCP-based,3,0
+2402.01881,Large Language Model Agent for Hyper-Parameter Optimization,2406.03348,Position: A Call to Action for a Human-Centered AutoML Paradigm,AutoML,5,0
+2402.11455,LoRA-Flow: Dynamic LoRA Fusion for Large Language Models in Generative Tasks,2405.11157,Towards Modular LLMs by Building and Reusing a Library of LoRAs,LoRAs,2,0
+2411.12843,Reward Modeling with Ordinal Feedback: Wisdom of the Crowd,2502.01116,Picky LLMs and Unreliable RMs: An Empirical Study on Safety Alignment after Instruction Tuning,RMs,6,0
+2410.11996,Holistic Reasoning with Long-Context LMs: A Benchmark for Database Operations on Massive Textual Data,2505.08120,Putting It All into Context: Simplifying Agents with LCLMs,LCLMs,3,0
+2505.16368,SATURN: SAT-based Reinforcement Learning to Unleash LLMs Reasoning,2408.07215,Can Large Language Models Reason? A Characterization via 3-SAT,SAT,5,0
+2505.02859,Enhancing ML Model Interpretability: Leveraging Fine-Tuned Large Language Models for Better Understanding of AI,2511.03730,Not All Explanations are Created Equal: Investigating the Pitfalls of Current XAI Evaluation,XAI,10,0
+2502.06773,On the Emergence of Thinking in LLMs I: Searching for the Right Intuition,2310.16410,Bridging the Human-AI Knowledge Gap: Concept Discovery and Transfer in AlphaZero,AlphaZero,3,0
+2510.20780,Are Large Reasoning Models Good Translation Evaluators? Analysis and Performance Boost,2505.13408,CoT-Kinetics: A Theoretical Modeling Assessing LRM Reasoning Process,LRM,5,0
+2412.13667,Exploring Multi-Modal Data with Tool-Augmented LLM Agents for Precise Causal Discovery,2507.12472,A Survey of AIOps in the Era of Large Language Models,AIOps,2,0
+2502.20127,SoRFT: Issue Resolving with Subtask-oriented Reinforced Fine-Tuning,2509.16941,SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?,SWE-Bench,3,0
+2501.00691,Labels Generated by Large Language Models Help Measure People's Empathy in Vitro,2506.06446,Tokenization Multiplicity Leads to Arbitrary Price Variation in LLM-as-a-service,LLM-as-a-service,2,0
+2507.05714,HIRAG: Hierarchical-Thought Instruction-Tuning Retrieval-Augmented Generation,2504.20610,Information Retrieval in the Age of Generative AI: The RGB Model,RGB,2,0
+2507.15100,Commonsense on Demand: Generating and Selectively Integrating Commonsense Knowledge for Natural Language Inference,2410.02613,NL-Eye: Abductive NLI for Images,NLI,6,0
+2305.12620,Keeping Up with the Language Models: Systematic Benchmark Extension for Bias Auditing,2410.02613,NL-Eye: Abductive NLI for Images,NLI,6,0
+2405.06700,LLM-Augmented Agent-Based Modelling for Social Simulations: Challenges and Opportunities,2308.05960,BOLAA: Benchmarking and Orchestrating LLM-augmented Autonomous Agents,LLM-augmented,2,0
+2403.20014,PURPLE: Making a Large Language Model a Better SQL Writer,2401.02997,"Blar-SQL: Faster, Stronger, Smaller NL2SQL",NL2SQL,3,0
+2503.06011,Intent-Aware Self-Correction for Mitigating Social Biases in Large Language Models,2504.15362,LongPerceptualThoughts: Distilling System-2 Reasoning for System-1 Perception,System-2,3,0
+2409.14026,Uncovering Latent Chain of Thought Vectors in Language Models,2312.09241,TinyGSM: achieving >80% on GSM8k with small language models,GSM8k,4,0
+2302.03180,Understanding User Preferences in Explainable Artificial Intelligence: A Survey and a Mapping Function Proposal,2511.03730,Not All Explanations are Created Equal: Investigating the Pitfalls of Current XAI Evaluation,XAI,10,0
+2511.01633,Scaling Graph Chain-of-Thought Reasoning: A Multi-Agent Framework with Efficient LLM Serving,2510.12872,KVCOMM: Online Cross-context KV-cache Communication for Efficient LLM-based Multi-agent Systems,KV-cache,2,0
+2407.12858,Grounding and Evaluation for Large Language Models: Practical Challenges and Lessons Learned (Survey),2408.04658,Winning Amazon KDD Cup'24,KDD,2,0
+2409.20553,Maia-2: A Unified Model for Human-AI Alignment in Chess,2310.16410,Bridging the Human-AI Knowledge Gap: Concept Discovery and Transfer in AlphaZero,AlphaZero,3,0
+2404.17625,"Alice's Adventures in a Differentiable Wonderland -- Volume I, A Tour of the Land",2403.07809,pyvene: A Library for Understanding and Improving PyTorch Models via Interventions,PyTorch,2,0
+2511.09127,History-Aware Reasoning for GUI Agents,2504.15362,LongPerceptualThoughts: Distilling System-2 Reasoning for System-1 Perception,System-2,3,0
+2508.20916,SageLM: A Multi-aspect and Explainable Large Language Model for Speech Judgement,2412.18116,AutoDroid-V2: Boosting SLM-based GUI Agents via Code Generation,SLM-based,3,0
+2305.19339,Less Likely Brainstorming: Using Language Models to Generate Alternative Hypotheses,2506.08427,Know-MRI: A Knowledge Mechanisms Revealer&Interpreter for Large Language Models,MRI,2,0
+2510.03182,Simulation to Rules: A Dual-VLM Framework for Formal Visual Planning,2403.15251,Safe Learning of PDDL Domains with Conditional Effects -- Extended Version,PDDL,2,0
+2309.02534,Experience and Prediction: A Metric of Hardness for a Novel Litmus Test,2401.17703,WSC+: Enhancing The Winograd Schema Challenge Using Tree-of-Experts,WSC,3,0
+2407.05434,LTLBench: Towards Benchmarks for Evaluating Temporal Reasoning in Large Language Models,2404.02872,Integrating Explanations in Learning LTL Specifications from Demonstrations,LTL,5,0
+2411.10055,Towards unearthing neglected climate innovations from scientific literature using Large Language Models,2510.14303,Constraint-Driven Small Language Models Based on Agent and OpenAlex Knowledge Graph: Mining Conceptual Pathways and Discovering Innovation Points in Academic Papers,OpenAlex,3,0
+2504.17562,When Does Metadata Conditioning (NOT) Work for Language Model Pre-Training? A Study with Context-Free Grammars,2505.16570,"URLs Help, Topics Guide: Understanding Metadata Utility in LLM Training",URLs,2,0
+2502.08312,Word Synchronization Challenge: A Benchmark for Word Association Responses for Large Language Models,2404.05213,Evaluation of an LLM in Identifying Logical Fallacies: A Call for Rigor When Adopting LLMs in HCI Research,HCI,3,0

@@ -1,0 +1,46 @@
+﻿rule,paper,relation,target,papers_sharing,evidence,A_dung_loai,B_muon_giu
+R3a,2311.04495,USES,large language models,7,we investigate the efficacy of leveraging large language models on automated labeling for computational stance detection,y,n
+R3a,2407.12068,USES,Large Language Models (LLMs),7,"Recently, several LLMs-based pipelines have been developed to enhance learning on graphs with text attributes, showcasing promising performa",y,n
+R3a,2402.15159,USES,gradient descent,1,integrating gradient ascent with gradient descent on in-distribution data improves hyperparameter robustness,y,n
+R3a,2312.11518,USES,large language models,7,"Recently, large language models (LLMs) have shown superior performance on generating, understanding, and even reasoning over text data.",y,n
+R3a,2408.00800,USES,Large Language Models (LLMs),7,introduces a concept that employs Large Language Models (LLMs) and a chatbot interface to enhance SPARQL query generation for ontologies,y,n
+R3a,2404.08020,USES,large language models,7,This work leverages large language models to generate and augment hierarchies in an existing knowledge graph.,y,n
+R3a,2501.10542,USES,Large Language Models (LLM),7,that addresses the contextual gaps by assessing the relevance between bug reports and code with Large Language Models (LLM),y,n
+R3a,2501.03295,USES,large language models (LLMs),7,we utilize text-based context demonstrations of structured data to prompt LLMs to execute ICL for predicting,y,n
+R3a,2503.08102,USES,LLM,1,"Unlike traditional memory storage solutions, SECOND ME extends beyond static data retention by leveraging LLM-based memory parameterization.",y,n
+R3b,2305.03502,USES,quadratic programming,1,quadratic programming to obtain the correction of the original distribution,y,n
+R3b,2510.08276,USES,sliding window,1,utilizing sliding window mechanisms while eliminating the dependency on external summarization models,y,n
+R3b,2410.01599,USES,Physics-Informed Neural Networks,1,"The study evaluates the performance of two approaches, namely (vanilla) Physics-Informed Neural Networks (PINNs) and Finite Basis Physics-In",y,n
+R3b,2308.04844,USES,attention message encoder,1,the mean message encoder and the attention message encoder,,
+R3b,2511.21883,USES,block-coordinate descent,1,"our method utilizes a block-coordinate descent strategy, alternating between expectation and maximization steps",,
+R3b,2509.25220,USES,targeted ablation,1,"By combining sparse autoencoders, targeted ablation, and adversarial training on DistilGPT-2",,
+R3b,2309.03964,USES,robust loss functions,1,inspired by self-paced learning and robust loss functions,,
+R3b,2401.01843,USES,co-training,1,"these are self-training, co-training, tri-training, and tri-training with disagreement",,
+R3b,2406.08840,USES,score matching,1,"Using score matching and Langevin sampling, we approximate the embedding of concepts within the latent space of a vision-language model (VLM",,
+R3b,2504.05278,USES,multi-source data integration,1,multi-source data integration for better context,,
+R3b,2504.19139,USES,meta reinforcement learning,1,are incorporated in domain randomization or meta reinforcement learning to prioritize difficult tasks in optimization,,
+R3b,2501.12336,USES,deep neural regression model,1,combined with a deep neural regression model incorporating batch normalization and dropout for improved generalization,y,n
+R4,2506.21865,PROPOSES,ancient Yellow River culture knowledge dataset,1,"we built a knowledge database focused on the ancient Yellow River culture, including the collection of historical texts and the processing p",,
+R4,2510.13908,PROPOSES,arithmetic expression dataset,1,"We constructed a dataset of arithmetic expressions with three operands and two operators, varying the order and placement of parentheses.",,
+R4,2312.01296,PROPOSES,distributionally robust chance-constrained model,1,a distributionally robust chance-constrained model is proposed in which the probability of misclassification is low,,
+R4,2306.15138,PROPOSES,Restarted clustering framework,1,we propose a restarted clustering framework with self-guiding and block diagonal representation,,
+R4,2310.18265,PROPOSES,linear systems solver,1,"We give an algorithm which, given $\mathbf{M} \in \mathbb{R}^{d \times d}$ that is either the pseudoinverse of a graph Laplacian matrix or a",,
+R4,2504.05278,PROPOSES,comprehensive uncertainty quantification framework,1,we propose a comprehensive framework that manages both epistemic and aleatoric uncertainties,,
+R4,2312.04779,PROPOSES,image synthesis-based late stage cancer augmentation,1,we propose two kinds of approaches of image synthesis-based late stage cancer augmentation and semi-supervised learning,,
+R4,2311.04495,PROPOSES,multi-label and multi-target sampling strategy,1,We introduce a multi-label and multi-target sampling strategy to optimize the annotation quality,,
+R4,2407.04898,PROPOSES,Nash incentive-compatible online mechanism learning,1,We wish to design an incentive-compatible (IC) online learning scheme to maximize an application-specific objective within a given class of ,,
+R4,2509.06920,PROPOSES,ethically grounded approach,1,"This study introduces a novel, ethically grounded approach that uses the large language model (LLM) Claude Sonnet 3.7 to dynamically synthes",,
+R4,2306.00739,PROPOSES,test-time selection method,1,We propose a test-time selection method to further refine accuracy by integrating SQL outputs from multiple paradigms with execution feedbac,,
+R4,2404.00178,PROPOSES,tailored Frank-Wolfe algorithm,1,a tailored Frank-Wolfe algorithm to efficiently solve our problem,,
+R6,2406.18120,USES,Gemma,2,"Our goal is to present the methodologies employed in developing these systems, utilizing large language models such as LLama and Gemma.",y,n
+R6,2307.01230,USES,Shap-E,1,"using Shap-E, a recently published text-to-3D asset network by OpenAI",y ,n
+R6,2510.13908,USES,UMAP,3,"We apply interpretability techniques such as logit lens, linear classification probes, and UMAP geometric visualization.",y,n
+R6,2510.02351,USES,Mistral,3,"we evaluate several recent LLMs - including DeepSeek-R1, o4-mini, GPT-4.1-mini, Qwen3, Gemma, and Mistral - tasked with judging tweets as of",y,n
+R6,2405.03967,USES,UPMEM,1,Our experiments on OpenAI GYM environments using UPMEM hardware demonstrate superior performance compared to CPU and GPU implementations.,,
+R6,2504.14494,USES,Graph Neural Networks (GNNs),1,a novel approach that enhances the traditional Lattice Boltzmann Method (LBM) with Graph Neural Networks (GNNs),y,n
+R6,2509.09864,USES,best-of-N,1,existing work on dynamic allocation for test-time compute typically considers only parallel generation methods such as best-of-N,,
+R6,2505.16090,USES,Gemini,2,"benchmarks the performance of Microsoft's Copilot, OpenAI's ChatGPT, Google's Gemini, and traditional machine learning models for sentiment ",,
+R6,2411.10080,USES,direct prompting,1,sampling and log-probability approaches with simple parameter adjustments can return better aligned outputs in subjective tasks compared to ,,
+R6,2310.09929,USES,CLIP,5,"Trained on web-scale image-text pairs, Vision-Language Models (VLMs) such as CLIP can recognize images of common objects in a zero-shot fash",y,n
+R6,2401.14382,USES,Least-Squares Support Vector Regression (LS-SVR),1,The recent introduction of the Least-Squares Support Vector Regression (LS-SVR) algorithm for solving differential and integral equations ha,,
+R6,2504.05278,USES,Monte Carlo dropout,1,"By integrating advanced probabilistic methods such as Bayesian inference, deep ensembles, and Monte Carlo dropout with linguistic analysis t",,

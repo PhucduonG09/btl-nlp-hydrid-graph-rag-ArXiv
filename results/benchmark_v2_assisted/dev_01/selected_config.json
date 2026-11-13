@@ -1,0 +1,12 @@
+{
+  "bm25": "bm25_k1.5_b0.75",
+  "rrf": "rrf_k10",
+  "graph": "linked_k1_rrf_w2",
+  "protocol_sha256": "661ff5d32834230ab3362389bf4b7abf01e9996451d4b60b5000599e6a2c667b",
+  "qa_dev_sha256": "25acf5fabdec77610659e60c7760af0d3074feba02a854df72c92dd33621b2b5",
+  "graph_sha256": "816571dbe270d5deea9ccbd36692cb8e36b6e1b71900ea6554c147d3936cf711",
+  "selection": "Equal-weight mean of single and bridge All@10, then equal-weight MRR@10. Deterministic name order for remaining ties.",
+  "inference": "All seeds/linking/fusion use question and retrieved papers only. Question type and gold IDs only used for DEV metrics/selection.",
+  "test_evaluated": false,
+  "semantic_graph": "MENTIONS control; not a USES/PROPOSES semantic KG."
+}

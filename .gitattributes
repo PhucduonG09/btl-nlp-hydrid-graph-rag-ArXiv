@@ -1,0 +1,10 @@
+# Dữ liệu có SHA-256 khóa trong manifest: giữ nguyên từng byte, không đổi LF/CRLF
+data/** -text
+results/** -text
+*.jsonl -text
+*.json -text
+*.csv -text
+*.graphml -text
+*.npy binary
+*.xlsx binary
+*.sqlite3 binary

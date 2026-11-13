@@ -1,0 +1,183 @@
+{
+  "n_items": 50,
+  "n_resolved": 50,
+  "pending_counts": {},
+  "pending": {},
+  "complete": true,
+  "agreement": 0.76,
+  "cohen_kappa": 0.5844875346260388,
+  "macro_f1_fixed_four_classes": 0.47481684981684985,
+  "confusion": [
+    {
+      "human": "abstained",
+      "judge": "abstained",
+      "n": 12
+    },
+    {
+      "human": "abstained",
+      "judge": "partial",
+      "n": 2
+    },
+    {
+      "human": "correct",
+      "judge": "correct",
+      "n": 25
+    },
+    {
+      "human": "correct",
+      "judge": "partial",
+      "n": 10
+    },
+    {
+      "human": "partial",
+      "judge": "partial",
+      "n": 1
+    }
+  ],
+  "policy": "Explicit named human ratings only. Any disagreement or uncertain label remains pending; reference_issue is a stratum flag (amendment A1-2026-11-11). A single named rater permits calibration but does not establish independent double annotation.",
+  "quality_comparison": {
+    "n": 50,
+    "agreement": 0.76,
+    "cohen_kappa": 0.5844875346260388,
+    "macro_f1": 0.47481684981684985,
+    "macro_f1_classes": [
+      "correct",
+      "partial",
+      "incorrect",
+      "abstained"
+    ],
+    "confusion": [
+      {
+        "human": "abstained",
+        "judge": "abstained",
+        "n": 12
+      },
+      {
+        "human": "abstained",
+        "judge": "partial",
+        "n": 2
+      },
+      {
+        "human": "correct",
+        "judge": "correct",
+        "n": 25
+      },
+      {
+        "human": "correct",
+        "judge": "partial",
+        "n": 10
+      },
+      {
+        "human": "partial",
+        "judge": "partial",
+        "n": 1
+      }
+    ]
+  },
+  "support_comparison": {
+    "n": 50,
+    "agreement": 0.82,
+    "cohen_kappa": 0.6959459459459458,
+    "macro_f1": 0.5677145352067953,
+    "macro_f1_classes": [
+      "all_supported",
+      "mixed",
+      "unsupported",
+      "not_applicable"
+    ],
+    "confusion": [
+      {
+        "human": "all_supported",
+        "judge": "all_supported",
+        "n": 25
+      },
+      {
+        "human": "all_supported",
+        "judge": "mixed",
+        "n": 7
+      },
+      {
+        "human": "mixed",
+        "judge": "mixed",
+        "n": 4
+      },
+      {
+        "human": "not_applicable",
+        "judge": "mixed",
+        "n": 2
+      },
+      {
+        "human": "not_applicable",
+        "judge": "not_applicable",
+        "n": 12
+      }
+    ]
+  },
+  "support_interpretation": "Source-support category agreement, not a correlation with per-claim human scores. Quote validity remains a separate diagnostic.",
+  "reference_issue_strata": {
+    "reference_supported": {
+      "n": 34,
+      "quality_comparison": {
+        "n": 34,
+        "agreement": 0.7058823529411765,
+        "cohen_kappa": 0.0,
+        "macro_f1": 0.20689655172413793,
+        "macro_f1_classes": [
+          "correct",
+          "partial",
+          "incorrect",
+          "abstained"
+        ],
+        "confusion": [
+          {
+            "human": "correct",
+            "judge": "correct",
+            "n": 24
+          },
+          {
+            "human": "correct",
+            "judge": "partial",
+            "n": 10
+          }
+        ]
+      }
+    },
+    "reference_unsupported": {
+      "n": 16,
+      "quality_comparison": {
+        "n": 16,
+        "agreement": 0.875,
+        "cohen_kappa": 0.6190476190476191,
+        "macro_f1": 0.6057692307692308,
+        "macro_f1_classes": [
+          "correct",
+          "partial",
+          "incorrect",
+          "abstained"
+        ],
+        "confusion": [
+          {
+            "human": "abstained",
+            "judge": "abstained",
+            "n": 12
+          },
+          {
+            "human": "abstained",
+            "judge": "partial",
+            "n": 2
+          },
+          {
+            "human": "correct",
+            "judge": "correct",
+            "n": 1
+          },
+          {
+            "human": "partial",
+            "judge": "partial",
+            "n": 1
+          }
+        ]
+      }
+    }
+  }
+}

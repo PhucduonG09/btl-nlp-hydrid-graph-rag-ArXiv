@@ -1,0 +1,40 @@
+﻿idx,relation,target,evidence
+1,PROPOSES,AGOCS,presents the Accurate Google Cloud Simulator (AGOCS)
+1,USES,Google Cluster traces,real-world workload traces from a Google Cluster
+1,USES,Scala,implemented in Scala language
+2,USES,MAE,Masked Autoencoders (MAE)
+2,USES,SatMAE,geospatially-aware SatMAE
+2,USES,MSG/SEVIRI,geostationary imagery from MSG/SEVIRI
+2,USES,CloudSat/CPR,radar reflectivity measurements of cloud profiles from CloudSat/CPR
+3,PROPOSES,GigaGAN,We introduce GigaGAN
+4,PROPOSES,HOL,We propose a new Hybrid Ordinal Learner (HOL)
+5,PROPOSES,SPEX,We propose Spectral Explainer (SPEX)
+5,USES,sparse Fourier transform,sparse Fourier transform
+5,USES,channel decoding algorithm,channel decoding algorithm
+5,USES,HotpotQA,HotpotQA
+5,USES,GPT-4o mini,GPT-4o mini
+6,PROPOSES,Variation Ratio,we introduce the Variation Ratio as a novel property
+6,PROPOSES,VBL,"propose a new family of robust loss functions, termed Variation-Bounded Loss (VBL)"
+7,PROPOSES,online vector quantization,proposes a simple online vector quantization method
+8,PROPOSES,deeply-abstracted state procedure,We propose a novel iterative procedure
+8,PROPOSES,backward-model-irrelevance condition,derive a backward-model-irrelevance condition
+9,PROPOSES,SpeechComposer,"we propose a novel decoder-only speech language model, SpeechComposer"
+11,PROPOSES,ChemOrch,we propose ChemOrch
+12,PROPOSES,CRAwDAD,we make this dialogue explicit through a dual-agent debate framework
+12,USES,CLadder,CLadder dataset
+12,USES,Qwen3,Qwen3 and DeepSeek-R1 as debater agents
+12,USES,DeepSeek-R1,Qwen3 and DeepSeek-R1 as debater agents
+13,PROPOSES,latency and token-aware compute allocation framework,Our framework explicitly incorporates both token cost and wall-clock latency
+14,PROPOSES,SQL-PaLM,introduces the SQL-PaLM framework
+14,PROPOSES,test-time selection method,We propose a test-time selection method
+14,USES,Spider,Spider and BIRD
+14,USES,BIRD,Spider and BIRD
+15,PROPOSES,animal consideration evaluation system,we constructed a proof-of-concept Evaluation System
+16,PROPOSES,CMAViT,we introduce a deep learning-based multi-model called Climate-Management Aware Vision Transformer (CMAViT)
+16,USES,cross-attention encoder,using a cross-attention encoder
+17,USES,LSTM,we employ the long-short-term memory model (LSTM)
+18,PROPOSES,MFSNN,This paper presents a novel approach utilizing a Multiscale Fusion enhanced Spiking Neural Network (MFSNN)
+18,USES,temporal convolutional networks,temporal convolutional networks
+18,USES,channel attention,channel attention mechanisms
+18,USES,skip connections,skip connections
+19,USES,dynamical mean field theory,via dynamical mean field theory

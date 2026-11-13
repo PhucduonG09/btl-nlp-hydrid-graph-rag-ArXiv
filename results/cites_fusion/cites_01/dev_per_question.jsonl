@@ -1,0 +1,122 @@
+{"id": "q001", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [2], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "q002", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [8], "graph+cites": [10], "rrf+cites2hop": [7], "graph+cites2hop": [9]}}
+{"id": "q003", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [3], "graph+cites": [2], "rrf+cites2hop": [22], "graph+cites2hop": [23]}}
+{"id": "q004", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q005", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [2], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "q006", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q007", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [5], "graph+cites": [5], "rrf+cites2hop": [3], "graph+cites2hop": [3]}}
+{"id": "q008", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [3], "graph+cites": [3], "rrf+cites2hop": [3], "graph+cites2hop": [3]}}
+{"id": "q009", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "q010", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [3], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q011", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [6], "graph+cites": [7], "rrf+cites2hop": [4], "graph+cites2hop": [4]}}
+{"id": "q012", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q013", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [6], "graph+cites": [3], "rrf+cites2hop": [6], "graph+cites2hop": [2]}}
+{"id": "q014", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [4], "rrf+cites2hop": [2], "graph+cites2hop": [4]}}
+{"id": "q015", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [5], "graph+cites": [5], "rrf+cites2hop": [4], "graph+cites2hop": [4]}}
+{"id": "q016", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [4], "graph+cites": [6], "rrf+cites2hop": [4], "graph+cites2hop": [5]}}
+{"id": "q017", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [4], "graph+cites": [3], "rrf+cites2hop": [4], "graph+cites2hop": [3]}}
+{"id": "q018", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q019", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [7], "graph+cites": [7], "rrf+cites2hop": [3], "graph+cites2hop": [3]}}
+{"id": "q020", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [3], "graph+cites": [3], "rrf+cites2hop": [3], "graph+cites2hop": [3]}}
+{"id": "q021", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "q022", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [3], "graph+cites": [3], "rrf+cites2hop": [3], "graph+cites2hop": [3]}}
+{"id": "q023", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [3], "graph+cites": [2], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q024", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q025", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [3], "graph+cites": [3], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q026", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [3], "graph+cites": [2], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q027", "type": "single", "ranks": {"rrf": [1], "graph": [2], "rrf+cites": [3], "graph+cites": [4], "rrf+cites2hop": [2], "graph+cites2hop": [4]}}
+{"id": "q028", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [2], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "q029", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [3], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "q030", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [3], "graph+cites": [6], "rrf+cites2hop": [3], "graph+cites2hop": [4]}}
+{"id": "q031", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [2], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q032", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [9], "graph+cites": [13], "rrf+cites2hop": [9], "graph+cites2hop": [11]}}
+{"id": "q033", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [3], "graph+cites": [3], "rrf+cites2hop": [12], "graph+cites2hop": [16]}}
+{"id": "q034", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [9], "graph+cites2hop": [10]}}
+{"id": "q035", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [2], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "q036", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [2], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q037", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [2], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "q038", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q039", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q040", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [2], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "q041", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [2], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q042", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [5], "graph+cites": [2], "rrf+cites2hop": [3], "graph+cites2hop": [2]}}
+{"id": "q043", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [7], "graph+cites": [4], "rrf+cites2hop": [4], "graph+cites2hop": [1]}}
+{"id": "q044", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q045", "type": "single", "ranks": {"rrf": [null], "graph": [null], "rrf+cites": [null], "graph+cites": [null], "rrf+cites2hop": [null], "graph+cites2hop": [null]}}
+{"id": "q046", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q047", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [4], "graph+cites": [4], "rrf+cites2hop": [4], "graph+cites2hop": [4]}}
+{"id": "q048", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [2], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q049", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [3], "graph+cites": [14], "rrf+cites2hop": [1], "graph+cites2hop": [12]}}
+{"id": "q050", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [2], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "q051", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [2], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "q052", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [2], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "q053", "type": "single", "ranks": {"rrf": [2], "graph": [2], "rrf+cites": [6], "graph+cites": [10], "rrf+cites2hop": [8], "graph+cites2hop": [10]}}
+{"id": "q054", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [1], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q055", "type": "single", "ranks": {"rrf": [3], "graph": [3], "rrf+cites": [9], "graph+cites": [10], "rrf+cites2hop": [8], "graph+cites2hop": [8]}}
+{"id": "q056", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [5], "graph+cites": [3], "rrf+cites2hop": [5], "graph+cites2hop": [4]}}
+{"id": "q057", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [4], "graph+cites": [5], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "q058", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [2], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q059", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "q060", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [3], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "s2001", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [2], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "s2002", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "s2005", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "s2006", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [2], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "s2007", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [2], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "s2008", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [3], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "s2011", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [6], "graph+cites": [6], "rrf+cites2hop": [4], "graph+cites2hop": [4]}}
+{"id": "s2013", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "s2014", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [7], "graph+cites": [9], "rrf+cites2hop": [7], "graph+cites2hop": [8]}}
+{"id": "s2015", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "s2016", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [4], "graph+cites": [4], "rrf+cites2hop": [3], "graph+cites2hop": [3]}}
+{"id": "s2017", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [3], "graph+cites": [1], "rrf+cites2hop": [3], "graph+cites2hop": [2]}}
+{"id": "s2019", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [5], "graph+cites": [7], "rrf+cites2hop": [5], "graph+cites2hop": [7]}}
+{"id": "s2020", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [5], "graph+cites": [4], "rrf+cites2hop": [3], "graph+cites2hop": [2]}}
+{"id": "s2022", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "s2024", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [9], "graph+cites": [11], "rrf+cites2hop": [7], "graph+cites2hop": [9]}}
+{"id": "s2026", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "s2027", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [5], "graph+cites": [5], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "s2030", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [2], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "s2031", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [4], "graph+cites": [2], "rrf+cites2hop": [4], "graph+cites2hop": [2]}}
+{"id": "s2032", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [7], "graph+cites2hop": [8]}}
+{"id": "s2034", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [10], "graph+cites": [6], "rrf+cites2hop": [6], "graph+cites2hop": [3]}}
+{"id": "s2035", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [7], "graph+cites": [2], "rrf+cites2hop": [6], "graph+cites2hop": [1]}}
+{"id": "s2036", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [2], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "s2038", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [12], "graph+cites": [8], "rrf+cites2hop": [9], "graph+cites2hop": [6]}}
+{"id": "s2039", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [4], "graph+cites": [3], "rrf+cites2hop": [3], "graph+cites2hop": [2]}}
+{"id": "s2040", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [3], "graph+cites": [2], "rrf+cites2hop": [2], "graph+cites2hop": [2]}}
+{"id": "s2042", "type": "single", "ranks": {"rrf": [1], "graph": [2], "rrf+cites": [5], "graph+cites": [6], "rrf+cites2hop": [4], "graph+cites2hop": [6]}}
+{"id": "s2043", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [1], "graph+cites": [1], "rrf+cites2hop": [1], "graph+cites2hop": [1]}}
+{"id": "s2044", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [4], "graph+cites": [4], "rrf+cites2hop": [4], "graph+cites2hop": [3]}}
+{"id": "s2045", "type": "single", "ranks": {"rrf": [1], "graph": [1], "rrf+cites": [2], "graph+cites": [3], "rrf+cites2hop": [2], "graph+cites2hop": [3]}}
+{"id": "bn001", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 3], "rrf+cites": [1, null], "graph+cites": [5, 14], "rrf+cites2hop": [1, null], "graph+cites2hop": [4, 14]}}
+{"id": "bn002", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 6], "rrf+cites": [3, null], "graph+cites": [4, 1], "rrf+cites2hop": [3, null], "graph+cites2hop": [4, 1]}}
+{"id": "bn003", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 5], "rrf+cites": [3, null], "graph+cites": [3, 7], "rrf+cites2hop": [2, null], "graph+cites2hop": [2, 6]}}
+{"id": "bn004", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 4], "rrf+cites": [2, null], "graph+cites": [2, 7], "rrf+cites2hop": [2, null], "graph+cites2hop": [2, 8]}}
+{"id": "bn006", "type": "bridge", "ranks": {"rrf": [3, null], "graph": [1, 4], "rrf+cites": [6, null], "graph+cites": [4, 9], "rrf+cites2hop": [6, null], "graph+cites2hop": [3, 8]}}
+{"id": "bn007", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 9], "rrf+cites": [6, 31], "graph+cites": [9, 2], "rrf+cites2hop": [6, 11], "graph+cites2hop": [8, 1]}}
+{"id": "bn009", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 5], "rrf+cites": [2, 11], "graph+cites": [10, 1], "rrf+cites2hop": [2, 5], "graph+cites2hop": [6, 1]}}
+{"id": "bn011", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 5], "rrf+cites": [5, null], "graph+cites": [5, 12], "rrf+cites2hop": [4, null], "graph+cites2hop": [4, 11]}}
+{"id": "bn014", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 6], "rrf+cites": [6, 29], "graph+cites": [9, 1], "rrf+cites2hop": [4, 7], "graph+cites2hop": [8, 1]}}
+{"id": "bn017", "type": "bridge", "ranks": {"rrf": [1, 6], "graph": [1, 2], "rrf+cites": [10, 2], "graph+cites": [8, 1], "rrf+cites2hop": [9, 4], "graph+cites2hop": [9, 2]}}
+{"id": "bn018", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 4], "rrf+cites": [1, null], "graph+cites": [1, 5], "rrf+cites2hop": [1, null], "graph+cites2hop": [1, 4]}}
+{"id": "bn020", "type": "bridge", "ranks": {"rrf": [4, null], "graph": [4, null], "rrf+cites": [10, null], "graph+cites": [10, null], "rrf+cites2hop": [10, null], "graph+cites2hop": [10, null]}}
+{"id": "bn021", "type": "bridge", "ranks": {"rrf": [1, 40], "graph": [1, 4], "rrf+cites": [6, 77], "graph+cites": [5, 11], "rrf+cites2hop": [4, 77], "graph+cites2hop": [5, 10]}}
+{"id": "bn023", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 6], "rrf+cites": [2, null], "graph+cites": [3, 12], "rrf+cites2hop": [2, null], "graph+cites2hop": [2, 11]}}
+{"id": "bn025", "type": "bridge", "ranks": {"rrf": [1, 20], "graph": [1, 3], "rrf+cites": [2, 39], "graph+cites": [3, 6], "rrf+cites2hop": [2, 39], "graph+cites2hop": [3, 5]}}
+{"id": "bn027", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 4], "rrf+cites": [4, null], "graph+cites": [7, 12], "rrf+cites2hop": [3, null], "graph+cites2hop": [6, 11]}}
+{"id": "bn028", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 5], "rrf+cites": [2, null], "graph+cites": [3, 11], "rrf+cites2hop": [2, null], "graph+cites2hop": [3, 10]}}
+{"id": "bn031", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 5], "rrf+cites": [2, 3], "graph+cites": [3, 1], "rrf+cites2hop": [2, 1], "graph+cites2hop": [2, 1]}}
+{"id": "bn033", "type": "bridge", "ranks": {"rrf": [1, 2], "graph": [1, 2], "rrf+cites": [2, 3], "graph+cites": [1, 3], "rrf+cites2hop": [2, 3], "graph+cites2hop": [2, 3]}}
+{"id": "bn034", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 6], "rrf+cites": [4, null], "graph+cites": [6, 12], "rrf+cites2hop": [3, null], "graph+cites2hop": [4, 12]}}
+{"id": "bn036", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 5], "rrf+cites": [2, null], "graph+cites": [2, 9], "rrf+cites2hop": [2, null], "graph+cites2hop": [2, 9]}}
+{"id": "bn040", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 4], "rrf+cites": [2, null], "graph+cites": [4, 9], "rrf+cites2hop": [2, null], "graph+cites2hop": [4, 10]}}
+{"id": "bn045", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 5], "rrf+cites": [2, null], "graph+cites": [2, 9], "rrf+cites2hop": [2, null], "graph+cites2hop": [2, 9]}}
+{"id": "bn048", "type": "bridge", "ranks": {"rrf": [3, null], "graph": [1, 6], "rrf+cites": [6, null], "graph+cites": [2, 11], "rrf+cites2hop": [6, null], "graph+cites2hop": [2, 9]}}
+{"id": "bn049", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 4], "rrf+cites": [5, 9], "graph+cites": [6, 1], "rrf+cites2hop": [6, 5], "graph+cites2hop": [6, 1]}}
+{"id": "bn050", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 5], "rrf+cites": [2, null], "graph+cites": [3, 9], "rrf+cites2hop": [2, null], "graph+cites2hop": [2, 8]}}
+{"id": "bd001", "type": "bridge", "ranks": {"rrf": [2, null], "graph": [2, 27], "rrf+cites": [3, null], "graph+cites": [16, 11], "rrf+cites2hop": [3, 66], "graph+cites2hop": [8, 2]}}
+{"id": "bd002", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 16], "rrf+cites": [5, null], "graph+cites": [9, 37], "rrf+cites2hop": [4, null], "graph+cites2hop": [9, 34]}}
+{"id": "bh001", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 17], "rrf+cites": [3, 5], "graph+cites": [13, 2], "rrf+cites2hop": [3, null], "graph+cites2hop": [12, 47]}}
+{"id": "bh004", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 12], "rrf+cites": [9, null], "graph+cites": [6, 2], "rrf+cites2hop": [7, 11], "graph+cites2hop": [6, 1]}}
+{"id": "bh016", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 7], "rrf+cites": [3, null], "graph+cites": [2, 14], "rrf+cites2hop": [2, null], "graph+cites2hop": [2, 13]}}

@@ -1,0 +1,59 @@
+{
+  "version": "fixed-test-retrieval-v1",
+  "methods": [
+    "bm25",
+    "dense",
+    "rrf",
+    "text_expansion",
+    "graph"
+  ],
+  "primary_comparison": [
+    "graph",
+    "rrf"
+  ],
+  "primary_retrieval_endpoint": "Bridge All@10",
+  "secondary_endpoints": [
+    "Single R@10",
+    "MRR@10",
+    "Hop1@10",
+    "Hop2@10"
+  ],
+  "selection_on_test": "None. All five methods reported, no tuning or choosing a winner for a new test run.",
+  "parameters": {
+    "bm25_k1": 1.5,
+    "bm25_b": 0.75,
+    "dense_revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+    "rrf_k": 10,
+    "linked_seeds": 3,
+    "graph_hops": 1,
+    "final_rrf_k": 60,
+    "final_rrf_weights": [
+      1,
+      2
+    ]
+  },
+  "test_qa_sha256": "b32dc03c219293c1c09763d5ed0062255ea80a58f996f93732d55a5a7c5c7cce",
+  "corpus_sha256": "1107e57398e2ac7052d5dd6fdfffa6354b761c115f1baabc0f42556ab52c5411",
+  "graph_sha256": "816571dbe270d5deea9ccbd36692cb8e36b6e1b71900ea6554c147d3936cf711",
+  "dev_config_sha256": "1a11e0109362e912d4e375b722e1426d81e78f32a3c21deb1d2d082d0aaad698",
+  "document_embedding_cache": {
+    "path": "data/index/emb_scale_6cdeb8a3dc.npy",
+    "sha256": "4d0141c95fdcb023789dcf1f089745dc7cd84a5990bb6e6a43e7780a1f3e5dd3",
+    "limitation": "Not recorded in original cache; ID/model key, dimensions, norms and cache SHA verified. Exact original encoder/text provenance not independently established."
+  },
+  "code_sha256": {
+    "scripts/run_locked_test_v2.py": "06cfcb490402008b128de96bc83b6f2ff7b6003f9a0e639d3e8af26312ee24ac",
+    "src/retrieval/engine.py": "925dc76d22f0c968374ad260219d30b00904113c5e7c2fe78978bdfecf705d13",
+    "src/retrieval/offline.py": "66af4da6612cc7539e754eae1c4eca8e56d1b396e3fb344d2d11bee14ad492c9",
+    "src/retrieval/graph.py": "1c80dfd60fbc5523cc1f588a63420c59d2cc4e484678c9752016d000b871acc2",
+    "src/kg/mentions.py": "61402c94940e26c280a187bd9899ed87b61a4e0cc848179575c14af75e2eb469",
+    "src/kg/aliases.py": "7f33195b1d76eb1f655ec343090567fbec6aa9777031ebc89533b080b4a1c3f3",
+    "src/eval/benchmark_metrics.py": "43ab52966a19822ea6e766f75db3b834d2bdcb2cb871dd1716c7969396409b22",
+    "src/eval/ir_metrics.py": "76f1031149227b4b47eef2410e56e56c8f64996db3604b2deb9d5013336dccab",
+    "src/generation/controlled.py": "ec4a68ee28f783a06d12ee0f7196dbdc2966baf3fb036f5ebfb46804015b6125",
+    "src/eval/human_calibration.py": "c0fea3682675d1f771dd06d46ff64edf62dcc5cea547d882e373b0f7a05b903c"
+  },
+  "preparation_test_access": "None. Expected hash read from manifest; test QA file not opened.",
+  "execution_gate": "50 actual human answer ratings resolved before first test QA load. Generation judge calibration must be assessed separately before paid held-out generation.",
+  "limitations": "Bridge subset BM25-screened. New single papers are a scoped cs.CL convenience sample. Assistant review is not independent human labeling. This version does not satisfy the human-annotation A+ criterion by itself. Approval records do not establish independent double annotation."
+}

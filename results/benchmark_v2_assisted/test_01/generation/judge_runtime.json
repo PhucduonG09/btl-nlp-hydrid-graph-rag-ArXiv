@@ -1,0 +1,20 @@
+{
+  "stage": "judge",
+  "n_jobs": 56,
+  "n_new_attempts": 56,
+  "errors_now": 0,
+  "retry_errors": false,
+  "usage_this_invocation": {
+    "tokens_in": 466096,
+    "tokens_out": 29868,
+    "usd_est": null,
+    "served_models": [
+      "gpt-6-sol"
+    ]
+  },
+  "served_labels": {
+    "gpt-6-sol": 56
+  },
+  "label_mismatches": 0,
+  "elapsed_seconds": 262.06770379999944
+}

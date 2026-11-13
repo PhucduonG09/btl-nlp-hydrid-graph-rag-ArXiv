@@ -1,0 +1,275 @@
+[
+  {
+    "id": "q004",
+    "system": "rrf",
+    "quality_auto": "partial",
+    "claims": [
+      {
+        "text": "VPEngine uses a shared foundation-model backbone, such as DINOv2, to extract image representations that are reused by specialized depth, object-detection, and semantic-segmentation heads running in parallel.",
+        "supported": true,
+        "source_number": 1,
+        "evidence_quote": "Our framework architecture leverages a shared foundation model backbone that extracts image representations, which are efficiently shared, without any unnecessary GPU-CPU memory transfers, across multiple specialized task-specific model heads running in parallel. ... using DINOv2 as the foundation model with multiple task (depth, object detection and semantic segmentation) heads",
+        "evidence_quote_valid": false
+      }
+    ]
+  },
+  {
+    "id": "q015",
+    "system": "rrf",
+    "quality_auto": "correct",
+    "claims": [
+      {
+        "text": "RiemannGFM uses a structural vocabulary of trees and cycles, constructs a product bundle to incorporate diverse geometries, and stacks Riemannian layers that learn the vocabulary on a Riemannian manifold.",
+        "supported": true,
+        "source_number": 2,
+        "evidence_quote": "The key innovation is the discovery of a simple yet effective structural vocabulary of trees and cycles, and we explore its inherent connection to Riemannian geometry. Concretely, we first construct a novel product bundle to incorporate the diverse geometries of the vocabulary. Then, on this constructed space, we stack Riemannian layers where the structural vocabulary, regardless of specific graph, is learned in Riemannian manifold offering cross-domain transferability.",
+        "evidence_quote_valid": false
+      }
+    ]
+  },
+  {
+    "id": "q015",
+    "system": "graph",
+    "quality_auto": "correct",
+    "claims": [
+      {
+        "text": "DEMR integrates extrinsic manifold embedding into deep networks and optimizes within the embedded Euclidean space rather than directly optimizing geodesic loss; the source reports evidence on SE(3), quotient manifolds, and Grassmann-manifold outputs in vision tasks.",
+        "supported": true,
+        "source_number": 8,
+        "evidence_quote": "DEMR incorporates extrinsic manifold embedding into deep neural networks, which helps generate manifold representations. The DEMR approach does not directly optimize the complex geodesic loss. Instead, it focuses on optimizing the computation graph within the embedded Euclidean space, allowing for adaptability to various architectural requirements. We provide empirical evidence supporting the proposed concept on two types of manifolds, $SE(3)$ and its associated quotient manifolds. [...] The experimental results show that DEMR effectively adapts to point cloud alignment, producing outputs in $ SE(3) $, as well as in illumination subspace learning with outputs on the Grassmann manifold.",
+        "evidence_quote_valid": false
+      }
+    ]
+  },
+  {
+    "id": "q005",
+    "system": "rrf",
+    "quality_auto": "partial",
+    "claims": [
+      {
+        "text": "A multilingual AVSR model using the Fast Conformer architecture with a hybrid CTC/RNN-T achieved state-of-the-art performance on LRS3 with 0.8% WER.",
+        "supported": true,
+        "source_number": 1,
+        "evidence_quote": "Notably, we adapt the recently proposed Fast Conformer model to process both audio and visual modalities using a novel hybrid CTC/RNN-T architecture. Our proposed model achieves new state-of-the-art performance on the LRS3 dataset, reaching WER of 0.8%.",
+        "evidence_quote_valid": false
+      }
+    ]
+  },
+  {
+    "id": "q005",
+    "system": "graph",
+    "quality_auto": "correct",
+    "claims": [
+      {
+        "text": "MuAViC contains 1,200 hours of audio-visual speech in nine languages, and its baseline results indicate usefulness for building noise-robust speech recognition and translation models.",
+        "supported": true,
+        "source_number": 3,
+        "evidence_quote": "providing 1200 hours of audio-visual speech in 9 languages. ... Our baseline results show that MuAViC is effective for building noise-robust speech recognition and translation models.",
+        "evidence_quote_valid": false
+      }
+    ]
+  },
+  {
+    "id": "q007",
+    "system": "rrf",
+    "quality_auto": "correct",
+    "claims": [
+      {
+        "text": "User modeling discusses user characteristics including profile, preference, and personality.",
+        "supported": true,
+        "source_number": 1,
+        "evidence_quote": "UM aims to discover patterns or learn representations from user data about the characteristics of a specific user, such as profile, preference, and personality.",
+        "evidence_quote_valid": false
+      }
+    ]
+  },
+  {
+    "id": "q008",
+    "system": "graph",
+    "quality_auto": "partial",
+    "claims": [
+      {
+        "text": "Mixture-of-Thought uses natural language, code, and truth-table modalities, outperforms single-modality chain-of-thought by up to 11.7 percentage points, and is particularly effective on harder logical reasoning problems.",
+        "supported": true,
+        "source_number": 10,
+        "evidence_quote": "Experiments on logical reasoning benchmarks including FOLIO and ProofWriter demonstrate that our MoT framework consistently and significantly outperforms strong LLM baselines with single-modality chain-of-thought approaches, achieving up to +11.7pp average accuracy gain. Further analyses show that this MoT framework benefits both training and inference stages; that it is particularly effective on harder logical reasoning problems",
+        "evidence_quote_valid": false
+      },
+      {
+        "text": "Explicit corrective rationales over-constrain the model and limit the benefits of learning from incorrect answers.",
+        "supported": true,
+        "source_number": 6,
+        "evidence_quote": "We find evidence for overfitting to the in-context rationales when these are provided",
+        "evidence_quote_valid": false
+      }
+    ]
+  },
+  {
+    "id": "q012",
+    "system": "graph",
+    "quality_auto": "correct",
+    "claims": [
+      {
+        "text": "Survival analysis algorithms using this approach capture long-term patterns and outperform benchmarks on datasets with long sequences.",
+        "supported": true,
+        "source_number": 1,
+        "evidence_quote": "Moreover, the algorithm outperforms benchmarks on datasets with long sequences, demonstrating its ability to capture long-term patterns.",
+        "evidence_quote_valid": false
+      }
+    ]
+  },
+  {
+    "id": "q020",
+    "system": "rrf",
+    "quality_auto": "correct",
+    "claims": [
+      {
+        "text": "Calibration errors for machine learning can be continuous in predictions, whereas decision-making calibration errors such as ECE and CDL are discontinuous.",
+        "supported": true,
+        "source_number": 1,
+        "evidence_quote": "For machine learning predictors that do not distinguish between small perturbations, calibration errors are continuous in predictions... On the contrary, decision-makers who use predictions make optimal decisions discontinuously in probabilistic space, experiencing loss from miscalibration discontinuously.",
+        "evidence_quote_valid": false
+      }
+    ]
+  },
+  {
+    "id": "q016",
+    "system": "graph",
+    "quality_auto": "partial",
+    "claims": [
+      {
+        "text": "Residual training can improve flow-field prediction accuracy when low-resolution data is available.",
+        "supported": true,
+        "source_number": 5,
+        "evidence_quote": "This work also introduces the use of residual training, with the availability of low-resolution data, can be adopted to improve the flow field prediction accuracy.",
+        "evidence_quote_valid": false
+      }
+    ]
+  },
+  {
+    "id": "q040",
+    "system": "graph",
+    "quality_auto": "correct",
+    "claims": [
+      {
+        "text": "Under fixed-point arithmetic, the activation functions that satisfy the sufficient condition are Sigmoid, ReLU, ELU, SoftPlus, SiLU, Mish, and GELU.",
+        "supported": true,
+        "source_number": 1,
+        "evidence_quote": "We then show that various popular activation functions satisfy our sufficient condition, e.g., Sigmoid, ReLU, ELU, SoftPlus, SiLU, Mish, and GELU.",
+        "evidence_quote_valid": false
+      }
+    ]
+  },
+  {
+    "id": "q047",
+    "system": "rrf",
+    "quality_auto": "correct",
+    "claims": [
+      {
+        "text": "PILAF response sampling aligns preference learning with maximizing the underlying oracle reward.",
+        "supported": true,
+        "source_number": 1,
+        "evidence_quote": "PILAF, a novel response sampling strategy for preference labeling that explicitly aligns preference learning with maximizing the underlying oracle reward.",
+        "evidence_quote_valid": false
+      }
+    ]
+  },
+  {
+    "id": "q050",
+    "system": "rrf",
+    "quality_auto": "correct",
+    "claims": [
+      {
+        "text": "The computational difficulty is caused by the overparameterized nature of the neural network, and FIcsR derives a Fisher Information approximation to the numerical solution of the f-divergence minimization between a fragment’s covariate distribution and the standard cross-validation baseline.",
+        "supported": true,
+        "source_number": 1,
+        "evidence_quote": "The method's numerical solution poses a computational challenge owing to the overparametrized nature of a neural network, and we derive a Fisher Information approximation.",
+        "evidence_quote_valid": false
+      }
+    ]
+  },
+  {
+    "id": "q053",
+    "system": "graph",
+    "quality_auto": "partial",
+    "claims": [
+      {
+        "text": "LLM judges agree with experts mainly on questions the judges can answer correctly when they lack correct references, while expert-written references largely mitigate this issue.",
+        "supported": true,
+        "source_number": 4,
+        "evidence_quote": "While not provided with a correct reference, judges show high agreement with human experts only on questions the judges were able to correctly answer themselves. We demonstrate that providing the judges with expert-written references largely mitigates this issue, highlighting the limits of using LLM-as-a-Judge without any form of human verification.",
+        "evidence_quote_valid": false
+      }
+    ]
+  },
+  {
+    "id": "q055",
+    "system": "graph",
+    "quality_auto": "correct",
+    "claims": [
+      {
+        "text": "The framework extends to the Schrödinger bridge problem and derives a principled loss function for unpaired data translation.",
+        "supported": true,
+        "source_number": 3,
+        "evidence_quote": "We then extend our formulation to the Schrödinger bridge problem and derive a principled loss function to learn the unpaired data translation.",
+        "evidence_quote_valid": false
+      }
+    ]
+  },
+  {
+    "id": "q058",
+    "system": "rrf",
+    "quality_auto": "partial",
+    "claims": [
+      {
+        "text": "Iterative plan-generation and feedback loops can refine planning objectives.",
+        "supported": true,
+        "source_number": 6,
+        "evidence_quote": "The process continues until convergence criteria are met",
+        "evidence_quote_valid": false
+      }
+    ]
+  },
+  {
+    "id": "s2040",
+    "system": "graph",
+    "quality_auto": "correct",
+    "claims": [
+      {
+        "text": "DOC tracks the drift of functional directions and dynamically updates them during fine-tuning.",
+        "supported": true,
+        "source_number": 1,
+        "evidence_quote": "our method that tracks the drift of these functional directions and dynamically updates them during the fine-tuning process.",
+        "evidence_quote_valid": false
+      }
+    ]
+  },
+  {
+    "id": "bn002",
+    "system": "rrf",
+    "quality_auto": "abstained",
+    "claims": [
+      {
+        "text": "None of the supplied sources describe how GAIA was assembled or report a comparison between GAIA performance and people.",
+        "supported": true,
+        "source_number": null,
+        "evidence_quote": "",
+        "evidence_quote_valid": false
+      }
+    ]
+  },
+  {
+    "id": "bh001",
+    "system": "graph",
+    "quality_auto": "abstained",
+    "claims": [
+      {
+        "text": "The supplied sources do not describe how GPQA was assembled or provide evidence about its difficulty.",
+        "supported": true,
+        "source_number": null,
+        "evidence_quote": "",
+        "evidence_quote_valid": false
+      }
+    ]
+  }
+]

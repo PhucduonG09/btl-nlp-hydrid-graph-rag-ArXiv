@@ -1,0 +1,27 @@
+{
+  "stage": "full",
+  "requested_model": "claude-sonnet-5.5",
+  "n_input": 55,
+  "n_attempted": 55,
+  "n_complete": 55,
+  "config_file_sha256": "bcd22a1d88b4c1674c649f9d29072ad8e2d5f904f376e119c682456f65ffbee9",
+  "new_complete": 50,
+  "n_relations": 286,
+  "invalid_json": 0,
+  "evidence_violations": [],
+  "rejected_no_evidence": 6,
+  "invalid_items": 0,
+  "missing_ids": [],
+  "errors": [],
+  "usage_this_stage": {
+    "tokens_in": 165723,
+    "tokens_out": 48715,
+    "usd_est": null,
+    "served_models": [
+      "claude-sonnet-5",
+      "claude-sonnet-5-5"
+    ]
+  },
+  "elapsed_seconds": 188.34,
+  "scope": "DEV gold-conditioned coverage diagnostic; not the final full-corpus KG."
+}

@@ -1,0 +1,21 @@
+{
+  "stage": "judge-pilot",
+  "n_requested": 12,
+  "n_records": 12,
+  "errors": 0,
+  "new_calls_or_cache_lookups": 12,
+  "usage_this_invocation": {
+    "tokens_in": 108114,
+    "tokens_out": 9002,
+    "usd_est": null,
+    "served_models": [
+      "gpt-6-sol"
+    ]
+  },
+  "served_labels": {
+    "gpt-6-sol": 12
+  },
+  "normalized_label_mismatches": 0,
+  "elapsed_seconds": 108.8976268999977,
+  "human_calibrated": false
+}

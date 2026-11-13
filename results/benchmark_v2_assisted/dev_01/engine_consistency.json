@@ -1,0 +1,70 @@
+{
+  "n_questions": 6,
+  "n_methods": 5,
+  "all_exact": true,
+  "checks": [
+    {
+      "id": "q004",
+      "exact_top100_match": {
+        "bm25": true,
+        "dense": true,
+        "rrf": true,
+        "graph": true,
+        "text_expansion": true
+      }
+    },
+    {
+      "id": "q015",
+      "exact_top100_match": {
+        "bm25": true,
+        "dense": true,
+        "rrf": true,
+        "graph": true,
+        "text_expansion": true
+      }
+    },
+    {
+      "id": "s2034",
+      "exact_top100_match": {
+        "bm25": true,
+        "dense": true,
+        "rrf": true,
+        "graph": true,
+        "text_expansion": true
+      }
+    },
+    {
+      "id": "bn011",
+      "exact_top100_match": {
+        "bm25": true,
+        "dense": true,
+        "rrf": true,
+        "graph": true,
+        "text_expansion": true
+      }
+    },
+    {
+      "id": "bn014",
+      "exact_top100_match": {
+        "bm25": true,
+        "dense": true,
+        "rrf": true,
+        "graph": true,
+        "text_expansion": true
+      }
+    },
+    {
+      "id": "bn048",
+      "exact_top100_match": {
+        "bm25": true,
+        "dense": true,
+        "rrf": true,
+        "graph": true,
+        "text_expansion": true
+      }
+    }
+  ],
+  "test_access": "None; six existing DEV pilot questions only.",
+  "api_calls": 0,
+  "engine_sha256": "925dc76d22f0c968374ad260219d30b00904113c5e7c2fe78978bdfecf705d13"
+}

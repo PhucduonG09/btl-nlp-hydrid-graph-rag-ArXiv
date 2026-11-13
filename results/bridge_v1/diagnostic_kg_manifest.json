@@ -1,0 +1,13 @@
+{
+  "tag": "bridge_dev_v1_v3",
+  "n_papers": 555,
+  "n_new_dev_papers": 55,
+  "served_models": {
+    "gpt-6-astra": 500,
+    "claude-sonnet-5-5": 43,
+    "claude-sonnet-5": 12
+  },
+  "old_graph_sha256": "df5eeaff646ca555fa90a21a4a88726aa80204f4982e28c92a2b1f417a4dac0f",
+  "new_graph_sha256": "54c7a3dbd30b4c4920b46736c6e41cfe7e7e946b08379989b17d6385de489fc0",
+  "warning": "DEV gold-conditioned diagnostic graph. Existing pilot and new extractions can use different models. Not a fair final full-corpus Graph-RAG experiment."
+}

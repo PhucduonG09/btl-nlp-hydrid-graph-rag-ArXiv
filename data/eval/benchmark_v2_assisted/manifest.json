@@ -1,0 +1,40 @@
+{
+  "version": "v2_assisted",
+  "created_at": "2026-11-09T05:39:43.416452+07:00",
+  "seed": 42,
+  "n_qa": 150,
+  "n_dev": 122,
+  "n_test": 28,
+  "n_papers": 20500,
+  "corpus": "data\\processed\\benchmark_v2_corpus.jsonl",
+  "corpus_sha256": "1107e57398e2ac7052d5dd6fdfffa6354b761c115f1baabc0f42556ab52c5411",
+  "source_candidate_sha256": "d5b4e601a1ea25145d7da710d9633e235fa3971345e6e16922b2ce24e89b3f03",
+  "review_db_sha256": "69becf2e491387399b5b286059ceda86db676227bab4aa322bfee67dea356ccf",
+  "source_review_sha256": "fd699d1501a3d8530ce5bfce570717b1e55c01f8854f4a98d85f5e83581dd774",
+  "curation_counts": {
+    "assistant_source_review": 102,
+    "user_confirmation": 3,
+    "prior_bridge_approval": 45
+  },
+  "all_independently_human_annotated": false,
+  "review_mode": "assisted_source_review_experimental",
+  "qa_sha256": {
+    "qa_all.jsonl": "7b6437c52772faa3a08f139f034f6a101ec67843c6acade9c670461b281afb66",
+    "qa_dev.jsonl": "25acf5fabdec77610659e60c7760af0d3074feba02a854df72c92dd33621b2b5",
+    "qa_test.jsonl": "b32dc03c219293c1c09763d5ed0062255ea80a58f996f93732d55a5a7c5c7cce"
+  },
+  "split_origin_counts": {
+    "dev": {
+      "legacy_single": 59,
+      "new_authored_draft": 32,
+      "bridge_v1_approved": 31
+    },
+    "test": {
+      "new_authored_draft": 14,
+      "bridge_v1_approved": 14
+    }
+  },
+  "split_policy": "Connected components by gold paper; preserve bridge-v1 split. Allocate 30% of unanchored new-paper components to test with seed42. Other legacy components to DEV.",
+  "exposure": "Legacy questions have prior experimental exposure, including any forced into test by a bridge anchor. Report results by origin; do not describe all v2 test questions as previously unseen.",
+  "limitations": "Bridge subset BM25-screened. New single papers are a scoped cs.CL convenience sample. Assistant review is not independent human labeling. This version does not satisfy the human-annotation A+ criterion by itself. Approval records do not establish independent double annotation."
+}

@@ -1,0 +1,16 @@
+{
+  "approved_for_full": true,
+  "pilot_sha256": "490a57b1994d5135be02472280fbb1f62d763512c2bbfdb4167545d99b9a4e6d",
+  "n_papers": 5,
+  "review_scope": "Basic evidence and bridge-relation diagnostic; not an independent extraction F1 evaluation.",
+  "checks": {
+    "SGRv2_evaluates_on_MimicGen": true,
+    "MimicGen_introduced_by_B": true,
+    "RCPD_evaluates_on_GPQA": true,
+    "SMART_Editor_baseline_HIVE_not_mislabeled_USES": true
+  },
+  "limitations": [
+    "Generic/unnamed contributions still require normalization and separate gold evaluation.",
+    "Diagnostic input selected from DEV gold endpoints; final KG must have a corpus scope independent of these answers."
+  ]
+}

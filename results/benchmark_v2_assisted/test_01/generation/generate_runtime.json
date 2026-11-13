@@ -1,0 +1,20 @@
+{
+  "stage": "generate",
+  "n_jobs": 56,
+  "n_new_attempts": 56,
+  "errors_now": 0,
+  "retry_errors": false,
+  "usage_this_invocation": {
+    "tokens_in": 366640,
+    "tokens_out": 27612,
+    "usd_est": null,
+    "served_models": [
+      "claude-sonnet-5"
+    ]
+  },
+  "served_labels": {
+    "claude-sonnet-5": 56
+  },
+  "label_mismatches": 0,
+  "elapsed_seconds": 371.69811919999484
+}

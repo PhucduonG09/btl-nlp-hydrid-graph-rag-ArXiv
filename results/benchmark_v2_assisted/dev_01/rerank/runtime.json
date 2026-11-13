@@ -1,0 +1,9 @@
+{
+  "elapsed_seconds": 407.00782849999814,
+  "new_pairs": 10094,
+  "n_queries": 122,
+  "p50_union_scoring_seconds": 3.5020182500011288,
+  "p95_union_scoring_seconds": 4.284458800000174,
+  "latency_scope": "Per-query union of RRF and graph top-50 pools, including tokenizer/inference, excluding initial retrieval/model load. Cached scores retain original measured latency.",
+  "network": "Offline after model download; no paid API."
+}

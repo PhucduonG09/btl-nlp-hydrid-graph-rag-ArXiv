@@ -1,0 +1,142 @@
+{
+  "n_bridge_used": 30,
+  "n_bridge_total": 31,
+  "excluded": {
+    "bn009": [
+      "graph_reverse",
+      "graph_sandwich"
+    ]
+  },
+  "drop_mismatch": false,
+  "n_label_mismatch_used": 0,
+  "label_mismatches": [],
+  "systems": {
+    "graph_rank": {
+      "n": 30,
+      "quality_counts": {
+        "abstained": 5,
+        "partial": 3,
+        "correct": 22
+      },
+      "correct_rate": 0.7333333333333333,
+      "program_refusal_count": 2,
+      "all_gold_in_packed_context": 25,
+      "answers_with_invalid_citations": 0,
+      "mean_relevance": 4.6,
+      "faithfulness_macro_nonabstaining": 0.9887272727272728,
+      "faithfulness_micro_nonabstaining": 0.9784172661870504,
+      "faithfulness_answer_denominator": 25,
+      "claim_denominator": 139,
+      "supported_claims_with_invalid_quote": 1,
+      "human_calibrated": false
+    },
+    "graph_reverse": {
+      "n": 30,
+      "quality_counts": {
+        "correct": 23,
+        "partial": 4,
+        "abstained": 3
+      },
+      "correct_rate": 0.7666666666666667,
+      "program_refusal_count": 2,
+      "all_gold_in_packed_context": 25,
+      "answers_with_invalid_citations": 0,
+      "mean_relevance": 4.866666666666666,
+      "faithfulness_macro_nonabstaining": 0.9835390946502058,
+      "faithfulness_micro_nonabstaining": 0.9722222222222222,
+      "faithfulness_answer_denominator": 27,
+      "claim_denominator": 144,
+      "supported_claims_with_invalid_quote": 4,
+      "human_calibrated": false
+    },
+    "graph_sandwich": {
+      "n": 30,
+      "quality_counts": {
+        "correct": 23,
+        "partial": 4,
+        "abstained": 3
+      },
+      "correct_rate": 0.7666666666666667,
+      "program_refusal_count": 2,
+      "all_gold_in_packed_context": 25,
+      "answers_with_invalid_citations": 0,
+      "mean_relevance": 4.666666666666667,
+      "faithfulness_macro_nonabstaining": 0.9842592592592593,
+      "faithfulness_micro_nonabstaining": 0.9807692307692307,
+      "faithfulness_answer_denominator": 27,
+      "claim_denominator": 156,
+      "supported_claims_with_invalid_quote": 1,
+      "human_calibrated": false
+    },
+    "graph_top5": {
+      "n": 30,
+      "quality_counts": {
+        "abstained": 10,
+        "partial": 4,
+        "correct": 16
+      },
+      "correct_rate": 0.5333333333333333,
+      "program_refusal_count": 9,
+      "all_gold_in_packed_context": 18,
+      "answers_with_invalid_citations": 0,
+      "mean_relevance": 3.8666666666666667,
+      "faithfulness_macro_nonabstaining": 0.967666083916084,
+      "faithfulness_micro_nonabstaining": 0.9473684210526315,
+      "faithfulness_answer_denominator": 20,
+      "claim_denominator": 114,
+      "supported_claims_with_invalid_quote": 5,
+      "human_calibrated": false
+    }
+  },
+  "paired_vs_rank": {
+    "graph_reverse": {
+      "rank_only_correct": 1,
+      "variant_only_correct": 2,
+      "p_exact": 1.0,
+      "flipped_to_wrong": [
+        "bn031"
+      ],
+      "flipped_to_correct": [
+        "bd001",
+        "bn001"
+      ],
+      "claims_position_effect": false
+    },
+    "graph_sandwich": {
+      "rank_only_correct": 2,
+      "variant_only_correct": 3,
+      "p_exact": 1.0,
+      "flipped_to_wrong": [
+        "bn028",
+        "bn031"
+      ],
+      "flipped_to_correct": [
+        "bd001",
+        "bh016",
+        "bn001"
+      ],
+      "claims_position_effect": false
+    },
+    "graph_top5": {
+      "rank_only_correct": 7,
+      "variant_only_correct": 1,
+      "p_exact": 0.0703125,
+      "flipped_to_wrong": [
+        "bn002",
+        "bn007",
+        "bn023",
+        "bn028",
+        "bn034",
+        "bn045",
+        "bn048"
+      ],
+      "flipped_to_correct": [
+        "bn001"
+      ],
+      "claims_position_effect": false
+    }
+  },
+  "exploratory": true,
+  "test_evaluated": false,
+  "notes": "Judge tự động chưa hiệu chuẩn; trần cải thiện +3 câu; quy tắc kết luận khai báo trong plan.json."
+}

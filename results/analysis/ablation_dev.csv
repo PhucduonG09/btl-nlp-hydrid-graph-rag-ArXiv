@@ -1,0 +1,44 @@
+config,group,selected,single_R@1,single_MRR@10,single_nDCG@10,single_R@10,bridge_All@10,bridge_Hop2@10,bridge_R@10,all_nDCG@10
+bm25_k0.8_b0.4,"A. BM25 (tham số k1,b)",,0.9341,0.9485,0.9555,0.978,0.0,0.0,0.5,0.8667
+bm25_k0.8_b0.75,"A. BM25 (tham số k1,b)",,0.9341,0.9503,0.9571,0.978,0.0,0.0,0.5,0.8678
+bm25_k1.5_b0.4,"A. BM25 (tham số k1,b)",,0.9341,0.9485,0.9555,0.978,0.0,0.0,0.5,0.8667
+bm25_k1.5_b0.75,"A. BM25 (tham số k1,b)",BM25 chọn,0.9341,0.9533,0.9596,0.978,0.0,0.0,0.5,0.8697
+bm25_k2.0_b0.4,"A. BM25 (tham số k1,b)",,0.9231,0.9421,0.9509,0.978,0.0,0.0,0.5,0.8633
+bm25_k2.0_b0.75,"A. BM25 (tham số k1,b)",,0.9341,0.9515,0.9582,0.978,0.0,0.0,0.5,0.8686
+dense,B. Dense (bge-base-en-v1.5),,0.8681,0.9041,0.9193,0.967,0.0645,0.0645,0.4677,0.8224
+rrf_k10,C. BM25+dense qua RRF (tham số k),RRF chọn,0.967,0.9762,0.9795,0.989,0.0645,0.0645,0.5323,0.8816
+rrf_k30,C. BM25+dense qua RRF (tham số k),,0.967,0.9725,0.9765,0.989,0.0645,0.0645,0.5323,0.8782
+rrf_k60,C. BM25+dense qua RRF (tham số k),,0.967,0.9716,0.9757,0.989,0.0645,0.0645,0.5323,0.8758
+rrf_k100,C. BM25+dense qua RRF (tham số k),,0.967,0.9714,0.9754,0.989,0.0645,0.0645,0.5,0.8722
+rrf_text_expansion,D. Đối chứng mở rộng văn bản,,0.7802,0.869,0.8993,0.989,0.129,0.129,0.5645,0.8284
+linked_text_expansion,D. Đối chứng mở rộng văn bản,,0.8022,0.8799,0.9074,0.989,0.129,0.129,0.5645,0.8344
+linked_k1_rrf_w0.5,"E. Graph MENTIONS, seed từ thực thể liên kết trong câu hỏi",,0.967,0.9762,0.9795,0.989,0.129,0.129,0.5645,0.8893
+linked_k1_rrf_w1,"E. Graph MENTIONS, seed từ thực thể liên kết trong câu hỏi",,0.956,0.9707,0.9754,0.989,0.8065,0.8065,0.9032,0.9281
+linked_k1_rrf_w2,"E. Graph MENTIONS, seed từ thực thể liên kết trong câu hỏi",Graph chọn,0.9451,0.9652,0.9713,0.989,0.8387,0.8387,0.9194,0.9298
+linked_k1_weighted,"E. Graph MENTIONS, seed từ thực thể liên kết trong câu hỏi",,0.956,0.9707,0.9754,0.989,0.8065,0.8065,0.9032,0.9347
+linked_k2_rrf_w0.5,"E. Graph MENTIONS, seed từ thực thể liên kết trong câu hỏi",,0.8681,0.9138,0.9323,0.989,0.129,0.129,0.5645,0.8559
+linked_k2_rrf_w1,"E. Graph MENTIONS, seed từ thực thể liên kết trong câu hỏi",,0.7912,0.8674,0.8927,0.967,0.6129,0.6129,0.8065,0.8517
+linked_k2_rrf_w2,"E. Graph MENTIONS, seed từ thực thể liên kết trong câu hỏi",,0.7363,0.8269,0.8592,0.956,0.7097,0.7097,0.8548,0.832
+linked_k2_weighted,"E. Graph MENTIONS, seed từ thực thể liên kết trong câu hỏi",,0.8132,0.8984,0.9219,0.989,0.5484,0.5484,0.7742,0.8711
+linked_k3_rrf_w0.5,"E. Graph MENTIONS, seed từ thực thể liên kết trong câu hỏi",,0.6154,0.7609,0.8103,0.956,0.129,0.129,0.5645,0.7468
+linked_k3_rrf_w1,"E. Graph MENTIONS, seed từ thực thể liên kết trong câu hỏi",,0.5275,0.6864,0.7506,0.9451,0.4194,0.4194,0.6935,0.7118
+linked_k3_rrf_w2,"E. Graph MENTIONS, seed từ thực thể liên kết trong câu hỏi",,0.4176,0.5198,0.5741,0.7473,0.4194,0.4194,0.6613,0.5723
+linked_k3_weighted,"E. Graph MENTIONS, seed từ thực thể liên kết trong câu hỏi",,0.7363,0.8575,0.8916,0.989,0.3226,0.3226,0.6613,0.8348
+linked_ppr_rrf_w0.5,"E. Graph MENTIONS, seed từ thực thể liên kết trong câu hỏi",,0.967,0.9762,0.9795,0.989,0.129,0.129,0.5645,0.8886
+linked_ppr_rrf_w1,"E. Graph MENTIONS, seed từ thực thể liên kết trong câu hỏi",,0.8571,0.9212,0.9389,0.989,0.7419,0.7419,0.871,0.8804
+linked_ppr_rrf_w2,"E. Graph MENTIONS, seed từ thực thể liên kết trong câu hỏi",,0.6813,0.8278,0.8697,0.989,0.7419,0.7419,0.871,0.8291
+rrf_k1_rrf_w0.5,"E. Graph MENTIONS, seed từ top RRF (không liên kết thực thể)",,0.967,0.9762,0.9795,0.989,0.129,0.129,0.5645,0.8861
+rrf_k1_rrf_w1,"E. Graph MENTIONS, seed từ top RRF (không liên kết thực thể)",,0.967,0.9762,0.9795,0.989,0.7742,0.7742,0.8871,0.9236
+rrf_k1_rrf_w2,"E. Graph MENTIONS, seed từ top RRF (không liên kết thực thể)",,0.967,0.9762,0.9795,0.989,0.8387,0.8387,0.9194,0.9295
+rrf_k1_weighted,"E. Graph MENTIONS, seed từ top RRF (không liên kết thực thể)",,0.967,0.9762,0.9795,0.989,0.7742,0.7742,0.8871,0.9327
+rrf_k2_rrf_w0.5,"E. Graph MENTIONS, seed từ top RRF (không liên kết thực thể)",,0.8681,0.9138,0.9323,0.989,0.129,0.129,0.5645,0.8509
+rrf_k2_rrf_w1,"E. Graph MENTIONS, seed từ top RRF (không liên kết thực thể)",,0.7912,0.8674,0.8927,0.967,0.6452,0.6452,0.8226,0.847
+rrf_k2_rrf_w2,"E. Graph MENTIONS, seed từ top RRF (không liên kết thực thể)",,0.7582,0.8397,0.8688,0.956,0.7097,0.7097,0.8387,0.8316
+rrf_k2_weighted,"E. Graph MENTIONS, seed từ top RRF (không liên kết thực thể)",,0.8132,0.8984,0.9219,0.989,0.5806,0.5806,0.7903,0.8696
+rrf_k3_rrf_w0.5,"E. Graph MENTIONS, seed từ top RRF (không liên kết thực thể)",,0.6154,0.7609,0.8103,0.956,0.129,0.129,0.5645,0.7452
+rrf_k3_rrf_w1,"E. Graph MENTIONS, seed từ top RRF (không liên kết thực thể)",,0.5275,0.6836,0.7484,0.9451,0.3871,0.3871,0.6935,0.7071
+rrf_k3_rrf_w2,"E. Graph MENTIONS, seed từ top RRF (không liên kết thực thể)",,0.4176,0.515,0.5702,0.7473,0.3871,0.3871,0.629,0.5627
+rrf_k3_weighted,"E. Graph MENTIONS, seed từ top RRF (không liên kết thực thể)",,0.7582,0.8685,0.8997,0.989,0.3226,0.3226,0.6613,0.8375
+rrf_ppr_rrf_w0.5,"E. Graph MENTIONS, seed từ top RRF (không liên kết thực thể)",,0.967,0.9762,0.9795,0.989,0.129,0.129,0.5645,0.8861
+rrf_ppr_rrf_w1,"E. Graph MENTIONS, seed từ top RRF (không liên kết thực thể)",,0.8462,0.9158,0.9348,0.989,0.7097,0.7097,0.8548,0.8709
+rrf_ppr_rrf_w2,"E. Graph MENTIONS, seed từ top RRF (không liên kết thực thể)",,0.6484,0.8132,0.859,0.989,0.7419,0.7419,0.871,0.8163

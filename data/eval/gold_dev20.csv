@@ -1,0 +1,32 @@
+idx,relation,target,evidence
+1,PROPOSES,failure mode diagnosis method,we propose a novel failure mode diagnosis method
+1,PROPOSES,monotonically constrained prognostic model,we introduce a monotonically constrained prognostic model
+1,USES,UMAP,UMAP (Uniform Manifold Approximation and Projection)
+2,PROPOSES,AdaFish,we introduce AdaFish
+5,PROPOSES,ECLeKTic,we present ECLeKTic
+5,USES,Wikipedia,Wikipedia articles in 12 languages
+6,PROPOSES,Related Entity Extraction,"proposes a method to extract them, referred to as Related Entity Extraction"
+6,USES,topic modeling,topic modeling
+6,USES,word2vec,word2vec
+6,USES,NER,Named Entity Recognition (NER) methods
+7,PROPOSES,DiscoPOP,"Discovered Preference Optimization (DiscoPOP), a novel algorithm"
+8,PROPOSES,chatbot-based ontology interaction,introduces a concept that employs Large Language Models (LLMs) and a chatbot interface
+8,USES,SPARQL,SPARQL query generation
+9,PROPOSES,confounder dataset,a newly created confounder dataset
+10,PROPOSES,contrastive expert guidance,we introduce contrastive expert guidance
+10,PROPOSES,STEER,We deem this dual-pronged approach to logit reshaping as STEER
+11,PROPOSES,active forgetting with multi-learner architecture,we propose a generic approach that appropriately attenuates old memories in parameter distributions
+12,PROPOSES,FLUID-LLM,We introduce FLUID-LLM
+13,PROPOSES,SAFFU,self-attentive feed-forward unit (SAFFU) layers
+14,USES,MLP,an MLP
+14,USES,CNN,a CNN
+14,USES,ResNet,multiple ResNets
+14,USES,CvT,Convolutional vision Transformers (CvTs)
+15,PROPOSES,C2G,we introduce the causal two-groups (C2G) model
+15,PROPOSES,empirical Bayes procedures,We propose two empirical Bayes procedures
+18,PROPOSES,TED++,we introduce TED++
+19,PROPOSES,MeMo,We introduce MeMo
+20,PROPOSES,prototype-driven counterfactual framework,we propose a prototype-driven framework for generating sparse counterfactual explanations
+20,USES,SHAP,SHAP-based thresholds
+20,USES,DTW,Dynamic Time Warping (DTW)
+20,USES,medoid clustering,medoid clustering

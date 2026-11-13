@@ -1,0 +1,14 @@
+{
+  "model": "gpt-6-sol",
+  "temperature": 0,
+  "max_output_tokens": 1800,
+  "prompt_version": "judge-v2-claims",
+  "jobs_sha256": "9910cb14b3cf6a198f51a159e11b1f474e790427025ef6089e162344caf275b4",
+  "protocol_sha256": "2584b35829d485832fea52cc5052a9a719c43ff9a59bf9b494d982b38c421046",
+  "source_dev_protocol_sha256": "7c312553dcee8b165593528c124ff6c6f1b3fb154b7ec077df44745d23581504",
+  "amendments": [
+    "A1",
+    "A2"
+  ],
+  "tuning": "None. Models/prompt/caps copied from DEV protocol."
+}

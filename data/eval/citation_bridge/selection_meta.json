@@ -1,0 +1,8 @@
+{
+  "seed": 20261112,
+  "max_b_indeg": 10,
+  "n": 320,
+  "n_edges": 12973,
+  "sha256": "ee388b9b5bf4306dbb500e37401916ecd98d8d7dfe90a829fa1405f1f1fd48cd",
+  "share_mentions_entity": 0.109
+}

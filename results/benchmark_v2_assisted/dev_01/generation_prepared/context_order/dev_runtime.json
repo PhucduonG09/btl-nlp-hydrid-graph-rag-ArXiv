@@ -1,0 +1,24 @@
+{
+  "stage": "dev",
+  "n_requested": 93,
+  "n_records": 93,
+  "errors": 0,
+  "available_only": false,
+  "n_plan_jobs": 93,
+  "partial_generation_lines_seen": 0,
+  "new_calls_or_cache_lookups": 2,
+  "usage_this_invocation": {
+    "tokens_in": 11115,
+    "tokens_out": 337,
+    "usd_est": null,
+    "served_models": [
+      "claude-sonnet-5"
+    ]
+  },
+  "served_labels": {
+    "claude-sonnet-5": 93
+  },
+  "normalized_label_mismatches": 0,
+  "elapsed_seconds": 17.911556800001563,
+  "human_calibrated": false
+}

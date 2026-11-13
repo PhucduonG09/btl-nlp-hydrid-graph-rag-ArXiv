@@ -1,0 +1,71 @@
+{
+  "n": 4000,
+  "share_A_has_other_edges": 0.793,
+  "B_reachable_in_cites_top100": 0.257,
+  "base_hit10": 0.247,
+  "all_pairs": {
+    "w[1,1]": {
+      "hit10": 0.2938,
+      "diff_vs_base": [
+        0.0467,
+        [
+          0.036,
+          0.0575
+        ]
+      ]
+    },
+    "w[1,2]": {
+      "hit10": 0.2797,
+      "diff_vs_base": [
+        0.0328,
+        [
+          0.0202,
+          0.045
+        ]
+      ]
+    }
+  },
+  "only_A_has_other_edges": {
+    "n": 3172,
+    "base": 0.2166,
+    "w[1,1]": [
+      0.059,
+      [
+        0.0451,
+        0.0725
+      ]
+    ],
+    "w[1,2]": [
+      0.0413,
+      [
+        0.0259,
+        0.0574
+      ]
+    ]
+  },
+  "EXPLORATORY_twohop_only_posthoc": {
+    "note": "Thêm SAU khi thấy kết quả bản có láng giềng trực tiếp (lỗi thiết kế: tham chiếu trực tiếp lấn át 2 bước); không phải xác nhận.",
+    "B_reachable_top100": 0.259,
+    "w[1,1]": {
+      "hit10": 0.3267,
+      "diff_vs_base": [
+        0.0798,
+        [
+          0.068,
+          0.091
+        ]
+      ]
+    },
+    "w[1,2]": {
+      "hit10": 0.3162,
+      "diff_vs_base": [
+        0.0693,
+        [
+          0.0558,
+          0.0823
+        ]
+      ]
+    }
+  },
+  "note": "Leave-one-edge-out; ground truth là trích dẫn, không phải câu hỏi multi-hop. Cạnh CITES là dữ liệu ngoài (S2), không suy ra từ từ vựng."
+}

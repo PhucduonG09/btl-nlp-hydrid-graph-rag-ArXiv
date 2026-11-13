@@ -1,0 +1,90 @@
+[
+  {
+    "id": "q007",
+    "question": "In the LLM-UM overview, what user characteristics and data types organize the discussion, and which application domains are covered?",
+    "reference_answer": "User modeling captures characteristics such as profile, preference and personality, using text and graph data from user-generated content and online interactions. The overview discusses LLM integration with text- and graph-based methods for applications including recommendation, education and healthcare.",
+    "reason": "Câu cũ hỏi cách tích hợp cụ thể nhưng abstract chỉ mô tả phạm vi tổng quan. Thu hẹp câu hỏi về thông tin thực sự có trong abstract."
+  },
+  {
+    "id": "q018",
+    "question": "In the docking model built around TAMformer, how are whole-ligand graph features and three-dimensional geometry used to refine predicted binding poses?",
+    "reason": "Làm rõ mô hình được hỏi bằng thành phần TAMformer có trong nguồn; không coi các cách docking bất kỳ là đáp án thay thế tương đương."
+  },
+  {
+    "id": "q020",
+    "question": "For an online predictor with epsilon distance to calibration, what ECE and Calibration Decision Loss can post-processing achieve, and how does that rate compare with direct optimization?",
+    "reason": "Đặt rõ giả thiết và hai đại lượng đầu ra, tránh lẫn với bài toán hiệu chuẩn đa lớp hoặc các khái niệm smooth calibration khác."
+  },
+  {
+    "id": "q025",
+    "question": "How does STEER reshape logits at inference time to balance target-domain fidelity against repetition of real and previously generated examples?",
+    "reason": "Giới hạn về STEER và hai nhánh logit reshaping có nguồn; câu cũ cho phép nhiều giải pháp sinh dữ liệu khác nhau."
+  },
+  {
+    "id": "q027",
+    "question": "How does contextualizing HTML elements with screenshot counterparts and neighboring elements improve action selection in the Mind2Web evaluation?",
+    "reason": "Đặt rõ cách biểu diễn dual-view và benchmark có trong nguồn, thay cho câu hỏi chung về mọi web agent."
+  },
+  {
+    "id": "q028",
+    "reference_answer": "The Convolutional vision Transformer (CvT) has more than five times the proton rejection power of the other deep learning models on Monte Carlo events with reconstructed energy 0.2-2 TeV at 90% electron accuracy. On ISS data with reconstructed energy 50-70 GeV, it has more than 2.5 times the rejection power. These are results under different evaluation energy ranges.",
+    "reason": "Bổ sung điều kiện năng lượng và độ chính xác electron, tránh hiểu hai tỷ lệ được đo trên cùng điều kiện."
+  },
+  {
+    "id": "q032",
+    "question": "How does decomposing RAG chunks into atomic statements and generating questions over those statements affect dense-retrieval recall compared with the original chunks?",
+    "reference_answer": "Retrieval using atomic statements has higher chunk recall than retrieval using the original chunks. Matching user queries to synthetic questions generated over those atoms, then retrieving the associated chunks, gives a further recall improvement.",
+    "reason": "Câu cũ cho phép trả lời bằng query rewriting hoặc các phương pháp retrieval khác. Bản sửa hỏi đúng so sánh atoms/chunks/synthetic questions được abstract nêu."
+  },
+  {
+    "id": "q033",
+    "reference_answer": "Discarding unreliable samples can bias updates, slow adaptation and harm generalization. REALM introduces a framework inspired by self-paced learning and robust loss functions to improve robustness to noisy samples.",
+    "reason": "Chỉ hỏi các hệ quả và nền tảng được abstract nêu; không yêu cầu công thức hoặc khẳng định down-weight chưa có trong nguồn.",
+    "question": "In REALM single-sample test-time adaptation, what problems can result from discarding unreliable inputs, and what ideas motivate the proposed robustness framework?"
+  },
+  {
+    "id": "q035",
+    "question": "How do kernel scores support uncertainty estimation using generated samples alone across image, audio and language, and what evidence is reported on CoQA and TriviaQA?",
+    "reason": "Thay cụm framework không xác định bằng kernel scores và hai bộ đánh giá cụ thể, phân biệt với các framework uncertainty khác."
+  },
+  {
+    "id": "q037",
+    "question": "In LLM-driven objective discovery for offline preference optimization, how are candidate losses proposed, and which two loss forms does DiscoPOP combine?",
+    "reference_answer": "An LLM is iteratively prompted to propose and implement new preference-optimization losses using previously evaluated performance metrics. The discovered DiscoPOP objective adaptively blends logistic and exponential losses.",
+    "reason": "Giới hạn vào quy trình khám phá loss và cấu trúc DiscoPOP, thay vì hỏi mọi cách tìm objective để alignment."
+  },
+  {
+    "id": "q038",
+    "question": "Without large pretraining datasets, how do neural memory and MAML-trained hypernetworks support adaptation, and which 3D tasks illustrate reuse of their priors?",
+    "reference_answer": "Neural memory enables adaptation to non-stationary distributions from a few samples. Hypernetworks trained with MAML learn more generalizable priors than standard networks; they acquire priors from a handful of scenes for faster text-to-3D generation and transfer priors to segment novel 3D scenes with limited data.",
+    "reason": "Câu cũ là vấn đề few-shot rất rộng. Bản sửa bám tổ hợp neural memory, MAML và hai ứng dụng 3D được nguồn mô tả."
+  },
+  {
+    "id": "q047",
+    "reference_answer": "PILAF aligns preference learning with maximizing the underlying oracle reward. The abstract reports optimality from optimization and statistical perspectives and strong performance in iterative and online RLHF.",
+    "reason": "Không suy diễn thủ tục nội suy từ tên phương pháp; hỏi mục tiêu, phạm vi bảo đảm và thiết lập đã nêu.",
+    "question": "What objective does PILAF response sampling align preference learning with, and what theoretical perspectives and RLHF settings are reported?"
+  },
+  {
+    "id": "q051",
+    "question": "In AdaFish low-rank fine-tuning, what structure of the generalized Fisher matrix makes second-order updates computationally practical?",
+    "reason": "Đặt rõ AdaFish và generalized Fisher để phân biệt với các phương pháp low-rank adaptation không dùng lập luận này."
+  },
+  {
+    "id": "q052",
+    "question": "How does RAIS-DR combine image-quality handling with subgroup-fairness assessment, and what does its evaluation against EyeArt report?",
+    "reference_answer": "RAIS-DR combines preprocessing, quality assessment and three specialized DR classifiers. On 1,046 patients unseen by both systems, it reports improved F1, accuracy and specificity versus EyeArt; Disparate Impact and Equal Opportunity Difference indicate equitable performance across demographic subgroups in that evaluation.",
+    "reason": "Đặt rõ hệ thống và comparator; giữ kết luận fairness trong phạm vi đoàn hệ đánh giá thay vì coi là bảo đảm chung."
+  },
+  {
+    "id": "q056",
+    "question": "What difficulties arise when extending LLM reasoning to combined visual and textual inputs, and what aspects of training, inference and evaluation does the overview cover?",
+    "reference_answer": "Models must integrate visual and textual information and handle conflicts across modalities, requiring advanced interpretation. The overview covers reasoning challenges and opportunities, post-training optimization and test-time inference, and the need to evaluate reasoning accuracy and coherence. The abstract does not name particular optimization algorithms.",
+    "reason": "Câu cũ đòi tên chiến lược cụ thể nhưng abstract không liệt kê. Điều chỉnh về phạm vi tổng quan thay vì chấp nhận đáp án không trả lời hết câu hỏi."
+  },
+  {
+    "id": "q059",
+    "question": "For convex-relaxation verification of networks with Sigmoid or Tanh activations, how much does task-adapted parameter search improve the average global lower bound over prior methods?",
+    "reason": "Khớp đúng đại lượng 25% là average global lower bound; câu cũ hỏi cả upper bound dù abstract không nêu mức tăng của upper bound."
+  }
+]

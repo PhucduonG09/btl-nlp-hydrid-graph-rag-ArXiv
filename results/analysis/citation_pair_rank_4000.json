@@ -1,0 +1,165 @@
+{
+  "n_edges_total": 12973,
+  "n_pairs": 4000,
+  "strata": {
+    "all": {
+      "n": 4000,
+      "mentions": {
+        "hit10": 0.065,
+        "hit100": 0.103,
+        "mrr100": 0.04
+      },
+      "phrase_top10": {
+        "hit10": 0.079,
+        "hit100": 0.084,
+        "mrr100": 0.048
+      },
+      "rrf2(mentions,phrase10)": {
+        "hit10": 0.099,
+        "hit100": 0.163,
+        "mrr100": 0.057
+      },
+      "dense_A": {
+        "hit10": 0.233,
+        "hit100": 0.484,
+        "mrr100": 0.124
+      },
+      "bm25_A": {
+        "hit10": 0.199,
+        "hit100": 0.424,
+        "mrr100": 0.11
+      },
+      "rrf(dense_A,bm25_A)": {
+        "hit10": 0.242,
+        "hit100": 0.493,
+        "mrr100": 0.13
+      },
+      "rrf(dense_A,mentions)": {
+        "hit10": 0.216,
+        "hit100": 0.471,
+        "mrr100": 0.11
+      },
+      "rrf(dense_A,rrf2)": {
+        "hit10": 0.211,
+        "hit100": 0.47,
+        "mrr100": 0.113
+      }
+    },
+    "shares_mentions_entity": {
+      "n": 439,
+      "mentions": {
+        "hit10": 0.595,
+        "hit100": 0.936,
+        "mrr100": 0.362
+      },
+      "phrase_top10": {
+        "hit10": 0.205,
+        "hit100": 0.214,
+        "mrr100": 0.144
+      },
+      "rrf2(mentions,phrase10)": {
+        "hit10": 0.615,
+        "hit100": 0.932,
+        "mrr100": 0.379
+      },
+      "dense_A": {
+        "hit10": 0.551,
+        "hit100": 0.843,
+        "mrr100": 0.325
+      },
+      "bm25_A": {
+        "hit10": 0.531,
+        "hit100": 0.831,
+        "mrr100": 0.344
+      },
+      "rrf(dense_A,bm25_A)": {
+        "hit10": 0.601,
+        "hit100": 0.879,
+        "mrr100": 0.364
+      },
+      "rrf(dense_A,mentions)": {
+        "hit10": 0.754,
+        "hit100": 0.964,
+        "mrr100": 0.499
+      },
+      "rrf(dense_A,rrf2)": {
+        "hit10": 0.759,
+        "hit100": 0.964,
+        "mrr100": 0.492
+      }
+    },
+    "no_shared_mentions_entity": {
+      "n": 3561,
+      "mentions": {
+        "hit10": 0.0,
+        "hit100": 0.0,
+        "mrr100": 0.0
+      },
+      "phrase_top10": {
+        "hit10": 0.064,
+        "hit100": 0.068,
+        "mrr100": 0.036
+      },
+      "rrf2(mentions,phrase10)": {
+        "hit10": 0.036,
+        "hit100": 0.068,
+        "mrr100": 0.018
+      },
+      "dense_A": {
+        "hit10": 0.194,
+        "hit100": 0.44,
+        "mrr100": 0.099
+      },
+      "bm25_A": {
+        "hit10": 0.158,
+        "hit100": 0.374,
+        "mrr100": 0.081
+      },
+      "rrf(dense_A,bm25_A)": {
+        "hit10": 0.198,
+        "hit100": 0.445,
+        "mrr100": 0.101
+      },
+      "rrf(dense_A,mentions)": {
+        "hit10": 0.15,
+        "hit100": 0.411,
+        "mrr100": 0.062
+      },
+      "rrf(dense_A,rrf2)": {
+        "hit10": 0.143,
+        "hit100": 0.409,
+        "mrr100": 0.067
+      }
+    }
+  },
+  "bootstrap": {
+    "Hit@10 rrf(dense_A,rrf2) - dense_A": {
+      "diff": -0.022,
+      "ci95": [
+        -0.033,
+        -0.012
+      ]
+    },
+    "Hit@10 rrf(dense_A,mentions) - dense_A": {
+      "diff": -0.017,
+      "ci95": [
+        -0.025,
+        -0.009
+      ]
+    },
+    "Hit@10 rrf(dense_A,rrf2) - rrf(dense_A,bm25_A)": {
+      "diff": -0.032,
+      "ci95": [
+        -0.042,
+        -0.021
+      ]
+    },
+    "Hit@10 dense_A - mentions": {
+      "diff": 0.168,
+      "ci95": [
+        0.154,
+        0.181
+      ]
+    }
+  }
+}

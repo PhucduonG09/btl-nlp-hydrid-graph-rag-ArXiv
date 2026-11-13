@@ -1,0 +1,34 @@
+{
+  "status": "PREPARED_NOT_EXECUTED",
+  "experiment": "context_order_dev_bridge",
+  "system": "graph",
+  "modes": [
+    "reverse",
+    "sandwich",
+    "top5"
+  ],
+  "baseline_reused": "claude5_controlled (system=graph, mode=rank): cùng prompt, đã kiểm tra bằng assert",
+  "n_bridge_questions": 31,
+  "n_jobs": 93,
+  "pilot_question_ids": [
+    "bn004",
+    "bn036"
+  ],
+  "pilot_jobs": 6,
+  "prompt_version": "abstract-rag-v2",
+  "qa_dev_sha256": "25acf5fabdec77610659e60c7760af0d3074feba02a854df72c92dd33621b2b5",
+  "jobs_sha256": "bfe2b7ac1f4401025577e75dc38887ad60c71ae98fd58cbe6d6f91a069722e2a",
+  "pilot_jobs_sha256": "1e1c21757804748d667f04836bebd0fc8696fa0d551475b30eda092ffd6dbbf7",
+  "dev_input_proxy_tokens": 228817,
+  "dev_max_output_tokens": 71424,
+  "checks": {
+    "rank_prompt_identical": 31,
+    "same_paper_set": 62,
+    "truncated_sources": 0
+  },
+  "paid_calls": 0,
+  "test_access": "None. DEV only; không mở test.",
+  "ceiling": "baseline graph bridge: 23 correct, 3 partial, 5 thiếu gold trong ngữ cảnh -> đổi thứ tự tối đa +3 câu",
+  "decision_rule": "chỉ nói có hiệu ứng vị trí nếu McNemar exact p<0.05 và chênh >=4 câu; n=31, judge tự động chưa hiệu chuẩn",
+  "judge_note": "judge phải khác họ model với generator (runner kiểm tra); dùng cùng LLM_MODEL/LLM_JUDGE_MODEL như lần chạy baseline"
+}

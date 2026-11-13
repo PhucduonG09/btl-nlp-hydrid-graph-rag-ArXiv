@@ -1,0 +1,44 @@
+{
+  "status": "DRAFT_NOT_FROZEN",
+  "total": 150,
+  "legacy_single": 59,
+  "new_single": 46,
+  "approved_bridge": 45,
+  "new_evidence_spans": 123,
+  "new_answer_number_flags": {
+    "s2028": [
+      "3.18"
+    ]
+  },
+  "legacy_answer_number_flags": {
+    "q004": [
+      "50.0"
+    ]
+  },
+  "legacy_revision_ids": [
+    "q007",
+    "q018",
+    "q020",
+    "q025",
+    "q027",
+    "q028",
+    "q032",
+    "q033",
+    "q035",
+    "q037",
+    "q038",
+    "q047",
+    "q051",
+    "q052",
+    "q056",
+    "q059"
+  ],
+  "applied_replacement_ids": [
+    "s2006",
+    "s2019",
+    "q056"
+  ],
+  "numeric_check": "Literal number mismatch is a review hint only. Written-out numbers, method names, ratios and rounding require reading; absence of a flag does not prove support.",
+  "qa_candidates_sha256": "d5b4e601a1ea25145d7da710d9633e235fa3971345e6e16922b2ce24e89b3f03",
+  "interpretation": "Source spans checked for newly authored single questions. Exactly three prepared replacements were accepted by Hill; other source reviews are not independent human approval. Legacy QA remain historically exposed. Approved bridge v1 unchanged."
+}

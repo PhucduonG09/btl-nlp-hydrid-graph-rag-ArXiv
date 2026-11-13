@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "source_workbooks_unchanged": {
+    "bridge_drafts2.xlsx": true,
+    "bridge_drafts.xlsx": true,
+    "bridge_handwritten.xlsx": true
+  },
+  "qa_count": 45,
+  "dev_count": 31,
+  "test_count": 14,
+  "no_shared_gold_papers": true,
+  "verified_mention_spans": 57084,
+  "graph_sha256": "08308e54bc9536bcc6f46a076a7f7559f249a105e7d1933c14a09df6e10341b8",
+  "test_access": "Integrity-only checks of IDs and split membership; no test retrieval or tuning."
+}

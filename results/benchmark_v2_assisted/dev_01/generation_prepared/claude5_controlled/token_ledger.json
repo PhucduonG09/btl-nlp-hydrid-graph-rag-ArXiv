@@ -1,0 +1,154 @@
+{
+  "scope": "This generation/judging batch, initial label-drift pilot, label probes, A-only diagnostic and one demo call. Excludes historical extraction and embedding.",
+  "pricing_status": "Not supplied; do not infer USD or VND. Provider-reported usage is not an invoice and may omit failed requests without a usage response.",
+  "usd": null,
+  "vnd": null,
+  "by_served_model": {
+    "claude-sonnet-5-5": {
+      "input_tokens": 59175,
+      "output_tokens": 6591,
+      "calls": 9
+    },
+    "claude-sonnet-5": {
+      "input_tokens": 1381685,
+      "output_tokens": 116176,
+      "calls": 280
+    },
+    "gpt-6-sol": {
+      "input_tokens": 2229022,
+      "output_tokens": 196738,
+      "calls": 288
+    }
+  },
+  "files": {
+    "results\\benchmark_v2_assisted\\dev_01\\generation_prepared\\generation.jsonl": {
+      "sha256": "a0a9d5803b7bbad0ac16a9aef3ac738af938a7b018fdd7a8fd6820240811dca4",
+      "records": 12,
+      "run_status": {
+        "records": 12,
+        "unique_jobs": 12,
+        "completed": 12,
+        "errors": 0,
+        "provider_input_tokens": 75747,
+        "provider_output_tokens": 8165,
+        "cache_hits": 0,
+        "served_models": {
+          "claude-sonnet-5-5": 9,
+          "claude-sonnet-5": 3
+        },
+        "model_label_mismatches": 3
+      },
+      "provider_input_tokens": 75747,
+      "provider_output_tokens": 8165
+    },
+    "results\\benchmark_v2_assisted\\dev_01\\generation_prepared\\judge.jsonl": {
+      "sha256": "969b670249d5c9a0755a607e3b564c47fa22144afce7bb350f65ff9c7ac85b16",
+      "records": 12,
+      "run_status": {
+        "records": 12,
+        "unique_jobs": 12,
+        "completed": 12,
+        "errors": 0,
+        "provider_input_tokens": 92572,
+        "provider_output_tokens": 9820,
+        "cache_hits": 0,
+        "served_models": {
+          "gpt-6-sol": 12
+        },
+        "model_label_mismatches": 0
+      },
+      "provider_input_tokens": 92572,
+      "provider_output_tokens": 9820
+    },
+    "results\\benchmark_v2_assisted\\dev_01\\generation_prepared\\claude5_controlled\\generation.jsonl": {
+      "sha256": "9ec9278b3dfcea1e06eeddfcaaecbc4a9c5212f6ad0184b9608dae2c202264dc",
+      "records": 244,
+      "run_status": {
+        "records": 244,
+        "unique_jobs": 244,
+        "completed": 244,
+        "errors": 0,
+        "provider_input_tokens": 1263177,
+        "provider_output_tokens": 102322,
+        "cache_hits": 2,
+        "served_models": {
+          "claude-sonnet-5": 244
+        },
+        "model_label_mismatches": 0
+      },
+      "provider_input_tokens": 1263177,
+      "provider_output_tokens": 102322
+    },
+    "results\\benchmark_v2_assisted\\dev_01\\generation_prepared\\claude5_controlled\\judge.jsonl": {
+      "sha256": "0d05afc817974e3ca4d0f09b318fce61dff4b153a3103437e057538ba51020a5",
+      "records": 245,
+      "run_status": {
+        "records": 245,
+        "unique_jobs": 244,
+        "completed": 244,
+        "errors": 0,
+        "provider_input_tokens": 1943792,
+        "provider_output_tokens": 178616,
+        "cache_hits": 0,
+        "served_models": {
+          "gpt-6-sol": 245
+        },
+        "model_label_mismatches": 0
+      },
+      "provider_input_tokens": 1943792,
+      "provider_output_tokens": 178616
+    },
+    "results\\benchmark_v2_assisted\\dev_01\\generation_prepared\\oracle_A_only\\generation.jsonl": {
+      "sha256": "4a7e7348e7e2ca47ae15aa5e4dbe6da4a774b542ebb3a6c09bce2e8b83ae5187",
+      "records": 31,
+      "run_status": {
+        "records": 31,
+        "unique_jobs": 31,
+        "completed": 31,
+        "errors": 0,
+        "provider_input_tokens": 93776,
+        "provider_output_tokens": 11681,
+        "cache_hits": 0,
+        "served_models": {
+          "claude-sonnet-5": 31
+        },
+        "model_label_mismatches": 0
+      },
+      "provider_input_tokens": 93776,
+      "provider_output_tokens": 11681
+    },
+    "results\\benchmark_v2_assisted\\dev_01\\generation_prepared\\oracle_A_only\\judge.jsonl": {
+      "sha256": "9d939db03d7a639ab2d7d70883955439e4bb4fadbe8754771e8ea95a186555e6",
+      "records": 31,
+      "run_status": {
+        "records": 31,
+        "unique_jobs": 31,
+        "completed": 31,
+        "errors": 0,
+        "provider_input_tokens": 192658,
+        "provider_output_tokens": 8302,
+        "cache_hits": 0,
+        "served_models": {
+          "gpt-6-sol": 31
+        },
+        "model_label_mismatches": 0
+      },
+      "provider_input_tokens": 192658,
+      "provider_output_tokens": 8302
+    },
+    "results\\demo_v2\\queries.jsonl": {
+      "sha256": "ca750e0e40928a150fc868798553b201ae71cc31b22275c6bdcf649873412508",
+      "records": 1,
+      "run_status": null,
+      "provider_input_tokens": 2002,
+      "provider_output_tokens": 592
+    },
+    "results\\analysis\\generator_label_probe.json": {
+      "sha256": "64c98ab20b2286b6bbbfc300071a268529acc6a6ff6be085a787a2df6ff4cc21",
+      "records": 3,
+      "run_status": null,
+      "provider_input_tokens": 6158,
+      "provider_output_tokens": 7
+    }
+  }
+}

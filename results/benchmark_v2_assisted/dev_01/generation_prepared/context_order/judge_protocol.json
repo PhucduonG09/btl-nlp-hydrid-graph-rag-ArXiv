@@ -1,0 +1,12 @@
+{
+  "model": "gpt-6-sol",
+  "temperature": 0,
+  "max_output_tokens": 1800,
+  "prompt_version": "judge-v2-claims",
+  "prepared_jobs_sha256": "bfe2b7ac1f4401025577e75dc38887ad60c71ae98fd58cbe6d6f91a069722e2a",
+  "pilot_jobs_sha256": "1e1c21757804748d667f04836bebd0fc8696fa0d551475b30eda092ffd6dbbf7",
+  "model_labels": "Record requested and served labels, flag normalized mismatch, do not silently discard examples or equate labels with proof of actual weights.",
+  "test_access": "None",
+  "judging": true,
+  "independent_human_calibration_complete": false
+}

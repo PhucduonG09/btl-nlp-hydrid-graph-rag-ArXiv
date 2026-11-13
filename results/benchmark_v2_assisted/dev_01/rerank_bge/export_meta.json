@@ -1,0 +1,12 @@
+{
+  "n_queries": 122,
+  "n_pairs": 10094,
+  "depth": 50,
+  "qa_dev_sha256": "25acf5fabdec77610659e60c7760af0d3074feba02a854df72c92dd33621b2b5",
+  "source_retrieval_sha256": "175075ee3b8ba2d3978dde443b2dfacf005fdd367a7fc91d009536b947170b40",
+  "source_config_sha256": "1a11e0109362e912d4e375b722e1426d81e78f32a3c21deb1d2d082d0aaad698",
+  "colab_input_sha256": "5a556cfcfecc81999e09c0187113052104c9fe411c141c8744ed9f0239e149a7",
+  "size_mb": 14.52,
+  "test_access": "None. DEV only.",
+  "scoring": "C\u00e2u h\u1ecfi g\u1ed1c gh\u00e9p v\u1edbi title+abstract; m\u1ed7i (c\u00e2u h\u1ecfi, v\u0103n b\u1ea3n) ch\u1ea5m m\u1ed9t l\u1ea7n tr\u00ean h\u1ee3p hai pool top-50."
+}

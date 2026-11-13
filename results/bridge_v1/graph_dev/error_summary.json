@@ -1,0 +1,12 @@
+{
+  "n_failed_query_method_pairs": 347,
+  "unique_failed_queries": 31,
+  "hypotheses": {
+    "BASELINE_TOP10_INCOMPLETE": 89,
+    "TEXT_EXPANSION_TOP10_INCOMPLETE": 52,
+    "B_PRESENT_BUT_RANK_GT_10": 122,
+    "BRIDGE_EXISTS_B_NOT_IN_CANDIDATES": 56,
+    "HOP1_NOT_IN_SEEDS": 28
+  },
+  "scope": "DEV only. Repeated queries across methods are not independent error cases. Human columns intentionally blank."
+}

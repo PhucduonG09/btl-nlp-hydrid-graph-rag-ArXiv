@@ -1,0 +1,7 @@
+{"id": "bh001", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, null], "rrf+cites": [3, null], "graph+cites": [3, null], "rrf+cites2hop": [2, null], "graph+cites2hop": [2, null]}}
+{"id": "bh002", "type": "bridge", "ranks": {"rrf": [1, 15], "graph": [1, 4], "rrf+cites": [1, 15], "graph+cites": [1, 4], "rrf+cites2hop": [1, 15], "graph+cites2hop": [1, 4]}}
+{"id": "bh003", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, 9], "rrf+cites": [4, null], "graph+cites": [3, 10], "rrf+cites2hop": [3, null], "graph+cites2hop": [3, 10]}}
+{"id": "bh004", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, null], "rrf+cites": [1, null], "graph+cites": [1, null], "rrf+cites2hop": [1, null], "graph+cites2hop": [1, null]}}
+{"id": "bh005", "type": "bridge", "ranks": {"rrf": [1, null], "graph": [1, null], "rrf+cites": [8, null], "graph+cites": [4, null], "rrf+cites2hop": [6, null], "graph+cites2hop": [3, null]}}
+{"id": "bh006", "type": "bridge", "ranks": {"rrf": [1, 76], "graph": [1, null], "rrf+cites": [10, null], "graph+cites": [8, null], "rrf+cites2hop": [7, null], "graph+cites2hop": [6, null]}}
+{"id": "bh007", "type": "bridge", "ranks": {"rrf": [1, 26], "graph": [1, null], "rrf+cites": [3, 27], "graph+cites": [3, null], "rrf+cites2hop": [1, 26], "graph+cites2hop": [1, null]}}

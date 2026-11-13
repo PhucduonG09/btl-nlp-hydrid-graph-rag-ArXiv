@@ -1,0 +1,839 @@
+[
+ {
+  "id": "bn001",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   8
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn001",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   2
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn001",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   3
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn002",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   5
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn002",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   8
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn002",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   null
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn003",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   6
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn003",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   3
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn003",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   5
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn004",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   7
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn004",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   9
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn004",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   4
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn006",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   7
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn006",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   9
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn006",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   4
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn007",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   2
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn007",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   5
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn007",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   null
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn009",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   6
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn009",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   3
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn009",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   5
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn011",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   6
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn011",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   3
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn011",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   5
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn014",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   5
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn014",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   8
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn014",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   null
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn017",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   9
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn017",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   10
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn017",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   2
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn018",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   7
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn018",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   9
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn018",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   4
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn020",
+  "mode": "reverse",
+  "gold_positions": [
+   7,
+   null
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn020",
+  "mode": "sandwich",
+  "gold_positions": [
+   9,
+   null
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn020",
+  "mode": "top5",
+  "gold_positions": [
+   4,
+   null
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn021",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   7
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn021",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   9
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn021",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   4
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn023",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   5
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn023",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   8
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn023",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   null
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn025",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   8
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn025",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   2
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn025",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   3
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn027",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   7
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn027",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   9
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn027",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   4
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn028",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   6
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn028",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   3
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn028",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   5
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn031",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   6
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn031",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   3
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn031",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   5
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn033",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   9
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn033",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   10
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn033",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   2
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn034",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   5
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn034",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   8
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn034",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   null
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn036",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   6
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn036",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   3
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn036",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   5
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn040",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   7
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn040",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   9
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn040",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   4
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn045",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   6
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn045",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   3
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn045",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   5
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn048",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   5
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn048",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   8
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn048",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   null
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn049",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   7
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn049",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   9
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn049",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   4
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bn050",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   6
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn050",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   3
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bn050",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   5
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bd001",
+  "mode": "reverse",
+  "gold_positions": [
+   9,
+   null
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bd001",
+  "mode": "sandwich",
+  "gold_positions": [
+   10,
+   null
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bd001",
+  "mode": "top5",
+  "gold_positions": [
+   2,
+   null
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bd002",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   null
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bd002",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   null
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bd002",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   null
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bh001",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   null
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bh001",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   null
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bh001",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   null
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bh004",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   null
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bh004",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   null
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bh004",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   null
+  ],
+  "n_sources": 5
+ },
+ {
+  "id": "bh016",
+  "mode": "reverse",
+  "gold_positions": [
+   10,
+   4
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bh016",
+  "mode": "sandwich",
+  "gold_positions": [
+   1,
+   4
+  ],
+  "n_sources": 10
+ },
+ {
+  "id": "bh016",
+  "mode": "top5",
+  "gold_positions": [
+   1,
+   null
+  ],
+  "n_sources": 5
+ }
+]

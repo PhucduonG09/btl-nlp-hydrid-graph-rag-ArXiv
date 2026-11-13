@@ -1,0 +1,35 @@
+[
+  {
+    "requested_model": "claude-sonnet-5",
+    "served_model": "claude-sonnet-5",
+    "usage": {
+      "in": 2014,
+      "out": 4,
+      "served_model": "claude-sonnet-5",
+      "latency_s": 5.56,
+      "cached": false
+    }
+  },
+  {
+    "requested_model": "claude-sonnet-5",
+    "served_model": "claude-sonnet-5",
+    "usage": {
+      "in": 2072,
+      "out": 1,
+      "served_model": "claude-sonnet-5",
+      "latency_s": 10.26,
+      "cached": false
+    }
+  },
+  {
+    "requested_model": "claude-sonnet-5",
+    "served_model": "claude-sonnet-5",
+    "usage": {
+      "in": 2072,
+      "out": 2,
+      "served_model": "claude-sonnet-5",
+      "latency_s": 9.25,
+      "cached": false
+    }
+  }
+]

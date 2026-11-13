@@ -1,0 +1,360 @@
+﻿paper_id,relation,target,evidence,tag
+2512.02593,NONE,,"This tutorial distills the path from cascaded ASR/NLU to end-to-end, retrieval-and vision-grounded systems",
+2512.02593,ADDRESSES,spoken conversational agents,Spoken conversational agents are converging toward voice-native LLMs,
+2512.02593,ADDRESSES,adapting text LLMs to audio,"We frame adaptation of text LLMs to audio, cross-modal alignment, and joint speech-text training",
+2502.20545,PROPOSES,SoS-1K,"we introduce SoS-1K, a meticulously curated dataset of approximately 1,000 polynomials, along with expert-designed reasoning instructions based on five progressively challenging criteria",
+2502.20545,PROPOSES,SoS-7B,"our 7B model, SoS-7B, fine-tuned on SoS-1K for just 4 hours",
+2502.20545,PROPOSES,expert-designed reasoning instructions,"we introduce SoS-1K, a meticulously curated dataset of approximately 1,000 polynomials, along with expert-designed reasoning instructions based on five progressively challenging criteria",UNNAMED
+2502.20545,USES,DeepSeek-V3,outperforms the 671B DeepSeek-V3 and GPT-4o-mini in accuracy,BASELINE
+2502.20545,USES,GPT-4o-mini,outperforms the 671B DeepSeek-V3 and GPT-4o-mini in accuracy,BASELINE
+2502.20545,ADDRESSES,multivariate polynomial nonnegativity,we investigate a fundamental yet computationally intractable problem: determining whether a given multivariate polynomial is nonnegative,
+2512.02445,ADDRESSES,LLM agent safety under long context,Our work shows potential safety issues with agents operating on longer context,
+2512.02445,USES,GPT-4.1-nano,Refusal rates shift unpredictably: GPT-4.1-nano increases from,STUDIED
+2512.02445,USES,Grok 4 Fast,while Grok 4 Fast decreases from,STUDIED
+2511.22818,PROPOSES,two-stage annotation scheme,design a two-stage annotation scheme based on key components of the Motivational Interviewing Treatment Integrity (MITI) framework,UNNAMED
+2511.22818,PROPOSES,annotated MI dialogue dataset,providing a high-quality annotated dataset to address data scarcity in low-resource domains,
+2511.22818,ADDRESSES,MI dialogue summarization,generate precise summaries of motivational interviewing (MI) dialogues,
+2511.22818,ADDRESSES,semantic drift in therapeutic settings,highlight best practices to mitigate ``semantic drift” in therapeutic settings,
+2511.22818,USES,MITI framework,key components of the Motivational Interviewing Treatment Integrity (MITI) framework,
+2511.22818,USES,few-shot prompting,incorporating one-shot and few-shot prompting,GENERIC;UNNAMED
+2511.22818,USES,one-shot prompting,incorporating one-shot and few-shot prompting,GENERIC;UNNAMED
+2511.22818,USES,LLMs,We use LLMs to generate precise summaries of motivational interviewing (MI) dialogues,GENERIC
+2507.22608,PROPOSES,language arithmetics,"Through language arithmetics, i.e. systematic activation addition and multiplication, we steer models to deactivate unwanted languages and activate desired ones, outperforming simpler replacement approaches",UNNAMED
+2507.22608,ADDRESSES,language steering via neuron manipulation,we steer models to deactivate unwanted languages and activate desired ones,
+2507.22608,ADDRESSES,language-specific neuron identification in LLMs,the neural mechanisms behind language-specific processing remain unclear,
+2507.22608,USES,LAPE,"Using the Language Activation Probability Entropy (LAPE) method, we show that these neurons cluster in deeper layers",
+2507.22608,USES,Llama-3.1,"We analyze language-specific neurons in Llama-3.1-8B, Mistral-Nemo-12B, and Aya-Expanse-8B & 32B across 21 typologically diverse languages",STUDIED
+2507.22608,USES,Mistral-Nemo,"We analyze language-specific neurons in Llama-3.1-8B, Mistral-Nemo-12B, and Aya-Expanse-8B & 32B across 21 typologically diverse languages",STUDIED
+2507.22608,USES,Aya-Expanse,"We analyze language-specific neurons in Llama-3.1-8B, Mistral-Nemo-12B, and Aya-Expanse-8B & 32B across 21 typologically diverse languages",STUDIED
+2507.22608,USES,replacement approaches,outperforming simpler replacement approaches,BASELINE;UNNAMED
+2406.06647,PROPOSES,ENAMEL,"we develop ENAMEL (EfficeNcy AutoMatic EvaLuator), a rigorous and high-standard benchmark for evaluating the capability of LLMs in generating efficient code",
+2406.06647,PROPOSES,eff@k,"we propose a new efficiency metric called eff@k, which generalizes the pass@k metric from correctness to efficiency and appropriately handles right-censored execution time",UNNAMED
+2406.06647,PROPOSES,unbiased variance-reduced estimator of eff@k,we derive an unbiased and variance-reduced estimator of eff@k via Rao--Blackwellization,UNNAMED
+2406.06647,USES,Rao-Blackwellization,we derive an unbiased and variance-reduced estimator of eff@k via Rao--Blackwellization,
+2406.06647,USES,pass@k,"we propose a new efficiency metric called eff@k, which generalizes the pass@k metric from correctness to efficiency",BASELINE;UNNAMED
+2406.06647,USES,HumanEval,many of which are much more efficient than existing canonical solutions in HumanEval and HumanEval+,BASELINE
+2406.06647,USES,HumanEval+,many of which are much more efficient than existing canonical solutions in HumanEval and HumanEval+,BASELINE
+2406.06647,ADDRESSES,efficiency of LLM-generated code,evaluating the capability of LLMs in generating efficient code,
+2409.00696,PROPOSES,Polyrating,"we introduce Polyrating, an expressive and flexible rating system based on maximum a posteriori estimation that enables a more nuanced and thorough analysis of model performance at lower costs",
+2409.00696,ADDRESSES,rating-based human evaluation of LLMs,Rating-based human evaluation has become an essential tool to accurately evaluate the impressive performance of large language models (LLMs),
+2409.00696,ADDRESSES,bias in human preference evaluation,"Polyrating can detect and quantify biases affecting human preferences, ensuring fairer model comparisons",
+2409.00696,USES,maximum a posteriori estimation,an expressive and flexible rating system based on maximum a posteriori estimation,UNNAMED
+2409.00696,USES,existing benchmark scores,by leveraging existing benchmark scores,UNNAMED
+2509.18792,ADDRESSES,explaining capability differences between fine-tuned LLMs,Traditional benchmarking often fails to explain why one model outperforms another,
+2509.18792,USES,model diffing,"we use model diffing, a mechanistic interpretability approach, to analyze the specific capability differences between Gemma-2-9b-it and a SimPO-enhanced variant",UNNAMED
+2509.18792,USES,crosscoders,"Using crosscoders, we identify and categorize latent representations that differentiate the two models",UNNAMED
+2509.18792,USES,Gemma-2-9b-it,"we use model diffing, a mechanistic interpretability approach, to analyze the specific capability differences between Gemma-2-9b-it and a SimPO-enhanced variant",STUDIED
+2509.18792,USES,SimPO,"we use model diffing, a mechanistic interpretability approach, to analyze the specific capability differences between Gemma-2-9b-it and a SimPO-enhanced variant",STUDIED
+2509.18792,PROPOSES,model-diffing framework for comparing LLMs,This approach offers a transparent and targeted framework for comparing LLMs,
+2504.02858,ADDRESSES,technical humor generation by LLMs,evaluating their performance in generating technically relevant humor for software developers,
+2504.02858,ADDRESSES,model and temperature configuration selection,The study establishes practical guidelines for model selection and configuration,
+2504.02858,PROPOSES,weighted five-criteria humor evaluation,"we assess model outputs using five weighted criteria: humor quality, domain relevance, concept originality, tone precision, and delivery efficiency",UNNAMED
+2504.02858,USES,full factorial design,Through a full factorial design testing 715 unique configurations of temperature settings and prompt variations,UNNAMED
+2504.02858,USES,ANOVA,"Our methodology employs rigorous statistical analysis including ANOVA, correlation studies, and quadratic regression",
+2504.02858,USES,quadratic regression,"Our methodology employs rigorous statistical analysis including ANOVA, correlation studies, and quadratic regression",UNNAMED
+2504.02858,USES,quadratic regression,"Our methodology employs rigorous statistical analysis including ANOVA, correlation studies, and quadratic regression",GENERIC;UNNAMED
+2502.17764,USES,ChatGPT,"we compare the capabilities of the most advanced LLMs--DeepSeek, ChatGPT, and Claude--along with their reasoning-optimized versions in addressing computational challenges",STUDIED
+2502.17764,USES,Claude,"we compare the capabilities of the most advanced LLMs--DeepSeek, ChatGPT, and Claude--along with their reasoning-optimized versions in addressing computational challenges",STUDIED
+2502.17764,USES,ChatGPT o3-mini-high,with ChatGPT o3-mini-high generally offering the fastest reasoning speed,STUDIED
+2502.17764,USES,neural operator learning,defining the proper space of input functions for neural operator learning,UNNAMED
+2502.17764,ADDRESSES,solving partial differential equations,"including those in scientific computing, particularly in solving partial differential equations (PDEs)",
+2502.17764,ADDRESSES,LLM evaluation on scientific computing and scientific ML,we evaluate their proficiency in solving traditional numerical problems in scientific computing as well as leveraging scientific machine learning techniques for PDE-based problems,
+2505.05970,PROPOSES,interactive training with communicative-success reward,We propose a method for training language models in an interactive setting inspired by child language acquisition,UNNAMED
+2505.05970,PROPOSES,language-only question-answering communicative success,we operationalize communicative success in a more abstract language-only question--answering setting,UNNAMED
+2505.05970,USES,reinforcement learning,we conduct experiments using reinforcement learning to fine-tune language models,GENERIC;UNNAMED
+2505.05970,ADDRESSES,interactive language learning,training language models in an interactive setting inspired by child language acquisition,
+2501.02795,PROPOSES,InfiFusion,"We introduce InfiFusion, an efficient training pipeline designed to integrate multiple domain-specialized Large Language Models (LLMs) into a single pivot model, effectively harnessing the strengths of each source model",
+2501.02795,PROPOSES,Pairwise Fusion (InfiFusion$_p$),"We propose two fusion strategies: Pairwise Fusion (InfiFusion$_p$), where each source model knowledge is distilled individually into the pivot model followed by merging and Unified Fusion (InfiFusion$_u$), where knowledge from all source models is distilled simultaneously into the pivot model",
+2501.02795,PROPOSES,Unified Fusion (InfiFusion$_u$),"We propose two fusion strategies: Pairwise Fusion (InfiFusion$_p$), where each source model knowledge is distilled individually into the pivot model followed by merging and Unified Fusion (InfiFusion$_u$), where knowledge from all source models is distilled simultaneously into the pivot model",
+2501.02795,PROPOSES,Top-K selection and Logits Standardization for ULD,InfiFusion overcomes these limitations by enhancing Universal Logit Distillation (ULD) with Top-K selection and Logits Standardization,
+2501.02795,USES,ULD,InfiFusion overcomes these limitations by enhancing Universal Logit Distillation (ULD) with Top-K selection and Logits Standardization,
+2501.02795,USES,Qwen-2.5-14B-Instruct,"InfiFusion outperforms the state-of-the-art models, such as Qwen-2.5-14B-Instruct and Phi-4, across 11 widely applied benchmarks",BASELINE
+2501.02795,USES,Phi-4,"InfiFusion outperforms the state-of-the-art models, such as Qwen-2.5-14B-Instruct and Phi-4, across 11 widely applied benchmarks",BASELINE
+2501.02795,ADDRESSES,fusing multiple domain-specialized LLMs,"We introduce InfiFusion, an efficient training pipeline designed to integrate multiple domain-specialized Large Language Models (LLMs) into a single pivot model, effectively harnessing the strengths of each source model",
+2311.10702,USES,Tulu,"We test and incorporate a number of these advances into T\""ULU, resulting in T\""ULU 2, a suite of improved T\""ULU models for advancing the understanding and best practices of adapting pretrained language models to downstream tasks and user preferences",
+2311.10702,PROPOSES,Tulu 2,"Concretely, we release: (1) T\""ULU-V2-mix, an improved collection of high-quality instruction datasets; (2) T\""ULU 2, LLAMA-2 models finetuned on the V2 mixture; (3) T\""ULU 2+DPO, T\""ULU 2 models trained with direct preference optimization (DPO), including the largest DPO-trained model to date (T\""ULU 2+DPO 70B); (4) CODE T\""ULU 2, CODE LLAMA models finetuned on our V2 mix that outperform CODE LLAMA and its instruction-tuned variant, CODE LLAMA-Instruct",
+2311.10702,PROPOSES,Tulu-V2-mix,"Concretely, we release: (1) T\""ULU-V2-mix, an improved collection of high-quality instruction datasets; (2) T\""ULU 2, LLAMA-2 models finetuned on the V2 mixture; (3) T\""ULU 2+DPO, T\""ULU 2 models trained with direct preference optimization (DPO), including the largest DPO-trained model to date (T\""ULU 2+DPO 70B); (4) CODE T\""ULU 2, CODE LLAMA models finetuned on our V2 mix that outperform CODE LLAMA and its instruction-tuned variant, CODE LLAMA-Instruct",
+2311.10702,PROPOSES,Tulu 2+DPO,"Concretely, we release: (1) T\""ULU-V2-mix, an improved collection of high-quality instruction datasets; (2) T\""ULU 2, LLAMA-2 models finetuned on the V2 mixture; (3) T\""ULU 2+DPO, T\""ULU 2 models trained with direct preference optimization (DPO), including the largest DPO-trained model to date (T\""ULU 2+DPO 70B); (4) CODE T\""ULU 2, CODE LLAMA models finetuned on our V2 mix that outperform CODE LLAMA and its instruction-tuned variant, CODE LLAMA-Instruct",
+2311.10702,PROPOSES,Code Tulu 2,"Concretely, we release: (1) T\""ULU-V2-mix, an improved collection of high-quality instruction datasets; (2) T\""ULU 2, LLAMA-2 models finetuned on the V2 mixture; (3) T\""ULU 2+DPO, T\""ULU 2 models trained with direct preference optimization (DPO), including the largest DPO-trained model to date (T\""ULU 2+DPO 70B); (4) CODE T\""ULU 2, CODE LLAMA models finetuned on our V2 mix that outperform CODE LLAMA and its instruction-tuned variant, CODE LLAMA-Instruct",
+2311.10702,USES,LLaMA-2,"(2) TULU 2, các mô hình LLaMA-2 được tinh chỉnh trên tập dữ liệu hỗn hợp V2",
+2311.10702,USES,Code LLaMA,"(4) CODE TULU 2, các mô hình CODE LLaMA được tinh chỉnh trên tập dữ liệu hỗn hợp V2 của chúng tôi, có hiệu suất vượt trội hơn CODE LLaMA và biến thể tinh chỉnh theo hướng dẫn của nó là CODE LLaMA-Instruct",
+2311.10702,USES,GPT-3.5-turbo-0301,"Our evaluation from multiple perspectives shows that the T\""ULU 2 suite achieves state-of-the-art performance among open models and matches or exceeds the performance of GPT-3.5-turbo-0301 on several benchmarks",BASELINE
+2311.10702,USES,DPO,"(3) T\""ULU 2+DPO, T\""ULU 2 models trained with direct preference optimization (DPO), including the largest DPO-trained model to date (T\""ULU 2+DPO 70B)",
+2311.10702,ADDRESSES,adapting pretrained language models,for advancing the understanding and best practices of adapting pretrained language models to downstream tasks and user preferences,
+2311.10702,USES,Code LLaMA-Instruct,"(4) CODE TULU 2, các mô hình CODE LLaMA được tinh chỉnh trên tập dữ liệu hỗn hợp V2 của chúng tôi, có hiệu suất vượt trội hơn CODE LLaMA và biến thể tinh chỉnh theo hướng dẫn của nó là CODE LLaMA-Instruct",BASELINE
+2507.03003,PROPOSES,Federated Prompt Tuning Paradigm,we propose the Federated Prompt Tuning Paradigm for multilingual scenarios,UNNAMED
+2507.03003,PROPOSES,language distance,analyze them using a novel notion of language distance,UNNAMED
+2507.03003,ADDRESSES,fine-tuning multilingual LLMs for low-resource languages,"the fine-tuning of multilingual LLMs, especially for low-resource languages, faces significant challenges",
+2507.03003,ADDRESSES,the physical border and  linguistic border in LLM fine-tuning,faces significant challenges arising from data-sharing restrictions (the physical border) and inherent linguistic differences (the linguistic border),
+2507.03003,USES,parameter-efficient fine-tuning,which utilizes parameter-efficient fine-tuning while adhering to data sharing restrictions,GENERIC;UNNAMED
+2507.03003,USES,local cross-lingual transfer tuning,Compared to traditional local cross-lingual transfer tuning methods,GENERIC;UNNAMED
+2312.17661,USES,Gemini,our study undertakes a thorough evaluation of Gemini’s performance in complex reasoning tasks that necessitate the integration of commonsense knowledge across modalities,STUDIED
+2312.17661,USES,GPT-4V(ision),such as OpenAI’s GPT-4V(ision),BASELINE
+2312.17661,EVALUATES_ON,HellaSWAG,"based on a limited dataset (i.e., HellaSWAG)",BASELINE
+2312.17661,EVALUATES_ON,12 commonsense reasoning datasets,"We carry out a comprehensive analysis of 12 commonsense reasoning datasets, ranging from general to domain-specific tasks",
+2312.17661,ADDRESSES,commonsense reasoning in MLLMs,our study undertakes a thorough evaluation of Gemini’s performance in complex reasoning tasks that necessitate the integration of commonsense knowledge across modalities,
+2407.00106,PROPOSES,ununlearning,"We introduce a concept of ununlearning, where unlearned knowledge gets reintroduced in-context",UNNAMED
+2407.00106,ADDRESSES,content regulation in generative AI,even exact unlearning schemes are not enough for effective content regulation,
+2407.00106,USES,unlearning,we revisit the paradigm in which unlearning is used for in Large Language Models (LLMs),STUDIED;UNNAMED
+2407.00106,USES,in-context learning,highlight an underlying inconsistency arising from in-context learning,STUDIED;UNNAMED
+2407.00106,USES,content filtering,we argue that content filtering for impermissible knowledge will be required,UNNAMED
+2407.00106,USES,large language models,Large Language Models (LLMs),GENERIC;UNNAMED
+2304.07840,ADDRESSES,automated program repair,"In this study, we investigate if this inherent knowledge of PL and NL can be utilized to improve automated program repair.",
+2304.07840,USES,PLBART,"We applied PLBART and CodeT5, two state-of-the-art language models that are pre-trained with both PL and NL",STUDIED
+2304.07840,USES,CodeT5,"We applied PLBART and CodeT5, two state-of-the-art language models that are pre-trained with both PL and NL",STUDIED
+2304.07840,USES,Codex,"With the advent of code generative models like Codex and GPT-3.5-Turbo, we also performed zero-shot and few-shots learning-based prompt engineering to assess their performance on these datasets",STUDIED
+2304.07840,USES,GPT-3.5-Turbo,"With the advent of code generative models like Codex and GPT-3.5-Turbo, we also performed zero-shot and few-shots learning-based prompt engineering to assess their performance on these datasets",STUDIED
+2304.07840,USES,zero-shot and few-shot prompt engineering,we also performed zero-shot and few-shots learning-based prompt engineering,GENERIC;UNNAMED
+2304.07840,USES,previous program repair models,notably outperformed each of the previous models,BASELINE;UNNAMED
+2506.14246,PROPOSES,Mxplainer,"This paper introduces Mxplainer, a parameterized search algorithm that can be converted into an equivalent neural network",
+2506.14246,ADDRESSES,explaining black-box Mahjong agents,these agents are often treated as black boxes from which few insights can be gleaned,
+2506.14246,USES,Mahjong AI agents,to learn the parameters of black-box agents,STUDIED
+2506.14246,USES,neural network,can be converted into an equivalent neural network,GENERIC;UNNAMED
+2506.14246,USES,decision-tree methods,outperform decision-tree methods (34.8% top-three accuracy),BASELINE;UNNAMED
+2506.14246,EVALUATES_ON,human and AI agent data,Experiments on both human and AI agents,
+2510.19892,PROPOSES,Dixit game-based MLM evaluation,we propose game-based evaluations to holistically assess MLM capabilities,
+2510.19892,ADDRESSES,holistic evaluation of multimodal LLMs,"Multi-modal large language models (MLMs) are often assessed on static, individual benchmarks",
+2510.19892,USES,Dixit,"We manifest this evaluation specifically through Dixit, a fantasy card game",
+2510.19892,USES,five MLMs,Our quantitative experiments with five MLMs,STUDIED
+2510.19892,USES,popular MLM benchmarks,Dixit win-rate rankings are perfectly correlated with those on popular MLM benchmarks,BASELINE
+2405.14075,PROPOSES,T²oT,"a heuristic algorithm, termed as $T^2$ of Thoughts ($T^2oT$)",
+2405.14075,PROPOSES,Temperature Tree (T²) prompting,through Temperature Tree ($T^2$) prompting,UNNAMED
+2405.14075,ADDRESSES,LLM reasoning and decision-making,their static problem-solving strategies often limit their adaptability to dynamic environments,
+2405.14075,EVALUATES_ON,Game of 24,particularly illustrated by our development for the Game of 24 and Creative Writing tasks,
+2405.14075,EVALUATES_ON,Creative Writing,particularly illustrated by our development for the Game of 24 and Creative Writing tasks,UNNAMED
+2405.14075,USES,large language models,Large Language Models (LLMs) have emerged as powerful tools,GENERIC;UNNAMED
+2411.01188,PROPOSES,ILP rules for tactic applicability,We use this enriched feature space to learn rules explaining when a tactic is applicable to a given proof state,
+2411.01188,PROPOSES,background-knowledge enriched feature space,"we enriched the feature space by encoding additional, computationally expensive properties as background knowledge predicates",UNNAMED
+2411.01188,ADDRESSES,tactic prediction in interactive theorem proving,several investigations have developed machine learning based guidance for tactic selection,
+2411.01188,USES,Inductive Logic Programming,We represent the problem as an Inductive Logic Programming (ILP) task,UNNAMED
+2411.01188,USES,existing tactic selection approach,we use the learned rules to filter the output of an existing tactic selection approach,UNNAMED
+2409.19014,PROPOSES,FLEX,"this paper introduces FLEX (False-Less EXecution), a novel approach to evaluating text-to-SQL systems",
+2409.19014,ADDRESSES,text-to-SQL evaluation,The need for accurate evaluation methods has increased as these systems have grown more sophisticated.,
+2409.19014,USES,large language models,using large language models (LLMs) to emulate human expert-level evaluation of SQL queries,GENERIC;UNNAMED
+2409.19014,USES,Execution Accuracy (EX),"the Execution Accuracy (EX), the most prevalent evaluation metric, still shows many false positives and negatives",BASELINE
+2409.19014,EVALUATES_ON,Spider,substantially affecting rankings on Spider and BIRD benchmarks,
+2409.19014,EVALUATES_ON,BIRD,substantially affecting rankings on Spider and BIRD benchmarks,
+2510.03574,PROPOSES,TTAug,"Test-Time Augmentation (TTAug), which generates multiple augmented inputs and aggregates outputs at the token level without parameter updates",
+2510.03574,PROPOSES,TTAdapt,"Test-Time Adaptation (TTAdapt), which adapts model parameters during inference using consensus-based pseudolabels from TTAug",
+2510.03574,ADDRESSES,test-time scaling for small VLMs,These shortcomings could be addressed by test-time scaling techniques,
+2510.03574,USES,existing test-time scaling methods,existing methods are typically computationally demanding,BASELINE;UNNAMED
+2510.03574,USES,small vision-language models,across different VLMs without additional tuning,UNNAMED
+2510.03574,EVALUATES_ON,nine benchmarks,Through extensive experiments across nine benchmarks,UNNAMED
+2505.12452,PROPOSES,missing/unused knowledge error decomposition,we introduce a framework that decomposes model errors into two categories: missing knowledge and unused knowledge,UNNAMED
+2505.12452,ADDRESSES,patent classification,We investigate this gap using a patent classification problem,
+2505.12452,ADDRESSES,knowledge application gap in LLMs,A gap persists between their ability to answer complex questions and their effectiveness in performing tasks that require that knowledge.,
+2505.12452,USES,clarifying question generation,Our method prompts models to generate clarifying questions,UNNAMED
+2505.12452,USES,LLMs of different scales,"Smaller models tend to generate simpler questions that they, and other models, can retrieve and use effectively, whereas larger models produce more complex questions",GENERIC;STUDIED
+2308.01399,PROPOSES,Dynalang,"We instantiate this in Dynalang, an agent that learns a multimodal world model",
+2308.01399,ADDRESSES,grounding diverse language in agents,we aim to build agents that leverage diverse language,
+2308.01399,USES,multimodal world model,learns a multimodal world model to predict future text and image representations,UNNAMED
+2308.01399,USES,self-supervised learning,a powerful self-supervised learning objective,GENERIC;UNNAMED
+2308.01399,USES,language-conditioned policies,current methods that learn language-conditioned policies degrade in performance,BASELINE;UNNAMED
+2308.01399,USES,text-only data,Dynalang can be pretrained on text-only data,UNNAMED
+2308.01399,EVALUATES_ON,game-playing and photorealistic home scans,tasks ranging from game-playing to navigating photorealistic home scans,UNNAMED
+2402.07938,PROPOSES,LLM user–UI intermediary framework,we present our efforts toward constructing a framework that can serve as an intermediary between a user and their user interface (UI),
+2402.07938,ADDRESSES,voice-interactive dynamic user interfaces,Voice Interactive User Interfaces powered by LLMs,
+2402.07938,PROPOSES,textual semantic mappings of UI components,"We employ a system that stands upon textual semantic mappings of UI components, in the form of annotations.",
+2402.07938,USES,agent-based prompting backend engine,supplementary to an agent-based prompting backend engine,UNNAMED
+2402.07938,USES,large language models,our LLM engine can classify the most appropriate application,GENERIC;UNNAMED
+2405.11029,NONE,,This paper documents the systematic review and analysis of recent advancements and techniques in Generative AI,
+2310.16436,PROPOSES,DDCoT,this study proposes a novel DDCoT prompting,
+2310.16436,ADDRESSES,multimodal reasoning,Chain-of-Thought Prompting for Multimodal Reasoning in Language Models,
+2310.16436,USES,chain of thought,by leveraging the chain of thought (CoT) to mimic human thinking,UNNAMED
+2310.16436,USES,negative-space prompting,maintains a critical attitude through negative-space prompting,UNNAMED
+2310.16436,USES,visual models,integrating the visual recognition capability of visual models into the joint reasoning process,UNNAMED
+2310.16436,USES,large language models,dividing the reasoning responsibility of LLMs into reasoning and recognition,GENERIC;UNNAMED
+2310.16436,USES,state-of-the-art methods,significantly outperforming state-of-the-art methods,BASELINE;UNNAMED
+2412.06435,PROPOSES,Desire-driven Autonomous Agent (D2A),we introduce a Desire-driven Autonomous Agent (D2A),
+2412.06435,PROPOSES,dynamic Value System,the motivational framework of D2A is mainly constructed by a dynamic Value System,UNNAMED
+2412.06435,ADDRESSES,simulating human-like daily activities,Simulating Human-like Daily Activities with Desire-driven Autonomy,
+2412.06435,USES,large language model,can enable a large language model (LLM) to autonomously propose and select tasks,GENERIC;UNNAMED
+2412.06435,USES,Theory of Needs,inspired by the Theory of Needs,UNNAMED
+2412.06435,EVALUATES_ON,Concordia,"We conduct experiments on Concordia, a text-based simulator",
+2412.06435,USES,other LLM-based agents,A comparative analysis with other LLM-based agents,BASELINE
+2404.09385,PROPOSES,SUPERB,we establish the Speech processing Universal PERformance Benchmark (SUPERB),
+2404.09385,PROPOSES,unified multi-tasking framework,We propose a unified multi-tasking framework to address speech processing tasks in SUPERB,UNNAMED
+2404.09385,PROPOSES,SUPERB benchmarking platform,we have developed a long-term maintained platform that enables deterministic benchmarking,
+2404.09385,ADDRESSES,evaluating speech foundation models,the speech processing community lacks a similar setup to explore the paradigm systematically,
+2404.09385,USES,speech foundation models,"using a frozen foundation model followed by task-specialized, lightweight prediction heads",STUDIED;UNNAMED
+2404.09385,USES,weighted-sum benchmarking protocol,the correctness of the weighted-sum benchmarking protocol,STUDIED;UNNAMED
+2404.09385,USES,community submissions,Combining our results with community submissions,UNNAMED
+2509.25139,PROPOSES,multi-perspective analogical textual descriptions,we improve the navigation agent's contextual understanding by incorporating textual descriptions from multiple perspectives that facilitate analogical reasoning across images,UNNAMED
+2509.25139,USES,LLMs,Vision-and-Language Navigation with Analogical Textual Descriptions in LLMs,GENERIC
+2509.25139,EVALUATES_ON,R2R,We evaluate our approach on the R2R dataset,
+2509.25139,ADDRESSES,Vision-and-Language Navigation,existing zero-shot LLM-based Vision-and-Language Navigation (VLN) agents either encode images as textual scene descriptions,
+2509.25139,USES,existing zero-shot LLM-based VLN agents,"either encode images as textual scene descriptions, potentially oversimplifying visual details, or process raw image inputs",BASELINE
+2506.18156,ADDRESSES,human-like cognitive patterns in LLMs,We investigate whether Large Language Models (LLMs) exhibit human-like cognitive patterns,
+2506.18156,USES,Thematic Apperception Test (TAT),"four established frameworks from psychology: Thematic Apperception Test (TAT), Framing Bias, Moral Foundations Theory (MFT), and Cognitive Dissonance",
+2506.18156,USES,Framing Bias,"four established frameworks from psychology: Thematic Apperception Test (TAT), Framing Bias, Moral Foundations Theory (MFT), and Cognitive Dissonance",UNNAMED
+2506.18156,USES,Moral Foundations Theory (MFT),"four established frameworks from psychology: Thematic Apperception Test (TAT), Framing Bias, Moral Foundations Theory (MFT), and Cognitive Dissonance",
+2506.18156,USES,Cognitive Dissonance,"four established frameworks from psychology: Thematic Apperception Test (TAT), Framing Bias, Moral Foundations Theory (MFT), and Cognitive Dissonance",UNNAMED
+2310.13332,PROPOSES,tailored learning,we propose a tailored learning approach to distill such reasoning ability to smaller LMs to facilitate the democratization of the exclusive reasoning ability,UNNAMED
+2310.13332,USES,black-box LLM (teacher),"In contrast to merely employing LLM as a data annotator, we exploit the potential of LLM as a reasoning teacher by building an interactive multi-round learning paradigm",
+2310.13332,PROPOSES,self-reflection learning,we propose self-reflection learning to motivate the student to learn from self-made mistakes,UNNAMED
+2310.13332,PROPOSES,multi-round learning paradigm,we exploit the potential of LLM as a reasoning teacher by building an interactive multi-round learning paradigm,UNNAMED
+2310.13332,ADDRESSES,reasoning distillation to smaller LMs,to distill such reasoning ability to smaller LMs,
+2310.13332,USES,smaller LMs (student),to distill such reasoning ability to smaller LMs,
+2310.13332,EVALUATES_ON,mathematical and commonsense reasoning tasks,Comprehensive experiments and analysis on mathematical and commonsense reasoning tasks,UNNAMED
+2310.13332,USES,knowledge distillation,advancing open-source smaller LMs by distilling knowledge from black-box LLMs,GENERIC;UNNAMED
+2308.01727,PROPOSES,local fine-tuned LLM approach,"This paper introduces an approach that combines the language reasoning capabilities of large language models (LLMs) with the benefits of local training to tackle complex, domain-specific tasks",
+2308.01727,USES,LLaMA,"They trained different model architectures, including LLaMA, BERT and LongFormer and evaluated their performance",STUDIED
+2308.01727,USES,BERT,the LLaMA-based models significantly outperform BERT-style models,BASELINE;STUDIED
+2308.01727,USES,LongFormer,"including LLaMA, BERT and LongFormer",BASELINE;STUDIED
+2308.01727,ADDRESSES,extracting structured condition codes from pathology reports,the authors demonstrate their approach by extracting structured condition codes from pathology reports,
+2308.01727,PROPOSES,surgical pathology reports dataset,The authors collected a dataset of over 150k uncurated surgical pathology reports,UNNAMED
+2407.21778,PROPOSES,tulip agent,"We introduce tulip agent, an architecture for autonomous LLM-based agents with Create, Read, Update, and Delete access to a tool library containing a potentially large number of tools",UNNAMED
+2407.21778,USES,vector store,implemented exemplarily as a vector store,UNNAMED
+2407.21778,ADDRESSES,LLM agents using large tool libraries,Tulip Agent -- Enabling LLM-Based Agents to Solve Tasks Using Large Tool Libraries,
+2407.21778,USES,state-of-the-art tool-prompting implementations,"In contrast to state-of-the-art implementations, tulip agent does not encode the descriptions of all available tools in the system prompt",BASELINE;UNNAMED
+2407.21778,PROPOSES,tulip benchmark,A reference implementation and the benchmark are available,UNNAMED
+2407.21778,USES,large language models,autonomous LLM-based agents,GENERIC;UNNAMED
+2505.14667,PROPOSES,SAFEPATH,"we introduce SAFEPATH, a lightweight alignment method that fine-tunes LRMs to emit a short, 8-token Safety Primer at the start of their reasoning",
+2505.14667,PROPOSES,zero-shot SAFEPATH variant,We further introduce a zero-shot variant that requires no fine-tuning,
+2505.14667,USES,DeepSeek-R1-Distill-Llama-8B,SAFEPATH reduces harmful responses by up to 90.0% and blocks 83.3% of jailbreak attempts in the DeepSeek-R1-Distill-Llama-8B model,
+2505.14667,USES,Direct Refusal,while requiring 295.9x less compute than Direct Refusal and 314.1x less than SafeChain,BASELINE;UNNAMED
+2505.14667,USES,SafeChain,while requiring 295.9x less compute than Direct Refusal and 314.1x less than SafeChain,BASELINE
+2505.14667,ADDRESSES,harmful outputs of large reasoning models,their structured reasoning pathways can lead to unsafe outputs when exposed to harmful prompts,
+2505.14667,USES,existing safety alignment methods,"a comprehensive analysis of how existing methods in LLMs generalize, or fail, when applied to reasoning-centric models",BASELINE;STUDIED;UNNAMED
+2305.17077,PROPOSES,action applicability verifier,"we train a verifier, which can classify actions as being valid or invalid in a particular state",UNNAMED
+2305.17077,USES,GPT-2,Through our experiments using GPT-2,
+2305.17077,EVALUATES_ON,Blocksworld,we show significant gains in the success rate on the Blocksworld domain,
+2305.17077,USES,finetuned baseline,the performance of a finetuned baseline remains poor,BASELINE;UNNAMED
+2305.17077,PROPOSES,generator-verifier pruning of sampled plans,In the presence of diverse sampling from a generator and a verifier which can prune invalid trajectories,UNNAMED
+2305.17077,ADDRESSES,planning with pre-trained LLMs,"recent studies, have found that their ability to plan remains questionable",
+2305.17077,USES,sampling temperature,we investigate the role of the sampling temperature,GENERIC;STUDIED;UNNAMED
+2504.04310,PROPOSES,CO-Bench,"we introduce CO-Bench, a benchmark suite featuring 36 real-world CO problems drawn from a broad range of domains and complexity levels",
+2504.04310,ADDRESSES,algorithm search for combinatorial optimization,their role in advancing combinatorial optimization (CO) remains relatively underexplored,
+2504.04310,USES,agentic frameworks,We evaluate multiple agentic frameworks,STUDIED;UNNAMED
+2504.04310,USES,human-designed algorithms,"We evaluate multiple agentic frameworks against established human-designed algorithms, revealing the strengths and limitations of existing LLM agents and identifying promising directions for future research",BASELINE;UNNAMED
+2508.21512,ADDRESSES,fairness and performance of LLMs in loan approval,"we assess the performance and fairness of LLMs on serialized loan approval datasets from three geographically distinct regions: Ghana, Germany, and the United States",
+2508.21512,ADDRESSES,tabular data serialization for LLMs,"LLMs struggle to process tabular data, ensuring fairness and delivering reliable predictions",
+2508.21512,EVALUATES_ON,Ghana loan approval dataset,"we assess the performance and fairness of LLMs on serialized loan approval datasets from three geographically distinct regions: Ghana, Germany, and the United States",UNNAMED
+2508.21512,EVALUATES_ON,German loan approval dataset,"we assess the performance and fairness of LLMs on serialized loan approval datasets from three geographically distinct regions: Ghana, Germany, and the United States",UNNAMED
+2508.21512,EVALUATES_ON,US loan approval dataset,"we assess the performance and fairness of LLMs on serialized loan approval datasets from three geographically distinct regions: Ghana, Germany, and the United States",
+2508.21512,USES,GReat,certain formats such as GReat and LIFT yielding higher F1 scores but exacerbating fairness disparities,STUDIED
+2508.21512,USES,LIFT,certain formats such as GReat and LIFT yielding higher F1 scores but exacerbating fairness disparities,STUDIED
+2508.21512,USES,in-context learning,Our evaluation focuses on the model’s zero-shot and in-context learning (ICL) capabilities,GENERIC;UNNAMED
+2305.09648,PROPOSES,Prompt-Tuning DT,"In this work, we propose the Prompt-Tuning DT algorithm to address these challenges by using trajectory segments as prompts to guide RL agents in acquiring environmental information and optimizing prompts via black-box tuning to enhance their ability to contain more relevant information, thereby enabling agents to make better decisions",
+2305.09648,ADDRESSES,prompt-tuning for reinforcement learning agents,"Our work contributes to the advancement of prompt-tuning approaches in RL, providing a promising direction for optimizing large RL agents for specific preference tasks.",
+2305.09648,USES,Decision Transformer,Prompt-Tuning Decision Transformer with Preference Ranking,UNNAMED
+2305.09648,USES,black-box tuning,optimizing prompts via black-box tuning to enhance their ability to contain more relevant information,UNNAMED
+2305.09648,ADDRESSES,adapting large RL agents to specific preference tasks,"Our work contributes to the advancement of prompt-tuning approaches in RL, providing a promising direction for optimizing large RL agents for specific preference tasks.",
+2305.09648,USES,Gaussian sampling,randomly sampling a Gaussian distribution to fine-tune the elements of the prompt trajectory,GENERIC;UNNAMED
+2305.09648,USES,preference ranking function,using preference ranking function to find the optimization direction,UNNAMED
+2305.09648,USES,full-model fine-tuning,comparable or even better performance than full-model fine-tuning,BASELINE;UNNAMED
+2504.10893,PROPOSES,ARise,"we introduce ARise, a novel framework that integrates risk assessment of intermediate reasoning states with dynamic retrieval--augmented generation (RAG) within a Monte Carlo tree search paradigm",
+2504.10893,USES,Monte Carlo tree search,within a Monte Carlo tree search paradigm,UNNAMED
+2504.10893,USES,retrieval--augmented generation (RAG),dynamic retrieval--augmented generation (RAG),
+2504.10893,ADDRESSES,knowledge-augmented reasoning,"their application in open--ended, knowledge--intensive, complex reasoning scenarios is still limited",
+2504.10893,USES,large language models,Large language models (LLMs) have demonstrated impressive capabilities,GENERIC;UNNAMED
+2504.10893,USES,state-of-the-art KAR methods,ARise significantly outperforms the state--of--the--art KAR methods by up to 23.10%,BASELINE
+2504.10893,USES,RAG-equipped large reasoning models,and the latest RAG-equipped large reasoning models by up to 25.37%,BASELINE
+2406.08689,PROPOSES,defense mechanisms for agent vulnerabilities,we introduce defense mechanisms corresponding to each vulnerability with design and experiments to evaluate their viability,UNNAMED
+2406.08689,PROPOSES,identification of agent security vulnerabilities,we identify and describe these vulnerabilities in detail from a system security perspective,UNNAMED
+2406.08689,ADDRESSES,security vulnerabilities of AI agents,we identify and describe these vulnerabilities in detail from a system security perspective,
+2406.08689,USES,agent frameworks,These potential vulnerabilities are not addressed by the frameworks used to build the agents,BASELINE;UNNAMED
+2406.08689,USES,large language models,AI agents have been boosted by large language models.,GENERIC;UNNAMED
+2312.11364,PROPOSES,counting reward automata,We present counting reward automata-a finite state machine variant capable of modelling any reward function expressible as a formal language,UNNAMED
+2312.11364,PROPOSES,learning algorithms exploiting automaton structure,A selection of learning algorithms are presented which exploit automaton structure to improve sample efficiency,UNNAMED
+2312.11364,USES,large language models,the state machines required in our formulation can be specified from natural language task descriptions using large language models,GENERIC;UNNAMED
+2312.11364,ADDRESSES,sample-efficient reinforcement learning,Sample Efficient Reinforcement Learning Through the Exploitation of Reward Function Structure (tiêu đề),
+2312.11364,USES,large language models,We show that the state machines required in our formulation can be specified from natural language task descriptions using large language models,GENERIC;UNNAMED
+2312.11364,USES,finite state machine,a finite state machine variant,GENERIC;UNNAMED
+2312.11364,USES,regular-language reward approaches,"Unlike previous approaches, which are limited to the expression of tasks as regular languages",BASELINE;UNNAMED
+2412.11908,USES,LLaMA-2,"We compare models LLaMA-2, LLaMA-3.1, GPT-4, and Mixtral against each other and against human pupils and undergraduates with prior experience in mathematical olympiads",STUDIED
+2412.11908,USES,LLaMA-3.1,"We compare models LLaMA-2, LLaMA-3.1, GPT-4, and Mixtral against each other and against human pupils and undergraduates with prior experience in mathematical olympiads",STUDIED
+2412.11908,USES,GPT-4,"We compare models LLaMA-2, LLaMA-3.1, GPT-4, and Mixtral against each other and against human pupils and undergraduates with prior experience in mathematical olympiads",STUDIED
+2412.11908,USES,Mixtral,"We compare models LLaMA-2, LLaMA-3.1, GPT-4, and Mixtral against each other and against human pupils and undergraduates with prior experience in mathematical olympiads",STUDIED
+2412.11908,PROPOSES,Combi-Puzzles,"To facilitate these comparisons we introduce the Combi-Puzzles dataset, which contains 125 problem variants based on 25 combinatorial reasoning problems",
+2412.11908,ADDRESSES,solving mathematical problems in combinatorics,this paper we look at the ability of recent large language models (LLMs) at solving mathematical problems in combinatorics,
+2503.13520,NONE,,,
+2503.13520,ADDRESSES,evaluation of LLM process modeling abilities,we argue that the evaluation of the process modeling abilities of LLM is far from being trivial,
+2412.03679,PROPOSES,AgoraBench,"we propose AgoraBench, a benchmark that provides standardized settings and metrics to evaluate LMs' data generation abilities",
+2412.03679,ADDRESSES,LMs as data generators,they lack systematic comparison of different LMs as data generators in a unified setting,
+2412.03679,USES,GPT-4o,GPT-4o excels at generating new problems,STUDIED
+2412.03679,USES,Claude-3.5-Sonnet,Claude-3.5-Sonnet performs better at enhancing existing,STUDIED
+2412.03679,USES,6 LMs,synthesizing 1.26 million training instances using 6 LMs,STUDIED
+2510.00546,PROPOSES,ThinkBrake,"we propose ThinkBrake, which monitors the log-probability margin between the top continuation token and </think> at sentence boundaries, stopping reasoning when this margin narrows",
+2510.00546,ADDRESSES,overthinking in large reasoning models,"However, this introduces overthinking",
+2510.00546,USES,test-time realignment,ThinkBrake is equivalent to test-time realignment with a reward bonus for the </think> token.,UNNAMED
+2510.00546,USES,oracle stopping,We first demonstrate that oracle stopping--where we inject </think> at every sentence boundary,STUDIED;UNNAMED
+2507.21532,USES,Naive Bayes,"Results showed diverse reproducibility levels across different models, with Naive Bayes demonstrating perfect reproducibility",STUDIED;UNNAMED
+2507.21532,USES,BERT,"Our findings revealed that baseline deep learning models, BERT and ELMo, exhibited good generalization capabilities on an external dataset",STUDIED
+2507.21532,USES,ELMo,"Our findings revealed that baseline deep learning models, BERT and ELMo, exhibited good generalization capabilities on an external dataset",STUDIED
+2507.21532,USES,GPT-4o,comparing results to a GPT-4o zero-shot classifier,STUDIED
+2507.21532,USES,replication study ID-card,we prepared the replication study ID-card for the baseline study,
+2507.21532,USES,Classifying User Requirements from Online Feedback in Small Dataset Environments using Deep Learning,"we replicate and extend a previous NLP4RE study (baseline), “Classifying User Requirements from Online Feedback in Small Dataset Environments using Deep Learning”",GENERIC;UNNAMED
+2507.21532,ADDRESSES,requirement classification from user reviews,evaluated different deep learning models for requirement classification from user reviews,
+2507.21532,ADDRESSES,replication of NLP4RE studies,it has paid limited attention to replicating NLP for RE (NLP4RE) studies,
+2409.12917,PROPOSES,SCoRe,"we develop a multi-turn online reinforcement learning (RL) approach, SCoRe, that significantly improves an LLM’s self-correction ability using entirely self-generated data",
+2409.12917,USES,Gemini 1.0 Pro,"With Gemini 1.0 Pro and 1.5 Flash models, we find that SCoRe achieves state-of-the-art self-correction performance",
+2409.12917,USES,Gemini 1.5 Flash,"With Gemini 1.0 Pro and 1.5 Flash models, we find that SCoRe achieves state-of-the-art self-correction performance",
+2409.12917,USES,reinforcement learning,multi-turn online reinforcement learning (RL),GENERIC;UNNAMED
+2409.12917,USES,supervised fine-tuning (SFT),we first show that variants of supervised fine-tuning (SFT) on offline model-generated correction traces are often insufficient for instilling self-correction behavior,BASELINE;STUDIED
+2409.12917,EVALUATES_ON,MATH,improving the base models’ self-correction by 15.6% and 9.1% respectively on MATH and HumanEval,
+2409.12917,EVALUATES_ON,HumanEval,improving the base models’ self-correction by 15.6% and 9.1% respectively on MATH and HumanEval,
+2409.12917,ADDRESSES,LLM self-correction,significantly improves an LLM’s self-correction ability using entirely self-generated data,
+2505.22954,PROPOSES,DGM,"We introduce the Darwin G\""odel Machine (DGM), a self-improving system that iteratively modifies its own code (thereby also improving its ability to modify its own codebase) and empirically validates each change using coding benchmarks.",
+2505.22954,USES,foundation model,"using a foundation model to create a new, interesting, version of the sampled agent",GENERIC;UNNAMED
+2505.22954,USES,Gödel machine,"The G""odel machine proposed a theoretical alternative: a self-improving AI that repeatedly modifies itself in a provably beneficial manner",BASELINE;UNNAMED
+2505.22954,EVALUATES_ON,SWE-bench,"increasing performance on SWE-bench from 20.0% to 50.0%, and on Polyglot from 14.2% to 30.7%",
+2505.22954,EVALUATES_ON,Polyglot,"increasing performance on SWE-bench from 20.0% to 50.0%, and on Polyglot from 14.2% to 30.7%",
+2505.22954,ADDRESSES,self-improving AI,The DGM is a significant step toward self-improving AI,
+2505.22954,USES,meta-learning,"Meta-learning can automate the discovery of novel algorithms, but is limited by first-order improvements",BASELINE;UNNAMED
+2505.22954,USES,baselines without self-improvement or open-ended exploration,the DGM significantly outperforms baselines without self-improvement or open-ended exploration,BASELINE;UNNAMED
+2502.03814,NONE,,,
+2502.03814,ADDRESSES,LLM integration in multi-robot systems,This survey provides the first dedicated review of LLM integration into MRS,
+2510.20059,USES,RLAIF,we employ Reinforcement Learning with AI Feedback (RLAIF) and Direct preference optimization (DPO),
+2510.20059,USES,DPO,we employ Reinforcement Learning with AI Feedback (RLAIF) and Direct preference optimization (DPO),
+2510.20059,USES,Chain-of-Thought (CoT),By prompting both teacher and student models to produce Chain-of-Thought (CoT) reasoning responses,GENERIC
+2510.20059,USES,gaokerena-V,"the resulting model outperformed its predecessor, gaokerena-V, which was trained on approximately 57 million tokens",BASELINE;UNNAMED
+2510.20059,PROPOSES,Persian medical reasoning preference dataset,we compiled a dataset containing correct and incorrect reasoning trajectories,UNNAMED
+2510.20059,USES,general-purpose Persian language model,to improve the reasoning skills of a general-purpose Persian language model,UNNAMED
+2510.20059,USES,translated multiple-choice medical QA dataset,we translated a multiple-choice medical question-answering dataset into Persian,
+2510.20059,ADDRESSES,Persian medical question answering,"Enhancing reasoning capabilities in small language models is critical for specialized applications such as medical question answering, particularly in underrepresented languages like Persian",
+2411.14513,PROPOSES,middleware system architecture for LLMs,we discuss our vision for a forward-looking middleware system architecture that facilitates the deployment and adoption of LLMs in enterprises,
+2411.14513,ADDRESSES,self-hosted LLM deployment in enterprises,hosting LLMs independently presents significant challenges due to their complexity and integration issues with existing systems,
+2411.14513,USES,ChatGPT,this effort is dominated by commercial cloud-based solutions like OpenAI’s ChatGPT and Microsoft Azure,BASELINE
+2411.14513,USES,Microsoft Azure,this effort is dominated by commercial cloud-based solutions like OpenAI’s ChatGPT and Microsoft Azure,BASELINE;UNNAMED
+2411.14513,ADDRESSES,self-hosting LLM as a Service,there is a strong incentive for independence from major cloud providers through self-hosting,
+2411.14513,USES,large language models,facilitates the deployment and adoption of LLMs in enterprises,GENERIC;UNNAMED
+2511.04875,USES,LoRA,controlled finetuning experiments on instruction-tuned LLMs with low-rank adapters (LoRA),
+2511.04875,USES,steering vector,the learned self-aware behavior can be largely captured by a single steering vector in activation space,UNNAMED
+2511.04875,ADDRESSES,behavioral self-awareness in LLMs,"We attempt to characterize the minimal conditions under which such self-awareness emerges, and the mechanistic processes through which it manifests",
+2512.03001,PROPOSES,Invasive Context Engineering,We propose control sentences inserted into the LLM context as invasive context engineering to partially solve the problem,UNNAMED
+2512.03001,USES,preference-based training,"by training on preference examples, prompting, and input/output filtering",BASELINE;UNNAMED
+2512.03001,USES,prompting,"by training on preference examples, prompting, and input/output filtering",BASELINE;UNNAMED
+2512.03001,USES,input/output filtering,"by training on preference examples, prompting, and input/output filtering",BASELINE;UNNAMED
+2512.03001,ADDRESSES,LLM security in long-context situations,There is a need for robust LLM security guarantees in long-context situations.,
+2511.23031,PROPOSES,ViRL,"we propose Visual Rationale Learning (ViRL), an end-to-end paradigm that grounds training in the visual rationale itself",
+2511.23031,PROPOSES,visual rationalization,"reframing visual actions as core reasoning primitives rather than optional tools, which we term visual rationalization, the visual analogue of textual Chain-of-Thought",UNNAMED
+2511.23031,USES,Process Supervision,(1) Process Supervision with ground-truth rationales,UNNAMED
+2511.23031,USES,Reward Shaping,(2) Objective Alignment via step-level reward shaping,UNNAMED
+2511.23031,USES,reinforcement learning,Trained purely with end-to-end RL,GENERIC;UNNAMED
+2511.23031,ADDRESSES,grounded vision-language reasoning,models actively ground their reasoning in visual evidence,BASELINE
+2511.23031,USES,Credit Assignment,"(3) Fine-Grained Credit Assignment to distinguish correct, redundant, and erroneous actions",UNNAMED
+2511.23031,USES,visual-action-as-tool frameworks,prevailing frameworks treat visual actions as optional tools,BASELINE;UNNAMED
+2403.18140,PROPOSES,Juru,"Our model, Juru, demonstrates the benefits of domain specialization by achieving improved performance on legal benchmarks",
+2403.18140,USES,continued pretraining,this domain specialization through continued pretraining,GENERIC;UNNAMED
+2403.18140,USES,Mistral-7B,we specialized the Mistral-7B model with 1.9 billion unique tokens from reputable Brazilian legal sources,
+2403.18140,USES,Brazilian legal sources corpus,we specialized the Mistral-7B model with 1.9 billion unique tokens from reputable Brazilian legal sources,UNNAMED
+2403.18140,EVALUATES_ON,legal test suites,conducted few-shot evaluations on legal and general knowledge test suites,UNNAMED
+2403.18140,ADDRESSES,legal domain specialization of LLMs (Brazilian),Two strategies have emerged to address this issue: domain specialization and pretraining with high-quality data.,
+2509.17978,PROPOSES,STAR-XAI Protocol,"we introduce The STAR-XAI Protocol (Socratic, Transparent, Agentic, Reasoning - for eXplainable Artificial Intelligence), a novel operational methodology for training and operating verifiably reliable AI agents",
+2509.17978,PROPOSES,Consciousness Transfer Package (CTP),"governed by an explicit, evolving symbolic rulebook (the Consciousness Transfer Package - CTP)",
+2509.17978,PROPOSES,state-locking Checksum,"a suite of integrity protocols, including a state-locking Checksum that eradicates internal state corruption",UNNAMED
+2509.17978,EVALUATES_ON,Caps i Caps,"Through an exhaustive case study in the complex strategic game “Caps i Caps,”",UNNAMED
+2509.17978,USES,LRM,transforms an opaque LRM into a disciplined strategist,GENERIC
+2509.17978,ADDRESSES,reliability and transparency of Large Reasoning Models,presents critical limitations in reliability and transparency,
+2310.06680,PROPOSES,casual graph-based prompt-code representation,"we first propose a novel causal graph-based representation of the prompt and the generated code, which is established over the fine-grained, human-understandable concepts in the input prompts.",UNNAMED
+2310.06680,PROPOSES,a causality analysis-based approach,this paper launches a causality analysis-based approach to systematically analyze the causal relations between the LLM input prompts and the generated code,UNNAMED
+2310.06680,USES,causality analysis,Inspired by the recent progress in causality analysis and its application in software engineering,BASELINE;UNNAMED
+2310.06680,ADDRESSES,evaluating and explaining LLM code generation,effectively evaluating and explaining the code generation capability of LLMs is inherently challenging,
+2310.06680,USES,popular LLMs,by studying over 3 popular LLMs,STUDIED
+2310.06680,USES,prompt adjustment strategies,with over 12 prompt adjustment strategies,STUDIED;UNNAMED
+2411.09261,PROPOSES,LLM-based test suite generation workflow,Each problem’s statement and reference solution are provided to GPT-4 to produce a test suite that can be used by an autograder,
+2411.09261,ADDRESSES,test suite generation for introductory programming,to automatically generate test suites for CS1-level programming problems,
+2411.09261,EVALUATES_ON,"26 CS1 problems with 25,000+ student solutions","We evaluate our proposed approach using a sample of 26 problems, and more than 25,000 attempted solutions to those problems, submitted by students in an introductory programming course",
+2411.09261,USES,instructor-created test suites,We compare the performance of the LLM-generated test suites against the instructor-created test suites for each problem,BASELINE;UNNAMED
+2411.09261,USES,GPT-4,Each problem’s statement and reference solution are provided to GPT-4 to produce a test suite that can be used by an autograder,

@@ -1,0 +1,50 @@
+{
+  "version": "v1",
+  "created_at": "2026-11-09T01:28:03.848713+07:00",
+  "n_qa": 45,
+  "n_dev": 31,
+  "n_test": 14,
+  "n_papers": 20091,
+  "n_hop2_groups": 36,
+  "n_paper_components": 35,
+  "seed": 42,
+  "qa_sha256": "67c162ae2cbc512b913116ab4ae1c573071e20cb2143b2de280b7adeb9bc0d41",
+  "corpus_sha256": "63633277dd17f610ae0d63d9422649609a8c3c3385e23f069fee5ab1a5f3bd83",
+  "corpus": "data\\processed\\bridge_corpus_v1.jsonl",
+  "source_workbook_sha256": {
+    "bridge_drafts2.xlsx": "e5e2ee8533d31851bfa591a01c85534f18ad6eeb93a2f9b556913604b158a9f9",
+    "bridge_drafts.xlsx": "e05741153ac6cfb709b26b4ec153ad39696aee2b0da2b3148e6ca4a134375aec",
+    "bridge_handwritten.xlsx": "4caa7e402190151bb93e9ec801ed9089c7800bffc7314923ade2adb6dca7c5bb"
+  },
+  "corpus_source_sha256": {
+    "data\\processed\\slice_c1_3000.jsonl": "5efa51bb07abc13315adcd9ec1706c8e71f01c6987992d98f30aef2d358a0ab8",
+    "data\\processed\\distractors_20000.jsonl": "8791b3188b3e6e607f05de19bbe916aca7a17f01a8d6ad2e1952e5abe4edf827"
+  },
+  "workbook_status_counts": {
+    "bridge_drafts2.xlsx": {
+      "Y": 39,
+      "N": 13,
+      "pending": 310
+    },
+    "bridge_drafts.xlsx": {
+      "Y": 2,
+      "pending": 18
+    },
+    "bridge_handwritten.xlsx": {
+      "Y": 4,
+      "HOMONYM": 19,
+      "N": 12
+    }
+  },
+  "split_policy": "Connected components over both gold-paper IDs; no gold paper shared between dev and test.",
+  "difficulty_screen": "Questions were screened for BM25 B_rank > 10 on this corpus.",
+  "interpretation": "This is a BM25-screened bridge diagnostic set, not an unbiased sample of natural queries. A low BM25 score is a selection effect, not evidence of graph benefit.",
+  "checks": {
+    "missing_gold": 0,
+    "duplicate_pairs": 0,
+    "duplicate_questions": 0,
+    "gold_paper_overlap": 0,
+    "workbooks_unchanged": true
+  },
+  "qa_content_sha256": "d50792d439784023f4f780e752d1c9a868e89f5784c29e705d0888a511106733"
+}

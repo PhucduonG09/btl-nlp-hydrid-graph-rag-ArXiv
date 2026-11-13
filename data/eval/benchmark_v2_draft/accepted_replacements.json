@@ -1,0 +1,113 @@
+[
+  {
+    "id": "s2006",
+    "superseded_fingerprint": "0f56f8f2f6b4cb5dfda6bb5130c17c99497b56425bd76f1f4a888f1420706194",
+    "replacement": {
+      "target_id": "s2006",
+      "paper_id": "2412.07675",
+      "question": "How does RAZOR define the shortcut space used for text rewriting, and does it require prior knowledge of dataset biases?",
+      "reference_answer": "RAZOR uses token statistics and positional information to define the shortcut space, then uses LLMs to iteratively rewrite potentially biased segments with heuristically selected alternatives. It does not require prior bias information.",
+      "evidence": [
+        "iteratively rewrite potentially biased text segments by replacing them with heuristically selected alternatives in a shortcut space defined by token statistics and positional information",
+        "without requiring prior bias information"
+      ],
+      "title": "RAZOR: Sharpening Knowledge by Cutting Bias with Unsupervised Text Rewriting",
+      "abstract": "Despite the widespread use of LLMs due to their superior performance in various tasks, their high computational costs often lead potential users to opt for the pretraining-finetuning pipeline. However, biases prevalent in manually constructed datasets can introduce spurious correlations between tokens and labels, creating so-called shortcuts and hindering the generalizability of fine-tuned models. Existing debiasing methods often rely on prior knowledge of specific dataset biases, which is challenging to acquire a priori. We propose RAZOR (Rewriting And Zero-bias Optimization Refinement), a novel, unsupervised, and data-focused debiasing approach based on text rewriting for shortcut mitigation. RAZOR leverages LLMs to iteratively rewrite potentially biased text segments by replacing them with heuristically selected alternatives in a shortcut space defined by token statistics and positional information. This process aims to align surface-level text features more closely with diverse label distributions, thereby promoting the learning of genuine linguistic patterns. Compared with unsupervised SoTA models, RAZOR improves by 3.5% on the FEVER and 6.5% on MNLI and SNLI datasets according to the F1 score. Additionally, RAZOR effectively mitigates specific known biases, reducing bias-related terms by x2 without requiring prior bias information, a result that is on par with SoTA models that leverage prior information. Our work prioritizes data manipulation over architectural modifications, emphasizing the pivotal role of data quality in enhancing model performance and fairness. This research contributes to developing more robust evaluation benchmarks for debiasing methods by incorporating metrics for bias reduction and overall model efficacy.",
+      "evidence_spans": [
+        {
+          "text": "iteratively rewrite potentially biased text segments by replacing them with heuristically selected alternatives in a shortcut space defined by token statistics and positional information",
+          "start": 806,
+          "end": 992
+        },
+        {
+          "text": "without requiring prior bias information",
+          "start": 1396,
+          "end": 1436
+        }
+      ]
+    },
+    "approval": {
+      "reviewer": "Hill",
+      "channel": "chat",
+      "instruction": "thay cả 3",
+      "scope": "Accept these three prepared replacements only; not independent approval of all QA.",
+      "recorded_at": "2026-11-09T05:24:07.504801+07:00"
+    }
+  },
+  {
+    "id": "s2019",
+    "superseded_fingerprint": "8aeda73a43e78c246391a9d5acbb4d34719ac1bafff68b565bad8319866a15d1",
+    "replacement": {
+      "target_id": "s2019",
+      "paper_id": "2509.26314",
+      "question": "How does LTO obtain a reward signal directly from Huginn-3.5B latent thoughts, and what process does that signal optimize?",
+      "reference_answer": "A latent classifier predicts answer correctness directly from latent thoughts. LTO uses that classifier as a Latent Reward Model in a probabilistic algorithm to optimize the latent thinking process.",
+      "evidence": [
+        "a latent classifier can reliably predict answer correctness directly from latent thoughts",
+        "Latent Thinking Optimization (LTO), a probabilistic algorithm that employs the latent classifier as a Latent Reward Model (LRM) to optimize the latent thinking processes"
+      ],
+      "title": "Latent Thinking Optimization: Your Latent Reasoning Language Model Secretly Encodes Reward Signals in Its Latent Thoughts",
+      "abstract": "Large Language Models (LLMs) excel at problem solving by generating chain of thoughts in natural language, but such verbal thinking is computationally costly and prone to overthinking. A recent work instead proposes a latent thinking architecture, Huginn-3.5B, which represents intermediate reasoning steps as a sequence of latent representations. However, latent thoughts lack interpretability and are difficult to supervise, raising concerns about the correctness and reliability of the model's latent thinking processes. In this paper, we provide a systematic study of how Huginn-3.5B thinks in the latent space and how external supervision signals can improve its latent thinking processes. We show that latent thoughts leading to correct versus incorrect answers exhibit highly distinguishable patterns, and that a latent classifier can reliably predict answer correctness directly from latent thoughts. Leveraging these insights, we propose Latent Thinking Optimization (LTO), a probabilistic algorithm that employs the latent classifier as a Latent Reward Model (LRM) to optimize the latent thinking processes. Extensive experiments across diverse reasoning tasks demonstrate that LRM is highly effective in detecting incorrect latent thinking patterns, and LTO can significantly improve the latent thinking processes. Furthermore, we show that LRM can generalize across diverse domains, and LTO can be seamlessly applied to general LLMs to improve their thinking processes. In contrast to verbal thinking, our method demonstrates that reward modeling and scaling test-time thinking with supervision can be performed directly in the latent space, highlighting its potential as a general, efficient, and domain-agnostic approach to improving the thinking processes of LLMs.",
+      "evidence_spans": [
+        {
+          "text": "a latent classifier can reliably predict answer correctness directly from latent thoughts",
+          "start": 941,
+          "end": 1030
+        },
+        {
+          "text": "Latent Thinking Optimization (LTO), a probabilistic algorithm that employs the latent classifier as a Latent Reward Model (LRM) to optimize the latent thinking processes",
+          "start": 1070,
+          "end": 1239
+        }
+      ]
+    },
+    "approval": {
+      "reviewer": "Hill",
+      "channel": "chat",
+      "instruction": "thay cả 3",
+      "scope": "Accept these three prepared replacements only; not independent approval of all QA.",
+      "recorded_at": "2026-11-09T05:24:07.504801+07:00"
+    }
+  },
+  {
+    "id": "q056",
+    "superseded_fingerprint": "79db75c610e7d5f8af0706a191c5532ba881b538663ed69a5c052b01d68b1636",
+    "replacement": {
+      "target_id": "q056",
+      "paper_id": "2402.10805",
+      "question": "In Generative Cross-Modal Retrieval that memorizes images inside an MLLM, how are target images represented and how do the two training stages differ?",
+      "reference_answer": "Images are represented by unique identifier strings. The first stage teaches the multimodal model image-identifier associations; the second teaches it to generate the target image identifier from a text query.",
+      "evidence": [
+        "assigns unique identifier strings to represent images and involves two training steps: learning to memorize and learning to retrieve",
+        "The first step focuses on training the MLLM to memorize the association between images and their respective identifiers",
+        "The latter step teaches the MLLM to generate the corresponding identifier of the target image, given the textual query input"
+      ],
+      "title": "Generative Cross-Modal Retrieval: Memorizing Images in Multimodal Language Models for Retrieval and Beyond",
+      "abstract": "The recent advancements in generative language models have demonstrated their ability to memorize knowledge from documents and recall knowledge to respond to user queries effectively. Building upon this capability, we propose to enable multimodal large language models (MLLMs) to memorize and recall images within their parameters. Given a user query for visual content, the MLLM is anticipated to \"recall\" the relevant image from its parameters as the response. Achieving this target presents notable challenges, including inbuilt visual memory and visual recall schemes within MLLMs. To address these challenges, we introduce a generative cross-modal retrieval framework, which assigns unique identifier strings to represent images and involves two training steps: learning to memorize and learning to retrieve. The first step focuses on training the MLLM to memorize the association between images and their respective identifiers. The latter step teaches the MLLM to generate the corresponding identifier of the target image, given the textual query input. By memorizing images in MLLMs, we introduce a new paradigm to cross-modal retrieval, distinct from previous discriminative approaches. The experiments demonstrate that the generative paradigm performs effectively and efficiently even with large-scale image candidate sets.",
+      "evidence_spans": [
+        {
+          "text": "assigns unique identifier strings to represent images and involves two training steps: learning to memorize and learning to retrieve",
+          "start": 788,
+          "end": 920
+        },
+        {
+          "text": "The first step focuses on training the MLLM to memorize the association between images and their respective identifiers",
+          "start": 922,
+          "end": 1041
+        },
+        {
+          "text": "The latter step teaches the MLLM to generate the corresponding identifier of the target image, given the textual query input",
+          "start": 1043,
+          "end": 1167
+        }
+      ]
+    },
+    "approval": {
+      "reviewer": "Hill",
+      "channel": "chat",
+      "instruction": "thay cả 3",
+      "scope": "Accept these three prepared replacements only; not independent approval of all QA.",
+      "recorded_at": "2026-11-09T05:24:07.504801+07:00"
+    }
+  }
+]

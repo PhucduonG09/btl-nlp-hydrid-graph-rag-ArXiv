@@ -1,0 +1,32 @@
+{
+  "model": {
+    "repo_id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+    "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+    "weight_sha256": "821d1aa69520101d6e0737f78a042ae25b19e5cb9160701909d10434f4aeb0ae",
+    "local_path": "D:\\Study\\NLP\\BTL\\btl-nlp-hydrid-graph-rag-ArXiv\\data\\cache\\huggingface\\models--cross-encoder--ms-marco-MiniLM-L6-v2\\snapshots\\233902d25c440f23af6f7d6e94d2946bac0bee0a",
+    "model_card": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2"
+  },
+  "depth": 50,
+  "max_length": 512,
+  "batch_size": 16,
+  "device": "cpu",
+  "rrf_mix_weights": [
+    0.25,
+    0.5,
+    1,
+    2
+  ],
+  "rrf_k": 60,
+  "qa_dev_sha256": "25acf5fabdec77610659e60c7760af0d3074feba02a854df72c92dd33621b2b5",
+  "source_retrieval_sha256": "175075ee3b8ba2d3978dde443b2dfacf005fdd367a7fc91d009536b947170b40",
+  "source_config_sha256": "1a11e0109362e912d4e375b722e1426d81e78f32a3c21deb1d2d082d0aaad698",
+  "code_sha256": {
+    "scripts/run_rerank_dev.py": "0e723885a3534f1cfda9b39e1d50e9d7e2d746966f92b229a5dea053647c8812",
+    "src/retrieval/rerank.py": "b5922b1dde8b27057f658bd301580fa73778fa2b7cea1aa1b1a3dcb027124431",
+    "src/retrieval/graph.py": "1c80dfd60fbc5523cc1f588a63420c59d2cc4e484678c9752016d000b871acc2"
+  },
+  "model_weight_sha256": "821d1aa69520101d6e0737f78a042ae25b19e5cb9160701909d10434f4aeb0ae",
+  "test_access": "None. DEV only.",
+  "selection": "Balanced single/bridge All@10, then balanced MRR@10. Include no-rerank baseline as an option.",
+  "scoring": "Original question paired with title+abstract. Score each query/document once across the union of two top-50 pools. No gold/bridge entity in scoring input."
+}

@@ -1,0 +1,387 @@
+﻿A_id,A_title,B_id,B_title,bridge_term,df,B_introduces
+2410.10660,Transforming Game Play: A Comparative Study of DCQN and DTQN Architectures in Reinforcement Learning,2410.24023,RAM: Replace Attention with MLP for Efficient Multivariate Time Series Forecasting,RAM,11,1
+2412.12230,The impact of AI on engineering design procedures for dynamical systems,2405.16057,SPP: Sparsity-Preserved Parameter-Efficient Fine-Tuning for Large Language Models,SPP,4,1
+2504.00046,Multi-Stakeholder Disaster Insights from Social Media Using Large Language Models,2412.08521,EMS: Adaptive Evict-then-Merge Strategy for Head-wise KV Cache Compression Based on Global-Local Importance,EMS,5,1
+2504.16271,The Language of Attachment: Modeling Attachment Dynamics in Psychotherapy,2308.10917,PACS: Prediction and analysis of cancer subtypes from multi-omics data based on a multi-head attention mechanism model,PACS,6,1
+2409.16647,Domain-Independent Automatic Generation of Descriptive Texts for Time-Series Data,2505.17098,TACO: Enhancing Multimodal In-context Learning via Task Mapping-Guided Sequence Configuration,TACO,3,1
+2311.18592,Semantic-Aware Frame-Event Fusion based Pattern Recognition via Large Vision-Language Models,2411.02175,SAFE: Slow and Fast Parameter-Efficient Tuning for Continual Learning with Pre-Trained Models,SAFE,4,1
+2411.08562,Neural Corrective Machine Unranking,2506.13755,MARCO: Hardware-Aware Neural Architecture Search for Edge Devices with Multi-Agent Reinforcement Learning and Conformal Prediction Filtering,MARCO,8,1
+2505.16241,"Three Minds, One Legend: Jailbreak Large Reasoning Model with Adaptive Stacked Ciphers",2501.08421,SEAL: Speaker Error Correction using Acoustic-conditioned Large Language Models,SEAL,6,1
+2511.13922,Self-Supervised Compression and Artifact Correction for Streaming Underwater Imaging Sonar,2508.15813,SCOPE: A Generative Approach for LLM Prompt Compression,SCOPE,5,1
+2311.08636,Supervised low-rank semi-nonnegative matrix factorization with frequency regularization for forecasting spatio-temporal data,2305.14934,GRACE: Discriminator-Guided Chain-of-Thought Reasoning,GRACE,4,1
+2411.03656,Requirements Engineering for Older Adult Digital Health Software: A Systematic Literature Review,2512.01370,PRISMA: Improving the Accuracy-Latency Frontier of Diffusion-based PDE Solvers Using Physics-Informed Spectral Attention,PRISMA,11,1
+2503.21854,Foveated Instance Segmentation,2310.09049,SAI: Solving AI Tasks with Systematic Artificial Intelligence in Communication Network,SAI,4,1
+2304.04399,CAVL: Learning Contrastive and Adaptive Representations of Vision and Language,2406.06462,VCR: A Task for Pixel-Level Complex Reasoning in Vision Language Models via Restoring Occluded Text,VCR,5,1
+2510.01458,How Well Can Preference Optimization Generalize Under Noisy Feedback?,2502.16182,IPO: Your Language Model is Secretly a Preference Classifier,IPO,5,1
+2501.06892,Language Fusion for Parameter-Efficient Cross-lingual Transfer,2409.11699,FLARE: Fusing Language Models and Collaborative Architectures for Recommender Enhancement,FLARE,8,1
+2409.13790,Revisiting Synthetic Human Trajectories: Imitative Generation and Benchmarks Beyond Datasaurus,2410.09542,MIRAGE: Evaluating and Explaining Inductive Reasoning Process in Language Models,MIRAGE,2,1
+2507.19867,DRIVE: Disfluency-Rich Synthetic Dialog Data Generation Framework for Intelligent Vehicle Environments,2304.09938,LARD -- Landing Approach Runway Detection -- Dataset for Vision Based Landing,LARD,3,1
+2306.00739,SQL-PaLM: Improved Large Language Model Adaptation for Text-to-SQL (extended),2404.12494,BIRD: A Trustworthy Bayesian Inference Framework for Large Language Models,BIRD,6,1
+2304.13705,Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware,2509.03661,ACT: Automated Constraint Targeting for Multi-Objective Recommender Systems,ACT,8,1
+2304.14660,Segment Anything Model for Medical Images?,2507.23554,DICE: Dynamic In-Context Example Selection in LLM Agents via Efficient Knowledge Transfer,DICE,7,1
+2403.10805,Speech-driven Personalized Gesture Synthetics: Harnessing Automatic Fuzzy Feature Inference,2510.27623,BEAT: Visual Backdoor Attacks on VLM-based Embodied Agents via Contrastive Trigger Learning,BEAT,2,1
+2406.10615,Leveraging Locality to Boost Sample Efficiency in Robotic Manipulation,2310.17596,MimicGen: A Data Generation System for Scalable Robot Learning using Human Demonstrations,MimicGen,2,1
+2508.16153,Memento: Fine-tuning LLM Agents without Fine-tuning LLMs,2311.12983,GAIA: a benchmark for General AI Assistants,GAIA,10,1
+2510.23601,Alita-G: Self-Evolving Generative Agent for Agent Generation,2311.09620,GAIA: Delving into Gradient-based Attribution Abnormality for Out-of-distribution Detection,GAIA,10,1
+2410.21014,Informed Deep Abstaining Classifier: Investigating noise-robust training for diagnostic decision support systems,2507.11942,DAC: A Dynamic Attention-aware Approach for Task-Agnostic Prompt Compression,DAC,6,1
+2509.23362,Dual-Space Smoothness for Robust and Balanced LLM Unlearning,2404.15549,PRISM: Patient Records Interpretation for Semantic Clinical Trial Matching using Large Language Models,PRISM,11,1
+2410.19406,An Auditing Test To Detect Behavioral Shift in Language Models,2506.12541,BSA: Ball Sparse Attention for Large-scale Geometries,BSA,2,1
+2507.19035,Dual Path Learning -- learning from noise and context for medical image denoising,2505.08283,DPL: Decoupled Prototype Learning for Enhancing Robustness of Vision-Language Transformers to Missing Modalities,DPL,3,1
+2310.19253,Flow-based Distributionally Robust Optimization,2505.23565,DRO: A Python Library for Distributionally Robust Optimization in Machine Learning,DRO,15,1
+2509.25771,Free Lunch Alignment of Text-to-Image Diffusion Models without Preference Image Pairs,2410.12854,TPO: Aligning Large Language Models with Multi-branch & Multi-step Preference Trees,TPO,2,1
+2507.10955,Diffusion Decoding for Peptide De Novo Sequencing,2302.10025,DINOISER: Diffused Conditional Sequence Learning by Manipulating Noises,DINOISER,2,1
+2501.05554,LLMQuoter: Enhancing RAG Capabilities Through Efficient Quote Extraction From Large Contexts,2403.10131,RAFT: Adapting Language Model to Domain Specific RAG,RAFT,6,1
+2510.21828,Structured and Abstractive Reasoning on Multi-modal Relational Knowledge Images,2510.26148,"STAR: A Privacy-Preserving, Energy-Efficient Edge AI Framework for Human Activity Recognition via Wi-Fi CSI in Mobile and Pervasive Computing Environments",STAR,12,1
+2403.01255,Automatic Speech Recognition using Advanced Deep Learning Approaches: A survey,2312.07856,DTL: Disentangled Transfer Learning for Visual Recognition,DTL,4,1
+2504.08490,Adopting Large Language Models to Automated System Integration,2312.03044,REST: Enhancing Group Robustness in DNNs through Reweighted Sparse Training,REST,8,1
+2506.17792,Accelerating Policy Synthesis in Large-Scale MDPs via Hierarchical Adaptive Refinement,2503.04740,PRISM: Perspective Reasoning for Integrated Synthesis and Mediation as a Multi-Perspective Framework for AI Alignment,PRISM,11,1
+2308.05862,Unleashing the Strengths of Unlabeled Data in Pan-cancer Abdominal Organ Quantification: the FLARE22 Challenge,2409.11699,FLARE: Fusing Language Models and Collaborative Architectures for Recommender Enhancement,FLARE,8,1
+2508.17536,Debate or Vote: Which Yields Better Decisions in Multi-Agent Large Language Models?,2309.02875,MAD: Modality Agnostic Distance Measure for Image Registration,MAD,10,1
+2510.01439,"Edge Artificial Intelligence: A Systematic Review of Evolution, Taxonomic Frameworks, and Future Horizons",2512.01370,PRISMA: Improving the Accuracy-Latency Frontier of Diffusion-based PDE Solvers Using Physics-Informed Spectral Attention,PRISMA,11,1
+2511.11315,LAET: A Layer-wise Adaptive Ensemble Tuning Framework for Pretrained Language Models,2508.12594,FLARE: Fast Low-rank Attention Routing Engine,FLARE,8,1
+2502.03628,The Hidden Life of Tokens: Reducing Hallucination of Large Vision-Language Models via Visual Information Steering,2504.02498,VISTA: Unsupervised 2D Temporal Dependency Representations for Time Series Anomaly Detection,VISTA,4,1
+2412.12961,Adaptations of AI models for querying the LandMatrix database in natural language,2507.10541,REST: Stress Testing Large Reasoning Models by Asking Multiple Problems at Once,REST,8,1
+2406.14027,How to design a dataset compliant with an ML-based system ODD?,2304.09938,LARD -- Landing Approach Runway Detection -- Dataset for Vision Based Landing,LARD,3,1
+2507.08333,Token-Based Audio Inpainting via Discrete Diffusion,2509.25278,MAESTRO : Adaptive Sparse Attention and Robust Learning for Multimodal Dynamic Time Series,MAESTRO,4,1
+2510.24707,MetricX-25 and GemSpanEval: Google Translate Submissions to the WMT25 Evaluation Shared Task,2511.02505,ESA: Energy-Based Shot Assembly Optimization for Automatic Video Editing,ESA,4,1
+2502.01697,BARE: Leveraging Base Language Models for Few-Shot Synthetic Data Generation,2304.06767,RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment,RAFT,6,1
+2504.17102,Neural Contraction Metrics with Formal Guarantees for Discrete-Time Nonlinear Dynamical Systems,2310.09401,CROWN: A Novel Approach to Comprehending Users' Preferences for Accurate Personalized News Recommendation,CROWN,2,1
+2509.10508,CAR-BRAINet: Sub-6GHz Aided Spatial Adaptive Beam Prediction with Multi Head Attention for Heterogeneous Vehicular Networks,2507.21159,MAC: Masked Agent Collaboration Boosts Large Language Model Medical Decision-Making,MAC,12,1
+2312.13795,Sparse Training for Federated Learning with Regularized Error Correction,2508.12594,FLARE: Fast Low-rank Attention Routing Engine,FLARE,8,1
+2505.03764,"Ultra-Low-Power Spiking Neurons in 7 nm FinFET Technology: A Comparative Analysis of Leaky Integrate-and-Fire, Morris-Lecar, and Axon-Hillock Architectures",2504.09697,"SPICE: A Synergistic, Precise, Iterative, and Customizable Image Editing Workflow",SPICE,6,1
+2403.02799,DPPA: Pruning Method for Large Language Model to Model Merging,2412.11060,DPA: A one-stop metric to measure bias amplification in classification datasets,DPA,4,1
+2502.07143,Ask Patients with Patience: Enabling LLMs for Human-Centric Medical Dialogue with Grounded Reasoning,2511.05442,APP: Accelerated Path Patching with Task-Specific Pruning,APP,3,1
+2506.23596,When Will It Fail?: Anomaly to Prompt for Forecasting Future Anomalies in Time Series,2511.05442,APP: Accelerated Path Patching with Task-Specific Pruning,APP,3,1
+2505.23042,From Theory to Application: Fine-Tuning Large EEG Model with Real-World Stress Data,2509.25211,LEMs: A Primer On Large Execution Models,LEMs,2,1
+2506.12165,TCN-DPD: Parameter-Efficient Temporal Convolutional Networks for Wideband Digital Predistortion,2401.08318,OpenDPD: An Open-Source End-to-End Learning & Benchmarking Framework for Wideband Power Amplifier Modeling and Digital Pre-Distortion,OpenDPD,3,1
+2505.16190,Enhancing Federated Survival Analysis through Peer-Driven Client Reputation in Healthcare,2410.11315,SEER: Self-Aligned Evidence Extraction for Retrieval-Augmented Generation,SEER,5,1
+2510.10003,MTP-S2UT: Enhancing Speech-to-Speech Translation Quality with Multi-token Prediction,2511.10218,MTP: Exploring Multimodal Urban Traffic Profiling with Modality Augmentation and Spectrum Fusion,MTP,3,1
+2411.00870,K-Means Clustering With Incomplete Data with the Use of Mahalanobis Distances,2502.03297,IRIS: An Immersive Robot Interaction System,IRIS,4,1
+2302.01520,Multiple Thinking Achieving Meta-Ability Decoupling for Object Navigation,2309.02875,MAD: Modality Agnostic Distance Measure for Image Registration,MAD,10,1
+2504.11544,NodeRAG: Structuring Graph-based RAG with Heterogeneous Nodes,2410.05779,LightRAG: Simple and Fast Retrieval-Augmented Generation,LightRAG,2,1
+2406.06560,Inverse Constitutional AI: Compressing Preferences into Principles,2503.04740,PRISM: Perspective Reasoning for Integrated Synthesis and Mediation as a Multi-Perspective Framework for AI Alignment,PRISM,11,1
+2506.19998,Doc2Agent: Scalable Generation of Tool-Using Agents from API Documentation,2507.10541,REST: Stress Testing Large Reasoning Models by Asking Multiple Problems at Once,REST,8,1
+2406.12017,Sparsity-Constraint Optimization via Splicing Iteration,2508.15813,SCOPE: A Generative Approach for LLM Prompt Compression,SCOPE,5,1
+2311.01349,Post-hoc Orthogonalization for Mitigation of Protected Feature Bias in CXR Embeddings,2505.00827,MIMIC-\RNum{4}-Ext-22MCTS: A 22 Millions-Event Temporal Clinical Time-Series Dataset with Relative Timestamp for Risk Prediction,MIMIC,9,1
+2411.06655,Explore the Reasoning Capability of LLMs in the Chess Testbed,2407.09541,MATE: Meet At The Embedding -- Connecting Images with Long Texts,MATE,2,1
+2407.15396,Semantic Diversity-aware Prototype-based Learning for Unbiased Scene Graph Generation,2505.08283,DPL: Decoupled Prototype Learning for Enhancing Robustness of Vision-Language Transformers to Missing Modalities,DPL,3,1
+2509.15350,"Real, Fake, or Manipulated? Detecting Machine-Influenced Text",2412.02372,HERO: Hint-Based Efficient and Reliable Query Optimizer,HERO,2,1
+2512.05732,Efficient Text Classification with Conformal In-Context Learning,2403.11904,CICLe: Conformal In-Context Learning for Largescale Multi-Class Food Risk Classification,CICLe,2,1
+2510.10150,Rethinking Entropy Interventions in RLVR: An Entropy Change Perspective,2402.09552,STEER: Assessing the Economic Rationality of Large Language Models,STEER,5,1
+2308.02190,Emo-DNA: Emotion Decoupling and Alignment Learning for Cross-Corpus Speech Emotion Recognition,2508.09724,UDA: Unsupervised Debiasing Alignment for Pair-wise LLM-as-a-Judge,UDA,15,1
+2406.09760,Bootstrapping Language Models with DPO Implicit Rewards,2410.08207,DICE: Discrete Inversion Enabling Controllable Editing for Multinomial Diffusion and Masked Generative Models,DICE,7,1
+2402.17061,A Multi-Fidelity Methodology for Reduced Order Models with High-Dimensional Inputs,2403.05034,CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model,CRM,7,1
+2503.03410,Augmentation-Based Deep Learning for Identification of Circulating Tumor Cells,2503.12882,DAPI: Domain Adaptive Toxicity Probe Vector Intervention for Fine-Grained Detoxification,DAPI,2,1
+2410.00161,KV-Compress: Paged KV-Cache Compression with Variable Compression Rates per Attention Head,2310.18313,FP8-LM: Training FP8 Large Language Models,FP8,10,1
+2403.19943,TDANet: A Novel Temporal Denoise Convolutional Neural Network With Attention for Fault Diagnosis,2310.12426,MAF: Multi-Aspect Feedback for Improving Reasoning in Large Language Models,MAF,2,1
+2507.21728,Generalized few-shot transfer learning architecture for modeling the EDFA gain spectrum,2505.01449,COSMOS: Predictable and Cost-Effective Adaptation of LLMs,COSMOS,3,1
+2302.13251,Unsupervised Domain Adaptation for Low-dose CT Reconstruction via Bayesian Uncertainty Alignment,2508.09724,UDA: Unsupervised Debiasing Alignment for Pair-wise LLM-as-a-Judge,UDA,15,1
+2511.14275,Let the Model Distribute Its Doubt: Confidence Estimation through Verbalized Probability Distribution,2406.01574,MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark,MMLU-Pro,10,1
+2302.12391,PITS: Variational Pitch Inference without Fundamental Frequency for End-to-End Pitch-controllable TTS,2307.10167,VITS : Variational Inference Thompson Sampling for contextual bandits,VITS,2,1
+2508.17627,The Evolution of Thought: Tracking LLM Overthinking via Reasoning Dynamics Analysis,2311.12022,GPQA: A Graduate-Level Google-Proof Q&A Benchmark,GPQA,14,1
+2404.18774,Self-training superconducting neuromorphic circuits using reinforcement learning rules,2504.09697,"SPICE: A Synergistic, Precise, Iterative, and Customizable Image Editing Workflow",SPICE,6,1
+2406.16571,Differentiable Distributionally Robust Optimization Layers,2505.23565,DRO: A Python Library for Distributionally Robust Optimization in Machine Learning,DRO,15,1
+2304.09913,MARS: Model-agnostic Biased Object Removal without Additional Supervision for Weakly-Supervised Semantic Segmentation,2505.01730,PASCAL: Precise and Efficient ANN- SNN Conversion using Spike Accumulation and Adaptive Layerwise Activation,PASCAL,6,1
+2305.15643,Federated Composite Saddle Point Optimization,2405.16057,SPP: Sparsity-Preserved Parameter-Efficient Fine-Tuning for Large Language Models,SPP,4,1
+2310.13990,A Novel Information-Theoretic Objective to Disentangle Representations for Fair Classification,2512.11437,CLINIC: Evaluating Multilingual Trustworthiness in Language Models for Healthcare,CLINIC,2,1
+2504.09072,MGS: Markov Greedy Sums for Accurate Low-Bitwidth Floating-Point Accumulation,2507.21159,MAC: Masked Agent Collaboration Boosts Large Language Model Medical Decision-Making,MAC,12,1
+2412.20210,"Towards Real-Time 2D Mapping: Harnessing Drones, AI, and Computer Vision for Advanced Insights",2511.19476,FAST: Topology-Aware Frequency-Domain Distribution Matching for Coreset Selection,FAST,4,1
+2308.09719,CIRO: COVID-19 infection risk ontology,2512.14277,SPARQL-LLM: Real-Time SPARQL Query Generation from Natural Language Questions,SPARQL,9,1
+2506.13590,Agent Capability Negotiation and Binding Protocol (ACNBP),2509.25278,MAESTRO : Adaptive Sparse Attention and Robust Learning for Multimodal Dynamic Time Series,MAESTRO,4,1
+2410.01516,Bounds on Lp errors in density ratio estimation via f-divergence loss functions,2506.04516,DRE: An Effective Dual-Refined Method for Integrating Small and Large Language Models in Open-Domain Dialogue Evaluation,DRE,3,1
+2506.23506,Artificial Intelligence-assisted Pixel-level Lung (APL) Scoring for Fast and Accurate Quantification in Ultra-short Echo-time MRI,2403.18365,BLADE: Enhancing Black-box Large Language Models with Small Domain-Specific Models,BLADE,2,1
+2509.15283,Evaluating the Limitations of Local LLMs in Solving Complex Programming Challenges,2503.18998,FACE: Few-shot Adapter with Cross-view Fusion for Cross-subject EEG Emotion Recognition,FACE,4,1
+2510.22049,Massive Memorization with Hundreds of Trillions of Parameters for Sequential Transducer Generative Recommenders,2504.02498,VISTA: Unsupervised 2D Temporal Dependency Representations for Time Series Anomaly Detection,VISTA,4,1
+2304.09695,Big-Little Adaptive Neural Networks on Low-Power Near-Subthreshold Processors,2410.24023,RAM: Replace Attention with MLP for Efficient Multivariate Time Series Forecasting,RAM,11,1
+2502.09626,Evidence for Phenotype-Driven Disparities in Freezing of Gait Detection and Approaches to Bias Mitigation,2311.05864,DPR: An Algorithm Mitigate Bias Accumulation in Recommendation feedback loops,DPR,8,1
+2507.12568,Safeguarding Federated Learning-based Road Condition Classification,2512.10296,FLARE: A Wireless Side-Channel Fingerprinting Attack on Federated Learning,FLARE,8,1
+2503.02397,A Binary Classification Social Network Dataset for Graph Machine Learning,2305.14934,GRACE: Discriminator-Guided Chain-of-Thought Reasoning,GRACE,4,1
+2510.27378,Measuring Chain-of-Thought Monitorability Through Faithfulness and Verbosity,2311.12022,GPQA: A Graduate-Level Google-Proof Q&A Benchmark,GPQA,14,1
+2404.14581,"The Adversarial AI-Art: Understanding, Generation, Detection, and Benchmarking",2506.00539,ARIA: Training Language Agents with Intention-Driven Reward Aggregation,ARIA,2,1
+2410.12568,Robust RL with LLM-Driven Data Synthesis and Policy Adaptation for Autonomous Driving,2406.05362,RAPID: Robust APT Detection and Investigation Using Context-Aware Deep Learning,RAPID,2,1
+2508.04280,Enhancing Vision-Language Model Training with Reinforcement Learning in Synthetic Worlds for Real-World Success,2404.05955,VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?,VisualWebBench,2,1
+2512.14332,Step-Tagging: Toward controlling the generation of Language Reasoning Models through step monitoring,2406.01574,MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark,MMLU-Pro,10,1
+2410.13886,Refusal-Trained LLMs Are Easily Jailbroken As Browser Agents,2402.04249,HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal,HarmBench,5,1
+2410.13948,The KnowWhereGraph Ontology,2512.14277,SPARQL-LLM: Real-Time SPARQL Query Generation from Natural Language Questions,SPARQL,9,1
+2506.21972,Advancing Jailbreak Strategies: A Hybrid Approach to Exploiting LLM Vulnerabilities and Bypassing Modern Defenses,2503.03239,PAIR: A Novel Large Language Model-Guided Selection Strategy for Evolutionary Algorithms,PAIR,4,1
+2510.14438,WebAggregator: Enhancing Compositional Reasoning Capabilities of Deep Research Agent Foundation Models,2311.12983,GAIA: a benchmark for General AI Assistants,GAIA,10,1
+2406.10528,Memory Faults in Activation-sparse Quantized Deep Neural Networks: Analysis and Mitigation using Sharpness-aware Training,2512.08914,SAQ: Stabilizer-Aware Quantum Error Correction Decoder,SAQ,3,1
+2410.05261,TextHawk2: A Large Vision-Language Model Excels in Bilingual OCR and Grounding with 16x Fewer Tokens,2305.07895,OCRBench: On the Hidden Mystery of OCR in Large Multimodal Models,OCRBench,2,1
+2311.07184,Cross-Axis Transformer with 3D Rotary Positional Embeddings,2404.07554,CAT: Contrastive Adapter Training for Personalized Image Generation,CAT,7,1
+2409.18412,SciDFM: A Large Language Model with Mixture-of-Experts for Science,2308.13149,SciEval: A Multi-Level Large Language Model Evaluation Benchmark for Scientific Research,SciEval,2,1
+2504.05535,COIG-P: A High-Quality and Large-Scale Chinese Preference Dataset for Alignment with Human Values,2403.05034,CRM: Single Image to 3D Textured Mesh with Convolutional Reconstruction Model,CRM,7,1
+2409.13941,TalkMosaic: Interactive PhotoMosaic with Multi-modal LLM Q&A Interactions,2512.08914,SAQ: Stabilizer-Aware Quantum Error Correction Decoder,SAQ,3,1
+2504.03786,"Do ""New Snow Tablets"" Contain Snow? Large Language Models Over-Rely on Names to Identify Ingredients of Chinese Drugs",2507.18288,TCM-Tongue: A Standardized Tongue Image Dataset with Pathological Annotations for AI-Assisted TCM Diagnosis,TCM,8,1
+2409.19824,Counterfactual Evaluation of Ads Ranking Models through Domain Adaptation,2412.15251,IPS: In-Prompt Process Supervision for Short Video Content Moderation,IPS,6,1
+2409.18924,Simulated patient systems powered by large language model-based AI agents offer potential for transforming medical education,2505.00827,MIMIC-\RNum{4}-Ext-22MCTS: A 22 Millions-Event Temporal Clinical Time-Series Dataset with Relative Timestamp for Risk Prediction,MIMIC,9,1
+2512.08923,"Same Content, Different Answers: Cross-Modal Inconsistency in MLLMs",2312.03044,REST: Enhancing Group Robustness in DNNs through Reweighted Sparse Training,REST,8,1
+2404.15364,MP-DPD: Low-Complexity Mixed-Precision Neural Networks for Energy-Efficient Digital Predistortion of Wideband Power Amplifiers,2401.08318,OpenDPD: An Open-Source End-to-End Learning & Benchmarking Framework for Wideband Power Amplifier Modeling and Digital Pre-Distortion,OpenDPD,3,1
+2509.07026,Contradictions,2503.21815,ATP: Adaptive Threshold Pruning for Efficient Data Encoding in Quantum Neural Networks,ATP,4,1
+2512.11986,Learning to Extract Context for Context-Aware LLM Inference,2308.01263,XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models,XSTest,2,1
+2505.10887,InfantAgent-Next: A Multimodal Generalist Agent for Automated Computer Interaction,2311.09620,GAIA: Delving into Gradient-based Attribution Abnormality for Out-of-distribution Detection,GAIA,10,1
+2407.14521,Towards Automated Functional Equation Proving: A Benchmark Dataset and A Domain-Specific In-Context Agent,2503.21815,ATP: Adaptive Threshold Pruning for Efficient Data Encoding in Quantum Neural Networks,ATP,4,1
+2507.23190,Accessibility Scout: Personalized Accessibility Scans of Built Environments,2505.23805,ADA: Automated Moving Target Defense for AI Workloads via Ephemeral Infrastructure-Native Rotation in Kubernetes,ADA,4,1
+2405.09579,Scalable Sparse Regression for Model Discovery: The Fast Lane to Insight,2508.05691,SPRINT: Robust Model Attribution of Generated Images via Secret Pixel Reconstruction,SPRINT,4,1
+2508.07165,Large-scale Multi-sequence Pretraining for Generalizable MRI Analysis in Versatile Clinical Applications,2505.08025,PRISM: Complete Online Decentralized Multi-Agent Pathfinding with Rapid Information Sharing using Motion Constraints,PRISM,11,1
+2508.15027,Reversible Unfolding Network for Concealed Visual Perception with Generative Refinement,2504.05154,CARE: Multilingual Human Preference Learning for Cultural Awareness,CARE,4,1
+2409.05531,HMAFlow: Learning More Accurate Optical Flow via Hierarchical Motion Field Alignment,2304.06767,RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment,RAFT,6,1
+2512.04728,Measuring the Unspoken: A Disentanglement Model and Benchmark for Psychological Analysis in the Wild,2404.15549,PRISM: Patient Records Interpretation for Semantic Clinical Trial Matching using Large Language Models,PRISM,11,1
+2411.00519,Outlier-Oriented Poisoning Attack: A Grey-box Approach to Disturb Decision Boundaries by Perturbing Outliers in Multiclass Learning,2401.06628,OOP: Object-Oriented Programming Evaluation Benchmark for Large Language Models,OOP,2,1
+2503.20384,MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation,2503.06060,STAR: A Foundation Model-driven Framework for Robust Task Planning and Failure Recovery in Robotic Systems,STAR,12,1
+2510.25816,Beyond Long Context: When Semantics Matter More than Tokens,2504.07116,CLEAR: Contrasting Textual Feedback with Experts and Amateurs for Reasoning,CLEAR,4,1
+2506.14627,Working Document -- Formalising Software Requirements with Large Language Models,2407.03836,ADAPT: Multimodal Learning for Detecting Physiological Changes under Missing Modalities,ADAPT,4,1
+2310.11802,De novo protein design using geometric vector field networks,2308.12871,IPA: Inference Pipeline Adaptation to Achieve High Accuracy and Cost-Efficiency,IPA,3,1
+2508.04948,Self-Error Adjustment: Theory and Practice of Balancing Individual Performance and Diversity in Ensemble Learning,2308.11845,SEA: Shareable and Explainable Attribution for Query-based Black-box Attacks,SEA,5,1
+2305.11854,Multimodal Web Navigation with Instruction-Finetuned Foundation Models,2306.06070,Mind2Web: Towards a Generalist Agent for the Web,Mind2Web,2,1
+2406.13128,Evaluation of Blood Vessel Segmentation Methods on Hard-to-Detect Vascular Structures,2507.19867,DRIVE: Disfluency-Rich Synthetic Dialog Data Generation Framework for Intelligent Vehicle Environments,DRIVE,5,1
+2308.04028,Top K Relevant Passage Retrieval for Biomedical Question Answering,2311.05864,DPR: An Algorithm Mitigate Bias Accumulation in Recommendation feedback loops,DPR,8,1
+2510.27062,Consistency Training Helps Stop Sycophancy and Jailbreaks,2509.03661,ACT: Automated Constraint Targeting for Multi-Objective Recommender Systems,ACT,8,1
+2502.16111,PlanGEN: A Multi-Agent Framework for Generating Planning and Reasoning Trajectories for Complex Problem Solving,2401.06915,DocFinQA: A Long-Context Financial Reasoning Dataset,DocFinQA,2,1
+2510.13161,Mirror Speculative Decoding: Breaking the Serial Barrier in LLM Inference,2505.07508,EAGLE: Contrastive Learning for Efficient Graph Anomaly Detection,EAGLE,4,1
+2507.22912,A Language Model-Driven Semi-Supervised Ensemble Framework for Illicit Market Detection Across Deep/Dark Web and Social Platforms,2510.03194,CoDA: Agentic Systems for Collaborative Data Visualization,CoDA,3,1
+2510.16780,3D-GSRD: 3D Molecular Graph Auto-Encoder with Selective Re-mask Decoding,2412.10467,MGM: Global Understanding of Audience Overlap Graphs for Predicting the Factuality and the Bias of News Media,MGM,2,1
+2304.10970,Can GPT-4 Perform Neural Architecture Search?,2512.06404,GENIUS: An Agentic AI Framework for Autonomous Design and Execution of Simulation Protocols,GENIUS,2,1
+2312.01021,Data-Driven Autoencoder Numerical Solver with Uncertainty Quantification for Fast Physical Simulations,2308.05882,GPLaSDI: Gaussian Process-based Interpretable Latent Space Dynamics Identification through Deep Autoencoder,GPLaSDI,2,1
+2312.08257,\emph{Lifted} RDT based capacity analysis of the 1-hidden layer treelike \emph{sign} perceptrons neural networks,2507.18288,TCM-Tongue: A Standardized Tongue Image Dataset with Pathological Annotations for AI-Assisted TCM Diagnosis,TCM,8,1
+2308.15975,RoboTAP: Tracking Arbitrary Points for Few-Shot Visual Imitation,2509.26524,TAP: Two-Stage Adaptive Personalization of Multi-Task and Multi-Modal Foundation Models in Federated Learning,TAP,5,1
+2509.17978,"The STAR-XAI Protocol: A Framework for Inducing and Verifying Agency, Reasoning, and Reliability in AI Agents",2308.07146,CTP: Towards Vision-Language Continual Pretraining via Compatible Momentum Contrast and Topology Preservation,CTP,3,1
+2409.17939,Predicting Anchored Text from Translation Memories for Machine Translation Using Deep Learning Methods,2406.17931,CAT: Interpretable Concept-based Taylor Additive Models,CAT,7,1
+2512.08763,Learning and Editing Universal Graph Prompt Tuning via Reinforcement Learning,2308.11284,LEAP: Efficient and Automated Test Method for NLP Software,LEAP,3,1
+2502.02504,Unified Spatial-Temporal Edge-Enhanced Graph Networks for Pedestrian Trajectory Prediction,2511.18723,N2N: A Parallel Framework for Large-Scale MILP under Distributed Memory,N2N,2,1
+2310.06537,Data-level hybrid strategy selection for disk fault prediction model based on multivariate GAN,2405.09039,SMART: Towards Pre-trained Missing-Aware Model for Patient Health Status Prediction,SMART,4,1
+2305.00706,Full Scaling Automation for Sustainable Development of Green Data Centers,2508.18224,FSA: An Alternative Efficient Implementation of Native Sparse Attention Kernel,FSA,3,1
+2405.05861,ExACT: An End-to-End Autonomous Excavator System Using Action Chunking With Transformers,2507.16478,ACT: Bridging the Gap in Code Translation through Synthetic Data Generation & Adaptive Training,ACT,8,1
+2508.16817,Predictability Enables Parallelization of Nonlinear State Space Models,2309.16318,DeepPCR: Parallelizing Sequential Operations in Neural Networks,DeepPCR,2,1
+2404.16873,AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs,2402.04249,HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal,HarmBench,5,1
+2310.05872,ViCor: Bridging Visual Understanding and Commonsense Reasoning with Large Language Models,2406.06462,VCR: A Task for Pixel-Level Complex Reasoning in Vision Language Models via Restoring Occluded Text,VCR,5,1
+2406.11176,Watch Every Step! LLM Agent Learning via Iterative Step-Level Process Refinement,2509.06274,IPR: Intelligent Prompt Routing with User-Controlled Quality-Cost Trade-offs,IPR,5,1
+2309.00126,QS-TTS: Towards Semi-Supervised Text-to-Speech Synthesis via Vector-Quantized Self-Supervised Speech Representation Learning,2412.09441,MOS: Model Surgery for Pre-Trained Model-Based Class-Incremental Learning,MOS,14,1
+2506.12031,Improving Generalization in Heterogeneous Federated Continual Learning via Spatio-Temporal Gradient Matching with Prototypical Coreset,2411.10957,STAMP: Symmetric Temporal Averaging Message Passing for Domain Adaptation in Chronologically Split Graphs,STAMP,3,1
+2409.14565,Combating Spatial Disorientation in a Dynamic Self-Stabilization Task Using AI Assistants,2304.09913,MARS: Model-agnostic Biased Object Removal without Additional Supervision for Weakly-Supervised Semantic Segmentation,MARS,2,1
+2310.14456,Mobile Traffic Prediction at the Edge Through Distributed and Deep Transfer Learning,2312.07856,DTL: Disentangled Transfer Learning for Visual Recognition,DTL,4,1
+2512.10787,"Replace, Don't Expand: Mitigating Context Dilution in Multi-Hop RAG via Fixed-Budget Evidence Assembly",2409.10320,SEAL: Towards Safe Autonomous Driving via Skill-Enabled Adversary Learning for Closed-Loop Scenario Generation,SEAL,6,1
+2509.16833,SOLAR: Switchable Output Layer for Accuracy and Robustness in Once-for-All Training,2311.08849,OFA: A Framework of Initializing Unseen Subword Embeddings for Efficient Large-scale Multilingual Continued Pretraining,OFA,5,1
+2411.13754,Learning to Reason Iteratively and Parallelly for Complex Visual Reasoning Scenarios,2510.26148,"STAR: A Privacy-Preserving, Energy-Efficient Edge AI Framework for Human Activity Recognition via Wi-Fi CSI in Mobile and Pervasive Computing Environments",STAR,12,1
+2410.17230,Optimal Robust Estimation under Local and Global Corruptions: Stronger Adversary and Smaller Error,2509.18754,COLT: Enhancing Video Large Language Models with Continual Tool Usage,COLT,6,1
+2507.23095,SMART-Editor: A Multi-Agent Framework for Human-Like Design Editing with Structural Integrity,2303.09618,HIVE: Harnessing Human Feedback for Instructional Visual Editing,HIVE,3,1
+2505.03796,AI-Driven IRM: Transforming insider risk management with adaptive scoring and LLM-based threat detection,2505.08025,PRISM: Complete Online Decentralized Multi-Agent Pathfinding with Rapid Information Sharing using Motion Constraints,PRISM,11,1
+2402.09211,DivaTrack: Diverse Bodies and Motions from Acceleration-Enhanced Three-Point Trackers,2402.09730,DOF: Accelerating High-order Differential Operators with Forward Propagation,DOF,5,1
+2410.08766,Integrating Supertag Features into Neural Discontinuous Constituent Parsing,2410.09128,TIGER: Temporally Improved Graph Entity Linker,TIGER,2,1
+2511.17582,GateRA: Token-Aware Modulation for Parameter-Efficient Fine-Tuning,2405.17357,DoRA: Enhancing Parameter-Efficient Fine-Tuning with Dynamic Rank Distribution,DoRA,5,1
+2409.16537,A QoE-Aware Split Inference Accelerating Algorithm for NOMA-based Edge Intelligence,2510.12693,ERA: Transforming VLMs into Embodied Agents via Embodied Prior Learning and Online Reinforcement Learning,ERA,3,1
+2410.11186,Synthesizing Proton-Density Fat Fraction and $R_2^*$ from 2-point Dixon MRI with Generative Machine Learning,2407.10486,IDEAL: Leveraging Infinite and Dynamic Characterizations of Large Language Models for Query-focused Summarization,IDEAL,2,1
+2308.15243,Reliability Gaps Between Groups in COMPAS Dataset,2403.01306,ICC: Quantifying Image Caption Concreteness for Multimodal Dataset Curation,ICC,5,1
+2406.11715,Measuring memorization in RLHF for code completion,2502.16182,IPO: Your Language Model is Secretly a Preference Classifier,IPO,5,1
+2505.24544,Cross-Attention Speculative Decoding,2505.07508,EAGLE: Contrastive Learning for Efficient Graph Anomaly Detection,EAGLE,4,1
+2309.03999,Adapting Self-Supervised Representations to Multi-Domain Setups,2308.10917,PACS: Prediction and analysis of cancer subtypes from multi-omics data based on a multi-head attention mechanism model,PACS,6,1
+2508.06030,Efficient Knowledge Probing of Large Language Models by Adapting Pre-trained Embeddings,2509.18282,PEEK: Guiding and Minimal Image Representations for Zero-Shot Generalization of Robot Manipulation Policies,PEEK,2,1
+2401.08417,Contrastive Preference Optimization: Pushing the Boundaries of LLM Performance in Machine Translation,2412.04305,ALMA: Alignment with Minimal Annotation,ALMA,4,1
+2308.01573,Adversarial Training of Denoising Diffusion Model Using Dual Discriminators for High-Fidelity Multi-Speaker TTS,2412.09441,MOS: Model Surgery for Pre-Trained Model-Based Class-Incremental Learning,MOS,14,1
+2404.03608,Sailor: Open Language Models for South-East Asia,2308.11845,SEA: Shareable and Explainable Attribution for Query-based Black-box Attacks,SEA,5,1
+2403.11827,Sound Event Detection and Localization with Distance Estimation,2507.19742,DOA: A Degeneracy Optimization Agent with Adaptive Pose Compensation Capability based on Deep Reinforcement Learning,DOA,4,1
+2303.16212,A Multi-objective Complex Network Pruning Framework Based on Divide-and-conquer and Global Performance Impairment Ranking,2504.00726,EMO: Edge Model Overlays to Scale Model Size in Federated Learning,EMO,4,1
+2310.03447,FLAIM: AIM-based Synthetic Data Generation in the Federated Setting,2406.08819,"AIM: Attributing, Interpreting, Mitigating Data Unfairness",AIM,3,1
+2508.02062,RICL: Adding In-Context Adaptability to Pre-Trained Vision-Language-Action Models,2511.19476,FAST: Topology-Aware Frequency-Domain Distribution Matching for Coreset Selection,FAST,4,1
+2510.19338,Every Attention Matters: An Efficient Hybrid Architecture for Long-Context Reasoning,2310.18313,FP8-LM: Training FP8 Large Language Models,FP8,10,1
+2504.02178,Subasa - Adapting Language Models for Low-resourced Offensive Language Detection in Sinhala,2509.25198,SOLD: SELFIES-based Objective-driven Latent Diffusion,SOLD,2,1
+2509.23589,BridgeDrive: Diffusion Bridge Policy for Closed-Loop Trajectory Planning in Autonomous Driving,2410.14508,LEAD: Latent Realignment for Human Motion Diffusion,LEAD,2,1
+2505.15155,R&D-Agent-Quant: A Multi-Agent Framework for Data-Centric Factors and Model Joint Optimization,2402.09552,STEER: Assessing the Economic Rationality of Large Language Models,STEER,5,1
+2304.07421,Peer-to-Peer Federated Continual Learning for Naturalistic Driving Action Recognition,2505.17104,P2P: Automated Paper-to-Poster Generation and Fine-Grained Benchmark,P2P,11,1
+2411.01351,Guided Synthesis of Labeled Brain MRI Data Using Latent Diffusion Models for Segmentation of Enlarged Ventricles,2506.21857,SPADE: Spatial Transcriptomics and Pathology Alignment Using a Mixture of Data Experts for an Expressive Latent Space,SPADE,3,1
+2512.10287,A Kernel-based Resource-efficient Neural Surrogate for Multi-fidelity Prediction of Aerodynamic Field,2505.13315,"KHRONOS: a Kernel-Based Neural Architecture for Rapid, Resource-Efficient Scientific Computation",KHRONOS,2,1
+2510.16745,Kernel-Based Nonparametric Tests For Shape Constraints,2407.09550,CAPM: Fast and Robust Verification on Maxpool-based CNN via Dual Network,CAPM,3,1
+2306.02822,Discovering Dynamic Causal Space for DAG Structure Learning,2506.00267,CASPER: A Large Scale Spontaneous Speech Dataset,CASPER,2,1
+2505.20066,Automated data curation for self-supervised learning in underwater acoustic analysis,2505.19766,PAM: Training Policy-Aligned Moderation Filters at Scale,PAM,2,1
+2412.17415,VidCtx: Context-aware Video Question Answering with Image Models,2503.06060,STAR: A Foundation Model-driven Framework for Robust Task Planning and Failure Recovery in Robotic Systems,STAR,12,1
+2311.09605,Measuring and Improving Attentiveness to Partial Inputs with Counterfactuals,2404.07554,CAT: Contrastive Adapter Training for Personalized Image Generation,CAT,7,1
+2507.06013,CogniSQL-R1-Zero: Lightweight Reinforced Reasoning for Efficient SQL Generation,2505.23933,BIRD: Behavior Induction via Representation-structure Distillation,BIRD,6,1
+2402.03941,Discovering and Reasoning of Causality in the Hidden World with Large Language Models,2410.19313,COAT: Compressing Optimizer states and Activation for Memory-Efficient FP8 Training,COAT,2,1
+2510.13694,Information-Theoretic Reward Modeling for Stable RLHF: Detecting and Mitigating Reward Hacking,2402.09345,InfoRM: Mitigating Reward Hacking in RLHF via Information-Theoretic Reward Modeling,InfoRM,2,1
+2309.12829,Synthetic Boost: Leveraging Synthetic Data for Enhanced Vision-Language Segmentation in Echocardiography,2405.19672,CRIS: Collaborative Refinement Integrated with Segmentation for Polyp Segmentation,CRIS,2,1
+2311.01605,Faithful and Robust Local Interpretability for Textual Predictions,2507.20930,FRED: Financial Retrieval-Enhanced Detection and Editing of Hallucinations in Language Models,FRED,2,1
+2509.04735,Enhancing Self-Driving Segmentation in Adverse Weather Conditions: A Dual Uncertainty-Aware Training Approach to SAM Optimization,2405.16907,GTA: Generative Trajectory Augmentation with Guidance for Offline Reinforcement Learning,GTA,2,1
+2501.08046,"Building Symbiotic AI: Reviewing the AI Act for a Human-Centred, Principle-Based Framework",2310.09049,SAI: Solving AI Tasks with Systematic Artificial Intelligence in Communication Network,SAI,4,1
+2505.12681,On the Mechanisms of Adversarial Data Augmentation for Robust and Adaptive Transfer Learning,2505.23805,ADA: Automated Moving Target Defense for AI Workloads via Ephemeral Infrastructure-Native Rotation in Kubernetes,ADA,4,1
+2502.03814,Large Language Models for Multi-Robot Systems: A Survey,2505.21410,MRS: Multi-Resolution Skills for HRL Agents,MRS,4,1
+2403.16831,UrbanVLP: Multi-Granularity Vision-Language Pretraining for Urban Socioeconomic Indicator Prediction,2310.18340,UrbanCLIP: Learning Text-enhanced Urban Region Profiling with Contrastive Language-Image Pretraining from the Web,UrbanCLIP,2,1
+2511.18192,ARIAL: An Agentic Framework for Document VQA with Precise Answer Localization,2412.00151,DLaVA: Document Language and Vision Assistant for Answer Localization with Enhanced Interpretability and Trustworthiness,DLaVA,2,1
+2506.07330,JavelinGuard: Low-Cost Transformer Architectures for LLM Security,2310.17389,ToxicChat: Unveiling Hidden Challenges of Toxicity Detection in Real-World User-AI Conversation,ToxicChat,3,1
+2502.06124,Foundation Model of Electronic Medical Records for Adaptive Risk Estimation,2407.00087,ARES: Alternating Reinforcement Learning and Supervised Fine-Tuning for Enhanced Multi-Modal Chain-of-Thought Reasoning Through Diverse AI Feedback,ARES,3,1
+2510.03717,Artery-Vein Segmentation from Fundus Images using Deep Learning,2507.19867,DRIVE: Disfluency-Rich Synthetic Dialog Data Generation Framework for Intelligent Vehicle Environments,DRIVE,5,1
+2511.19841,Cisco Time Series Model Technical Report,2410.10393,GIFT-Eval: A Benchmark For General Time Series Forecasting Model Evaluation,GIFT-Eval,3,1
+2404.13575,FedMPQ: Secure and Communication-Efficient Federated Learning with Multi-codebook Product Quantization,2410.23526,LEAF: Learning and Evaluation Augmented by Fact-Checking to Improve Factualness in Large Language Models,LEAF,4,1
+2504.18454,Pseudo-Asynchronous Local SGD: Robust and Efficient Data-Parallel Training,2305.07759,TinyStories: How Small Can Language Models Be and Still Speak Coherent English?,TinyStories,7,1
+2409.14371,The Ability of Large Language Models to Evaluate Constraint-satisfaction in Agent Responses to Open-ended Requests,2504.19854,NORA: A Small Open-Sourced Generalist Vision Language Action Model for Embodied Tasks,NORA,2,1
+2511.14265,Unified Multimodal Vessel Trajectory Prediction with Explainable Navigation Intention,2511.10218,MTP: Exploring Multimodal Urban Traffic Profiling with Modality Augmentation and Spectrum Fusion,MTP,3,1
+2401.00521,Multi-spatial Multi-temporal Air Quality Forecasting with Integrated Monitoring and Reanalysis Data,2404.08915,PM2: A New Prompting Multi-modal Model Paradigm for Few-shot Medical Image Classification,PM2,4,1
+2503.17417,Generative Modeling of Class Probability for Multi-Modal Representation Learning,2512.16282,CALM: A CKA-Guided Adaptive Layer-Wise Modularization Framework for LLM Quantization,CALM,3,1
+2509.03348,Generative Auto-Bidding in Large-Scale Competitive Auctions via Diffusion Completer-Aligner,2310.17498,CBD: A Certified Backdoor Detector Based on Local Dominant Probability,CBD,2,1
+2411.18997,GRU-PFG: Extract Inter-Stock Correlation from Stock Factors with Graph Neural Network,2503.23174,TRA: Better Length Generalisation with Threshold Relative Attention,TRA,2,1
+2511.07755,Filtered-ViT: A Robust Defense Against Multiple Adversarial Patch Attacks,2405.09039,SMART: Towards Pre-trained Missing-Aware Model for Patient Health Status Prediction,SMART,4,1
+2403.02437,A Survey on Federated Unlearning: Challenges and Opportunities,2310.18362,SoK: Memorization in General-Purpose Large Language Models,SoK,6,1
+2507.02624,A Matrix Variational Auto-Encoder for Variant Effect Prediction in Pharmacogenes,2406.07580,DMS: Addressing Information Loss with More Steps for Pragmatic Adversarial Attacks,DMS,5,1
+2403.13501,VSTAR: Generative Temporal Nursing for Longer Dynamic Video Synthesis,2407.01863,VSP: Assessing the dual challenges of perception and reasoning in spatial planning tasks for VLMs,VSP,2,1
+2510.02532,Learning Multi-Index Models with Hyper-Kernel Ridge Regression,2502.00321,MIM: Multi-modal Content Interest Modeling Paradigm for User Behavior Modeling,MIM,5,1
+2506.19870,Secure Energy Transactions Using Blockchain Leveraging AI for Fraud Detection and Energy Market Stability,2505.17104,P2P: Automated Paper-to-Poster Generation and Fine-Grained Benchmark,P2P,11,1
+2405.14492,Iterative Methods for Full-Scale Gaussian Process Approximations for Large Spatial Data,2508.18224,FSA: An Alternative Efficient Implementation of Native Sparse Attention Kernel,FSA,3,1
+2406.16254,Confidence Regulation Neurons in Language Models,2403.20284,LayerNorm: A key component in parameter-efficient fine-tuning,LayerNorm,6,1
+2310.16936,Diagnosing Alzheimer's Disease using Early-Late Multimodal Data Fusion with Jacobian Maps,2303.04622,"ELF: Federated Langevin Algorithms with Primal, Dual and Bidirectional Compression",ELF,4,1
+2305.00729,What Do Self-Supervised Vision Transformers Learn?,2502.00321,MIM: Multi-modal Content Interest Modeling Paradigm for User Behavior Modeling,MIM,5,1
+2312.17606,Adaptive Control Strategy for Quadruped Robots in Actuator Degradation Scenarios,2504.04040,ADAPT: Actively Discovering and Adapting to Preferences for any Task,ADAPT,4,1
+2509.15901,Re-FRAME the Meeting Summarization SCOPE: Fact-Based Summarization and Personalization via Questions,2504.07210,MESA: Text-Driven Terrain Generation Using Latent Diffusion and Global Copernicus Data,MESA,2,1
+2509.12875,LTA-thinker: Latent Thought-Augmented Training Framework for Large Language Models on Complex Reasoning,2502.12134,SoftCoT: Soft Chain-of-Thought for Efficient Reasoning with LLMs,SoftCoT,2,1
+2504.03726,Detecting Malicious AI Agents Through Simulated Interactions,2507.06856,IAP: Invisible Adversarial Patch Attack through Perceptibility-Aware Localization and Perturbation Optimization,IAP,2,1
+2405.11739,What Radio Waves Tell Us about Sleep,2403.01306,ICC: Quantifying Image Caption Concreteness for Multimodal Dataset Curation,ICC,5,1
+2409.19014,FLEX: Expert-level False-Less EXecution Metric for Reliable Text-to-SQL Benchmark,2404.12494,BIRD: A Trustworthy Bayesian Inference Framework for Large Language Models,BIRD,6,1
+2507.19629,Quantum Reinforcement Learning by Adaptive Non-local Observables,2508.18258,ANO : Faster is Better in Noisy Landscape,ANO,2,1
+2411.02468,Modeling and Simulation of a Multi Robot System Architecture,2505.21410,MRS: Multi-Resolution Skills for HRL Agents,MRS,4,1
+2305.15877,Exponential Smoothing for Off-Policy Learning,2412.15251,IPS: In-Prompt Process Supervision for Short Video Content Moderation,IPS,6,1
+2503.16251,"RESFL: An Uncertainty-Aware Framework for Responsible Federated Learning by Balancing Privacy, Fairness and Utility",2409.15584,FACET: Fast and Accurate Event-Based Eye Tracking Using Ellipse Modeling for Extended Reality,FACET,2,1
+2410.12391,Tracking Universal Features Through Fine-Tuning and Model Merging,2305.07759,TinyStories: How Small Can Language Models Be and Still Speak Coherent English?,TinyStories,7,1
+2401.00393,Generative Model-Driven Synthetic Training Image Generation: An Approach to Cognition in Rail Defect Detection,2510.12029,CPR: Mitigating Large Language Model Hallucinations with Curative Prompt Refinement,CPR,3,1
+2402.13429,Everything You Always Wanted to Know About Storage Compressibility of Pre-Trained ML Models but Were Afraid to Ask,2303.04622,"ELF: Federated Langevin Algorithms with Primal, Dual and Bidirectional Compression",ELF,4,1
+2509.23454,AudioFuse: Unified Spectral-Temporal Learning via a Hybrid ViT-1D CNN Architecture for Robust Phonocardiogram Classification,2505.01730,PASCAL: Precise and Efficient ANN- SNN Conversion using Spike Accumulation and Adaptive Layerwise Activation,PASCAL,6,1
+2505.16216,Memorization or Reasoning? Exploring the Idiom Understanding of LLMs,2509.25831,MIDAS: Misalignment-based Data Augmentation Strategy for Imbalanced Multimodal Learning,MIDAS,2,1
+2512.10630,From Data Scarcity to Data Care: Reimagining Language Technologies for Serbian and other Low-Resource Languages,2504.05154,CARE: Multilingual Human Preference Learning for Cultural Awareness,CARE,4,1
+2410.21086,Efficient Mixture-of-Expert for Video-based Driver State and Physiological Multi-task Estimation in Conditional Autonomous Driving,2406.07580,DMS: Addressing Information Loss with More Steps for Pragmatic Adversarial Attacks,DMS,5,1
+2411.07663,Is Graph Convolution Always Beneficial For Every Feature?,2312.02037,GFS: Graph-based Feature Synthesis for Prediction over Relational Databases,GFS,3,1
+2310.15815,Good Better Best: Self-Motivated Imitation Learning for noisy Demonstrations,2408.10174,SMILE: Zero-Shot Sparse Mixture of Low-Rank Experts Construction From Pre-Trained Foundation Models,SMILE,3,1
+2506.18440,New Hardness Results for Low-Rank Matrix Completion,2509.18754,COLT: Enhancing Video Large Language Models with Continual Tool Usage,COLT,6,1
+2502.01901,Conceptual Metaphor Theory as a Prompting Paradigm for Large Language Models,2509.24526,"CMT: Mid-Training for Efficient Learning of Consistency, Mean Flow, and Flow Map Models",CMT,2,1
+2310.05025,Synslator: An Interactive Machine Translation Tool with Online Learning,2406.17931,CAT: Interpretable Concept-based Taylor Additive Models,CAT,7,1
+2310.05918,Grokking as Compression: A Nonlinear Complexity Perspective,2502.12460,LMN: A Tool for Generating Machine Enforceable Policies from Natural Language Access Control Rules using LLMs,LMN,2,1
+2510.17902,Activation Manifold Projection: Liberating Task-Specific Behaviors from LLM Architectures,2310.06380,CAST: Cluster-Aware Self-Training for Tabular Data via Reliable Confidence,CAST,4,1
+2506.18454,A Motivational Architecture for Open-Ended Learning Challenges in Robots,2506.10120,GRAIL: A Benchmark for GRaph ActIve Learning in Dynamic Sensing Environments,GRAIL,3,1
+2401.06839,Inferring Stellar Parameters from Iodine-Imprinted Keck/HIRES Spectra with Machine Learning,2505.24536,CHIP: Chameleon Hash-based Irreversible Passport for Robust Deep Model Ownership Verification and Active Usage Control,CHIP,2,1
+2311.01331,Offline Imitation from Observation via Primal Wasserstein State Occupancy Matching,2507.23554,DICE: Dynamic In-Context Example Selection in LLM Agents via Efficient Knowledge Transfer,DICE,7,1
+2304.05263,Prompt Learning for News Recommendation,2410.12881,MIND: Math Informed syNthetic Dialogues for Pretraining LLMs,MIND,6,1
+2506.16237,Active MRI Acquisition with Diffusion Guided Bayesian Experimental Design,2312.07088,BED: Bi-Encoder-Decoder Model for Canonical Relation Extraction,BED,3,1
+2404.12832,COIN: Counterfactual inpainting for weakly supervised semantic segmentation for medical images,2508.13229,RISE: Enhancing VLM Image Annotation with Self-Supervised Reasoning,RISE,4,1
+2411.14768,Grid and Road Expressions Are Complementary for Trajectory Representation Learning,2405.03595,GREEN: Generative Radiology Report Evaluation and Error Notation,GREEN,2,1
+2404.03784,A Layer Selection Approach to Test Time Adaptation,2508.12472,GALA: Can Graph-Augmented Large Language Model Agentic Workflows Elevate Root Cause Analysis?,GALA,2,1
+2411.07837,FRUGAL: Memory-Efficient Optimization by Reducing State Overhead for Scalable Training,2403.03507,GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection,GaLore,2,1
+2505.17532,TimeCF: A TimeMixer-Based Model with adaptive Convolution and Sharpness-Aware Minimization Frequency Domain Loss for long-term time seris forecasting,2402.02399,FreDF: Learning to Forecast in the Frequency Domain,FreDF,2,1
+2306.02516,SamToNe: Improving Contrastive Loss for Dual Encoder Retrieval Models with Same Tower Negatives,2506.13755,MARCO: Hardware-Aware Neural Architecture Search for Edge Devices with Multi-Agent Reinforcement Learning and Conformal Prediction Filtering,MARCO,8,1
+2402.18571,Arithmetic Control of LLMs for Diverse User Preferences: Directional Preference Alignment with Multi-Objective Rewards,2412.11060,DPA: A one-stop metric to measure bias amplification in classification datasets,DPA,4,1
+2303.03666,"Face: Fast, Accurate and Context-Aware Audio Annotation and Classification",2503.18998,FACE: Few-shot Adapter with Cross-view Fusion for Cross-subject EEG Emotion Recognition,FACE,4,1
+2411.15204,Label Distribution Shift-Aware Prediction Refinement for Test-Time Adaptation,2511.01170,DART: Difficulty-Adaptive Reasoning Truncation for Efficient Large Language Models,DART,5,1
+2403.10732,Variance-Dependent Regret Bounds for Non-stationary Linear Bandits,2512.07730,SAVE: Sparse Autoencoder-Driven Visual Information Enhancement for Mitigating Object Hallucination,SAVE,2,1
+2510.26702,Delegated Authorization for Agents Constrained to Semantic Task-to-Scope Matching,2505.19342,ASTRA: Communication-Efficient Acceleration for Multi-Device Transformer Inference,ASTRA,2,1
+2403.12776,Automated Data Curation for Robust Language Model Fine-Tuning,2504.07116,CLEAR: Contrasting Textual Feedback with Experts and Amateurs for Reasoning,CLEAR,4,1
+2503.20252,LogicQA: Logical Anomaly Detection with Vision Language Model Generated Questions,2504.00306,LOCO-EPI: Leave-one-chromosome-out (LOCO) as a benchmarking paradigm for deep learning based prediction of enhancer-promoter interactions,LOCO,4,1
+2510.10849,Glance for Context: Learning When to Leverage LLMs for Node-Aware GNN-LLM Fusion,2405.18921,GLANCE: Global Actions in a Nutshell for Counterfactual Explainability,GLANCE,2,1
+2508.15854,QU-NLP at QIAS 2025 Shared Task: A Two-Phase LLM Fine-Tuning and Retrieval-Augmented Generation Approach for Islamic Inheritance Reasoning,2407.15390,ALLaM: Large Language Models for Arabic and English,ALLaM,2,1
+2507.21077,Data-Driven and Participatory Approaches toward Neuro-Inclusive AI,2410.16520,AUTALIC: A Dataset for Anti-AUTistic Ableist Language In Context,AUTALIC,2,1
+2311.08941,Transformers in the Service of Description Logic-based Contexts,2509.00693,DELTA: Variational Disentangled Learning for Privacy-Preserving Data Reprogramming,DELTA,2,1
+2504.20452,Enhancing News Recommendation with Hierarchical LLM Prompting,2410.12881,MIND: Math Informed syNthetic Dialogues for Pretraining LLMs,MIND,6,1
+2409.14206,AI Assistants for Spaceflight Procedures: Combining Generative Pre-Trained Transformer and Retrieval-Augmented Generation on Knowledge Graphs With Augmented Reality Cues,2308.12871,IPA: Inference Pipeline Adaptation to Achieve High Accuracy and Cost-Efficiency,IPA,3,1
+2311.10702,Camels in a Changing Climate: Enhancing LM Adaptation with Tulu 2,2406.01920,CODE: Contrasting Self-generated Description to Combat Hallucination in Large Multi-modal Models,CODE,2,1
+2410.20839,Asteroid Mining: ACT&Friends' Results for the GTOC 12 Problem,2511.02505,ESA: Energy-Based Shot Assembly Optimization for Automatic Video Editing,ESA,4,1
+2401.14185,TDFNet: An Efficient Audio-Visual Speech Separation Model with Top-down Fusion,2403.19943,TDANet: A Novel Temporal Denoise Convolutional Neural Network With Attention for Fault Diagnosis,TDANet,2,1
+2310.07059,DKEC: Domain Knowledge Enhanced Multi-Label Classification for Diagnosis Prediction,2412.08521,EMS: Adaptive Evict-then-Merge Strategy for Head-wise KV Cache Compression Based on Global-Local Importance,EMS,5,1
+2508.02835,Defending Against Knowledge Poisoning Attacks During Retrieval-Augmented Generation,2402.07867,PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models,PoisonedRAG,2,1
+2305.02209,Large-scale Online Ridesharing: The Effect of Assignment Optimality on System Performance,2401.01759,VGA: Vision and Graph Fused Attention Network for Rumor Detection,VGA,2,1
+2507.20478,Conditional Diffusion Models for Global Precipitation Map Inpainting,2510.12693,ERA: Transforming VLMs into Embodied Agents via Embodied Prior Learning and Online Reinforcement Learning,ERA,3,1
+2502.15727,Retrieval Augmented Generation Based LLM Evaluation For Protocol State Machine Inference With Chain-of-Thought Reasoning,2407.02964,FSM: A Finite State Machine Based Zero-Shot Prompting Paradigm for Multi-Hop Question Answering,FSM,4,1
+2310.10835,Provable Probabilistic Imaging using Score-Based Generative Priors,2308.15368,RED: A Systematic Real-Time Scheduling Approach for Robotic Environmental Dynamics,RED,3,1
+2511.12693,HEDGE: Hallucination Estimation via Dense Geometric Entropy for VQA with Vision-Language Models,2306.00890,LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day,LLaVA-Med,4,1
+2307.00741,"UnLoc: A Universal Localization Method for Autonomous Vehicles using LiDAR, Radar and/or Camera Input",2506.07261,RADAR: Recall Augmentation through Deferred Asynchronous Retrieval,RADAR,5,1
+2511.05442,APP: Accelerated Path Patching with Task-Specific Pruning,2311.01615,FLAP: Fast Language-Audio Pre-training,FLAP,2,1
+2506.10195,Exploring Topological and Localization Phenomena in SSH Chains under Generalized AAH Modulation: A Computational Approach,2509.06274,IPR: Intelligent Prompt Routing with User-Controlled Quality-Cost Trade-offs,IPR,5,1
+2407.05921,TAPVid-3D: A Benchmark for Tracking Any Point in 3D,2509.26524,TAP: Two-Stage Adaptive Personalization of Multi-Task and Multi-Modal Foundation Models in Federated Learning,TAP,5,1
+2409.12917,Training Language Models to Self-Correct via Reinforcement Learning,2310.00165,SCoRe: Submodular Combinatorial Representation Learning,SCoRe,2,1
+2511.18960,AVA-VLA: Improving Vision-Language-Action models with Active Visual Attention,2503.05383,AVA: Attentive VLM Agent for Mastering StarCraft II,AVA,2,1
+2510.16844,FinSight: Towards Real-World Financial Deep Research,2507.12669,InSight: AI Mobile Screening Tool for Multiple Eye Disease Detection using Multimodal Fusion,InSight,2,1
+2510.12617,"Same model, better performance: the impact of shuffling on DNA Language Models benchmarking",2306.15794,HyenaDNA: Long-Range Genomic Sequence Modeling at Single Nucleotide Resolution,HyenaDNA,2,1
+2407.16970,Towards Aligning Language Models with Textual Feedback,2305.11390,ALT: An Automatic System for Long Tail Scenario Modeling,ALT,3,1
+2507.23673,SAMSA: Segment Anything Model Enhanced with Spectral Angles for Hyperspectral Interactive Medical Image Segmentation,2410.08207,DICE: Discrete Inversion Enabling Controllable Editing for Multinomial Diffusion and Masked Generative Models,DICE,7,1
+2509.04628,Action Chunking with Transformers for Image-Based Spacecraft Guidance and Control,2507.16478,ACT: Bridging the Gap in Code Translation through Synthetic Data Generation & Adaptive Training,ACT,8,1
+2405.17444,Towards Gradient-based Time-Series Explanations through a SpatioTemporal Attention Network,2501.18699,STAN: Smooth Transition Autoregressive Networks,STAN,3,1
+2410.01307,FanCric : Multi-Agentic Framework for Crafting Fantasy 11 Cricket Teams,2410.16977,IPL: Leveraging Multimodal Large Language Models for Intelligent Product Listing,IPL,2,1
+2504.17752,Disaggregated Deep Learning via In-Physics Computing at Radio Frequency,2503.07265,WISE: A World Knowledge-Informed Semantic Evaluation for Text-to-Image Generation,WISE,3,1
+2408.17240,Using Quantum Solved Deep Boltzmann Machines to Increase the Data Efficiency of RL Agents,2406.17503,WAVE: Weight Templates for Adaptive Initialization of Variable-sized Models,WAVE,2,1
+2506.23173,Deep Learning for Optical Misalignment Diagnostics in Multi-Lens Imaging Systems,2402.09730,DOF: Accelerating High-order Differential Operators with Forward Propagation,DOF,5,1
+2501.02857,ParetoLens: A Visual Analytics Framework for Exploring Solution Sets of Multi-objective Evolutionary Algorithms,2306.05189,EMO: Episodic Memory Optimization for Few-Shot Meta-Learning,EMO,4,1
+2410.13030,Sensitivity of Generative VLMs to Semantically and Lexically Altered Prompts,2306.14610,SugarCrepe: Fixing Hackable Benchmarks for Vision-Language Compositionality,SugarCrepe,2,1
+2505.19943,Sparse Tuning Enhances Plasticity in PTM-based Continual Learning,2511.18945,MIST: Mutual Information Estimation Via Supervised Training,MIST,2,1
+2510.05288,DP-Adam-AC: Privacy-preserving Fine-Tuning of Localizable Language Models Using Adam Optimization with Adaptive Clipping,2304.11208,DP-Adam: Correcting DP Bias in Adam's Second Moment Estimation,DP-Adam,3,1
+2501.12016,Are Traditional Deep Learning Model Approaches as Effective as a Retinal-Specific Foundation Model for Ocular and Systemic Disease Detection?,2512.14718,SEED: Spectral Entropy-Guided Evaluation of SpatialTemporal Dependencies for Multivariate Time Series Forecasting,SEED,2,1
+2406.11794,DataComp-LM: In search of the next generation of training sets for language models,2405.19327,MAP-Neo: Highly Capable and Transparent Bilingual Large Language Model Series,MAP-Neo,2,1
+2309.11674,A Paradigm Shift in Machine Translation: Boosting Translation Performance of Large Language Models,2412.04305,ALMA: Alignment with Minimal Annotation,ALMA,4,1
+2509.03472,DPQuant: Efficient and Differentially-Private Model Training via Dynamic Quantization Scheduling,2304.11208,DP-Adam: Correcting DP Bias in Adam's Second Moment Estimation,DP-Adam,3,1
+2510.21795,Xihe: Scalable Zero-Shot Time Series Learner Via Hierarchical Interleaved Block Attention,2410.10393,GIFT-Eval: A Benchmark For General Time Series Forecasting Model Evaluation,GIFT-Eval,3,1
+2406.01660,Self-Improving Robust Preference Optimization,2403.19754,GOLD: Generalized Knowledge Distillation via Out-of-Distribution-Guided Language Data Generation,GOLD,2,1
+2505.22678,An Efficient deep learning model to Predict Stock Price Movement Based on Limit Order Book,2404.18466,HFT: Half Fine-Tuning for Large Language Models,HFT,3,1
+2311.03409,Visualizing DNA reaction trajectories with deep graph embedding approaches,2311.03411,ViDa: Visualizing DNA hybridization trajectories with biophysics-informed deep graph embeddings,ViDa,2,1
+2307.13821,Fitting Auditory Filterbanks with Multiresolution Neural Networks,2410.23526,LEAF: Learning and Evaluation Augmented by Fact-Checking to Improve Factualness in Large Language Models,LEAF,4,1
+2307.10843,Global Precipitation Nowcasting of Integrated Multi-satellitE Retrievals for GPM: A U-Net Convolutional LSTM Architecture,2312.02037,GFS: Graph-based Feature Synthesis for Prediction over Relational Databases,GFS,3,1
+2508.21512,Accept or Deny? Evaluating LLM Fairness and Performance in Loan Approval across Table-to-Text Serialization Approaches,2502.14644,LIFT: A Novel Framework for Enhancing Long-Context Understanding of LLMs via Long Input Fine-Tuning,LIFT,3,1
+2506.18267,ARD-LoRA: Dynamic Rank Allocation for Parameter-Efficient Fine-Tuning of Foundation Models with Heterogeneous Adaptation Needs,2405.17357,DoRA: Enhancing Parameter-Efficient Fine-Tuning with Dynamic Rank Distribution,DoRA,5,1
+2407.18219,Recursive Introspection: Teaching Language Model Agents How to Self-Improve,2508.13229,RISE: Enhancing VLM Image Annotation with Self-Supervised Reasoning,RISE,4,1
+2406.17588,LongIns: A Challenging Long-context Instruction-based Exam for LLMs,2407.13466,LIMT: Language-Informed Multi-Task Visual World Models,LIMT,2,1
+2403.11598,Optimal Layout Synthesis for Deep Quantum Circuits on NISQ Processors with 100+ Qubits,2309.02752,SWAP: Exploiting Second-Ranked Logits for Adversarial Attacks on Time Series,SWAP,4,1
+2505.06864,NewsNet-SDF: Stochastic Discount Factor Estimation with Pretrained Language Model News Embeddings via Adversarial Networks,2407.09550,CAPM: Fast and Robust Verification on Maxpool-based CNN via Dual Network,CAPM,3,1
+2512.14166,IntentMiner: Intent Inversion Attack via Tool Call Analysis in the Model Context Protocol,2409.00920,ToolACE: Winning the Points of LLM Function Calling,ToolACE,2,1
+2402.07167,Large-Language-Model Empowered Dose Volume Histogram Prediction for Intensity Modulated Radiotherapy,2402.01076,DoseGNN: Improving the Performance of Deep Learning Models in Adaptive Dose-Volume Histogram Prediction through Graph Neural Networks,DoseGNN,2,1
+2303.13372,DRSM: De-Randomized Smoothing on Malware Classifier Providing Certified Robustness,2308.10088,PACE: Improving Prompt with Actor-Critic Editing for Large Language Model,PACE,3,1
+2305.08770,"Transactional Python for Durable Machine Learning: Vision, Challenges, and Feasibility",2511.01170,DART: Difficulty-Adaptive Reasoning Truncation for Efficient Large Language Models,DART,5,1
+2509.03323,Heatmap Guided Query Transformers for Robust Astrocyte Detection across Immunostains and Resolutions,2412.14724,FROC: Building Fair ROC from a Trained Classifier,FROC,2,1
+2412.16160,Online High-Frequency Trading Stock Forecasting with Automated Feature Clustering and Radial Basis Function Neural Networks,2404.18466,HFT: Half Fine-Tuning for Large Language Models,HFT,3,1
+2510.05443,AD-NODE: Adaptive Dynamics Learning with Neural ODEs for Mobile Robots Control,2303.17727,BOLT: An Automated Deep Learning Framework for Training and Deploying Large-Scale Search and Recommendation Models on Commodity CPU Hardware,BOLT,2,1
+2501.17392,Byzantine-Robust Federated Learning over Ring-All-Reduce Distributed Computing,2512.10403,BRACE: A Benchmark for Robust Audio Caption Quality Evaluation,BRACE,2,1
+2506.14451,Adapting Lightweight Vision Language Models for Radiological Visual Question Answering,2306.00890,LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day,LLaVA-Med,4,1
+2410.01257,HelpSteer2-Preference: Complementing Ratings with Preferences,2406.08673,HelpSteer2: Open-source dataset for training top-performing reward models,HelpSteer2,3,1
+2504.11460,Semantic Matters: Multimodal Features for Affective Analysis,2308.08241,TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series,TEST,2,1
+2503.08327,Adding Chocolate to Mint: Mitigating Metric Interference in Machine Translation,2401.12032,MINT: A wrapper to make multi-modal and multi-image AI models interactive,MINT,2,1
+2504.06908,UKBOB: One Billion MRI Labeled Masks for Generalizable 3D Medical Image Segmentation,2412.19351,ETTA: Elucidating the Design Space of Text-to-Audio Models,ETTA,2,1
+2405.03567,Deep Space Separable Distillation for Lightweight Acoustic Scene Classification,2509.04876,OSC: Cognitive Orchestration through Dynamic Knowledge Alignment in Multi-Agent LLM Collaboration,OSC,2,1
+2505.03839,Adaptive Data-Resilient Multi-Modal Hierarchical Multi-Label Book Genre Identification,2412.19750,IMAGINE: An 8-to-1b 22nm FD-SOI Compute-In-Memory CNN Accelerator With an End-to-End Analog Charge-Based 0.15-8POPS/W Macro Featuring Distribution-Aware Data Reshaping,IMAGINE,2,1
+2506.13755,MARCO: Hardware-Aware Neural Architecture Search for Edge Devices with Multi-Agent Reinforcement Learning and Conformal Prediction Filtering,2311.08849,OFA: A Framework of Initializing Unseen Subword Embeddings for Efficient Large-scale Multilingual Continued Pretraining,OFA,5,1
+2412.13791,Physics Reasoner: Knowledge-Augmented Reasoning for Solving Physics Problems with Large Language Models,2307.10635,SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models,SciBench,2,1
+2409.19680,Instruction Embedding: Latent Representations of Instructions Towards Task Identification,2309.11745,PIE: Simulating Disease Progression via Progressive Image Editing,PIE,3,1
+2502.12411,Gradient Co-occurrence Analysis for Detecting Unsafe Prompts in Large Language Models,2310.17389,ToxicChat: Unveiling Hidden Challenges of Toxicity Detection in Real-World User-AI Conversation,ToxicChat,3,1
+2503.20320,Iterative Prompting with Persuasion Skills in Jailbreaking Large Language Models,2503.03239,PAIR: A Novel Large Language Model-Guided Selection Strategy for Evolutionary Algorithms,PAIR,4,1
+2304.03170,Spectral Toolkit of Algorithms for Graphs: Technical Report (1),2309.15875,STAG: Enabling Low Latency and Low Staleness of GNN-based Services with Dynamic Graphs,STAG,2,1
+2405.05688,Evaluating Dialect Robustness of Language Models via Conversation Understanding,2305.11355,MD3: The Multi-Dialect Dataset of Dialogues,MD3,2,1
+2509.20822,T2I-Diff: fMRI Signal Generation via Time-Frequency Image Transform and Classifier-Free Denoising Diffusion Models,2307.09114,BOLD: A Benchmark for Linked Data User Agents and a Simulation Framework for Dynamic Linked Data Environments,BOLD,5,1
+2511.01275,Adversarial Spatio-Temporal Attention Networks for Epileptic Seizure Forecasting,2501.18699,STAN: Smooth Transition Autoregressive Networks,STAN,3,1
+2512.12284,V-Rex: Real-Time Streaming Video LLM Acceleration via Dynamic KV Cache Retrieval,2506.04516,DRE: An Effective Dual-Refined Method for Integrating Small and Large Language Models in Open-Domain Dialogue Evaluation,DRE,3,1
+2403.08464,Diffusion Models with Implicit Guidance for Medical Anomaly Detection,2509.13761,THOR: Tool-Integrated Hierarchical Optimization via RL for Mathematical Reasoning,THOR,2,1
+2502.15955,Compression Barriers for Autoregressive Transformers,2402.06082,SubGen: Token Generation in Sublinear Time and Memory,SubGen,2,1
+2409.11377,"Machine Learning on Dynamic Functional Connectivity: Promise, Pitfalls, and Interpretations",2307.09114,BOLD: A Benchmark for Linked Data User Agents and a Simulation Framework for Dynamic Linked Data Environments,BOLD,5,1
+2402.02680,Large Language Models are Geographically Biased,2310.06213,GeoLLM: Extracting Geospatial Knowledge from Large Language Models,GeoLLM,2,1
+2412.11761,Harnessing Language for Coordination: A Framework and Benchmark for LLM-Driven Multi-Agent Control,2303.09618,HIVE: Harnessing Human Feedback for Instructional Visual Editing,HIVE,3,1
+2509.01910,Towards Interpretable Geo-localization: a Concept-Aware Global Image-GPS Alignment Framework,2309.16020,GeoCLIP: Clip-Inspired Alignment between Locations and Images for Effective Worldwide Geo-localization,GeoCLIP,2,1
+2506.03056,Corrigibility as a Singular Target: A Vision for Inherently Reliable Foundation Models,2510.14262,CAST: Compositional Analysis via Spectral Tracking for Understanding Transformer Layer Functions,CAST,4,1
+2512.14018,PerfCoder: Large Language Models for Interpretable Code Performance Optimization,2309.11745,PIE: Simulating Disease Progression via Progressive Image Editing,PIE,3,1
+2403.06066,CausalCellSegmenter: Causal Inference inspired Diversified Aggregation Convolution for Pathology Image Segmentation,2507.11942,DAC: A Dynamic Attention-aware Approach for Task-Agnostic Prompt Compression,DAC,6,1
+2512.12818,"Hindsight is 20/20: Building Agent Memory that Retains, Recalls, and Reflects",2410.10813,LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory,LongMemEval,2,1
+2509.02101,SALAD -- Semantics-Aware Logical Anomaly Detection,2504.00306,LOCO-EPI: Leave-one-chromosome-out (LOCO) as a benchmarking paradigm for deep learning based prediction of enhancer-promoter interactions,LOCO,4,1
+2310.02486,OCU-Net: A Novel U-Net Architecture for Enhanced Oral Cancer Segmentation,2509.15435,ORCA: An Agentic Reasoning Framework for Hallucination and Adversarial Robustness in Vision-Language Models,ORCA,3,1
+2503.10406,RealGeneral: Unifying Visual Generation via Temporal In-Context Learning with Video Models,2403.20284,LayerNorm: A key component in parameter-efficient fine-tuning,LayerNorm,6,1
+2405.13469,Machine Learning for Exoplanet Detection in High-Contrast Spectroscopy: Revealing Exoplanets by Leveraging Hidden Molecular Signatures in Cross-Correlated Spectra with Convolutional Neural Networks,2508.14134,ERIS: An Energy-Guided Feature Disentanglement Framework for Out-of-Distribution Time Series Classification,ERIS,2,1
+2403.09963,Take Care of Your Prompt Bias! Investigating and Mitigating Prompt Bias in Factual Knowledge Extraction,2410.21111,LAMA: Stable Dual-Domain Deep Reconstruction For Sparse-View CT,LAMA,2,1
+2511.22330,Prompt-based Consistent Video Colorization,2403.10131,RAFT: Adapting Language Model to Domain Specific RAG,RAFT,6,1
+2502.04898,ARTInp: CBCT-to-CT Image Inpainting and Image Translation in Radiotherapy,2405.19360,ART: Automatic Red-teaming for Text-to-Image Models to Protect Benign Users,ART,4,1
+2406.15513,PKU-SafeRLHF: Towards Multi-Level Safety Alignment for LLMs with Human Preference,2307.04657,BeaverTails: Towards Improved Safety Alignment of LLM via a Human-Preference Dataset,BeaverTails,2,1
+2306.06022,Dynamic Partial Computation Offloading for the Metaverse in In-Network Computing,2404.12832,COIN: Counterfactual inpainting for weakly supervised semantic segmentation for medical images,COIN,2,1
+2306.10079,M3PT: A Multi-Modal Model for POI Tagging,2502.05098,TIF: Learning Temporal Invariance in Android Malware Detectors,TIF,2,1
+2311.00750,Are These the Same Apple? Comparing Images Based on Object Intrinsics,2409.15452,CUTE: Measuring LLMs' Understanding of Their Tokens,CUTE,2,1
+2406.12649,Probabilistic Conceptual Explainers: Trustworthy Conceptual Explanations for Vision Foundation Models,2308.10088,PACE: Improving Prompt with Actor-Critic Editing for Large Language Model,PACE,3,1
+2501.13331,Qrazor: Reliable and Effortless 4-bit LLM Quantization by Significant Data Razoring,2310.08041,QLLM: Accurate and Efficient Low-Bitwidth Quantization for Large Language Models,QLLM,2,1
+2509.15095,"Listening, Imagining & Refining: A Heuristic Optimized ASR Correction Framework with LLMs",2407.02964,FSM: A Finite State Machine Based Zero-Shot Prompting Paradigm for Multi-Hop Question Answering,FSM,4,1
+2308.11845,SEA: Shareable and Explainable Attribution for Query-based Black-box Attacks,2405.19360,ART: Automatic Red-teaming for Text-to-Image Models to Protect Benign Users,ART,4,1
+2408.11515,Quantifying Behavioral Dissimilarity Between Mathematical Expressions,2312.07088,BED: Bi-Encoder-Decoder Model for Canonical Relation Extraction,BED,3,1
+2410.02477,Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations,2505.17098,TACO: Enhancing Multimodal In-context Learning via Task Mapping-Guided Sequence Configuration,TACO,3,1
+2410.05558,Narrative-of-Thought: Improving Temporal Reasoning of Large Language Models via Recounted Narratives,2503.05657,NoT: Federated Unlearning via Weight Negation,NoT,2,1
+2311.13712,Data Acquisition: A New Frontier in Data-centric AI,2405.00522,DAM: A Universal Dual Attention Mechanism for Multimodal Timeseries Cryptocurrency Trend Forecasting,DAM,2,1
+2503.15511,The Trust Calibration Maturity Model for Characterizing and Communicating Trustworthiness of AI Systems,2501.09044,TCMM: Token Constraint and Multi-Scale Memory Bank of Contrastive Learning for Unsupervised Person Re-identification,TCMM,2,1
+2407.15390,ALLaM: Large Language Models for Arabic and English,2305.11390,ALT: An Automatic System for Long Tail Scenario Modeling,ALT,3,1
+2511.09672,GEM+: Scalable State-of-the-Art Private Synthetic Data with Generator Networks,2406.08819,"AIM: Attributing, Interpreting, Mitigating Data Unfairness",AIM,3,1
+2503.07996,SQLCritic: Correcting Text-to-SQL Generation via Clause-wise Critic,2505.23933,BIRD: Behavior Induction via Representation-structure Distillation,BIRD,6,1
+2504.10188,Efficient Generative Model Training via Embedded Representation Warmup,2503.13102,REPA: Russian Error Types Annotation for Evaluating Text Generation and Judgment Capabilities,REPA,2,1
+2402.09052,L3GO: Language Agents with Chain-of-3D-Thoughts for Generating Unconventional Objects,2402.14690,UFO: a Unified and Flexible Framework for Evaluating Factuality of Large Language Models,UFO,2,1
+2508.08509,Steerable Pluralism: Pluralistic Alignment via Few-Shot Comparative Regression,2406.08673,HelpSteer2: Open-source dataset for training top-performing reward models,HelpSteer2,3,1
+2404.10547,A/B testing under Interference with Partial Network Information,2305.16265,UNITE: A Unified Benchmark for Text-to-SQL Evaluation,UNITE,2,1
+2509.24662,Community detection robustness of graph neural networks,2506.11081,SAGE:Specification-Aware Grammar Extraction for Automated Test Case Generation with LLMs,SAGE,2,1
+2404.11036,Cross-Platform Hate Speech Detection with Weakly Supervised Causal Disentanglement,2505.04608,WATCH: Adaptive Monitoring for AI Deployments via Weighted-Conformal Martingales,WATCH,2,1

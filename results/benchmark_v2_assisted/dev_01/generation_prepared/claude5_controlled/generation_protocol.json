@@ -1,0 +1,12 @@
+{
+  "model": "claude-sonnet-5",
+  "temperature": 0,
+  "max_output_tokens": 768,
+  "prompt_version": "abstract-rag-v2",
+  "prepared_jobs_sha256": "7f45ad4226ed297a969d0d09096a2120ab622a711216d12ca8f90abc588574fa",
+  "pilot_jobs_sha256": "81bdc6e83a21db6911b7c28e573e654f147a4e75a6c0495b78cafb4de1ea4e3b",
+  "model_labels": "Record requested and served labels, flag normalized mismatch, do not silently discard examples or equate labels with proof of actual weights.",
+  "test_access": "None",
+  "judging": false,
+  "independent_human_calibration_complete": false
+}

@@ -1,0 +1,18 @@
+{
+  "selected": "linked_k1_rrf",
+  "seed_count": 3,
+  "beam": 100,
+  "entity_limit": 20,
+  "ppr_alpha": 0.85,
+  "ppr_iterations": 60,
+  "rrf_k": 60,
+  "fusion_depth": 100,
+  "weighted_rank_weights": [
+    0.5,
+    0.5
+  ],
+  "graph_sha256": "08308e54bc9536bcc6f46a076a7f7559f249a105e7d1933c14a09df6e10341b8",
+  "dev_sha256": "2d0fe7dc0b6c820fddaa3d017d959717f68b54c51770c0a4889b5bfa443ce393",
+  "selection": "DEV All@10, then Hop2@10, then MRR@10, then method name",
+  "scope": "Exploratory BM25-screened bridge DEV only. Test not run. MENTIONS control, not semantic KG."
+}

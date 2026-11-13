@@ -1,0 +1,11 @@
+﻿id,method,ranks,question
+q063,bm25,"[15, 3]","How do the two studies use GPT-2 activations to investigate its internal behavior, and what distinct findings do they report?"
+q063,dense,"[6, None]","How do the two studies use GPT-2 activations to investigate its internal behavior, and what distinct findings do they report?"
+q063,rrf,"[1, None]","How do the two studies use GPT-2 activations to investigate its internal behavior, and what distinct findings do they report?"
+q067,dense,"[None, 3]","How is the Gemma2 model put to work in these two studies, and what does each study conclude about Gemma2's effectiveness in the role it is given there?"
+q067,rrf,"[15, 1]","How is the Gemma2 model put to work in these two studies, and what does each study conclude about Gemma2's effectiveness in the role it is given there?"
+q071,bm25,"[14, 2]","How does each work's use of direct preference optimization differ in purpose and scope, and what specific limitation does the multimodal approach aim to correct?"
+q071,dense,"[None, 1]","How does each work's use of direct preference optimization differ in purpose and scope, and what specific limitation does the multimodal approach aim to correct?"
+q071,rrf,"[None, 2]","How does each work's use of direct preference optimization differ in purpose and scope, and what specific limitation does the multimodal approach aim to correct?"
+q072,dense,"[None, 1]","Two different studies place GPT-4o at the center of their evaluation — one as the model whose prompting/fine-tuning strategy is being optimized for a structured-data extraction task, the other as one of several frontier generators inside a retrieval-augmented pipeline. In each case, what role does GPT-4o play, which configuration performed best for it, and what does each study conclude about whether added prompting effort or raw visual evidence actually pays off?"
+q072,rrf,"[13, 1]","Two different studies place GPT-4o at the center of their evaluation — one as the model whose prompting/fine-tuning strategy is being optimized for a structured-data extraction task, the other as one of several frontier generators inside a retrieval-augmented pipeline. In each case, what role does GPT-4o play, which configuration performed best for it, and what does each study conclude about whether added prompting effort or raw visual evidence actually pays off?"

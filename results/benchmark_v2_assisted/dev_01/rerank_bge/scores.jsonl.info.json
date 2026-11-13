@@ -1,0 +1,9 @@
+{
+  "model": "BAAI/bge-reranker-v2-m3",
+  "resolved_revision": null,
+  "max_length": 512,
+  "batch_size": 32,
+  "device": "cuda",
+  "torch": "2.14.1+cu130",
+  "gpu": "Tesla T4"
+}

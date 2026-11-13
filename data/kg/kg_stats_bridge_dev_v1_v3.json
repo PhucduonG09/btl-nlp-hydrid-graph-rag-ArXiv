@@ -1,0 +1,88 @@
+{
+  "tag": "bridge_dev_v1_v3",
+  "n_papers_with_extraction": 555,
+  "n_nodes": 5915,
+  "n_edges": 6863,
+  "nodes_by_type": {
+    "Paper": 555,
+    "Author": 2850,
+    "Category": 73,
+    "Concept": 2437
+  },
+  "edges_by_rel": {
+    "written_by": 2968,
+    "belongs_to": 1265,
+    "ADDRESSES": 862,
+    "PROPOSES": 883,
+    "USES": 587,
+    "EVALUATES_ON": 298
+  },
+  "papers_without_relation": 0,
+  "concepts_in_ge2_papers": 121,
+  "concepts_in_ge2_papers_pct": 5.0,
+  "top_concepts": [
+    [
+      "llama",
+      7
+    ],
+    [
+      "clip",
+      6
+    ],
+    [
+      "low rank adaptation",
+      6
+    ],
+    [
+      "cifar 10",
+      5
+    ],
+    [
+      "mmlu",
+      5
+    ],
+    [
+      "gpt 4o",
+      5
+    ],
+    [
+      "mnist",
+      4
+    ],
+    [
+      "gpt 4",
+      4
+    ],
+    [
+      "gpqa",
+      4
+    ],
+    [
+      "dpo",
+      4
+    ],
+    [
+      "reinforcement learning",
+      4
+    ],
+    [
+      "mmlu pro",
+      4
+    ],
+    [
+      "deepseek r1",
+      4
+    ],
+    [
+      "roberta",
+      3
+    ],
+    [
+      "mind2web",
+      3
+    ]
+  ],
+  "largest_component_size": 427,
+  "n_components": 391,
+  "extraction_json_errors": 0
+}

@@ -1,0 +1,356 @@
+{
+  "dev": {
+    "qa": "data\\eval\\benchmark_v2_assisted\\qa_dev.jsonl",
+    "qa_sha256": "25acf5fabdec77610659e60c7760af0d3074feba02a854df72c92dd33621b2b5",
+    "seconds": 517.1946384999974,
+    "metrics": {
+      "single": {
+        "bm25": {
+          "n": 91,
+          "R1": 0.9340659340659341,
+          "R10": 0.978021978021978,
+          "MRR10": 0.9532967032967034
+        },
+        "dense": {
+          "n": 91,
+          "R1": 0.8681318681318682,
+          "R10": 0.967032967032967,
+          "MRR10": 0.9040598290598291
+        },
+        "rrf": {
+          "n": 91,
+          "R1": 0.967032967032967,
+          "R10": 0.989010989010989,
+          "MRR10": 0.9761904761904762
+        },
+        "graph": {
+          "n": 91,
+          "R1": 0.945054945054945,
+          "R10": 0.989010989010989,
+          "MRR10": 0.9652014652014651
+        },
+        "text_expansion": {
+          "n": 91,
+          "R1": 0.8021978021978022,
+          "R10": 0.989010989010989,
+          "MRR10": 0.8799450549450548
+        },
+        "tw1_full": {
+          "n": 91,
+          "R1": 0.967032967032967,
+          "R10": 0.967032967032967,
+          "MRR10": 0.967032967032967
+        },
+        "tw3_full": {
+          "n": 91,
+          "R1": 0.7582417582417582,
+          "R10": 0.989010989010989,
+          "MRR10": 0.8513867085295656
+        },
+        "tw1_title": {
+          "n": 91,
+          "R1": 0.967032967032967,
+          "R10": 0.978021978021978,
+          "MRR10": 0.9697802197802198
+        },
+        "tw3_title": {
+          "n": 91,
+          "R1": 0.9560439560439561,
+          "R10": 0.989010989010989,
+          "MRR10": 0.964939822082679
+        }
+      },
+      "bridge": {
+        "bm25": {
+          "n": 31,
+          "All10": 0.0,
+          "Hop1_10": 1.0,
+          "Hop2_10": 0.0,
+          "B_in_top100": 0,
+          "B_median_rank_if_found": null
+        },
+        "dense": {
+          "n": 31,
+          "All10": 0.06451612903225806,
+          "Hop1_10": 0.8709677419354839,
+          "Hop2_10": 0.06451612903225806,
+          "B_in_top100": 5,
+          "B_median_rank_if_found": 11.0
+        },
+        "rrf": {
+          "n": 31,
+          "All10": 0.06451612903225806,
+          "Hop1_10": 1.0,
+          "Hop2_10": 0.06451612903225806,
+          "B_in_top100": 4,
+          "B_median_rank_if_found": 13.0
+        },
+        "graph": {
+          "n": 31,
+          "All10": 0.8387096774193549,
+          "Hop1_10": 1.0,
+          "Hop2_10": 0.8387096774193549,
+          "B_in_top100": 30,
+          "B_median_rank_if_found": 5.0
+        },
+        "text_expansion": {
+          "n": 31,
+          "All10": 0.12903225806451613,
+          "Hop1_10": 1.0,
+          "Hop2_10": 0.12903225806451613,
+          "B_in_top100": 17,
+          "B_median_rank_if_found": 18.0
+        },
+        "tw1_full": {
+          "n": 31,
+          "All10": 0.45161290322580644,
+          "Hop1_10": 0.967741935483871,
+          "Hop2_10": 0.45161290322580644,
+          "B_in_top100": 17,
+          "B_median_rank_if_found": 5.0
+        },
+        "tw3_full": {
+          "n": 31,
+          "All10": 0.22580645161290322,
+          "Hop1_10": 1.0,
+          "Hop2_10": 0.22580645161290322,
+          "B_in_top100": 19,
+          "B_median_rank_if_found": 15.0
+        },
+        "tw1_title": {
+          "n": 31,
+          "All10": 0.1935483870967742,
+          "Hop1_10": 1.0,
+          "Hop2_10": 0.1935483870967742,
+          "B_in_top100": 11,
+          "B_median_rank_if_found": 9.0
+        },
+        "tw3_title": {
+          "n": 31,
+          "All10": 0.0967741935483871,
+          "Hop1_10": 1.0,
+          "Hop2_10": 0.0967741935483871,
+          "B_in_top100": 10,
+          "B_median_rank_if_found": 21.5
+        }
+      }
+    },
+    "mcnemar": [
+      {
+        "a": "tw1_full",
+        "b": "graph",
+        "a_only": 0,
+        "b_only": 12,
+        "p_exact": 0.00048828125
+      },
+      {
+        "a": "tw1_full",
+        "b": "rrf",
+        "a_only": 12,
+        "b_only": 0,
+        "p_exact": 0.00048828125
+      },
+      {
+        "a": "tw3_full",
+        "b": "graph",
+        "a_only": 1,
+        "b_only": 20,
+        "p_exact": 2.09808349609375e-05
+      },
+      {
+        "a": "tw3_full",
+        "b": "rrf",
+        "a_only": 5,
+        "b_only": 0,
+        "p_exact": 0.0625
+      },
+      {
+        "a": "tw1_title",
+        "b": "graph",
+        "a_only": 0,
+        "b_only": 20,
+        "p_exact": 1.9073486328125e-06
+      },
+      {
+        "a": "tw1_title",
+        "b": "rrf",
+        "a_only": 4,
+        "b_only": 0,
+        "p_exact": 0.125
+      },
+      {
+        "a": "tw3_title",
+        "b": "graph",
+        "a_only": 0,
+        "b_only": 23,
+        "p_exact": 2.384185791015625e-07
+      },
+      {
+        "a": "tw3_title",
+        "b": "rrf",
+        "a_only": 1,
+        "b_only": 0,
+        "p_exact": 1.0
+      }
+    ]
+  },
+  "hard7": {
+    "qa": "data\\eval\\qa_bridge_hard.jsonl",
+    "qa_sha256": "7194901f3cd7960fba3851af3af9886d52f88dab2edc0f2e29fa1391a8daf464",
+    "seconds": 30.211739899998065,
+    "metrics": {
+      "bridge": {
+        "bm25": {
+          "n": 7,
+          "All10": 0.0,
+          "Hop1_10": 1.0,
+          "Hop2_10": 0.0,
+          "B_in_top100": 3,
+          "B_median_rank_if_found": 16.0
+        },
+        "dense": {
+          "n": 7,
+          "All10": 0.0,
+          "Hop1_10": 1.0,
+          "Hop2_10": 0.0,
+          "B_in_top100": 1,
+          "B_median_rank_if_found": 46.0
+        },
+        "rrf": {
+          "n": 7,
+          "All10": 0.0,
+          "Hop1_10": 1.0,
+          "Hop2_10": 0.0,
+          "B_in_top100": 3,
+          "B_median_rank_if_found": 26.0
+        },
+        "graph": {
+          "n": 7,
+          "All10": 0.2857142857142857,
+          "Hop1_10": 1.0,
+          "Hop2_10": 0.2857142857142857,
+          "B_in_top100": 2,
+          "B_median_rank_if_found": 6.5
+        },
+        "text_expansion": {
+          "n": 7,
+          "All10": 0.0,
+          "Hop1_10": 1.0,
+          "Hop2_10": 0.0,
+          "B_in_top100": 3,
+          "B_median_rank_if_found": 26.0
+        },
+        "tw1_full": {
+          "n": 7,
+          "All10": 0.0,
+          "Hop1_10": 1.0,
+          "Hop2_10": 0.0,
+          "B_in_top100": 3,
+          "B_median_rank_if_found": 19.0
+        },
+        "tw3_full": {
+          "n": 7,
+          "All10": 0.0,
+          "Hop1_10": 1.0,
+          "Hop2_10": 0.0,
+          "B_in_top100": 3,
+          "B_median_rank_if_found": 59.0
+        },
+        "tw1_title": {
+          "n": 7,
+          "All10": 0.0,
+          "Hop1_10": 1.0,
+          "Hop2_10": 0.0,
+          "B_in_top100": 3,
+          "B_median_rank_if_found": 32.0
+        },
+        "tw3_title": {
+          "n": 7,
+          "All10": 0.0,
+          "Hop1_10": 1.0,
+          "Hop2_10": 0.0,
+          "B_in_top100": 3,
+          "B_median_rank_if_found": 42.0
+        }
+      }
+    },
+    "mcnemar": [
+      {
+        "a": "tw1_full",
+        "b": "graph",
+        "a_only": 0,
+        "b_only": 2,
+        "p_exact": 0.5
+      },
+      {
+        "a": "tw1_full",
+        "b": "rrf",
+        "a_only": 0,
+        "b_only": 0,
+        "p_exact": 1.0
+      },
+      {
+        "a": "tw3_full",
+        "b": "graph",
+        "a_only": 0,
+        "b_only": 2,
+        "p_exact": 0.5
+      },
+      {
+        "a": "tw3_full",
+        "b": "rrf",
+        "a_only": 0,
+        "b_only": 0,
+        "p_exact": 1.0
+      },
+      {
+        "a": "tw1_title",
+        "b": "graph",
+        "a_only": 0,
+        "b_only": 2,
+        "p_exact": 0.5
+      },
+      {
+        "a": "tw1_title",
+        "b": "rrf",
+        "a_only": 0,
+        "b_only": 0,
+        "p_exact": 1.0
+      },
+      {
+        "a": "tw3_title",
+        "b": "graph",
+        "a_only": 0,
+        "b_only": 2,
+        "p_exact": 0.5
+      },
+      {
+        "a": "tw3_title",
+        "b": "rrf",
+        "a_only": 0,
+        "b_only": 0,
+        "p_exact": 1.0
+      }
+    ]
+  },
+  "primary": "tw3_full",
+  "variants": {
+    "tw1_full": [
+      1,
+      "full"
+    ],
+    "tw3_full": [
+      3,
+      "full"
+    ],
+    "tw1_title": [
+      1,
+      "title"
+    ],
+    "tw3_title": [
+      3,
+      "title"
+    ]
+  },
+  "note": "Thăm dò/chẩn đoán. Không tune trên test. hard7 viết sau khi thấy kết quả DEV."
+}

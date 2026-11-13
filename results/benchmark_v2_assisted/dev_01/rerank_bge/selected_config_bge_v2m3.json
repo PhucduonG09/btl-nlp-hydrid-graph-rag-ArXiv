@@ -1,0 +1,9 @@
+{
+  "selected": {
+    "rrf": "rrf_ce",
+    "graph": "graph_base"
+  },
+  "test_evaluated": false,
+  "scores_file": "results/benchmark_v2_assisted/dev_01/rerank_bge/scores.jsonl",
+  "exploratory": true
+}

@@ -1,0 +1,46 @@
+{
+  "elapsed_seconds": 68.54587449999963,
+  "query_encoding_seconds": 3.6523009999982605,
+  "graph_stage_latency": {
+    "rrf_k1": {
+      "p50_ms": 0.4894499979855027,
+      "p95_ms": 1.3357249998080079
+    },
+    "rrf_k2": {
+      "p50_ms": 13.538799999878393,
+      "p95_ms": 28.466319998187814
+    },
+    "rrf_k3": {
+      "p50_ms": 27.930449999985285,
+      "p95_ms": 79.13244500032306
+    },
+    "rrf_ppr": {
+      "p50_ms": 65.7625999974698,
+      "p95_ms": 94.45174000047697
+    },
+    "linked_k1": {
+      "p50_ms": 0.4886999995505903,
+      "p95_ms": 1.281475001269427
+    },
+    "linked_k2": {
+      "p50_ms": 13.390199999776087,
+      "p95_ms": 29.623505000199636
+    },
+    "linked_k3": {
+      "p50_ms": 28.10230000068259,
+      "p95_ms": 71.73743500097771
+    },
+    "linked_ppr": {
+      "p50_ms": 65.40744999983872,
+      "p95_ms": 91.41085499813926
+    }
+  },
+  "latency_scope": "Warm graph stage only, excludes text/dense retrieval, linking and generation.",
+  "dense": {
+    "model": "BAAI/bge-base-en-v1.5",
+    "document_cache_sha256": "4d0141c95fdcb023789dcf1f089745dc7cd84a5990bb6e6a43e7780a1f3e5dd3",
+    "current_local_model_snapshot": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+    "historical_document_embedding_revision": "Not recorded in original cache; ID/model key, dimensions, norms and cache SHA verified. Exact original encoder/text provenance not independently established."
+  },
+  "network": "Offline; no API calls"
+}

@@ -1,0 +1,42 @@
+{
+  "status": "PREPARED_NOT_EXECUTED",
+  "n_dev_questions": 122,
+  "systems": {
+    "rrf": "rrf_k10",
+    "graph": "linked_k1_rrf_w2"
+  },
+  "n_jobs": 244,
+  "pilot_question_ids": [
+    "bn011",
+    "bn014",
+    "bn048",
+    "q004",
+    "q015",
+    "s2034"
+  ],
+  "pilot_jobs": 12,
+  "prompt_version": "abstract-rag-v2",
+  "context_budget_proxy_tokens": 6000,
+  "top_k": 10,
+  "max_output_tokens": 768,
+  "temperature": 0,
+  "token_counter": "cl100k_base proxy. Counts message content, not provider-specific tokenization/chat overhead. Actual API usage must be logged at execution.",
+  "dev_input_proxy_tokens": 699669,
+  "pilot_input_proxy_tokens": 35978,
+  "dev_max_output_tokens": 187392,
+  "pilot_max_output_tokens": 9216,
+  "qa_dev_sha256": "25acf5fabdec77610659e60c7760af0d3074feba02a854df72c92dd33621b2b5",
+  "source_retrieval_sha256": "175075ee3b8ba2d3978dde443b2dfacf005fdd367a7fc91d009536b947170b40",
+  "jobs_sha256": "7f45ad4226ed297a969d0d09096a2120ab622a711216d12ca8f90abc588574fa",
+  "pilot_jobs_sha256": "81bdc6e83a21db6911b7c28e573e654f147a4e75a6c0495b78cafb4de1ea4e3b",
+  "paid_calls": 0,
+  "estimated_cost": null,
+  "pricing": "Hill will supply provider input/output rates later. No prices invented; no generation or judge calls made.",
+  "provenance": "Assisted-source-reviewed experimental QA. Reference answers and gold IDs are absent from generator messages. Prepared DEV only; test not loaded.",
+  "execution_gates": [
+    "Confirm provider rates and model requested/served labels on pilot before scaling.",
+    "Keep same generator/prompt/context cap across systems.",
+    "Do not infer faithfulness from valid citation syntax.",
+    "Human judge calibration still required."
+  ]
+}

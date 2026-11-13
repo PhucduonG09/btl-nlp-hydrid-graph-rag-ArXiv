@@ -1,0 +1,19 @@
+{
+  "extractor": "local-context-rules-v1",
+  "corpus_sha256": "1107e57398e2ac7052d5dd6fdfffa6354b761c115f1baabc0f42556ab52c5411",
+  "output_sha256": "61ad5ede2306744ffcbfd45506a552e0ccd0542e697cd75f7d7a771d518b3f9a",
+  "n_papers": 20500,
+  "n_with_relations": 11599,
+  "relations": {
+    "PROPOSES": 12243,
+    "EVALUATES_ON": 1934,
+    "USES": 9042
+  },
+  "elapsed_seconds": 8.934485500001756,
+  "code_sha256": {
+    "src/kg/rule_extract.py": "df447dd57b86d3a52138960e7d60ab21ad7ad96fda11e28ce9a8703a5f759e2e",
+    "src/kg/mentions.py": "61402c94940e26c280a187bd9899ed87b61a4e0cc848179575c14af75e2eb469",
+    "src/kg/aliases.py": "7f33195b1d76eb1f655ec343090567fbec6aa9777031ebc89533b080b4a1c3f3"
+  },
+  "scope": "Corpus-only weak rule baseline; independent of QA/gold. Not a replacement for validated semantic extraction. No ADDRESSES or unnamed concepts."
+}

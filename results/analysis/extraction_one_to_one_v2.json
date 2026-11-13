@@ -1,0 +1,172 @@
+{
+  "gold_sha256": "4e274236e341a12ff5d96afac6a9feb9a5e99eabb3adf157fc31d41219c591bd",
+  "n_gold_papers": 60,
+  "n_gold_relations": 355,
+  "protocol": "One-to-one maximum cardinality, canonical name/neutral suffix/pairwise acronym match. No evidence-overlap fallback. All gold tags included. Relation instances, not deduplicated entity sets. Pairwise acronym matching can remain ambiguous; inspect affected names.",
+  "human_provenance": "Existing gold file; independent authorship is not established by this scoring run.",
+  "interpretation": "Four cached configurations share a model family. Optional local-context rule baseline is a separate algorithm with narrower capabilities. No direct comparison to legacy many-to-many scores.",
+  "runs": {
+    "gold_v4_v3.jsonl": {
+      "pred_sha256": "2b3c6e705cccd28b95a28f97e2167f7de0d778f46038c2db15569fa5cd8de4dd",
+      "served_labels": {
+        "claude-sonnet-5-5": 54,
+        "claude-sonnet-5.5": 6
+      },
+      "scores": {
+        "entity_agnostic_instances": {
+          "tp": 133,
+          "fp": 122,
+          "fn": 222,
+          "P": 0.5215686274509804,
+          "R": 0.37464788732394366,
+          "F1": 0.43606557377049177,
+          "F1_paper_bootstrap_95": [
+            0.3751931033258164,
+            0.49600188383045524
+          ]
+        },
+        "typed": {
+          "tp": 125,
+          "fp": 130,
+          "fn": 230,
+          "P": 0.49019607843137253,
+          "R": 0.352112676056338,
+          "F1": 0.40983606557377045,
+          "F1_paper_bootstrap_95": [
+            0.3473658825520392,
+            0.47096291564401704
+          ]
+        }
+      }
+    },
+    "gold_v4_v3_b4.jsonl": {
+      "pred_sha256": "92e4edb2b1f7a091dcaa6f9d70fb289cc55f239b3f4eea947c67c8ebc2a4950b",
+      "served_labels": {
+        "claude-sonnet-5-5": 60
+      },
+      "scores": {
+        "entity_agnostic_instances": {
+          "tp": 84,
+          "fp": 65,
+          "fn": 271,
+          "P": 0.5637583892617449,
+          "R": 0.23661971830985915,
+          "F1": 0.3333333333333333,
+          "F1_paper_bootstrap_95": [
+            0.2740286298568507,
+            0.3924181194200591
+          ]
+        },
+        "typed": {
+          "tp": 80,
+          "fp": 69,
+          "fn": 275,
+          "P": 0.5369127516778524,
+          "R": 0.22535211267605634,
+          "F1": 0.31746031746031744,
+          "F1_paper_bootstrap_95": [
+            0.2566340645893557,
+            0.3765833831440525
+          ]
+        }
+      }
+    },
+    "gold_v4_v3s_b1.jsonl": {
+      "pred_sha256": "93f975197f43fbf0b3e74a1efdbefd1812ebbb9495678c7362d892f22ea0d4ca",
+      "served_labels": {
+        "claude-sonnet-5-5": 53,
+        "claude-sonnet-5.5": 7
+      },
+      "scores": {
+        "entity_agnostic_instances": {
+          "tp": 120,
+          "fp": 92,
+          "fn": 235,
+          "P": 0.5660377358490566,
+          "R": 0.3380281690140845,
+          "F1": 0.4232804232804233,
+          "F1_paper_bootstrap_95": [
+            0.36994646121702784,
+            0.47635531924541996
+          ]
+        },
+        "typed": {
+          "tp": 114,
+          "fp": 98,
+          "fn": 241,
+          "P": 0.5377358490566038,
+          "R": 0.3211267605633803,
+          "F1": 0.4021164021164021,
+          "F1_paper_bootstrap_95": [
+            0.3471933865369249,
+            0.4576631026631026
+          ]
+        }
+      }
+    },
+    "gold_v4_v3s_b4.jsonl": {
+      "pred_sha256": "18e861f945f7a0d0172ab04dddf7e1bdfb99c0f3af381865acc6dd1b8ea8985a",
+      "served_labels": {
+        "claude-sonnet-5-5": 60
+      },
+      "scores": {
+        "entity_agnostic_instances": {
+          "tp": 101,
+          "fp": 74,
+          "fn": 254,
+          "P": 0.5771428571428572,
+          "R": 0.28450704225352114,
+          "F1": 0.3811320754716981,
+          "F1_paper_bootstrap_95": [
+            0.3287128712871287,
+            0.4318212753671011
+          ]
+        },
+        "typed": {
+          "tp": 97,
+          "fp": 78,
+          "fn": 258,
+          "P": 0.5542857142857143,
+          "R": 0.27323943661971833,
+          "F1": 0.3660377358490566,
+          "F1_paper_bootstrap_95": [
+            0.3111866376235801,
+            0.41924149338374284
+          ]
+        }
+      }
+    },
+    "corpus_v2_rule_v1.jsonl": {
+      "pred_sha256": "61ad5ede2306744ffcbfd45506a552e0ccd0542e697cd75f7d7a771d518b3f9a",
+      "served_labels": {
+        "local-context-rules-v1": 20500
+      },
+      "scores": {
+        "entity_agnostic_instances": {
+          "tp": 28,
+          "fp": 20,
+          "fn": 327,
+          "P": 0.5833333333333334,
+          "R": 0.07887323943661972,
+          "F1": 0.13895781637717122,
+          "F1_paper_bootstrap_95": [
+            0.09900378926781567,
+            0.17831551558346062
+          ]
+        },
+        "typed": {
+          "tp": 25,
+          "fp": 23,
+          "fn": 330,
+          "P": 0.5208333333333334,
+          "R": 0.07042253521126761,
+          "F1": 0.12406947890818858,
+          "F1_paper_bootstrap_95": [
+            0.08394609268954817,
+            0.16425603864734298
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.env
+nlp/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/raw/
+data/cache/
+data/index/*.npy
+data/index/*.faiss
+.pytest_cache/
+.venv-kg/
+data/tools/
+outputs/review-share*.log
+outputs/review-share*.pid
+outputs/review-share-allowed-emails.json
+outputs/review-share.json
+
+# --- bổ sung 13/11 trước khi push ---
+# bí mật / môi trường / công cụ cục bộ
+.env.*
+!.env.example
+.vscode/
+"Claude outputs/"
+Claude outputs/
+_to_delete/
+**/_to_delete/
+outputs/
+*.log
+*.pid
+*.sqlite3-journal
+*.sqlite3-journal.*
+**/*journal*
+
+# dữ liệu tái tạo được / quá lớn
+data/cache/
+data/tools/
+data/index/
+data/processed/bridge_corpus_v1.jsonl
+data/processed/distractors_20000.jsonl
+data/eval/*.ndjson
+data/eval/*.tmp
+results/analysis/citation_lists_4000.json
+results/**/colab_input.jsonl
+results/**/jobs_dev.jsonl

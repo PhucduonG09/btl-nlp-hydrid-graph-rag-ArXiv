@@ -1,0 +1,30 @@
+{
+  "status": "DRAFT_NOT_FROZEN_NOT_FINAL_TEST",
+  "n_corpus": 20500,
+  "n_legacy_single": 60,
+  "n_approved_bridge": 45,
+  "n_new_single_sources": 45,
+  "planned_total": 150,
+  "source_sha256": {
+    "data\\processed\\pilot_papers.jsonl": "3519082ebd0ecadefac926ee5a6a67feda19ebb937c068672a0fd883055f4b16",
+    "data\\processed\\distractors_20000.jsonl": "8791b3188b3e6e607f05de19bbe916aca7a17f01a8d6ad2e1952e5abe4edf827",
+    "data\\eval\\qa.jsonl": "f59fd277e6acc2261268d759ab2876126babcdc3fcb98cfaeff2beb86235204c",
+    "data\\eval\\bridge_v1\\qa_all.jsonl": "67c162ae2cbc512b913116ab4ae1c573071e20cb2143b2de280b7adeb9bc0d41"
+  },
+  "corpus": "data\\processed\\benchmark_v2_corpus.jsonl",
+  "corpus_sha256": "1107e57398e2ac7052d5dd6fdfffa6354b761c115f1baabc0f42556ab52c5411",
+  "candidate_policy": "SHA256 order with fixed seed42; cs.CL, abstract length 500..1900, exclude all existing QA gold papers. No KG, retrieval score or test performance used. This is a scoped convenience sample, not a representative natural-query distribution.",
+  "split_policy": "Do not freeze until QA review. Retain bridge-v1 DEV/test assignments; legacy QA have historical exposure and must be labeled accordingly, not described as a fully unseen test.",
+  "current_composition": {
+    "total": 150,
+    "legacy_single": 59,
+    "new_single": 46,
+    "approved_bridge": 45
+  },
+  "applied_replacement_ids": [
+    "s2006",
+    "s2019",
+    "q056"
+  ],
+  "accepted_replacements_sha256": "5d5e3cc709269b4c4a7b7005b06e8b0c9cd7dc72a121edf4b4883e23efe9d7cb"
+}

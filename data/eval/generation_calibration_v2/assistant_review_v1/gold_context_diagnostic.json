@@ -1,0 +1,234 @@
+{
+  "scope": "Secondary DEV gold-context diagnostic, after initial source-constrained review. Gold papers not fed into model outputs; no test QA loaded.",
+  "n_bridge": 25,
+  "A_present": 25,
+  "B_present": 10,
+  "B_missing": 15,
+  "items": [
+    {
+      "sample_id": "H002",
+      "qa_id": "bh016",
+      "gold_A": "2512.14166",
+      "gold_B": "2409.00920",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": false,
+      "assistant_quality": "abstained"
+    },
+    {
+      "sample_id": "H003",
+      "qa_id": "bn033",
+      "gold_A": "2507.21077",
+      "gold_B": "2410.16520",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": true,
+      "assistant_quality": "correct"
+    },
+    {
+      "sample_id": "H004",
+      "qa_id": "bn021",
+      "gold_A": "2410.05261",
+      "gold_B": "2305.07895",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": false,
+      "assistant_quality": "abstained"
+    },
+    {
+      "sample_id": "H008",
+      "qa_id": "bn018",
+      "gold_A": "2406.14027",
+      "gold_B": "2304.09938",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": true,
+      "assistant_quality": "correct"
+    },
+    {
+      "sample_id": "H010",
+      "qa_id": "bh001",
+      "gold_A": "2508.17627",
+      "gold_B": "2311.12022",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": false,
+      "assistant_quality": "abstained"
+    },
+    {
+      "sample_id": "H011",
+      "qa_id": "bn009",
+      "gold_A": "2305.11854",
+      "gold_B": "2306.06070",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": false,
+      "assistant_quality": "abstained"
+    },
+    {
+      "sample_id": "H016",
+      "qa_id": "bn017",
+      "gold_A": "2508.08509",
+      "gold_B": "2406.08673",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": true,
+      "assistant_quality": "correct"
+    },
+    {
+      "sample_id": "H017",
+      "qa_id": "bn027",
+      "gold_A": "2506.07330",
+      "gold_B": "2310.17389",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": true,
+      "assistant_quality": "correct"
+    },
+    {
+      "sample_id": "H020",
+      "qa_id": "bn023",
+      "gold_A": "2502.16111",
+      "gold_B": "2401.06915",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": false,
+      "assistant_quality": "incorrect"
+    },
+    {
+      "sample_id": "H023",
+      "qa_id": "bn049",
+      "gold_A": "2406.15513",
+      "gold_B": "2307.04657",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": true,
+      "assistant_quality": "correct"
+    },
+    {
+      "sample_id": "H024",
+      "qa_id": "bn007",
+      "gold_A": "2512.14332",
+      "gold_B": "2406.01574",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": false,
+      "assistant_quality": "abstained"
+    },
+    {
+      "sample_id": "H027",
+      "qa_id": "bn050",
+      "gold_A": "2501.13331",
+      "gold_B": "2310.08041",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": false,
+      "assistant_quality": "abstained"
+    },
+    {
+      "sample_id": "H028",
+      "qa_id": "bn045",
+      "gold_A": "2502.12411",
+      "gold_B": "2310.17389",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": false,
+      "assistant_quality": "abstained"
+    },
+    {
+      "sample_id": "H031",
+      "qa_id": "bn048",
+      "gold_A": "2509.01910",
+      "gold_B": "2309.16020",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": true,
+      "assistant_quality": "correct"
+    },
+    {
+      "sample_id": "H033",
+      "qa_id": "bn006",
+      "gold_A": "2508.04280",
+      "gold_B": "2404.05955",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": true,
+      "assistant_quality": "correct"
+    },
+    {
+      "sample_id": "H035",
+      "qa_id": "bh004",
+      "gold_A": "2510.17388",
+      "gold_B": "2406.01574",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": false,
+      "assistant_quality": "abstained"
+    },
+    {
+      "sample_id": "H036",
+      "qa_id": "bd002",
+      "gold_A": "2404.05955",
+      "gold_B": "2310.16534",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": false,
+      "assistant_quality": "abstained"
+    },
+    {
+      "sample_id": "H037",
+      "qa_id": "bn003",
+      "gold_A": "2507.10955",
+      "gold_B": "2302.10025",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": true,
+      "assistant_quality": "correct"
+    },
+    {
+      "sample_id": "H038",
+      "qa_id": "bn014",
+      "gold_A": "2410.01257",
+      "gold_B": "2406.08673",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": true,
+      "assistant_quality": "correct"
+    },
+    {
+      "sample_id": "H039",
+      "qa_id": "bn001",
+      "gold_A": "2406.10615",
+      "gold_B": "2310.17596",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": true,
+      "assistant_quality": "correct"
+    },
+    {
+      "sample_id": "H040",
+      "qa_id": "bn002",
+      "gold_A": "2508.16153",
+      "gold_B": "2311.12983",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": false,
+      "assistant_quality": "abstained"
+    },
+    {
+      "sample_id": "H041",
+      "qa_id": "bn025",
+      "gold_A": "2507.23095",
+      "gold_B": "2303.09618",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": false,
+      "assistant_quality": "abstained"
+    },
+    {
+      "sample_id": "H043",
+      "qa_id": "bn004",
+      "gold_A": "2511.14275",
+      "gold_B": "2406.01574",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": false,
+      "assistant_quality": "abstained"
+    },
+    {
+      "sample_id": "H048",
+      "qa_id": "bn011",
+      "gold_A": "2512.10287",
+      "gold_B": "2505.13315",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": false,
+      "assistant_quality": "partial"
+    },
+    {
+      "sample_id": "H049",
+      "qa_id": "bn020",
+      "gold_A": "2512.05732",
+      "gold_B": "2403.11904",
+      "A_in_supplied_context": true,
+      "B_in_supplied_context": false,
+      "assistant_quality": "abstained"
+    }
+  ]
+}

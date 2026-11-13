@@ -1,0 +1,14 @@
+{
+  "model": "claude-sonnet-5",
+  "temperature": 0,
+  "max_output_tokens": 768,
+  "prompt_version": "abstract-rag-v2",
+  "jobs_sha256": "9910cb14b3cf6a198f51a159e11b1f474e790427025ef6089e162344caf275b4",
+  "protocol_sha256": "2584b35829d485832fea52cc5052a9a719c43ff9a59bf9b494d982b38c421046",
+  "source_dev_protocol_sha256": "1ac6924fdf8fec97aaa6f740f4dcf60a1bcfad3c5a1f762a51fae34d071d95cc",
+  "amendments": [
+    "A1",
+    "A2"
+  ],
+  "tuning": "None. Models/prompt/caps copied from DEV protocol."
+}

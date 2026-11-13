@@ -1,0 +1,7 @@
+{
+  "graph_sha256": "1ac02dbe00be4cd8130691d2b5bc2e51ca7d70f82211ede5a9838d41989c66c7",
+  "seeds": "Same query-linked seeds as the primary MENTIONS run; no gold seeds.",
+  "parameters": "Fixed one-hop, seed_count3, final RRF k60 weights1:2; inherited from MENTIONS DEV choice, not independently tuned typed optimum.",
+  "strict": "Source USES/EVALUATES_ON and destination PROPOSES only. Reference/baseline links outside this schema may be omitted.",
+  "test_access": "None; DEV only."
+}

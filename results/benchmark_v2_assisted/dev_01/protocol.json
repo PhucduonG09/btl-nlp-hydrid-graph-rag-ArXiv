@@ -1,0 +1,52 @@
+{
+  "dataset": "benchmark_v2_assisted",
+  "qa_dev_sha256": "25acf5fabdec77610659e60c7760af0d3074feba02a854df72c92dd33621b2b5",
+  "corpus_sha256": "1107e57398e2ac7052d5dd6fdfffa6354b761c115f1baabc0f42556ab52c5411",
+  "graph_sha256": "816571dbe270d5deea9ccbd36692cb8e36b6e1b71900ea6554c147d3936cf711",
+  "code_sha256": {
+    "scripts/run_benchmark_dev.py": "efd261977bf351cde23215b6e4264eaf03ff31f4306a80263fcbfacb46c20587",
+    "src/retrieval/offline.py": "66af4da6612cc7539e754eae1c4eca8e56d1b396e3fb344d2d11bee14ad492c9",
+    "src/retrieval/graph.py": "1c80dfd60fbc5523cc1f588a63420c59d2cc4e484678c9752016d000b871acc2",
+    "src/kg/mentions.py": "61402c94940e26c280a187bd9899ed87b61a4e0cc848179575c14af75e2eb469",
+    "src/kg/aliases.py": "7f33195b1d76eb1f655ec343090567fbec6aa9777031ebc89533b080b4a1c3f3",
+    "src/eval/benchmark_metrics.py": "43ab52966a19822ea6e766f75db3b834d2bdcb2cb871dd1716c7969396409b22"
+  },
+  "test_access": "None: only qa_dev loaded.",
+  "bm25_grid": {
+    "k1": [
+      0.8,
+      1.5,
+      2.0
+    ],
+    "b": [
+      0.4,
+      0.75
+    ]
+  },
+  "rrf_grid": [
+    10,
+    30,
+    60,
+    100
+  ],
+  "graph": {
+    "seed_count": 3,
+    "hops": [
+      1,
+      2,
+      3
+    ],
+    "ppr_alpha": 0.85,
+    "rrf_graph_weights": [
+      0.5,
+      1,
+      2
+    ],
+    "weighted_rank_weights": [
+      0.5,
+      0.5
+    ]
+  },
+  "selection": "Equal-weight mean of single and bridge All@10, then equal-weight MRR@10. Deterministic name order for remaining ties.",
+  "caution": "Bridge subset BM25-screened. New single papers are a scoped cs.CL convenience sample. Assistant review is not independent human labeling. This version does not satisfy the human-annotation A+ criterion by itself. Approval records do not establish independent double annotation."
+}

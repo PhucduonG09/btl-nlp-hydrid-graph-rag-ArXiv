@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-11",
+  "backup": "ratings.before-adjudication.sqlite3",
+  "changes": [
+    {
+      "sample_id": "H022",
+      "reviewer": "Phúc",
+      "before": "correct/all_supported/ref=0",
+      "after": "correct/mixed/ref=0"
+    },
+    {
+      "sample_id": "H032",
+      "reviewer": "Phúc",
+      "before": "correct/all_supported/ref=0",
+      "after": "correct/mixed/ref=0"
+    },
+    {
+      "sample_id": "H004",
+      "reviewer": "Phúc",
+      "before": "incorrect/mixed/ref=0",
+      "after": "abstained/not_applicable/ref=1"
+    },
+    {
+      "sample_id": "H042",
+      "reviewer": "Phúc",
+      "before": "partial/all_supported/ref=1",
+      "after": "correct/all_supported/ref=0"
+    },
+    {
+      "sample_id": "H050",
+      "reviewer": "Phúc",
+      "before": "partial/mixed/ref=1",
+      "after": "correct/mixed/ref=0"
+    },
+    {
+      "sample_id": "H017",
+      "reviewer": "Phúc",
+      "before": "correct/all_supported/ref=1",
+      "after": "correct/all_supported/ref=0"
+    }
+  ],
+  "note": "Chỉ sửa dòng Phúc; duyanh không đổi. Cờ reference_issue của H006 giữ nguyên.",
+  "team_decisions_not_in_db": [
+    {
+      "sample_id": "H006",
+      "decision": "reference_issue=0 (tham chiếu khớp nguồn [1]; vấn đề nằm ở tiền đề \"combine\" của câu hỏi)",
+      "recorded": "2026-11-11 sau khi test đã mở",
+      "db_changed": false,
+      "reason": "ratings.sqlite3 đã được khóa bằng hash trong test_opened.json; đổi DB sẽ phá khóa. Cờ này không ảnh hưởng quality/support nên không ảnh hưởng gate. Phân tầng reference_issue trong báo cáo dùng DB như hiện có (16 mẫu, trong đó H006 chỉ một người gắn cờ)."
+    }
+  ],
+  "provenance": "Nhóm đối chiếu nguồn và thống nhất nhãn cuối của 6 mục; trong quá trình đối chiếu có tham khảo đề xuất của trợ lý AI. Nhãn gốc chưa qua thảo luận được giữ ở ratings.before-adjudication.sqlite3 và là cơ sở tính độ đồng thuận giữa hai người chấm."
+}

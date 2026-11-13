@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "total": 150,
+  "single": 105,
+  "bridge": 45,
+  "verified_current_source_spans": 123,
+  "unresolved_content": 0,
+  "applied_replacements": [
+    "s2006",
+    "s2019",
+    "q056"
+  ],
+  "original_inputs_unchanged": true,
+  "independent_human_annotation_complete": false
+}

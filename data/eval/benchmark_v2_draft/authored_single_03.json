@@ -1,0 +1,151 @@
+[
+  {
+    "id": "s2031",
+    "question": "How much of the model does PETAL tune, and what two mechanisms enrich the semantic content of its multimodal instructions?",
+    "reference_answer": "PETAL requires only 0.5% of the total parameters. It enriches instructions through adaptive instruction mixture-of-experts and a strengthened score-based link between parameter-efficient tuning and mutual information.",
+    "evidence": [
+      "requiring only 0.5% of the total parameters",
+      "by introducing adaptive instruction mixture-of-experts(MOEs)",
+      "by fortifying the score-based linkage between parameter-efficient tuning and mutual information"
+    ]
+  },
+  {
+    "id": "s2032",
+    "question": "How does DynamicKV make cache retention task-sensitive, and what retention-performance trade-off does it report on LongBench?",
+    "reference_answer": "It adjusts the number of retained tokens per layer, sets global and per-layer cache budgets, and periodically updates earlier layers' cache sizes during inference. Retaining 1.7% of KV-cache size achieves approximately 85% of full-cache performance on LongBench.",
+    "evidence": [
+      "adjusting the number of tokens retained at each layer to adapt to the specific task",
+      "DynamicKV establishes global and per-layer maximum KV cache budgets, temporarily retaining the maximum budget for the current layer, and periodically updating the KV cache sizes of all preceding layers during inference",
+      "retains only 1.7% of the KV cache size while achieving ~85% of the Full KV cache performance on LongBench"
+    ]
+  },
+  {
+    "id": "s2033",
+    "question": "How does the unified T5 recommender use MovieLens tasks alongside ReDIAL, and what evidence supports transfer into conversation?",
+    "reference_answer": "It fine-tunes on ReDIAL while multitask training on MovieLens-derived tasks such as predicting movie attributes and related movies. Probe studies report a 9%-52% increase in each added task's related probe score, supporting transfer of that learned knowledge to the conversational setting.",
+    "evidence": [
+      "a unified transformer model, based on the T5 text-to-text transformer model",
+      "fine-tune our model on the ReDIAL conversational movie recommendation dataset, and create additional training tasks derived from MovieLens (such as the prediction of movie attributes and related movies based on an input movie)",
+      "the learned knowledge in the additional tasks is transferred to the conversational setting, where each task leads to a 9%-52% increase in its related probe score"
+    ]
+  },
+  {
+    "id": "s2034",
+    "question": "How does Cantor combine perception with visual reasoning, and does its reported improvement require fine-tuning or gold rationales?",
+    "reference_answer": "Its perception-decision architecture incorporates visual input into decision generation and uses MLLMs as multiple experts to obtain higher-level information for chain-of-thought reasoning. Reported improvements on two visual-reasoning datasets require neither fine-tuning nor ground-truth rationales.",
+    "evidence": [
+      "Cantor, characterized by a perception-decision architecture",
+      "Cantor first acts as a decision generator and integrates visual inputs to analyze the image and problem",
+      "Cantor leverages the advanced cognitive functions of MLLMs to perform as multifaceted experts for deriving higher-level information",
+      "significant improvements in multimodal CoT performance across two complex visual reasoning datasets, without necessitating fine-tuning or ground-truth rationales"
+    ]
+  },
+  {
+    "id": "s2035",
+    "question": "What language dimensions does PopBERT label in Bundestag speeches, and how are left- and right-wing host ideologies represented?",
+    "reference_answer": "Core labels capture moralizing references to the virtuous people and the corrupt elite. Annotations additionally mark attachments of populist statements to left- or right-wing host ideologies; a multilabel transformer classifier detects and quantifies the dimensions.",
+    "evidence": [
+      "we label moralizing references to the virtuous people or the corrupt elite as core dimensions of populist language",
+      "we annotate how populist statements are attached to left-wing or right-wing host ideologies",
+      "a transformer-based model (PopBERT) as a multilabel classifier to detect and quantify each dimension"
+    ]
+  },
+  {
+    "id": "s2036",
+    "question": "In the text-classification ensemble study using predictions from five fine-tuned models, what resource is assembled and how many datasets does it cover?",
+    "reference_answer": "The work presents a metadataset of predictions from five large fine-tuned models on six datasets, enabling comparison of ensembling strategies using those predictions.",
+    "evidence": [
+      "we present a metadataset with predictions from five large finetuned models on six datasets, and report results of different ensembling strategies from these predictions"
+    ]
+  },
+  {
+    "id": "s2037",
+    "question": "Why can INLP weaken causal conclusions from amnesic probing, and what do Mean Projection and LEACE aim to improve?",
+    "reference_answer": "INLP can introduce random changes to representations while removing the target information, undermining the goal of leaving other information unchanged. Mean Projection and LEACE remove information more selectively, improving the potential for behavioral explanations.",
+    "evidence": [
+      "removing only the target information while leaving other information unchanged",
+      "Iterative Nullspace Projection (INLP), a widely used removal technique, introduces random modifications to representations when eliminating target information",
+      "Mean Projection (MP) and LEACE, two proposed alternatives, remove information in a more targeted manner, thereby enhancing the potential for obtaining behavioural explanations"
+    ]
+  },
+  {
+    "id": "s2038",
+    "question": "How is FlashSpeech trained without a pretrained diffusion teacher, and how many sampling steps does its fast synthesis require?",
+    "reference_answer": "It builds on a latent consistency model and uses adversarial consistency training from scratch without a pretrained diffusion teacher. Synthesis takes one or two sampling steps while maintaining high audio quality and similarity to the prompt.",
+    "evidence": [
+      "FlashSpeech is built on the latent consistency model and applies a novel adversarial consistency training approach that can train from scratch without the need for a pre-trained diffusion model as the teacher",
+      "one or two sampling steps while maintaining high audio quality and high similarity to the audio prompt"
+    ]
+  },
+  {
+    "id": "s2039",
+    "question": "Does ExtAgents require longer-context training, and are its reported knowledge-integration improvements limited to inputs exceeding the context window?",
+    "reference_answer": "ExtAgents scales inference-time knowledge integration without longer-context training. The reported gains over non-training alternatives use the same amount of external knowledge and apply whether it fits within or exceeds the context window; high parallelism helps maintain efficiency.",
+    "evidence": [
+      "enable better scalability in inference-time knowledge integration without longer-context training",
+      "significantly enhances the performance over existing non-training methods with the same amount of external knowledge input",
+      "whether it falls \\emph{within or exceeds the context window}",
+      "the method maintains efficiency due to high parallelism"
+    ]
+  },
+  {
+    "id": "s2040",
+    "question": "What failure of regularization-based continual LLM learning motivates DOC, and how are new-task gradients constrained?",
+    "reference_answer": "The work identifies drift in functional directions during fine-tuning as a cause of long-term failure. DOC tracks and dynamically updates those historical directions, making new-task parameter gradients orthogonal to them to reduce interference with earlier tasks.",
+    "evidence": [
+      "the drift of functional directions during the fine-tuning process is a key reason why existing regularization-based methods fail in long-term LLM continual learning",
+      "tracks the drift of these functional directions and dynamically updates them during the fine-tuning process",
+      "adjusting the gradients of new task parameters to be orthogonal to the tracked historical function directions",
+      "mitigates interference between new and old tasks"
+    ]
+  },
+  {
+    "id": "s2041",
+    "question": "In the historical-semantics comparison of ChatGPT, GPT-4, Claude, Bard, Gemini and Llama, which automatic measures and human assessments are used?",
+    "reference_answer": "It uses tailored prompts for terms from multiple domains and measures responses with objective metrics such as perplexity and word count, alongside subjective human-expert evaluations.",
+    "evidence": [
+      "a diverse set of terms from multiple domains, using tailored prompts and measuring responses through both objective metrics (e.g., perplexity and word count) and subjective human expert evaluations"
+    ]
+  },
+  {
+    "id": "s2042",
+    "question": "Among the BabyLM simple-to-complex curricula involving context size, vocabulary and linguistic complexity, which helped, and how did it compare with a more data-rich baseline?",
+    "reference_answer": "Only the context-size curriculum was found beneficial. The context-limited model outperformed a baseline trained on ten times as much data; reported average gains were 2 points on (Super)GLUE, 1 point on MSGS and 12% on BLiMP.",
+    "evidence": [
+      "namely context size, vocabulary, and overall linguistic complexity of the data",
+      "We find that only one, context size, is truly beneficial to training a language model",
+      "improvements of 2 points on average on (Super)GLUE tasks, 1 point on MSGS tasks, and 12\\% on average on BLiMP tasks",
+      "Our context-limited model outperforms the baseline that was trained on 10$\\times$ the amount of data"
+    ]
+  },
+  {
+    "id": "s2043",
+    "question": "In dual-perspective instruction learning with white-box and black-box LLMs, which model supplies initial instructions, which white-box features are used, and what constraint combines the components?",
+    "reference_answer": "Black-box models supply high-quality, diverse initial instructions. White-box models expose hidden states and output features for fine-grained interpretation; a semantic-similarity constraint fuses the components into a unified high-dimensional representation for iterative refinement.",
+    "evidence": [
+      "Black-box models provide high-quality, diverse instruction initializations, and white-box models supply fine-grained interpretability through hidden states and output features",
+      "By enforcing a semantic similarity constraint, these components fuse into a unified high-dimensional representation",
+      "an iterative optimization process to refine instruction quality and adaptability"
+    ]
+  },
+  {
+    "id": "s2044",
+    "question": "What inputs does BPE-based data-mixture inference require, and which training set do its estimated category proportions describe?",
+    "reference_answer": "The ordered merge rules provide information about token frequencies. A linear program uses the tokenizer merge list and example data for each category to estimate category proportions in the tokenizer training set.",
+    "evidence": [
+      "the ordered list of merge rules learned by a BPE tokenizer naturally reveals information about the token frequencies in its training data",
+      "Given a tokenizer's merge list along with example data for each category of interest, we formulate a linear program that solves for the proportion of each category in the tokenizer's training set"
+    ]
+  },
+  {
+    "id": "s2045",
+    "question": "How does DAPI choose and apply a toxicity intervention during generation, and what toxicity-fluency trade-off does it report?",
+    "reference_answer": "It trains category-specific toxicity probe vectors, dynamically selects the most relevant one for the current context, then scales and subtracts it from the model. The abstract reports up to 78.52% toxicity reduction with a fluency drop of 0.052% relative to the unsteered model.",
+    "evidence": [
+      "we train multiple toxicity probe vectors for different toxicity categories",
+      "During generation, we dynamically select the most relevant toxicity probe vector based on the current context",
+      "the selected vector is dynamically scaled and subtracted from model",
+      "up to a 78.52% reduction in toxicity on the evaluation dataset, while fluency remains nearly unchanged, with only a 0.052% drop compared to the unsteered model"
+    ]
+  }
+]

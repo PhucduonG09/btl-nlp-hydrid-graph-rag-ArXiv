@@ -1,0 +1,1831 @@
+{
+  "version": "assistant-answer-review-v1",
+  "n_reviewed": 50,
+  "input_pack_sha256": "100f4110b5b439d5abe515b8af3ade0600a4f2bce90ddd22e04953c32a2afe40",
+  "decisions_sha256": "fb7ab9b15c6a5f76e31a4e85395228e85834c092ceabc6690d4edea5bd803149",
+  "reviewer": "Assistant reading the questions, answers, reference answers and cited/relevant supplied abstracts. Decisions are authored individually, not copied from the automatic judge.",
+  "human_labels_written": 0,
+  "original_model_answers_modified": false,
+  "frozen_qa_modified": false,
+  "quality_counts": {
+    "correct": 33,
+    "abstained": 13,
+    "partial": 3,
+    "incorrect": 1
+  },
+  "priority_counts": {
+    "none": 40,
+    "high": 5,
+    "low": 5
+  },
+  "hill_question_decisions_pending": [
+    "H036"
+  ],
+  "verified_witness_count": 91,
+  "scope": "Source-constrained assistant review of 50 DEV responses. Not independent human calibration, no API calls, no Excel changes. A valid refusal still does not answer the benchmark question. Partial/incorrect responses are preserved as experimental failures.",
+  "items": [
+    {
+      "sample_id": "H001",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Đúng cả cơ chế MDL, phân rã theo mẫu và đánh đổi 7% tại ArcPrize 2024 so với hiệu quả/khả năng giải thích. Không suy rộng thành ngang độ chính xác với LLM.",
+      "witnesses": [
+        [
+          1,
+          "MADIL performs pattern-based decomposition"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "23eecaa91aa5783723c19b0ed49fd66d013f1a0da5c622c5eb5b7d2ae30708b3",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2505.01081",
+          "text": "MADIL performs pattern-based decomposition",
+          "start": 633,
+          "end": 675,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H002",
+      "quality": "abstained",
+      "support": "not_applicable",
+      "priority": "none",
+      "note": "Từ chối phù hợp với context: paper A xác định ToolACE, nhưng nguồn cấp cho đáp án không có paper mô tả cách xây ToolACE, 26.507 API và xác minh hai lớp. Không chấm từ chối thành đúng đáp án tham chiếu.",
+      "witnesses": [
+        [
+          1,
+          "Experiments on the ToolACE benchmark"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "3c8bd8fa1d359eb3b7fe9225825e934f98f016b1785fcdc36d3c3e99c1daa8ec",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2512.14166",
+          "text": "Experiments on the ToolACE benchmark",
+          "start": 1009,
+          "end": 1045,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H003",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Nối đúng nghiên cứu Neuro-Inclusive AI tới AUTALIC; lấy quy mô 2.400 câu Reddit, ngữ cảnh, annotator có nền tảng neurodiversity và hạn chế LM từ paper dataset, không lấy nhầm 90% ở paper A làm kết quả dataset.",
+      "witnesses": [
+        [
+          1,
+          "Our benchmark, AUTALIC"
+        ],
+        [
+          2,
+          "2,400 autism-related sentences"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "1f51d26ddcea28970a79e336bc7c658c51e6223299fe7d93a9a730808f5729d0",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2507.21077",
+          "text": "Our benchmark, AUTALIC",
+          "start": 1191,
+          "end": 1213,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 2,
+          "paper_id": "2410.16520",
+          "text": "2,400 autism-related sentences",
+          "start": 639,
+          "end": 669,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H004",
+      "quality": "abstained",
+      "support": "not_applicable",
+      "priority": "none",
+      "note": "Xác định đúng OCRBench nhưng chưa trả lời được các tác vụ và quy mô. Context chỉ có thành tích TextHawk2, không có paper OCRBench. Phần nhận diện benchmark có nguồn; phần thiếu thông tin là từ chối, không phải faithfulness hoàn hảo.",
+      "witnesses": [
+        [
+          1,
+          "78.4% accuracy on OCRBench"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "b252bfc9c706cf22b2f3e009e470a326fa0f68bc07232a5c6759821147c988db",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2410.05261",
+          "text": "78.4% accuracy on OCRBench",
+          "start": 1448,
+          "end": 1474,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H005",
+      "quality": "partial",
+      "support": "mixed",
+      "priority": "high",
+      "note": "Đúng CvT và các ngưỡng hơn 5 lần/hơn 2,5 lần, nhưng không được chia hai cận dưới để kết luận lợi thế xấp xỉ gấp đôi. Hai thí nghiệm khác dải năng lượng. Abstract cũng không nêu detector noise/calibration/systematics là nguyên nhân. Không có trích dẫn [n] trong đáp án.",
+      "proposed_revision": "The CvT achieved more than five times the proton rejection power of the other DL models on MC events with reconstructed energy 0.2–2 TeV at 90% electron accuracy. On ISS data at 50–70 GeV, it achieved more than 2.5 times the rejection power [1]. These are separate evaluations at different energy ranges; the abstract does not establish a twofold ratio between the gains or explain their cause.",
+      "witnesses": [
+        [
+          1,
+          "more than 5 times"
+        ],
+        [
+          1,
+          "more than 2.5 times"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "a8f9e95936c5ff38f109b670147f8e7a98a3cb770e3cdc2aca547025bff358de",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2402.16285",
+          "text": "more than 5 times",
+          "start": 1482,
+          "end": 1499,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 1,
+          "paper_id": "2402.16285",
+          "text": "more than 2.5 times",
+          "start": 1649,
+          "end": 1668,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H006",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Đủ preprocessing/quality assessment/ba classifier, hai fairness metric và so sánh EyeArt trên 1.046 bệnh nhân chưa thấy. Giữ số % như abstract, không tự đổi thành điểm phần trăm hoặc khẳng định chất lượng ảnh gây ra fairness. Các caveat phù hợp giới hạn abstract.",
+      "witnesses": [
+        [
+          1,
+          "1,046 patients"
+        ],
+        [
+          1,
+          "Disparate Impact and Equal Opportunity Difference"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "c3087febd0d4eb0b4fbc2d3bfaf2102e03568fb530a86050046c017f3f56489f",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2508.12506",
+          "text": "1,046 patients",
+          "start": 990,
+          "end": 1004,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 1,
+          "paper_id": "2508.12506",
+          "text": "Disparate Impact and Equal Opportunity Difference",
+          "start": 1198,
+          "end": 1247,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H007",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Đúng probe theo loại toxicity, chọn theo context, scale rồi trừ; giữ đúng up to 78,52% giảm toxicity và giảm fluency 0,052%, không đánh tráo hai số.",
+      "witnesses": [
+        [
+          1,
+          "78.52% reduction"
+        ],
+        [
+          1,
+          "0.052% drop"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "0402334d150e4cf6f38520c429002b9a0a10c80bc516989625e8ee430603a74f",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2503.12882",
+          "text": "78.52% reduction",
+          "start": 944,
+          "end": 960,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 1,
+          "paper_id": "2503.12882",
+          "text": "0.052% drop",
+          "start": 1052,
+          "end": 1063,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H008",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "A chỉ ra LARD; B xác nhận phần lớn ảnh tổng hợp, ảnh landing thật gán nhãn thủ công và generator tự chú thích góc runway bằng biến đổi hình học. Đáp án đủ hai phần.",
+      "witnesses": [
+        [
+          1,
+          "Landing Approach Runway Detection (LARD)"
+        ],
+        [
+          4,
+          "automatic annotation of the runway corners"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "01eab3387674dc97b797e3397b639c6d62e5739ea3d799c8a5a8cb292da13c72",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2406.14027",
+          "text": "Landing Approach Runway Detection (LARD)",
+          "start": 623,
+          "end": 663,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 4,
+          "paper_id": "2304.09938",
+          "text": "automatic annotation of the runway corners",
+          "start": 819,
+          "end": 861,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H009",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Đúng fusion ligand graph-level features, biểu diễn protein/ligand bằng TAMformer và tối ưu lặp trên distance matrix. Không thêm bước fine-tuning hay cơ chế docking ngoài nguồn.",
+      "witnesses": [
+        [
+          1,
+          "fusion of ligand graph-level features"
+        ],
+        [
+          1,
+          "predicted distance matrix"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "318ec0bd99de67f1852ecec0543c3a35f014c2e319081d4b84cab9d7f5faefd0",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2310.08061",
+          "text": "fusion of ligand graph-level features",
+          "start": 588,
+          "end": 625,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 1,
+          "paper_id": "2310.08061",
+          "text": "predicted distance matrix",
+          "start": 821,
+          "end": 846,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H010",
+      "quality": "abstained",
+      "support": "not_applicable",
+      "priority": "none",
+      "note": "Xác định GPQA là tài nguyên thứ hai nhưng context không mô tả bộ 448 câu, chuyên gia và so sánh human/GPT-4. Nguồn khác chỉ nhắc GPQA-Diamond, không đủ đáp án. Chấm là từ chối nội dung B; lời khuyên đọc full paper không thay thế bằng chứng.",
+      "witnesses": [
+        [
+          1,
+          "Across AIME and GPQA benchmarks"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "34c00cad3a670c0908481873e15484e0b5be2cf8417f48f834427526e9e47402",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2508.17627",
+          "text": "Across AIME and GPQA benchmarks",
+          "start": 919,
+          "end": 950,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H011",
+      "quality": "abstained",
+      "support": "not_applicable",
+      "priority": "none",
+      "note": "Phân biệt đúng positive transfer sang Mind2Web với kết quả MiniWoB/WebShop và 347K demonstrations của WebGUM. Không lấy các số của A để trả lời cách xây Mind2Web. Paper dataset B không nằm trong context.",
+      "witnesses": [
+        [
+          1,
+          "strong positive transfer to the real-world planning tasks on the Mind2Web"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "23ed203d722f9def4539aeee6c11aad66532d0a4253232d0cfc1dd5e4f7373e6",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2305.11854",
+          "text": "strong positive transfer to the real-world planning tasks on the Mind2Web",
+          "start": 1301,
+          "end": 1374,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H012",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Đúng temporal convolution + channel attention, tích hợp qua skip connections và mini-batch supervised generalization cho cross-day. Phần bổ sung hai BCI paradigm và neuromorphic chip đều có trong abstract.",
+      "witnesses": [
+        [
+          1,
+          "mini-batch supervised generalization learning"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "16c178a2de550aff734b978c5e263916e1b66d6a1d6e41acb2e4aa893668a65e",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2410.03533",
+          "text": "mini-batch supervised generalization learning",
+          "start": 1019,
+          "end": 1064,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H013",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Đúng sensitivity 73% within-intersection và 70% approach; không đổi sensitivity thành accuracy hay suy rộng cho triển khai ngoài dữ liệu đánh giá.",
+      "witnesses": [
+        [
+          1,
+          "a sensitivity of 73%, and 70%"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "a0ba117c1784703af3af39824602de8058df23f5a5b0b21b6effd1a85d207d25",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2307.03854",
+          "text": "a sensitivity of 73%, and 70%",
+          "start": 1660,
+          "end": 1689,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H014",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Đúng latent consistency + adversarial consistency training từ đầu, không cần pretrained diffusion teacher; một hoặc hai sampling steps. Không gọi đây là zero training.",
+      "witnesses": [
+        [
+          1,
+          "without the need for a pre-trained diffusion model as the teacher"
+        ],
+        [
+          1,
+          "one or two sampling steps"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "52f8d68d6603cd50870703a5297cacfed3ff03a708b683c44e789eaff1ad1a3c",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2404.14700",
+          "text": "without the need for a pre-trained diffusion model as the teacher",
+          "start": 708,
+          "end": 773,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 1,
+          "paper_id": "2404.14700",
+          "text": "one or two sampling steps",
+          "start": 979,
+          "end": 1004,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H015",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "low",
+      "note": "Nội dung đủ và giữ đúng tính giả thuyết: SFT đổi tham số nhiều hơn, tác động MLP giữa, freezing chưa kết luận. Tuy nhiên [9] là paper GPQA, không chứng minh kết quả freezing của nghiên cứu RL/SFT; [1] mới là nguồn đúng cho câu đó.",
+      "proposed_revision": "Giữ nội dung, bỏ [9] ở câu về thí nghiệm freezing; chỉ dẫn [1]. Không thay dữ liệu hoặc đầu ra gốc.",
+      "witnesses": [
+        [
+          1,
+          "our results are inconclusive"
+        ],
+        [
+          1,
+          "mid-layer MLPs more"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "38f86a6441e2f3c4c4682b27d84d337d9527b38b401cd40ce2483c78e1a83000",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2507.10616",
+          "text": "our results are inconclusive",
+          "start": 1094,
+          "end": 1122,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 1,
+          "paper_id": "2507.10616",
+          "text": "mid-layer MLPs more",
+          "start": 832,
+          "end": 851,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H016",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Nối đúng HelpSteer2 dùng cho reward modeling, không nhầm MIC. Trả lời đủ 10.000 response pairs và 92,0% Reward-Bench với mốc 12/06/2024; giữ rõ dùng internal base model.",
+      "witnesses": [
+        [
+          1,
+          "reward modeling, respectively"
+        ],
+        [
+          2,
+          "ten thousand response pairs"
+        ],
+        [
+          2,
+          "92.0%"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "ae32279612063386775a3183ed650d9bd34176e05f2adafbd92a9abe26a9350a",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2508.08509",
+          "text": "reward modeling, respectively",
+          "start": 995,
+          "end": 1024,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 2,
+          "paper_id": "2406.08673",
+          "text": "ten thousand response pairs",
+          "start": 1018,
+          "end": 1045,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 2,
+          "paper_id": "2406.08673",
+          "text": "92.0%",
+          "start": 856,
+          "end": 861,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H017",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "ToxicChat nằm ngay sau ImprovedLLM. B mô tả truy vấn thật từ open-source chatbot, khác social media và sự hụt hiệu quả của toxicity models cũ. Không gán kết quả kiến trúc Raudra của A cho dataset B.",
+      "witnesses": [
+        [
+          1,
+          "ImprovedLLM, ToxicChat"
+        ],
+        [
+          4,
+          "real user queries from an open-source chatbot"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "6a73631f0396dbd0501f589262e06e89b961525dda2890360722d1f5af39fc49",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2506.07330",
+          "text": "ImprovedLLM, ToxicChat",
+          "start": 1067,
+          "end": 1089,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 4,
+          "paper_id": "2310.17389",
+          "text": "real user queries from an open-source chatbot",
+          "start": 561,
+          "end": 606,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H018",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Đúng chạy ngay trong browser, không setup, TSV thay offsets/task-specific formats và đủ bốn task. Không bắt buộc kể khả năng nhiều task trên cùng dataset vì câu hỏi không yêu cầu phần đó.",
+      "witnesses": [
+        [
+          1,
+          "no setup required"
+        ],
+        [
+          1,
+          "sequence labeling, span labeling, text classification and seq2seq"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "7b50f846033df44c53a5aa87a96619b4e6db084b030bbf60f473a1b159ac4228",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2402.02864",
+          "text": "no setup required",
+          "start": 376,
+          "end": 393,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 1,
+          "paper_id": "2402.02864",
+          "text": "sequence labeling, span labeling, text classification and seq2seq",
+          "start": 592,
+          "end": 657,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H019",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Định nghĩa shortcut space bằng token statistics/position, heuristic replacements và không cần prior bias đúng nguồn. Số giảm bias x2 được tách khỏi cải thiện F1, không đánh tráo metric.",
+      "witnesses": [
+        [
+          1,
+          "token statistics and positional information"
+        ],
+        [
+          1,
+          "without requiring prior bias information"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "4511d17f5f400e7c11a383a4674fea0944d7613c6bc299880a1ddd81818547b4",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2412.07675",
+          "text": "token statistics and positional information",
+          "start": 948,
+          "end": 991,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 1,
+          "paper_id": "2412.07675",
+          "text": "without requiring prior bias information",
+          "start": 1395,
+          "end": 1435,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H020",
+      "quality": "incorrect",
+      "support": "all_supported",
+      "priority": "high",
+      "note": "Lạc đích: câu hỏi cần cách tạo DocFinQA và khó khăn mà tác giả dataset quan sát. Đáp án lại dành phần chính cho constraint verification và adaptive inference của PlanGEN. Các nhận định về PlanGEN có nguồn A nhưng không trả lời B; đây là sai đích/thiếu hop, không tự động là hallucination.",
+      "proposed_revision": "Với context hiện có, nên trả lời đúng mẫu 'Insufficient information.' Không bổ sung số liệu DocFinQA từ trí nhớ hoặc từ đáp án tham chiếu vào đầu ra thí nghiệm.",
+      "witnesses": [
+        [
+          1,
+          "DocFinQA"
+        ],
+        [
+          1,
+          "constraint-guided iterative verification"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "2f61825e5916e2c6485db29fa920d4fc00ad0f99d40fc95739be0e3aff3d6a04",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2502.16111",
+          "text": "DocFinQA",
+          "start": 1251,
+          "end": 1259,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 1,
+          "paper_id": "2502.16111",
+          "text": "constraint-guided iterative verification",
+          "start": 736,
+          "end": 776,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H021",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Đúng 0,5% tổng tham số, adaptive instruction MoE và score-based linkage với mutual information. Không nhầm số tham số được tune với mức giảm chi phí 99,5%.",
+      "witnesses": [
+        [
+          1,
+          "0.5% of the total parameters"
+        ],
+        [
+          1,
+          "adaptive instruction mixture-of-experts"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "ab8d67539f4c92c287ebcdccca5d85778d8a883b81bf5969036fc304704d99e0",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2312.12458",
+          "text": "0.5% of the total parameters",
+          "start": 764,
+          "end": 792,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 1,
+          "paper_id": "2312.12458",
+          "text": "adaptive instruction mixture-of-experts",
+          "start": 1045,
+          "end": 1084,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H022",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Đúng screenshot bounding box/visual content, textual features và neighbor elements. Kết quả cross-task/cross-website/cross-domain có trong abstract, không thêm mức tăng định lượng.",
+      "witnesses": [
+        [
+          2,
+          "contextualize each element with its neighbor elements"
+        ],
+        [
+          2,
+          "cross-task, cross-website, and cross-domain"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "0edfd4fc1d1655b11ef5bcddf9009d15464de0df5cc587466ff238fc73a506f7",
+      "verified_source_spans": [
+        {
+          "source_number": 2,
+          "paper_id": "2402.04476",
+          "text": "contextualize each element with its neighbor elements",
+          "start": 855,
+          "end": 908,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 2,
+          "paper_id": "2402.04476",
+          "text": "cross-task, cross-website, and cross-domain",
+          "start": 1271,
+          "end": 1314,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H023",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Nối đúng sibling thứ hai BeaverTails; phân biệt 333.963 QA pairs với 361.903 comparison pairs, không lấy 265k/166,8k của PKU-SafeRLHF. Hai ứng dụng moderation và RLHF đều có nguồn B.",
+      "witnesses": [
+        [
+          1,
+          "SafeRLHF and BeaverTails"
+        ],
+        [
+          4,
+          "333,963"
+        ],
+        [
+          4,
+          "361,903"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "da5230a45135cb12845188c2c5085ec0ebed3261e21421d3eed6203348df56a1",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2406.15513",
+          "text": "SafeRLHF and BeaverTails",
+          "start": 267,
+          "end": 291,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 4,
+          "paper_id": "2307.04657",
+          "text": "333,963",
+          "start": 440,
+          "end": 447,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 4,
+          "paper_id": "2307.04657",
+          "text": "361,903",
+          "start": 479,
+          "end": 486,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H024",
+      "quality": "abstained",
+      "support": "not_applicable",
+      "priority": "none",
+      "note": "A nêu GPQA và MMLU-Pro nhưng các nguồn không cung cấp paper MMLU-Pro về 4→10 lựa chọn, loại nhiễu và kết quả so với MMLU. Từ chối hợp lý theo context, nhưng vẫn là không trả lời được câu benchmark.",
+      "witnesses": [
+        [
+          1,
+          "GPQA and MMLU-Pro"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "142e0be6f9ab055cd7c271f42f9c5a1c2f16fa67d19d83a56edd7f85257f542a",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2512.14332",
+          "text": "GPQA and MMLU-Pro",
+          "start": 1044,
+          "end": 1061,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H025",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Đúng Task1 tìm FHIR resources liên quan rồi Task2 trả lời dựa trên resources đó, dùng privately hosted fine-tuned LLM. Không suy ra mọi cấu hình đều bảo đảm tuân thủ/riêng tư chỉ từ mô tả kiến trúc.",
+      "witnesses": [
+        [
+          1,
+          "identifying the most relevant FHIR resources"
+        ],
+        [
+          1,
+          "answering the query based on these resources"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "d2b60f189b1e1cf73c5b8f9d237581f8aa3377056d9d9c8d11bdb4941c24274b",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2501.13687",
+          "text": "identifying the most relevant FHIR resources",
+          "start": 765,
+          "end": 809,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 1,
+          "paper_id": "2501.13687",
+          "text": "answering the query based on these resources",
+          "start": 852,
+          "end": 896,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H026",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Đúng MA-fBM cho inference khả thi nhưng giữ tính non-Markovian; phân biệt paired future-state prediction và unpaired translation. Protein RMSD và image FID lấy từ nguồn, không gộp hai metric.",
+      "witnesses": [
+        [
+          3,
+          "Markovian approximation of fBM"
+        ],
+        [
+          3,
+          "protein conformations"
+        ],
+        [
+          3,
+          "unpaired image translation"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "2025de43d2641e1b311a5d47e6f5770555f223e24240aed99ed6c4ca9f9a03ed",
+      "verified_source_spans": [
+        {
+          "source_number": 3,
+          "paper_id": "2511.01795",
+          "text": "Markovian approximation of fBM",
+          "start": 516,
+          "end": 546,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 3,
+          "paper_id": "2511.01795",
+          "text": "protein conformations",
+          "start": 1001,
+          "end": 1022,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 3,
+          "paper_id": "2511.01795",
+          "text": "unpaired image translation",
+          "start": 1046,
+          "end": 1072,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H027",
+      "quality": "abstained",
+      "support": "not_applicable",
+      "priority": "none",
+      "note": "Phương pháp thứ hai trong cặp hơn 12 điểm là QLLM, không phải Quarot. Context không có paper QLLM về adaptive channel reassembly, 10 giờ A100 và 7,89%. Từ chối không phải lỗi kiến thức nếu thiếu B.",
+      "witnesses": [
+        [
+          1,
+          "Smoothquant and QLLM by over 12 points"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "25084db221f71162b87bbe34875d8bf04facb4da8a80b66638b9111f0e39a3cf",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2501.13331",
+          "text": "Smoothquant and QLLM by over 12 points",
+          "start": 1157,
+          "end": 1195,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H028",
+      "quality": "abstained",
+      "support": "not_applicable",
+      "priority": "none",
+      "note": "Xác định ToxicChat đúng nhưng chỉ có paper GradCoo, không có nguồn dataset để trả lời cách thu thập/motivations/findings. Dòng trích A có căn cứ; không đánh giá phần từ chối là trả lời đủ ba yêu cầu.",
+      "witnesses": [
+        [
+          1,
+          "ToxicChat and XStest"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "e0169a77342c076a7776ed19560907835fad97120d3edac9ad24e06766b8b0c3",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2502.12411",
+          "text": "ToxicChat and XStest",
+          "start": 1128,
+          "end": 1148,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H029",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Đúng TSA, cross-domain distribution matching/intra-domain structure, memory module và upper bound expected cross-entropy. Không biến implicit semantic augmentation thành sinh dữ liệu tổng hợp tường minh.",
+      "witnesses": [
+        [
+          1,
+          "without explicit data generation"
+        ],
+        [
+          1,
+          "lightweight memory module"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "4ad1572c014a7ba666adf1731d1df3ac9685ed853a3612135a7617c35e25d4dd",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2505.14753",
+          "text": "without explicit data generation",
+          "start": 1085,
+          "end": 1117,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 1,
+          "paper_id": "2505.14753",
+          "text": "lightweight memory module",
+          "start": 1016,
+          "end": 1041,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H030",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Đúng AGOCS desktop simulator, 12,5K nodes trong một tháng, jobs/tasks/nodes và resource usage. Bổ sung ML node-task analysis được hỗ trợ bởi nguồn thứ hai, không trình bày accuracy ML như fidelity của simulator.",
+      "witnesses": [
+        [
+          1,
+          "12.5K nodes"
+        ],
+        [
+          1,
+          "calendar month"
+        ],
+        [
+          2,
+          "node attributes and task constraints"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "8ee1cd19f3030e7f026bcceb1ac4ad4e2c97fd9998652f2624bafd6c2dcddbea",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2509.26120",
+          "text": "12.5K nodes",
+          "start": 361,
+          "end": 372,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 1,
+          "paper_id": "2509.26120",
+          "text": "calendar month",
+          "start": 393,
+          "end": 407,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 2,
+          "paper_id": "2509.17695",
+          "text": "node attributes and task constraints",
+          "start": 451,
+          "end": 487,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H031",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Nối đúng GeoCLIP; trả lời random Fourier features, biểu diễn phân cấp nhiều độ phân giải và chỉ 20% dữ liệu vẫn cạnh tranh. Không hiểu thành giảm lỗi 20% hoặc dùng 20% dữ liệu ở mọi benchmark.",
+      "witnesses": [
+        [
+          1,
+          "surpasses GeoCLIP"
+        ],
+        [
+          6,
+          "random Fourier features"
+        ],
+        [
+          6,
+          "20% of training data"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "08dedb4d5e412e1625bd74efbdd1304c5f68889f83883088fb0e56226dbd13e3",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2509.01910",
+          "text": "surpasses GeoCLIP",
+          "start": 1281,
+          "end": 1298,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 6,
+          "paper_id": "2309.16020",
+          "text": "random Fourier features",
+          "start": 1077,
+          "end": 1100,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 6,
+          "paper_id": "2309.16020",
+          "text": "20% of training data",
+          "start": 1545,
+          "end": 1565,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H032",
+      "quality": "correct",
+      "support": "mixed",
+      "priority": "low",
+      "note": "Kết luận chính và caveat hợp nguồn, nhưng 'Temperature matters significantly'/'crucial role' mạnh hơn abstract: nguồn chỉ nói simple parameter adjustments can improve alignment, không báo độ lớn hay kiểm định ý nghĩa thống kê của temperature.",
+      "proposed_revision": "Đổi phần nhấn mạnh temperature thành: 'The study examines temperature and reports that simple parameter adjustments can improve alignment in its evaluated subjective tasks.' Không gọi là kết quả phổ quát hoặc có ý nghĩa thống kê khi nguồn không nêu.",
+      "witnesses": [
+        [
+          1,
+          "can return better aligned outputs"
+        ],
+        [
+          4,
+          "imitation abilities are approximate at best"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "d1794d0c2215a4ccc3a6950526ada4508a9523ac8036821819369b6414802789",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2411.10080",
+          "text": "can return better aligned outputs",
+          "start": 505,
+          "end": 538,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 4,
+          "paper_id": "2405.19323",
+          "text": "imitation abilities are approximate at best",
+          "start": 855,
+          "end": 898,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H033",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Đủ bảy tasks, 1,5K instances, 139 websites, 87 sub-domains và hai hạn chế grounding/low-resolution. Không nhầm +2% của VL-DAC với quy mô VisualWebBench.",
+      "witnesses": [
+        [
+          1,
+          "VisualWebBench"
+        ],
+        [
+          4,
+          "1.5K human-curated instances"
+        ],
+        [
+          4,
+          "low-resolution image inputs"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "1d64489bd9bbf88cdd4d195e1d1919b0279826cf82846c260c62542df1580321",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2508.04280",
+          "text": "VisualWebBench",
+          "start": 1320,
+          "end": 1334,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 4,
+          "paper_id": "2404.05955",
+          "text": "1.5K human-curated instances",
+          "start": 731,
+          "end": 759,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 4,
+          "paper_id": "2404.05955",
+          "text": "low-resolution image inputs",
+          "start": 1105,
+          "end": 1132,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H034",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Đủ profile/preference/personality, text/graph, UGC/interactions và recommendation/education/healthcare. Nêu đúng đây là các domain được abstract liệt kê, không khẳng định danh sách đầy đủ của full paper.",
+      "witnesses": [
+        [
+          1,
+          "profile, preference, and personality"
+        ],
+        [
+          1,
+          "recommendation, education, and healthcare"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "a99aec92b2136cbe9d4ed8bc9f5cd6925a6182e8ade9c49586e57a20dfc0ef45",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2312.11518",
+          "text": "profile, preference, and personality",
+          "start": 229,
+          "end": 265,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 1,
+          "paper_id": "2312.11518",
+          "text": "recommendation, education, and healthcare",
+          "start": 371,
+          "end": 412,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H035",
+      "quality": "abstained",
+      "support": "not_applicable",
+      "priority": "none",
+      "note": "Resource thứ hai là MMLU-Pro. Context về option-label formats của Atomic Instruction Gap không đủ chứng minh cách xây benchmark gốc hay plateau/4→10/noise filtering. Từ chối phù hợp; không chép số của A sang B.",
+      "witnesses": [
+        [
+          1,
+          "modified MMLU and MMLU-Pro benchmarks"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "8bdb8b0b9a9af9eec7014c3586fcd2be6949d3ad1638ed0bd8eab4b3a4f8b208",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2510.17388",
+          "text": "modified MMLU and MMLU-Pro benchmarks",
+          "start": 365,
+          "end": 402,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H036",
+      "quality": "abstained",
+      "support": "not_applicable",
+      "priority": "high",
+      "question_needs_review": true,
+      "note": "Từ chối phù hợp vì context không có paper 656 test instances (2310.16534). Quan trọng hơn, câu 'a separate study' không khóa duy nhất paper đánh giá GPT-4V; context đã có một nghiên cứu GPT-4V/Gemini khác (2312.10637). Chưa khẳng định có hai đáp án hoàn toàn tương đương, nhưng mô tả hiện chưa giải thích vì sao chỉ gold B là đúng. Cần Hill chốt tính duy nhất của bridge.",
+      "proposed_revision": "Giữ nguyên bản frozen và ghi erratum. Với phiên bản kế tiếp, thay bridge này bằng cặp A→B có tài nguyên/phương pháp và paper giới thiệu xác định duy nhất; không chỉ thêm 656 vào câu để lộ dấu hiệu B. Không tự thay gold/test sau khi thấy kết quả.",
+      "witnesses": [
+        [
+          1,
+          "GPT-4V(ision)"
+        ],
+        [
+          3,
+          "evaluate two state-of-the-art LMMs, GPT-4V and Gemini"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "0c37a4b2646b9fa390ae8ca16d7a3637a0d976fafebca90b8a1dc35e71d93260",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2404.05955",
+          "text": "GPT-4V(ision)",
+          "start": 876,
+          "end": 889,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 3,
+          "paper_id": "2312.10637",
+          "text": "evaluate two state-of-the-art LMMs, GPT-4V and Gemini",
+          "start": 254,
+          "end": 307,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H037",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "A xác định DINOISER loss, B nêu đúng ba hạn chế và noise scaling ở training/inference. Không biến mức amino-acid recall tốt hơn của A thành peptide precision/recall tốt: câu trả lời không phạm lỗi đó.",
+      "witnesses": [
+        [
+          1,
+          "DINOISER loss function"
+        ],
+        [
+          5,
+          "failing to learn"
+        ],
+        [
+          5,
+          "amplified noise scales during inference"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "92556f585a009bbba41bdb2c3a27f458fde6d316771b70c6d0f99fbd6ebf3a65",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2507.10955",
+          "text": "DINOISER loss function",
+          "start": 1081,
+          "end": 1103,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 5,
+          "paper_id": "2302.10025",
+          "text": "failing to learn",
+          "start": 634,
+          "end": 650,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 5,
+          "paper_id": "2302.10025",
+          "text": "amplified noise scales during inference",
+          "start": 1198,
+          "end": 1237,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H038",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Phân biệt HelpSteer2 original 10.000 pairs/92,0% với HelpSteer2-Preference thêm preferences/justifications và 94,1 của model sau. Đáp án đủ scale/result mà câu hỏi yêu cầu; không bắt buộc kể toàn bộ chi tiết phụ trong reference.",
+      "witnesses": [
+        [
+          1,
+          "complement existing ratings"
+        ],
+        [
+          6,
+          "ten thousand response pairs"
+        ],
+        [
+          6,
+          "92.0%"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "31de93844219afbc4b05ac160d80ccd376649a1d3829f33a13296db4639d0456",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2410.01257",
+          "text": "complement existing ratings",
+          "start": 647,
+          "end": 674,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 6,
+          "paper_id": "2406.08673",
+          "text": "ten thousand response pairs",
+          "start": 1018,
+          "end": 1045,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 6,
+          "paper_id": "2406.08673",
+          "text": "92.0%",
+          "start": 856,
+          "end": 861,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H039",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Nối đúng MimicGen ngoài ManiSkill2; giữ over 50K/18 tasks/~200 seed demos, tổng hợp context mới và kết quả long-horizon/high-precision. Không lấy 2,54 lần success rate SGRv2 làm kết quả MimicGen.",
+      "witnesses": [
+        [
+          1,
+          "ManiSkill2 and MimicGen"
+        ],
+        [
+          3,
+          "over 50K demonstrations across 18 tasks"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "81f351a5c4eaddb0abdd2130f136025d70d282b94eeb56a143616d175b22c4ea",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2406.10615",
+          "text": "ManiSkill2 and MimicGen",
+          "start": 892,
+          "end": 915,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 3,
+          "paper_id": "2310.17596",
+          "text": "over 50K demonstrations across 18 tasks",
+          "start": 508,
+          "end": 547,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H040",
+      "quality": "abstained",
+      "support": "not_applicable",
+      "priority": "none",
+      "note": "Chỉ có top-1/87,88% Pass@3 của Memento trên GAIA, không có paper GAIA với 466 câu và human-vs-GPT4. Từ chối chính xác về phần cần B; không đánh tráo Pass@3 của A với accuracy trong B.",
+      "witnesses": [
+        [
+          1,
+          "GAIA validation"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "df953217c53066966a486125f43f384c9acec49f053a596b8c8ad02be8320b27",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2508.16153",
+          "text": "GAIA validation",
+          "start": 1042,
+          "end": 1057,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H041",
+      "quality": "abstained",
+      "support": "not_applicable",
+      "priority": "none",
+      "note": "Baseline thứ hai là HIVE, không phải InstructPix2Pix. Context không có paper HIVE về human reward feedback và ba dataset 1M/3,6K/1K; refusal đúng với nguồn hiện có.",
+      "witnesses": [
+        [
+          1,
+          "InstructPix2Pix and HIVE"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "a135e1ccffa679a5a57b9aa664232fb8fe55379deb09dcaa4287961ee5b723fc",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2507.23095",
+          "text": "InstructPix2Pix and HIVE",
+          "start": 700,
+          "end": 724,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H042",
+      "quality": "partial",
+      "support": "mixed",
+      "priority": "high",
+      "note": "Phần chính đúng 18,2% relative WER, 54% forgetting và retention/plasticity trade-off. Tuy nhiên câu 'all adaptation is evaluated in an on-device, stream-based continual setting' sai phạm vi: abstract có cả full fine-tuning và offline LoRA upper bounds. Không được nói toàn bộ adaptation là on-device.",
+      "proposed_revision": "Giữ hai câu đầu về ER và EWC. Đổi phần context thành: 'The study evaluates regimes ranging from full fine-tuning and offline LoRA upper bounds to an on-device, stream-based continual adaptation framework in which raw audio remains on the local device [1].'",
+      "witnesses": [
+        [
+          1,
+          "18.2% relative"
+        ],
+        [
+          1,
+          "offline Low-Rank Adaptation (LoRA) upper bounds"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "63f43b2c167b75758af1e69675babaf5c479e4250081e0bdc3ddf0bc39ae2c7a",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2512.16401",
+          "text": "18.2% relative",
+          "start": 1272,
+          "end": 1286,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 1,
+          "paper_id": "2512.16401",
+          "text": "offline Low-Rank Adaptation (LoRA) upper bounds",
+          "start": 761,
+          "end": 808,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H043",
+      "quality": "abstained",
+      "support": "not_applicable",
+      "priority": "none",
+      "note": "A có MMLU-Pro và tiết kiệm gần 6 lần compute để đạt Brier baseline, nhưng không có mô tả changes/đáp án/difficulty của benchmark B. Từ chối; không dùng con số compute làm hiệu ứng MMLU-Pro so với MMLU.",
+      "witnesses": [
+        [
+          1,
+          "MMLU-Pro"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "27f2718b98b71fe402110202dcca8c7ef4fd7ac36bfbc5b4fd3df834cfce3d66",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2511.14275",
+          "text": "MMLU-Pro",
+          "start": 1287,
+          "end": 1295,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H044",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "low",
+      "note": "Đúng iterative abstraction, backward-model-irrelevance và Fisher consistency. Câu kết 'maintain their theoretical properties' quá rộng về diễn đạt: kết quả nguồn được nêu cụ thể là Fisher consistency, không mặc nhiên mọi tính chất hay finite-sample guarantee.",
+      "proposed_revision": "Thay câu giải thích cuối bằng: 'The paper specifically proves Fisher consistency for the studied OPE estimators on its proposed abstract state spaces; the abstract does not claim preservation of every statistical property.'",
+      "witnesses": [
+        [
+          1,
+          "Fisher consistencies"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "09fcbbfb4cbb80f56aa2aa9ade9383d1194216db6d7c4f0143408b11c9eb98d9",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2406.19531",
+          "text": "Fisher consistencies",
+          "start": 939,
+          "end": 959,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H045",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Đúng hai kênh binary masks từ segmentation và user-refined prototypes, tập trung lesion và loại confounders ngoài biên. Không đổi non-expert feedback thành expert annotations.",
+      "witnesses": [
+        [
+          1,
+          "binary masks"
+        ],
+        [
+          1,
+          "user-refined prototypes"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "e39c18abdc391e97dd7e04f0be924ea24ff73226c7da0bc956fc21f1c055995e",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2402.01410",
+          "text": "binary masks",
+          "start": 523,
+          "end": 535,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 1,
+          "paper_id": "2402.01410",
+          "text": "user-refined prototypes",
+          "start": 597,
+          "end": 620,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H046",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "none",
+      "note": "Đúng neural memory few-sample/non-stationary, MAML hypernetworks và hai ứng dụng text-to-3D/novel-scene segmentation. Không khẳng định hoàn toàn không có dữ liệu huấn luyện.",
+      "witnesses": [
+        [
+          1,
+          "non-stationary distributions"
+        ],
+        [
+          1,
+          "Model Agnostic Meta-Learning"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "aac2560c288d8d7643276e1141b0fec32d9ff9fcb78fd8a1ebf0462d2ec60870",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2507.10446",
+          "text": "non-stationary distributions",
+          "start": 974,
+          "end": 1002,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 1,
+          "paper_id": "2507.10446",
+          "text": "Model Agnostic Meta-Learning",
+          "start": 1200,
+          "end": 1228,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H047",
+      "quality": "correct",
+      "support": "all_supported",
+      "priority": "low",
+      "note": "Đúng metadataset predictions của năm model trên sáu dataset. Mệnh đề 'rather than retraining the base models themselves' là diễn giải quy trình, không được abstract khẳng định tường minh; nên bỏ để giữ sát nguồn.",
+      "proposed_revision": "The study presents a metadataset containing predictions from five large fine-tuned models on six datasets and compares ensembling strategies using those predictions [1].",
+      "witnesses": [
+        [
+          1,
+          "five large finetuned models on six datasets"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "cfe12e721cdc8a1fb2b60b947b679d0404046f7ec5be7d8695cd0f2a779c6e1a",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2410.19889",
+          "text": "five large finetuned models on six datasets",
+          "start": 557,
+          "end": 600,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H048",
+      "quality": "partial",
+      "support": "all_supported",
+      "priority": "high",
+      "note": "Đáp án có căn cứ nhưng chỉ mô tả ứng dụng KHRONOS ở paper A. Chưa có construction cụ thể kernel expansions/tensorized modes/superposition và số Poisson của paper giới thiệu B. Phần cảnh báo thiếu originating paper là đúng. Không được lấy 0/10/30% HF availability làm numerical result mà câu hỏi yêu cầu.",
+      "proposed_revision": "Giữ việc ghi nhận thiếu paper giới thiệu. Với context hiện có, không thể hoàn thành câu hỏi; cần truy xuất B, không chèn đáp án reference vào output. Các phần mô tả A nên được nêu rõ chỉ là thông tin phụ, chưa phải lời giải yêu cầu.",
+      "witnesses": [
+        [
+          1,
+          "proposes the use of a recent kernel-based neural surrogate, KHRONOS"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "2f2942a09c9a1b788dace8b29bd3c997729be4cd287aa9d338bc9428f94dcef1",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2512.10287",
+          "text": "proposes the use of a recent kernel-based neural surrogate, KHRONOS",
+          "start": 256,
+          "end": 323,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H049",
+      "quality": "abstained",
+      "support": "not_applicable",
+      "priority": "none",
+      "note": "Context có paper A ở nguồn [4], xác định CICLe và mức giảm 34,45%/25,16%, nhưng thiếu paper B giới thiệu dataset food recalls 7.546 câu và so sánh Logistic Regression với RoBERTa-XLM-R. Nguồn [1] là legal prompt chaining không phải A; không được chỉ nhìn kết quả đầu rồi kết luận thiếu A. Refusal phù hợp vì thiếu B.",
+      "witnesses": [
+        [
+          4,
+          "34.45% and 25.16%"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "5613f5580b8b9df1876f91c8e6e15a35dc7d102a268a183b399a9862565f04ef",
+      "verified_source_spans": [
+        {
+          "source_number": 4,
+          "paper_id": "2512.05732",
+          "text": "34.45% and 25.16%",
+          "start": 1057,
+          "end": 1074,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    },
+    {
+      "sample_id": "H050",
+      "quality": "correct",
+      "support": "mixed",
+      "priority": "low",
+      "note": "Đáp án chính up to 3 lần cho ASR/speech-to-speech translation đúng; các số quarter/2%/4% và codec 1,89 kbps/21,5fps đều có nguồn và có caveat khác task. Tuy nhiên 'degradation growing as the ratio increases' không được các abstract chứng minh như một quan hệ đơn điệu tổng quát.",
+      "proposed_revision": "Bỏ mệnh đề 'with degradation growing as the ratio increases'; giữ kết luận giới hạn trong setting đã kiểm tra, không gọi 3× là ngưỡng trần phổ quát của mọi speech task.",
+      "witnesses": [
+        [
+          1,
+          "up to three times"
+        ],
+        [
+          2,
+          "a quarter of the initial tokens"
+        ],
+        [
+          3,
+          "21.5 frames per second"
+        ]
+      ],
+      "reviewer_type": "assistant_source_review",
+      "human_label": false,
+      "source_item_sha256": "84b2bd9e14e08b7847bd8b373d443c7e2b3c373bf1064c5c5ce477cceedfa544",
+      "verified_source_spans": [
+        {
+          "source_number": 1,
+          "paper_id": "2511.20973",
+          "text": "up to three times",
+          "start": 987,
+          "end": 1004,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 2,
+          "paper_id": "2511.14293",
+          "text": "a quarter of the initial tokens",
+          "start": 762,
+          "end": 793,
+          "match_kind": "literal_normalized"
+        },
+        {
+          "source_number": 3,
+          "paper_id": "2409.12117",
+          "text": "21.5 frames per second",
+          "start": 718,
+          "end": 740,
+          "match_kind": "literal_normalized"
+        }
+      ]
+    }
+  ]
+}

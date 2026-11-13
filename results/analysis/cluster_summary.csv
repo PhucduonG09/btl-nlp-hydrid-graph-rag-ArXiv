@@ -1,0 +1,13 @@
+﻿cluster,size,pilot,shared_terms,shared_per_paper,bridge_pairs,top_words
+0,1372,43,360,0.262,6442,visual vision multimodal image text images language video
+1,2067,60,429,0.208,11176,reasoning llms language agents agent capabilities human tasks
+2,2167,56,435,0.201,9837,neural networks function network numerical optimization gradient problems
+3,1308,32,407,0.311,6320,image object images vision segmentation scene objects real
+4,1354,29,383,0.283,5882,attacks privacy federated attack security adversarial clients distributed
+5,1492,30,501,0.336,7920,clinical medical imaging diagnosis images classification deep disease
+6,1849,34,396,0.214,5135,reinforcement policy agent reward policies agents algorithm environment
+7,2443,64,558,0.228,12017,language llms speech text languages fine tuning tasks
+8,1406,29,248,0.176,4822,artificial intelligence research machine systems development design potential
+9,1677,50,406,0.242,7428,retrieval language text llms knowledge information generation augmented
+10,2156,40,584,0.271,9470,networks neural graph training experiments memory datasets tasks
+11,1209,33,290,0.24,4059,forecasting series time prediction temporal causal real datasets

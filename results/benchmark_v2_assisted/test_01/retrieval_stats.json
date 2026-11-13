@@ -1,0 +1,280 @@
+{
+  "note": "Thống kê retrieval TEST (28 câu). Bootstrap theo thành phần gold. Graph đạt 100% reachability trên test nên so sánh Graph–RRF phản ánh cách dựng bridge.",
+  "n_components": 24,
+  "groups": {
+    "bridge": {
+      "bm25": {
+        "all_at_10": "0/14",
+        "rate": 0.0,
+        "clopper_pearson_95": [
+          0.0,
+          0.232
+        ],
+        "cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "dense": {
+        "all_at_10": "0/14",
+        "rate": 0.0,
+        "clopper_pearson_95": [
+          0.0,
+          0.232
+        ],
+        "cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "rrf": {
+        "all_at_10": "0/14",
+        "rate": 0.0,
+        "clopper_pearson_95": [
+          0.0,
+          0.232
+        ],
+        "cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "text_expansion": {
+        "all_at_10": "2/14",
+        "rate": 0.143,
+        "clopper_pearson_95": [
+          0.018,
+          0.428
+        ],
+        "cluster_bootstrap_95": [
+          0.0,
+          0.385
+        ]
+      },
+      "graph": {
+        "all_at_10": "12/14",
+        "rate": 0.857,
+        "clopper_pearson_95": [
+          0.572,
+          0.982
+        ],
+        "cluster_bootstrap_95": [
+          0.688,
+          1.0
+        ]
+      },
+      "graph_vs_rrf": {
+        "graph_only": 12,
+        "other_only": 0,
+        "mcnemar_exact_p": 0.00048828125,
+        "diff_cluster_bootstrap_95": [
+          0.688,
+          1.0
+        ]
+      },
+      "graph_vs_bm25": {
+        "graph_only": 12,
+        "other_only": 0,
+        "mcnemar_exact_p": 0.00048828125,
+        "diff_cluster_bootstrap_95": [
+          0.688,
+          1.0
+        ]
+      },
+      "graph_vs_dense": {
+        "graph_only": 12,
+        "other_only": 0,
+        "mcnemar_exact_p": 0.00048828125,
+        "diff_cluster_bootstrap_95": [
+          0.688,
+          1.0
+        ]
+      },
+      "graph_vs_text_expansion": {
+        "graph_only": 10,
+        "other_only": 0,
+        "mcnemar_exact_p": 0.001953125,
+        "diff_cluster_bootstrap_95": [
+          0.455,
+          0.929
+        ]
+      }
+    },
+    "single": {
+      "bm25": {
+        "all_at_10": "14/14",
+        "rate": 1.0,
+        "clopper_pearson_95": [
+          0.768,
+          1.0
+        ],
+        "cluster_bootstrap_95": [
+          1.0,
+          1.0
+        ]
+      },
+      "dense": {
+        "all_at_10": "14/14",
+        "rate": 1.0,
+        "clopper_pearson_95": [
+          0.768,
+          1.0
+        ],
+        "cluster_bootstrap_95": [
+          1.0,
+          1.0
+        ]
+      },
+      "rrf": {
+        "all_at_10": "14/14",
+        "rate": 1.0,
+        "clopper_pearson_95": [
+          0.768,
+          1.0
+        ],
+        "cluster_bootstrap_95": [
+          1.0,
+          1.0
+        ]
+      },
+      "text_expansion": {
+        "all_at_10": "14/14",
+        "rate": 1.0,
+        "clopper_pearson_95": [
+          0.768,
+          1.0
+        ],
+        "cluster_bootstrap_95": [
+          1.0,
+          1.0
+        ]
+      },
+      "graph": {
+        "all_at_10": "14/14",
+        "rate": 1.0,
+        "clopper_pearson_95": [
+          0.768,
+          1.0
+        ],
+        "cluster_bootstrap_95": [
+          1.0,
+          1.0
+        ]
+      },
+      "graph_vs_rrf": {
+        "graph_only": 0,
+        "other_only": 0,
+        "mcnemar_exact_p": 1.0,
+        "diff_cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "graph_vs_bm25": {
+        "graph_only": 0,
+        "other_only": 0,
+        "mcnemar_exact_p": 1.0,
+        "diff_cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "graph_vs_dense": {
+        "graph_only": 0,
+        "other_only": 0,
+        "mcnemar_exact_p": 1.0,
+        "diff_cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "graph_vs_text_expansion": {
+        "graph_only": 0,
+        "other_only": 0,
+        "mcnemar_exact_p": 1.0,
+        "diff_cluster_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "graph_failures_on_bridge": [
+    {
+      "id": "bn024",
+      "gold": [
+        "2508.16817",
+        "2309.16318"
+      ],
+      "ranks": {
+        "bm25": {
+          "2508.16817": 1,
+          "2309.16318": null
+        },
+        "dense": {
+          "2508.16817": 1,
+          "2309.16318": null
+        },
+        "rrf": {
+          "2508.16817": 1,
+          "2309.16318": null
+        },
+        "text_expansion": {
+          "2508.16817": 12,
+          "2309.16318": null
+        },
+        "graph": {
+          "2508.16817": 1,
+          "2309.16318": null
+        }
+      },
+      "seeds": [
+        "2303.03984",
+        "2406.05637",
+        "2410.08497"
+      ],
+      "graph_paths_to_gold": {
+        "2508.16817": "[{'A': '2303.03984', 'entity': 'polyak lojasiewicz', 'B': '2508.16817', 'relation': 'MENTIONS'}]",
+        "2309.16318": "None"
+      }
+    },
+    {
+      "id": "bn030",
+      "gold": [
+        "2410.12391",
+        "2305.07759"
+      ],
+      "ranks": {
+        "bm25": {
+          "2410.12391": 1,
+          "2305.07759": null
+        },
+        "dense": {
+          "2410.12391": 1,
+          "2305.07759": null
+        },
+        "rrf": {
+          "2410.12391": 1,
+          "2305.07759": null
+        },
+        "text_expansion": {
+          "2410.12391": 1,
+          "2305.07759": 32
+        },
+        "graph": {
+          "2410.12391": 1,
+          "2305.07759": null
+        }
+      },
+      "seeds": [
+        "2502.10645",
+        "2308.01684",
+        "2311.01955"
+      ],
+      "graph_paths_to_gold": {
+        "2410.12391": "[{'A': '2502.10645', 'entity': 'babylm', 'B': '2410.12391', 'relation': 'MENTIONS'}]",
+        "2305.07759": "None"
+      }
+    }
+  ]
+}

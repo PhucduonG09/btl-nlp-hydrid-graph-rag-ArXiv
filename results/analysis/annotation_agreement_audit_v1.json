@@ -1,0 +1,2192 @@
+{
+  "source_sha256": {
+    "annotator_A.xlsx": "982f10e280f5735e2bcf2df4f8d83910c6ff6ca1fbbe16ee1e3ee67e59fd01d4",
+    "annotator_B.xlsx": "37dee0d1507be6663c315f64e88dcdf0c43d698928b277f7fe4569af81251ee5"
+  },
+  "overlap_expected": 30,
+  "overlap_completed": 30,
+  "n_A": 163,
+  "n_B": 151,
+  "matched_names": 74,
+  "name_instance_F1": 0.4713375796178344,
+  "relation_agreement_on_matched": 0.9594594594594594,
+  "relation_kappa_on_matched": 0.9303201506591336,
+  "NONE_kappa": 0.44444444444444453,
+  "disagreements": [
+    {
+      "paper_id": "2509.25139",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "Vision-and-Language Navigation",
+        "evidence": "existing zero-shot LLM-based Vision-and-Language Navigation (VLN) agents either encode images as textual scene descriptions",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2509.25139",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "zero-shot vision-and-language navigation",
+        "evidence": "existing zero-shot LLM-based Vision-and-Language Navigation (VLN) agents",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2509.25139",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "existing zero-shot LLM-based VLN agents",
+        "evidence": "either encode images as textual scene descriptions, potentially oversimplifying visual details, or process raw image inputs",
+        "tags": [
+          "BASELINE",
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2506.18156",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "human-like cognitive patterns in LLMs",
+        "evidence": "We investigate whether Large Language Models (LLMs) exhibit human-like cognitive patterns",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2506.18156",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "Thematic Apperception Test (TAT)",
+        "evidence": "four established frameworks from psychology: Thematic Apperception Test (TAT), Framing Bias, Moral Foundations Theory (MFT), and Cognitive Dissonance",
+        "tags": [
+          "OTHER"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2506.18156",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "Framing Bias",
+        "evidence": "four established frameworks from psychology: Thematic Apperception Test (TAT), Framing Bias, Moral Foundations Theory (MFT), and Cognitive Dissonance",
+        "tags": [
+          "OTHER"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2506.18156",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "Moral Foundations Theory (MFT)",
+        "evidence": "four established frameworks from psychology: Thematic Apperception Test (TAT), Framing Bias, Moral Foundations Theory (MFT), and Cognitive Dissonance",
+        "tags": [
+          "OTHER"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2506.18156",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "Cognitive Dissonance",
+        "evidence": "four established frameworks from psychology: Thematic Apperception Test (TAT), Framing Bias, Moral Foundations Theory (MFT), and Cognitive Dissonance",
+        "tags": [
+          "OTHER"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2506.18156",
+      "kind": "NONE",
+      "A": false,
+      "B": true
+    },
+    {
+      "paper_id": "2310.13332",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "PROPOSES",
+        "target": "tailored learning",
+        "evidence": "we propose a tailored learning approach to distill such reasoning ability to smaller LMs to facilitate the democratization of the exclusive reasoning ability",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2310.13332",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "black-box LLM (teacher)",
+        "evidence": "In contrast to merely employing LLM as a data annotator, we exploit the potential of LLM as a reasoning teacher by building an interactive multi-round learning paradigm",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2310.13332",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "PROPOSES",
+        "target": "multi-round learning paradigm",
+        "evidence": "we exploit the potential of LLM as a reasoning teacher by building an interactive multi-round learning paradigm",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2310.13332",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "reasoning distillation to smaller LMs",
+        "evidence": "to distill such reasoning ability to smaller LMs",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2310.13332",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "mathematical and commonsense reasoning",
+        "evidence": "Comprehensive experiments and analysis on mathematical and commonsense reasoning tasks demonstrate the effectiveness of our method",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2310.13332",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "PROPOSES",
+        "target": "tailored reasoning distillation approach",
+        "evidence": "we propose a tailored learning approach to distill such reasoning ability to smaller LMs",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2310.13332",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "PROPOSES",
+        "target": "interactive multi-round learning paradigm",
+        "evidence": "by building an interactive multi-round learning paradigm",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2310.13332",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "distilling reasoning to smaller LMs",
+        "evidence": "the reasoning ability which is more challenging to foster, is relatively rarely explored",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2310.13332",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "black-box LLM teacher",
+        "evidence": "we exploit the potential of LLM as a reasoning teacher",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2310.13332",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "knowledge distillation",
+        "evidence": "advancing open-source smaller LMs by distilling knowledge from black-box LLMs",
+        "tags": [
+          "GENERIC"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2310.13332",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "EVALUATES_ON",
+        "target": "mathematical and commonsense reasoning tasks",
+        "evidence": "Comprehensive experiments and analysis on mathematical and commonsense reasoning tasks",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2308.01727",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "PROPOSES",
+        "target": "local fine-tuned LLM approach",
+        "evidence": "This paper introduces an approach that combines the language reasoning capabilities of large language models (LLMs) with the benefits of local training to tackle complex, domain-specific tasks",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2308.01727",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "extracting structured condition codes from pathology reports",
+        "evidence": "the authors demonstrate their approach by extracting structured condition codes from pathology reports",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2308.01727",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "PROPOSES",
+        "target": "local LLM structured extraction",
+        "evidence": "This paper introduces an approach that combines the language reasoning capabilities of large language models (LLMs) with the benefits of local training",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": "sửa v4: rút gọn target UNNAMED về ≤6 từ"
+      }
+    },
+    {
+      "paper_id": "2308.01727",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "PROPOSES",
+        "target": "surgical pathology reports dataset",
+        "evidence": "The authors collected a dataset of over 150k uncurated surgical pathology reports",
+        "tags": [
+          "OTHER",
+          "UNNAMED"
+        ],
+        "note": "abstract không nói có công bố dataset"
+      }
+    },
+    {
+      "paper_id": "2308.01727",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "condition code extraction from pathology reports",
+        "evidence": "extracting structured condition codes from pathology reports",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2407.21778",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "LLM agents using large tool libraries",
+        "evidence": "Tulip Agent -- Enabling LLM-Based Agents to Solve Tasks Using Large Tool Libraries",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2407.21778",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "LLM agents with large tool libraries",
+        "evidence": "Enabling LLM-Based Agents to Solve Tasks Using Large Tool Libraries",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2407.21778",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "state-of-the-art tool-prompting implementations",
+        "evidence": "In contrast to state-of-the-art implementations, tulip agent does not encode the descriptions of all available tools in the system prompt",
+        "tags": [
+          "BASELINE",
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2407.21778",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "PROPOSES",
+        "target": "tulip benchmark",
+        "evidence": "A reference implementation and the benchmark are available",
+        "tags": [
+          "OTHER",
+          "UNNAMED"
+        ],
+        "note": "benchmark được công bố nhưng không có tên"
+      }
+    },
+    {
+      "paper_id": "2407.21778",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "large language models",
+        "evidence": "autonomous LLM-based agents",
+        "tags": [
+          "GENERIC"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2505.14667",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "harmful outputs of large reasoning models",
+        "evidence": "their structured reasoning pathways can lead to unsafe outputs when exposed to harmful prompts",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2505.14667",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "jailbreak attacks on reasoning models",
+        "evidence": "remain vulnerable to sophisticated jailbreak attacks",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2505.14667",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "safety alignment of large reasoning models",
+        "evidence": "their structured reasoning pathways can lead to unsafe outputs when exposed to harmful prompts",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2505.14667",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "existing safety alignment methods",
+        "evidence": "a comprehensive analysis of how existing methods in LLMs generalize, or fail, when applied to reasoning-centric models",
+        "tags": [
+          "BASELINE",
+          "STUDIED",
+          "UNNAMED"
+        ],
+        "note": "phương pháp cũ được phân tích/đối chiếu, không nằm trong pipeline SAFEPATH (sửa sau rà soát: thêm BASELINE)"
+      }
+    },
+    {
+      "paper_id": "2505.14667",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "EVALUATES_ON",
+        "target": "multiple benchmarks",
+        "evidence": "Empirical results across multiple benchmarks",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2305.17077",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "PROPOSES",
+        "target": "generator-verifier pruning of sampled plans",
+        "evidence": "In the presence of diverse sampling from a generator and a verifier which can prune invalid trajectories",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2305.17077",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "planning with pretrained language models",
+        "evidence": "To improve the planning capabilities of a finetuned LLM",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2305.17077",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "planning with pre-trained LLMs",
+        "evidence": "recent studies, have found that their ability to plan remains questionable",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2305.17077",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "finetuned baseline",
+        "evidence": "the performance of a finetuned baseline remains poor",
+        "tags": [
+          "BASELINE",
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2305.17077",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "sampling temperature",
+        "evidence": "we investigate the role of the sampling temperature",
+        "tags": [
+          "GENERIC",
+          "STUDIED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2504.04310",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "algorithm search for combinatorial optimization",
+        "evidence": "their role in advancing combinatorial optimization (CO) remains relatively underexplored",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2504.04310",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "EVALUATES_ON",
+        "target": "multiple agentic frameworks",
+        "evidence": "We evaluate multiple agentic frameworks against established human-designed algorithms, revealing the strengths and limitations of existing LLM agents and identifying promising directions for future research",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2504.04310",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "benchmarking LLM agents for combinatorial optimization",
+        "evidence": "their role in advancing combinatorial optimization (CO) remains relatively underexplored",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": "sửa sau rà soát: paper đóng góp benchmark, không đề xuất phương pháp giải CO"
+      }
+    },
+    {
+      "paper_id": "2504.04310",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "agentic frameworks",
+        "evidence": "We evaluate multiple agentic frameworks",
+        "tags": [
+          "STUDIED",
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2508.21512",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "fairness and performance of LLMs in loan approval",
+        "evidence": "we assess the performance and fairness of LLMs on serialized loan approval datasets from three geographically distinct regions: Ghana, Germany, and the United States",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2508.21512",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "tabular data serialization for LLMs",
+        "evidence": "LLMs struggle to process tabular data, ensuring fairness and delivering reliable predictions",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2508.21512",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "EVALUATES_ON",
+        "target": "Ghana loan approval dataset",
+        "evidence": "we assess the performance and fairness of LLMs on serialized loan approval datasets from three geographically distinct regions: Ghana, Germany, and the United States",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2508.21512",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "EVALUATES_ON",
+        "target": "German loan approval dataset",
+        "evidence": "we assess the performance and fairness of LLMs on serialized loan approval datasets from three geographically distinct regions: Ghana, Germany, and the United States",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2508.21512",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "EVALUATES_ON",
+        "target": "US loan approval dataset",
+        "evidence": "we assess the performance and fairness of LLMs on serialized loan approval datasets from three geographically distinct regions: Ghana, Germany, and the United States",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2508.21512",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "GReat",
+        "evidence": "certain formats such as GReat and LIFT yielding higher F1 scores but exacerbating fairness disparities",
+        "tags": [
+          "STUDIED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2508.21512",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "LIFT",
+        "evidence": "certain formats such as GReat and LIFT yielding higher F1 scores but exacerbating fairness disparities",
+        "tags": [
+          "STUDIED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2508.21512",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "in-context learning",
+        "evidence": "Our evaluation focuses on the model’s zero-shot and in-context learning (ICL) capabilities",
+        "tags": [
+          "GENERIC"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2508.21512",
+      "kind": "NONE",
+      "A": false,
+      "B": true
+    },
+    {
+      "paper_id": "2305.09648",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "prompt-tuning for reinforcement learning agents",
+        "evidence": "Our work contributes to the advancement of prompt-tuning approaches in RL, providing a promising direction for optimizing large RL agents for specific preference tasks.",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2305.09648",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "adapting large RL agents to specific preference tasks",
+        "evidence": "Our work contributes to the advancement of prompt-tuning approaches in RL, providing a promising direction for optimizing large RL agents for specific preference tasks.",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2305.09648",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "prompt-tuning",
+        "evidence": "directly extending prompt-tuning approaches to RL is challenging",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2305.09648",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "prompt-tuning for reinforcement learning",
+        "evidence": "Prompt learning is widely used in NLP but has limited applicability to RL",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2305.09648",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "Gaussian sampling",
+        "evidence": "randomly sampling a Gaussian distribution to fine-tune the elements of the prompt trajectory",
+        "tags": [
+          "GENERIC"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2305.09648",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "preference ranking function",
+        "evidence": "using preference ranking function to find the optimization direction",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2305.09648",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "full-model fine-tuning",
+        "evidence": "comparable or even better performance than full-model fine-tuning",
+        "tags": [
+          "BASELINE"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2504.10893",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "error propagation",
+        "evidence": "1) error propagation, where errors in early steps cascade through the chain",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2504.10893",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "verification bottleneck",
+        "evidence": "2) verification bottleneck, where the explore--exploit tradeoff arises in multi--branch decision processes. To overcome these limitations, we introduce ARise, a novel",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2504.10893",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "knowledge-augmented reasoning",
+        "evidence": "their application in open--ended, knowledge--intensive, complex reasoning scenarios is still limited",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2504.10893",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "large language models",
+        "evidence": "Large language models (LLMs) have demonstrated impressive capabilities",
+        "tags": [
+          "GENERIC"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2504.10893",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "state-of-the-art KAR methods",
+        "evidence": "ARise significantly outperforms the state--of--the--art KAR methods by up to 23.10%",
+        "tags": [
+          "BASELINE",
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2504.10893",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "RAG-equipped large reasoning models",
+        "evidence": "and the latest RAG-equipped large reasoning models by up to 25.37%",
+        "tags": [
+          "BASELINE",
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2406.08689",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "PROPOSES",
+        "target": "defense mechanisms for agent vulnerabilities",
+        "evidence": "we introduce defense mechanisms corresponding to each vulnerability with design and experiments to evaluate their viability",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2406.08689",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "PROPOSES",
+        "target": "identification of agent security vulnerabilities",
+        "evidence": "we identify and describe these vulnerabilities in detail from a system security perspective",
+        "tags": [
+          "OTHER"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2406.08689",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "security vulnerabilities of AI agents",
+        "evidence": "we identify and describe these vulnerabilities in detail from a system security perspective",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2406.08689",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "security of AI agents",
+        "evidence": "we have raised several concerns regarding their security",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2406.08689",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "PROPOSES",
+        "target": "AI agent defense mechanisms",
+        "evidence": "we introduce defense mechanisms corresponding to each vulnerability",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2406.08689",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "PROPOSES",
+        "target": "AI agent vulnerability analysis",
+        "evidence": "we identify and describe these vulnerabilities in detail from a system security perspective",
+        "tags": [
+          "OTHER",
+          "UNNAMED"
+        ],
+        "note": "đóng góp mang tính phân tích"
+      }
+    },
+    {
+      "paper_id": "2406.08689",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "agent frameworks",
+        "evidence": "These potential vulnerabilities are not addressed by the frameworks used to build the agents",
+        "tags": [
+          "BASELINE",
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2406.08689",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "large language models",
+        "evidence": "AI agents have been boosted by large language models.",
+        "tags": [
+          "GENERIC"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2312.11364",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "PROPOSES",
+        "target": "learning algorithms exploiting automaton structure",
+        "evidence": "A selection of learning algorithms are presented which exploit automaton structure to improve sample efficiency",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2312.11364",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "PROPOSES",
+        "target": "specifying automata from natural language with LLMs",
+        "evidence": "We show that the state machines required in our formulation can be specified from natural language task descriptions using large language models",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2312.11364",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "PROPOSES",
+        "target": "expressiveness proof for counting reward automata",
+        "evidence": "We prove that an agent equipped with such an abstract machine is able to solve a larger set of tasks than those utilising current approaches",
+        "tags": [
+          "OTHER"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2312.11364",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "PROPOSES",
+        "target": "automaton-structure learning algorithms",
+        "evidence": "A selection of learning algorithms are presented which exploit automaton structure to improve sample efficiency",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2312.11364",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "finite state machine",
+        "evidence": "a finite state machine variant",
+        "tags": [
+          "GENERIC"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2312.11364",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "regular-language reward approaches",
+        "evidence": "Unlike previous approaches, which are limited to the expression of tasks as regular languages",
+        "tags": [
+          "BASELINE",
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2412.11908",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "PROPOSES",
+        "target": "systematically manipulating the problem statements",
+        "evidence": "Each problem is presented in one of five distinct forms, created by systematically manipulating the problem statements through adversarial additions, numeric parameter changes, and linguistic obfuscation",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2412.11908",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "solving mathematical problems in combinatorics",
+        "evidence": "this paper we look at the ability of recent large language models (LLMs) at solving mathematical problems in combinatorics",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2412.11908",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "combinatorial mathematical reasoning of LLMs",
+        "evidence": "we look at the ability of recent large language models (LLMs) at solving mathematical problems in combinatorics",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2503.13520",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "evaluation of LLM process modeling abilities",
+        "evidence": "we argue that the evaluation of the process modeling abilities of LLM is far from being trivial",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2412.03679",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "LMs as data generators",
+        "evidence": "they lack systematic comparison of different LMs as data generators in a unified setting",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2412.03679",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "evaluating LMs as synthetic data generators",
+        "evidence": "they lack systematic comparison of different LMs as data generators in a unified setting",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2412.03679",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "6 LMs",
+        "evidence": "synthesizing 1.26 million training instances using 6 LMs",
+        "tags": [
+          "STUDIED",
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2412.03679",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "student models",
+        "evidence": "training 99 student models",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2510.00546",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "PROPOSES",
+        "target": "</think>",
+        "evidence": "we propose ThinkBrake, which monitors the log-probability margin between the top continuation token and </think> at sentence boundaries, stopping reasoning when this margin narrows",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2510.00546",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "oracle stopping",
+        "evidence": "We first demonstrate that oracle stopping--where we inject </think> at every sentence boundary",
+        "tags": [
+          "OTHER",
+          "STUDIED"
+        ],
+        "note": "phân tích làm động lực, không nằm trong pipeline ThinkBrake; không đưa vào gold USES (sửa sau rà soát: thêm STUDIED)"
+      }
+    },
+    {
+      "paper_id": "2510.00546",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "EVALUATES_ON",
+        "target": "math, scientific QA, tool usage benchmarks",
+        "evidence": "across math, scientific QA, and tool usage benchmarks",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2507.21532",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "Naive Bayes",
+        "evidence": "Results showed diverse reproducibility levels across different models, with Naive Bayes demonstrating perfect reproducibility",
+        "tags": [
+          "STUDIED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2507.21532",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "BERT",
+        "evidence": "Our findings revealed that baseline deep learning models, BERT and ELMo, exhibited good generalization capabilities on an external dataset",
+        "tags": [
+          "STUDIED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2507.21532",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "ELMo",
+        "evidence": "Our findings revealed that baseline deep learning models, BERT and ELMo, exhibited good generalization capabilities on an external dataset",
+        "tags": [
+          "STUDIED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2507.21532",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "GPT-4o",
+        "evidence": "comparing results to a GPT-4o zero-shot classifier",
+        "tags": [
+          "STUDIED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2507.21532",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "replication study ID-card",
+        "evidence": "we prepared the replication study ID-card for the baseline study",
+        "tags": [
+          "OTHER"
+        ],
+        "note": "phân vân: ID-card là công cụ có sẵn hay do nhóm tạo? Abstract không nói"
+      }
+    },
+    {
+      "paper_id": "2507.21532",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "Classifying User Requirements from Online Feedback in Small Dataset Environments using Deep Learning",
+        "evidence": "we replicate and extend a previous NLP4RE study (baseline), “Classifying User Requirements from Online Feedback in Small Dataset Environments using Deep Learning”",
+        "tags": [
+          "GENERIC"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2507.21532",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "requirement classification from user reviews",
+        "evidence": "evaluated different deep learning models for requirement classification from user reviews",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2507.21532",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "replication of NLP4RE studies",
+        "evidence": "it has paid limited attention to replicating NLP for RE (NLP4RE) studies",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2507.21532",
+      "kind": "NONE",
+      "A": false,
+      "B": true
+    },
+    {
+      "paper_id": "2505.22954",
+      "kind": "RELATION",
+      "A": {
+        "relation": "EVALUATES_ON",
+        "target": "SWE-bench",
+        "evidence": "increasing performance on SWE-bench from 20.0% to 50.0%, and on Polyglot from 14.2% to 30.7%",
+        "tags": [
+          "OTHER"
+        ],
+        "note": ""
+      },
+      "B": {
+        "relation": "USES",
+        "target": "SWE-bench",
+        "evidence": "increasing performance on SWE-bench from 20.0% to 50.0%",
+        "tags": [],
+        "note": "nằm trong pipeline: DGM \"empirically validates each change using coding benchmarks\", nên không phải chỉ để đánh giá (sửa v3: EVALUATES_ON→USES)"
+      }
+    },
+    {
+      "paper_id": "2505.22954",
+      "kind": "RELATION",
+      "A": {
+        "relation": "EVALUATES_ON",
+        "target": "Polyglot",
+        "evidence": "increasing performance on SWE-bench from 20.0% to 50.0%, and on Polyglot from 14.2% to 30.7%",
+        "tags": [
+          "OTHER"
+        ],
+        "note": ""
+      },
+      "B": {
+        "relation": "USES",
+        "target": "Polyglot",
+        "evidence": "and on Polyglot from 14.2% to 30.7%",
+        "tags": [],
+        "note": "nằm trong pipeline: DGM \"empirically validates each change using coding benchmarks\", nên không phải chỉ để đánh giá (sửa v3: EVALUATES_ON→USES)"
+      }
+    },
+    {
+      "paper_id": "2505.22954",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "PROPOSES",
+        "target": "DGM",
+        "evidence": "We introduce the Darwin G\\\"odel Machine (DGM), a self-improving system that iteratively modifies its own code (thereby also improving its ability to modify its own codebase) and empirically validates each change using coding benchmarks.",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2505.22954",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "self-improving AI",
+        "evidence": "The DGM is a significant step toward self-improving AI",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2505.22954",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "coding agent capability",
+        "evidence": "the DGM automatically improves its coding capabilities",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2505.22954",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "PROPOSES",
+        "target": "Darwin Gödel Machine (DGM)",
+        "evidence": "We introduce the Darwin G\\\"odel Machine (DGM), a self-improving system that iteratively modifies its own code",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2505.22954",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "self-improving AI agents",
+        "evidence": "Today's AI systems have human-designed, fixed architectures and cannot autonomously and continuously improve themselves.",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2505.22954",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "meta-learning",
+        "evidence": "Meta-learning can automate the discovery of novel algorithms, but is limited by first-order improvements",
+        "tags": [
+          "BASELINE"
+        ],
+        "note": "related work"
+      }
+    },
+    {
+      "paper_id": "2505.22954",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "baselines without self-improvement or open-ended exploration",
+        "evidence": "the DGM significantly outperforms baselines without self-improvement or open-ended exploration",
+        "tags": [
+          "BASELINE",
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2502.03814",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "LLM integration in multi-robot systems",
+        "evidence": "This survey provides the first dedicated review of LLM integration into MRS",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2510.20059",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "Chain-of-Thought (CoT)",
+        "evidence": "By prompting both teacher and student models to produce Chain-of-Thought (CoT) reasoning responses",
+        "tags": [
+          "GENERIC"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2510.20059",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "PROPOSES",
+        "target": "Persian medical reasoning preference dataset",
+        "evidence": "we compiled a dataset containing correct and incorrect reasoning trajectories",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2510.20059",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "PROPOSES",
+        "target": "resulting Persian medical reasoning model",
+        "evidence": "the resulting model outperformed its predecessor, gaokerena-V",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2510.20059",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "translated multiple-choice medical QA dataset",
+        "evidence": "we translated a multiple-choice medical question-answering dataset into Persian",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2510.20059",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "Persian medical question answering",
+        "evidence": "Enhancing reasoning capabilities in small language models is critical for specialized applications such as medical question answering, particularly in underrepresented languages like Persian",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2510.20059",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "Persian medical question answering reasoning",
+        "evidence": "Enhancing reasoning capabilities in small language models is critical for specialized applications such as medical question answering, particularly in underrepresented languages like Persian.",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2510.20059",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "PROPOSES",
+        "target": "Persian medical CoT preference dataset",
+        "evidence": "we compiled a dataset containing correct and incorrect reasoning trajectories",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2510.20059",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "Chain-of-Thought prompting",
+        "evidence": "By prompting both teacher and student models to produce Chain-of-Thought (CoT) reasoning responses",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2510.20059",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "multiple-choice medical QA dataset (translated)",
+        "evidence": "we translated a multiple-choice medical question-answering dataset into Persian",
+        "tags": [
+          "OTHER",
+          "UNNAMED"
+        ],
+        "note": "bản dịch có thể coi là PROPOSES"
+      }
+    },
+    {
+      "paper_id": "2411.14513",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "PROPOSES",
+        "target": "middleware system architecture for LLMs",
+        "evidence": "we discuss our vision for a forward-looking middleware system architecture that facilitates the deployment and adoption of LLMs in enterprises",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2411.14513",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "self-hosted LLM deployment in enterprises",
+        "evidence": "hosting LLMs independently presents significant challenges due to their complexity and integration issues with existing systems",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2411.14513",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "ChatGPT",
+        "evidence": "this effort is dominated by commercial cloud-based solutions like OpenAI’s ChatGPT and Microsoft Azure",
+        "tags": [
+          "BASELINE"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2411.14513",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "PROPOSES",
+        "target": "LLM middleware system architecture",
+        "evidence": "we discuss our vision for a forward-looking middleware system architecture that facilitates the deployment and adoption of LLMs in enterprises",
+        "tags": [
+          "OTHER",
+          "UNNAMED"
+        ],
+        "note": "vision paper: chỉ là kiến trúc định hướng, abstract không nói đã hiện thực/đánh giá"
+      }
+    },
+    {
+      "paper_id": "2411.14513",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "self-hosting LLM as a Service",
+        "evidence": "there is a strong incentive for independence from major cloud providers through self-hosting",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2411.14513",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "LLM deployment and integration in enterprises",
+        "evidence": "hosting LLMs independently presents significant challenges due to their complexity and integration issues with existing systems",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": "có thể gộp với dòng trên nếu chỉ lấy 1 bài toán"
+      }
+    },
+    {
+      "paper_id": "2411.14513",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "large language models",
+        "evidence": "facilitates the deployment and adoption of LLMs in enterprises",
+        "tags": [
+          "GENERIC",
+          "OTHER"
+        ],
+        "note": "LLM là đối tượng được middleware triển khai, không hẳn là thành phần phương pháp"
+      }
+    },
+    {
+      "paper_id": "2411.14513",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "OpenAI's ChatGPT",
+        "evidence": "So far, this effort is dominated by commercial cloud-based solutions like OpenAI's ChatGPT and Microsoft Azure.",
+        "tags": [
+          "BASELINE"
+        ],
+        "note": "ví dụ bối cảnh về giải pháp cloud thương mại, không nằm trong pipeline"
+      }
+    },
+    {
+      "paper_id": "2511.04875",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "LoRA",
+        "evidence": "controlled finetuning experiments on instruction-tuned LLMs with low-rank adapters (LoRA)",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2511.04875",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "steering vector",
+        "evidence": "the learned self-aware behavior can be largely captured by a single steering vector in activation space",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2511.04875",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "behavioral self-awareness in LLMs",
+        "evidence": "We attempt to characterize the minimal conditions under which such self-awareness emerges, and the mechanistic processes through which it manifests",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2511.04875",
+      "kind": "NONE",
+      "A": false,
+      "B": true
+    },
+    {
+      "paper_id": "2512.03001",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "LLM security in long-context settings",
+        "evidence": "scheming prevention in chain-of-thought",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2512.03001",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "scheming prevention in chain-of-thought",
+        "evidence": "We suggest this technique can be generalized to the Chain-of-Thought process to prevent scheming",
+        "tags": [
+          "OTHER"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2512.03001",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "preference-based training",
+        "evidence": "by training on preference examples, prompting, and input/output filtering",
+        "tags": [
+          "BASELINE"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2512.03001",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "prompting",
+        "evidence": "by training on preference examples, prompting, and input/output filtering",
+        "tags": [
+          "BASELINE"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2512.03001",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "input/output filtering",
+        "evidence": "by training on preference examples, prompting, and input/output filtering",
+        "tags": [
+          "BASELINE"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2512.03001",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "LLM security in long-context situations",
+        "evidence": "There is a need for robust LLM security guarantees in long-context situations.",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2512.03001",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "Chain-of-Thought",
+        "evidence": "We suggest this technique can be generalized to the Chain-of-Thought process to prevent scheming.",
+        "tags": [
+          "OTHER"
+        ],
+        "note": "chỉ gợi ý mở rộng"
+      }
+    },
+    {
+      "paper_id": "2512.03001",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "preference training, prompting, input/output filtering",
+        "evidence": "by training on preference examples, prompting, and input/output filtering",
+        "tags": [
+          "BASELINE",
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2511.23031",
+      "kind": "RELATION",
+      "A": {
+        "relation": "USES",
+        "target": "Process Supervision",
+        "evidence": "(1) Process Supervision with ground-truth rationales",
+        "tags": [],
+        "note": ""
+      },
+      "B": {
+        "relation": "PROPOSES",
+        "target": "Process Supervision",
+        "evidence": "(1) Process Supervision with ground-truth rationales",
+        "tags": [
+          "OTHER"
+        ],
+        "note": "phân vân: là thành phần có tên của ViRL (cái mới do paper đưa ra), có thể không tính là đóng góp riêng"
+      }
+    },
+    {
+      "paper_id": "2511.23031",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "PROPOSES",
+        "target": "ViRL",
+        "evidence": "we propose Visual Rationale Learning (ViRL), an end-to-end paradigm that grounds training in the visual rationale itself",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2511.23031",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "Reward Shaping",
+        "evidence": "(2) Objective Alignment via step-level reward shaping",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2511.23031",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "Credit Assignment",
+        "evidence": "(3) Fine-Grained Credit Assignment to distinguish correct, redundant, and erroneous actions",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2511.23031",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "grounded vision-language reasoning",
+        "evidence": "models actively ground their reasoning in visual evidence",
+        "tags": [
+          "BASELINE"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2511.23031",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "PROPOSES",
+        "target": "Visual Rationale Learning (ViRL)",
+        "evidence": "we propose Visual Rationale Learning (ViRL), an end-to-end paradigm that grounds training in the visual rationale itself",
+        "tags": [],
+        "note": "thành phần có tên thứ ba \"Fine-Grained Credit Assignment\" không đủ dòng (8 dòng/paper) nên ghi ở đây"
+      }
+    },
+    {
+      "paper_id": "2511.23031",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "visually grounded vision-language reasoning",
+        "evidence": "models seem visually grounded but rely on context-agnostic actions",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2511.23031",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "visual-action-as-tool frameworks",
+        "evidence": "prevailing frameworks treat visual actions as optional tools",
+        "tags": [
+          "BASELINE",
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2511.23031",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "EVALUATES_ON",
+        "target": "perception, hallucination, reasoning benchmarks",
+        "evidence": "across benchmarks spanning perception, hallucination, and reasoning",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2511.23031",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "PROPOSES",
+        "target": "Objective Alignment",
+        "evidence": "(2) Objective Alignment via step-level reward shaping",
+        "tags": [
+          "OTHER"
+        ],
+        "note": "phân vân: là thành phần có tên của ViRL (cái mới do paper đưa ra), có thể không tính là đóng góp riêng"
+      }
+    },
+    {
+      "paper_id": "2403.18140",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "reducing LLM pretraining cost",
+        "evidence": "The high compute cost associated with pretraining large language models limits their research",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2403.18140",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "forgetting in unrelated domains",
+        "evidence": "this domain specialization through continued pretraining comes at the cost of increased forgetting in unrelated domains",
+        "tags": [
+          "OTHER"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2403.18140",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "Brazilian legal sources corpus",
+        "evidence": "we specialized the Mistral-7B model with 1.9 billion unique tokens from reputable Brazilian legal sources",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2403.18140",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "EVALUATES_ON",
+        "target": "legal test suites",
+        "evidence": "conducted few-shot evaluations on legal and general knowledge test suites",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2403.18140",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "legal domain specialization of LLMs (Brazilian)",
+        "evidence": "Two strategies have emerged to address this issue: domain specialization and pretraining with high-quality data.",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2403.18140",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "reputable Brazilian legal sources",
+        "evidence": "with 1.9 billion unique tokens from reputable Brazilian legal sources",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": "nguồn dữ liệu pretraining"
+      }
+    },
+    {
+      "paper_id": "2403.18140",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "EVALUATES_ON",
+        "target": "legal benchmarks",
+        "evidence": "achieving improved performance on legal benchmarks",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2509.17978",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "reliability and transparency of Large Reasoning Models",
+        "evidence": "presents critical limitations in reliability and transparency",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2509.17978",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "state hallucinations in agentic systems",
+        "evidence": "the challenge of state hallucinations in agentic systems",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2509.17978",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "reliability and transparency of AI agents",
+        "evidence": "The \"black box\" nature of Large Reasoning Models (LRMs) presents critical limitations in reliability and transparency",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2310.06680",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "PROPOSES",
+        "target": "casual graph-based prompt-code representation",
+        "evidence": "we first propose a novel causal graph-based representation of the prompt and the generated code, which is established over the fine-grained, human-understandable concepts in the input prompts.",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2310.06680",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "PROPOSES",
+        "target": "a causality analysis-based approach",
+        "evidence": "this paper launches a causality analysis-based approach to systematically analyze the causal relations between the LLM input prompts and the generated code",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2310.06680",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "prompt calibration to improve generated code quality",
+        "evidence": "provides actionable insights to improve the quality of the LLM-generated code by properly calibrating the prompt",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2310.06680",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "PROPOSES",
+        "target": "causality-based code generation analysis",
+        "evidence": "this paper launches a causality analysis-based approach to systematically analyze the causal relations between the LLM input prompts and the generated code",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2310.06680",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "PROPOSES",
+        "target": "prompt–code causal graph representation",
+        "evidence": "we first propose a novel causal graph-based representation of the prompt and the generated code",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2310.06680",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "popular LLMs",
+        "evidence": "by studying over 3 popular LLMs",
+        "tags": [
+          "STUDIED",
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2310.06680",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "USES",
+        "target": "prompt adjustment strategies",
+        "evidence": "with over 12 prompt adjustment strategies",
+        "tags": [
+          "STUDIED",
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2411.09261",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "PROPOSES",
+        "target": "LLM-based test suite generation workflow",
+        "evidence": "Each problem’s statement and reference solution are provided to GPT-4 to produce a test suite that can be used by an autograder",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2411.09261",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "USES",
+        "target": "LLM",
+        "evidence": "we evaluate the effectiveness of using Large Language Models (LLMs), as part of a larger workflow, to automatically generate test suites for CS1-level programming problems",
+        "tags": [
+          "GENERIC"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2411.09261",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "ADDRESSES",
+        "target": "automatic test suite generation for programming problems",
+        "evidence": "we evaluate the effectiveness of using Large Language Models (LLMs), as part of a larger workflow, to automatically generate test suites for CS1-level programming problems",
+        "tags": [],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2411.09261",
+      "kind": "ONLY_A",
+      "A": {
+        "relation": "EVALUATES_ON",
+        "target": "26 CS1 problems with 25,000+ student solutions",
+        "evidence": "We evaluate our proposed approach using a sample of 26 problems, and more than 25,000 attempted solutions to those problems, submitted by students in an introductory programming course",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2411.09261",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "ADDRESSES",
+        "target": "test suite generation for introductory programming",
+        "evidence": "to automatically generate test suites for CS1-level programming problems",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2411.09261",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "PROPOSES",
+        "target": "LLM test suite generation workflow",
+        "evidence": "We evaluate our proposed approach",
+        "tags": [
+          "UNNAMED"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "paper_id": "2411.09261",
+      "kind": "ONLY_B",
+      "B": {
+        "relation": "EVALUATES_ON",
+        "target": "26 problems and 25,000 student solutions",
+        "evidence": "using a sample of 26 problems, and more than 25,000 attempted solutions",
+        "tags": [
+          "OTHER",
+          "UNNAMED"
+        ],
+        "note": "dữ liệu khoá học, không phải dataset công khai"
+      }
+    }
+  ],
+  "protocol": "One-to-one maximum name matching, no evidence overlap fallback. Relation kappa conditional on matched names; unmatched instances reported separately.",
+  "provenance": "Existing A/B worksheets. Independence, annotator identities and pre-adjudication status require confirmation; this script does not establish them."
+}

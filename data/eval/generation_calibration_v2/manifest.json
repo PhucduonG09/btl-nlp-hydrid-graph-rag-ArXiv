@@ -1,0 +1,15 @@
+{
+  "n_items": 50,
+  "n_distinct_questions": 50,
+  "single": 25,
+  "bridge": 25,
+  "rrf": 25,
+  "graph": 25,
+  "seed": 20261109,
+  "items_sha256": "100f4110b5b439d5abe515b8af3ade0600a4f2bce90ddd22e04953c32a2afe40",
+  "generation_file_sha256": "9ec9278b3dfcea1e06eeddfcaaecbc4a9c5212f6ad0184b9608dae2c202264dc",
+  "qa_dev_sha256": "25acf5fabdec77610659e60c7760af0d3074feba02a854df72c92dd33621b2b5",
+  "selection": "Random stratified sample, no judge labels or scores used. One response per distinct question; systems hidden in review UI.",
+  "ratings_written": 0,
+  "independent_human_calibration_complete": false
+}

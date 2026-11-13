@@ -1,0 +1,54 @@
+[
+  {
+    "version": "goc_truoc_thao_luan",
+    "n": 50,
+    "quality": {
+      "agreement": 0.94,
+      "cohen_kappa": 0.8707,
+      "n_disagree": 3
+    },
+    "support": {
+      "agreement": 0.94,
+      "cohen_kappa": 0.8768,
+      "n_disagree": 3
+    },
+    "reference_issue": {
+      "agreement": 0.9,
+      "cohen_kappa": 0.7748,
+      "n_disagree": 5
+    },
+    "quality_and_support_both": {
+      "agreement": 0.9
+    },
+    "disagree_samples": [
+      "H004",
+      "H022",
+      "H032",
+      "H042",
+      "H050"
+    ]
+  },
+  {
+    "version": "sau_chot",
+    "n": 50,
+    "quality": {
+      "agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "n_disagree": 0
+    },
+    "support": {
+      "agreement": 1.0,
+      "cohen_kappa": 1.0,
+      "n_disagree": 0
+    },
+    "reference_issue": {
+      "agreement": 0.98,
+      "cohen_kappa": 0.9533,
+      "n_disagree": 1
+    },
+    "quality_and_support_both": {
+      "agreement": 1.0
+    },
+    "disagree_samples": []
+  }
+]

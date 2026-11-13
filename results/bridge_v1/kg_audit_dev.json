@@ -1,0 +1,39 @@
+{
+  "split": "dev",
+  "n_questions": 31,
+  "graph": "data\\kg\\kg_v3.graphml",
+  "graph_sha256": "df5eeaff646ca555fa90a21a4a88726aa80204f4982e28c92a2b1f417a4dac0f",
+  "graph_paper_nodes": 500,
+  "unique_gold_papers": 56,
+  "unique_gold_papers_in_graph": 1,
+  "A_present": 0,
+  "B_present": 1,
+  "both_present": 0,
+  "exact_bridge_entity_present": 4,
+  "expected_bridge_path": 0,
+  "strict_USE_EVAL_to_PROPOSES_path": 0,
+  "any_semantic_path": 0,
+  "metadata_only_paths": 0,
+  "n_missing_papers": 55,
+  "n_papers_requiring_new_extraction": 55,
+  "saved_extractions_outside_graph": [],
+  "link_types": {
+    "SHARED_CONCEPT": 1,
+    "USES_OR_EVALUATES_ON": 23,
+    "COMPARES_TO": 3,
+    "COMPATIBLE_WITH": 1,
+    "SHARED_DATASET": 1,
+    "DEFENDS_AGAINST": 1,
+    "SIBLING_PROJECT": 1
+  },
+  "status_counts": {
+    "MISSING_BOTH_PAPERS": 30,
+    "MISSING_A": 1
+  },
+  "diagnostic_extraction_input": "data\\processed\\bridge_v1_dev_missing_kg_papers.jsonl",
+  "diagnostic_warning": "These papers were selected from DEV gold endpoints for coverage diagnosis. Extracting only them does not yield a fair full-corpus KG or a valid final Graph-RAG comparison.",
+  "path_direction": "Semantic audit traverses Paper -> Concept <- Paper using reverse adjacency. Directed A -> Concept -> B paths are not present in this outgoing-edge schema.",
+  "test_QA_inspected": false,
+  "API_calls": 0,
+  "KG_modified": false
+}

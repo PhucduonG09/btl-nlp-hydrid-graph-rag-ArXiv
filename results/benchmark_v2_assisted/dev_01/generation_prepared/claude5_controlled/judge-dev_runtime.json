@@ -1,0 +1,24 @@
+{
+  "stage": "judge-dev",
+  "n_requested": 244,
+  "n_records": 244,
+  "errors": 0,
+  "available_only": false,
+  "n_plan_jobs": 244,
+  "partial_generation_lines_seen": 0,
+  "new_calls_or_cache_lookups": 1,
+  "usage_this_invocation": {
+    "tokens_in": 5489,
+    "tokens_out": 943,
+    "usd_est": null,
+    "served_models": [
+      "gpt-6-sol"
+    ]
+  },
+  "served_labels": {
+    "gpt-6-sol": 244
+  },
+  "normalized_label_mismatches": 0,
+  "elapsed_seconds": 23.59316949999993,
+  "human_calibrated": false
+}

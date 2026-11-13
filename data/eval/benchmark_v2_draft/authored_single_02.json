@@ -1,0 +1,148 @@
+[
+  {
+    "id": "s2016",
+    "question": "In the online-safety study benchmarking both open- and closed-source LLMs, when are risks assessed, and what hybrid analysis strategy is explored?",
+    "reference_answer": "It studies safety analysis during generation, including whether unsafe output can be detected early, rather than only after generation. It also explores hybridizing multiple methods to reach a collective safety conclusion.",
+    "evidence": [
+      "these approaches predominantly concentrate on post-generation analysis, leaving the online safety analysis for LLMs during the generation phase an unexplored area",
+      "a pilot study that validates the feasibility of detecting unsafe outputs in the early generation process",
+      "combining multiple methods to derive a collective safety conclusion"
+    ]
+  },
+  {
+    "id": "s2017",
+    "question": "Why does RA-Rec use item reviews when interpreting indirect user preferences, rather than relying only on item metadata?",
+    "reference_answer": "Item metadata can be incomplete or outdated, whereas reviews contain richer opinions that may match indirectly expressed interests. LLMs help connect those preference utterances to review language; RA-Rec combines retrieval with LLM-driven dialogue-state tracking for conversational recommendation.",
+    "evidence": [
+      "especially if only using often incomplete or out-of-date metadata",
+      "rich item reviews that cover standard metadata categories and offer complex opinions that might match a user's interests",
+      "the commonsense connections between user preference utterances and complex language in user-generated reviews",
+      "RA-Rec, a Retrieval-Augmented, LLM-driven dialogue state tracking system for ConvRec"
+    ]
+  },
+  {
+    "id": "s2018",
+    "question": "What three human-context principles are advocated for LHLMs beyond treating an author as a fixed demographic-group member?",
+    "reference_answer": "Training should include human context; models should recognize that people are more than their groups; and models should account for the dynamic, time-dependent nature of human context.",
+    "evidence": [
+      "First, LM training should include the human context. Second, LHLMs should recognize that people are more than their group(s). Third, LHLMs should be able to account for the dynamic and temporally-dependent nature of the human context"
+    ]
+  },
+  {
+    "id": "s2019",
+    "question": "In the taxonomy-based analysis of three multi-answer reading-comprehension datasets, what complementary strengths motivate combining modeling paradigms?",
+    "reference_answer": "Some paradigms capture important information in the question, while others better model the question-context relationship. The experiments suggest generation models are a promising platform for incorporating those complementary paradigms.",
+    "evidence": [
+      "we inspect three multi-answer datasets",
+      "some paradigms capture well the key information in the questions while others better model the relationship between questions and contexts",
+      "generation models can be a promising platform to incorporate different paradigms"
+    ]
+  },
+  {
+    "id": "s2020",
+    "question": "For decoder-only speech recognition combining audio, image context and lip information, when are images most helpful, and what visual preprocessing improves results?",
+    "reference_answer": "Images provide their greatest supplementary benefit at moderate noise levels. Filtering the most relevant visual information before recognition improves performance on both synthetic and real-world datasets.",
+    "evidence": [
+      "the benefit of combining audio, image context, and lip information",
+      "Images as a supplementary modality for speech recognition provide the greatest benefit at moderate noise levels",
+      "Performance improves on both synthetic and real-world datasets when the most relevant visual information is filtered as a preprocessing step"
+    ]
+  },
+  {
+    "id": "s2021",
+    "question": "Which three reference-free hallucination-detection families were compared across four LVLMs, and which performed best across settings?",
+    "reference_answer": "The study compares uncertainty-based methods, consistency-based methods and supervised uncertainty quantification. Supervised uncertainty quantification performs best across the tested settings.",
+    "evidence": [
+      "three kinds of techniques: uncertainty-based, consistency-based, and supervised uncertainty quantification methods on four representative LVLMs across two different tasks",
+      "the supervised uncertainty quantification method outperforming the others, achieving the best performance across different settings"
+    ]
+  },
+  {
+    "id": "s2022",
+    "question": "For continual ASR adaptation on Gram Vaani, what improvements does multi-domain experience replay report, and what trade-off appears when it is combined with Absolute-Fisher EWC?",
+    "reference_answer": "Compared with naive adaptation, replay improves target WER by 18.2% relative and reduces catastrophic forgetting by 54%. Adding EWC with the stabilized Absolute Fisher estimate provides the strongest retention, at a small cost in plasticity.",
+    "evidence": [
+      "We study this gap using Gram Vaani",
+      "Multi-domain Experience Replay (ER) yields the primary gains, improving target WER by 18.2% relative and reducing catastrophic forgetting by 54% compared to naive adaptation",
+      "Combining replay with Elastic Weight Consolidation based on a stabilized importance estimate (Absolute Fisher) yields the strongest retention at a small cost in plasticity"
+    ]
+  },
+  {
+    "id": "s2023",
+    "question": "How does a Paprika-trained model adapt to an unseen interactive task without new gradient updates, and what bottleneck motivates its curriculum?",
+    "reference_answer": "Synthetic interaction training teaches models to use environment feedback to explore and adapt in context on new tasks. Sampling useful interaction data is the main bottleneck, so the curriculum prioritizes trajectories from tasks with high learning potential.",
+    "evidence": [
+      "Paprika teaches models to explore and adapt their behavior on a new task based on environment feedback in-context without more gradient updates",
+      "our approach's primary bottleneck lies in sampling useful interaction data instead of model updates",
+      "a curriculum learning strategy that prioritizes sampling trajectories from tasks with high learning potential"
+    ]
+  },
+  {
+    "id": "s2024",
+    "question": "When RL and SFT are compared on the same maths problems with the same model, how do parameter changes and knowledge-benchmark effects differ, and is the proposed causal explanation established?",
+    "reference_answer": "Both modify query and key weights most, but SFT makes larger updates and affects mid-layer MLPs more. Maths gains and knowledge-benchmark degradation are more pronounced with SFT. The suggested link to out-of-domain degradation remains a hypothesis: freezing experiments are inconclusive, benefiting GPQA:Diamond while degrading other benchmarks.",
+    "evidence": [
+      "RL yields minor in-domain gains on maths and slight degradation on knowledge-intensive benchmarks like MMLU, while both trends are more pronounced in SFT",
+      "both algorithms modify query and key weights the most",
+      "SFT exhibits greater updates and also affects mid-layer MLPs more, leading us to hypothesise that this may have caused the out-of-domain degradation",
+      "our results are inconclusive, with benefits on GPQA:Diamond and degradation on other benchmarks"
+    ]
+  },
+  {
+    "id": "s2025",
+    "question": "Why did dzNLP's NADI 2024 country-dialect classifier have an F1 near 21% despite achieving the highest precision, and what classifiers were used in its voting ensemble?",
+    "reference_answer": "Low recall of 12.87% limited F1 despite precision of 63.22%. The weighted voting experiment combines Linear Support Vector Classifier, Random Forest and K-Nearest Neighbors.",
+    "evidence": [
+      "a weighted major voting scheme using three classifiers: Linear Support Vector Classifier (LSVC), Random Forest (RF), and K-Nearest Neighbors (KNN)",
+      "the highest precision score of 63.22% among the participating teams",
+      "our overall F1 score was approximately 21%, significantly impacted by a low recall rate of 12.87%"
+    ]
+  },
+  {
+    "id": "s2026",
+    "question": "What setup and annotation-format choices make EEVEE lightweight, and which four annotation task types does it support?",
+    "reference_answer": "It runs directly in a browser without setup and stores annotations in tab-separated files instead of character offsets or task-specific formats. It supports sequence labeling, span labeling, text classification and seq2seq, including multiple tasks on one dataset.",
+    "evidence": [
+      "It can run directly in the browser (no setup required) and uses tab-separated files (as opposed to character offsets or task-specific formats) for annotation",
+      "It allows for annotation of multiple tasks on a single dataset and supports four task-types: sequence labeling, span labeling, text classification and seq2seq"
+    ]
+  },
+  {
+    "id": "s2027",
+    "question": "How did accuracy-oriented calibration affect BEiT3's alignment with human disagreement in VQA, and how did calibration toward human response distributions differ?",
+    "reference_answer": "Accuracy-oriented calibration worsened BEiT3's ability to capture human uncertainty in disagreement, widening the distributional gap. Calibrating toward human distributions instead improved alignment between model confidence and human uncertainty.",
+    "evidence": [
+      "the commonly used accuracy-oriented calibration technique adversely affects BEiT3's ability to capture HUD, further widening the gap between model predictions and human distributions",
+      "the benefits of calibrating models towards human distributions for VQA, better aligning model confidence with human uncertainty"
+    ]
+  },
+  {
+    "id": "s2028",
+    "question": "How does Chameleon divide retrieval and LLM inference across hardware, why are the accelerators disaggregated, and what gains over a CPU-GPU system are reported?",
+    "reference_answer": "Vector search runs on FPGAs, LLM inference on GPUs and cluster coordination on CPUs. Disaggregation lets retrieval and inference accelerators scale independently. Reported improvements are up to a 2.16-fold reduction in latency and a 3.18-fold throughput speedup.",
+    "evidence": [
+      "the disaggregation allows independent scaling of LLM and vector search accelerators",
+      "vector search accelerators on FPGAs and assigns LLM inference to GPUs, with CPUs as cluster coordinators",
+      "up to 2.16$\\times$ reduction in latency and 3.18x speedup in throughput compared to the hybrid CPU-GPU architecture"
+    ]
+  },
+  {
+    "id": "s2029",
+    "question": "In the SWIM study of self-adaptation rules, what role do LLMs play, and how is the experimental evidence characterized?",
+    "reference_answer": "LLMs act as optimizers that construct and improve adaptation rules using commonsense and reasoning. The abstract describes preliminary SWIM experiments demonstrating both effectiveness and limitations; it does not establish a universal improvement guarantee.",
+    "evidence": [
+      "employ large language models (LLMs) as a optimizer to construct and optimize adaptation rules, leveraging the common sense and reasoning capabilities inherent in LLMs",
+      "Preliminary experiments conducted in SWIM have validated the effectiveness and limitation of our method"
+    ]
+  },
+  {
+    "id": "s2030",
+    "question": "For educational wh-question generation from children's stories, what additional control attribute is introduced beyond narrative elements, and can the two be controlled together?",
+    "reference_answer": "The added attribute is question explicitness, distinguishing explicit from implicit questions. Preliminary evidence supports controlling explicitness alone and jointly with the target narrative element.",
+    "evidence": [
+      "introducing a new guidance attribute: question explicitness",
+      "control the generation of explicit and implicit wh-questions from children-friendly stories",
+      "preliminary evidence of controlling QG via question explicitness alone and simultaneously with another target attribute: the question's narrative element"
+    ]
+  }
+]

@@ -1,0 +1,259 @@
+{
+  "dataset": "benchmark_v2_assisted",
+  "split": "DEV",
+  "n_questions": 122,
+  "n_answers": 244,
+  "generation_sha256": "9ec9278b3dfcea1e06eeddfcaaecbc4a9c5212f6ad0184b9608dae2c202264dc",
+  "judge_sha256": "0d05afc817974e3ca4d0f09b318fce61dff4b153a3103437e057538ba51020a5",
+  "automatic_uncalibrated": true,
+  "test_evaluated": false,
+  "groups": {
+    "all": {
+      "rrf": {
+        "n": 122,
+        "quality_counts": {
+          "correct": 62,
+          "partial": 43,
+          "abstained": 16,
+          "incorrect": 1
+        },
+        "correct_rate": 0.5081967213114754,
+        "program_refusal_count": 11,
+        "all_gold_in_packed_context": 92,
+        "answers_with_invalid_citations": 0,
+        "mean_relevance": 4.557377049180328,
+        "faithfulness_macro_nonabstaining": 0.8971914144555654,
+        "faithfulness_micro_nonabstaining": 0.8586956521739131,
+        "faithfulness_answer_denominator": 106,
+        "claim_denominator": 644,
+        "supported_claims_with_invalid_quote": 9,
+        "human_calibrated": false
+      },
+      "graph": {
+        "n": 122,
+        "quality_counts": {
+          "correct": 93,
+          "partial": 24,
+          "abstained": 5
+        },
+        "correct_rate": 0.7622950819672131,
+        "program_refusal_count": 2,
+        "all_gold_in_packed_context": 116,
+        "answers_with_invalid_citations": 0,
+        "mean_relevance": 4.868852459016393,
+        "faithfulness_macro_nonabstaining": 0.9354017079507275,
+        "faithfulness_micro_nonabstaining": 0.9042089985486212,
+        "faithfulness_answer_denominator": 117,
+        "claim_denominator": 689,
+        "supported_claims_with_invalid_quote": 11,
+        "human_calibrated": false
+      }
+    },
+    "single": {
+      "rrf": {
+        "n": 91,
+        "quality_counts": {
+          "correct": 59,
+          "partial": 32
+        },
+        "correct_rate": 0.6483516483516484,
+        "program_refusal_count": 0,
+        "all_gold_in_packed_context": 90,
+        "answers_with_invalid_citations": 0,
+        "mean_relevance": 4.978021978021978,
+        "faithfulness_macro_nonabstaining": 0.9143806498751554,
+        "faithfulness_micro_nonabstaining": 0.8652482269503546,
+        "faithfulness_answer_denominator": 91,
+        "claim_denominator": 564,
+        "supported_claims_with_invalid_quote": 8,
+        "human_calibrated": false
+      },
+      "graph": {
+        "n": 91,
+        "quality_counts": {
+          "correct": 70,
+          "partial": 21
+        },
+        "correct_rate": 0.7692307692307693,
+        "program_refusal_count": 0,
+        "all_gold_in_packed_context": 90,
+        "answers_with_invalid_citations": 0,
+        "mean_relevance": 4.956043956043956,
+        "faithfulness_macro_nonabstaining": 0.9200419561764099,
+        "faithfulness_micro_nonabstaining": 0.8844036697247707,
+        "faithfulness_answer_denominator": 91,
+        "claim_denominator": 545,
+        "supported_claims_with_invalid_quote": 10,
+        "human_calibrated": false
+      }
+    },
+    "bridge": {
+      "rrf": {
+        "n": 31,
+        "quality_counts": {
+          "partial": 11,
+          "abstained": 16,
+          "correct": 3,
+          "incorrect": 1
+        },
+        "correct_rate": 0.0967741935483871,
+        "program_refusal_count": 11,
+        "all_gold_in_packed_context": 2,
+        "answers_with_invalid_citations": 0,
+        "mean_relevance": 3.3225806451612905,
+        "faithfulness_macro_nonabstaining": 0.7929100529100529,
+        "faithfulness_micro_nonabstaining": 0.8125,
+        "faithfulness_answer_denominator": 15,
+        "claim_denominator": 80,
+        "supported_claims_with_invalid_quote": 1,
+        "human_calibrated": false
+      },
+      "graph": {
+        "n": 31,
+        "quality_counts": {
+          "partial": 3,
+          "correct": 23,
+          "abstained": 5
+        },
+        "correct_rate": 0.7419354838709677,
+        "program_refusal_count": 2,
+        "all_gold_in_packed_context": 26,
+        "answers_with_invalid_citations": 0,
+        "mean_relevance": 4.612903225806452,
+        "faithfulness_macro_nonabstaining": 0.9891608391608391,
+        "faithfulness_micro_nonabstaining": 0.9791666666666666,
+        "faithfulness_answer_denominator": 26,
+        "claim_denominator": 144,
+        "supported_claims_with_invalid_quote": 1,
+        "human_calibrated": false
+      }
+    },
+    "legacy_single": {
+      "rrf": {
+        "n": 59,
+        "quality_counts": {
+          "correct": 32,
+          "partial": 27
+        },
+        "correct_rate": 0.5423728813559322,
+        "program_refusal_count": 0,
+        "all_gold_in_packed_context": 58,
+        "answers_with_invalid_citations": 0,
+        "mean_relevance": 4.966101694915254,
+        "faithfulness_macro_nonabstaining": 0.8910597970767461,
+        "faithfulness_micro_nonabstaining": 0.8441860465116279,
+        "faithfulness_answer_denominator": 59,
+        "claim_denominator": 430,
+        "supported_claims_with_invalid_quote": 8,
+        "human_calibrated": false
+      },
+      "graph": {
+        "n": 59,
+        "quality_counts": {
+          "correct": 44,
+          "partial": 15
+        },
+        "correct_rate": 0.7457627118644068,
+        "program_refusal_count": 0,
+        "all_gold_in_packed_context": 58,
+        "answers_with_invalid_citations": 0,
+        "mean_relevance": 4.932203389830509,
+        "faithfulness_macro_nonabstaining": 0.9066520136560017,
+        "faithfulness_micro_nonabstaining": 0.8691099476439791,
+        "faithfulness_answer_denominator": 59,
+        "claim_denominator": 382,
+        "supported_claims_with_invalid_quote": 9,
+        "human_calibrated": false
+      }
+    },
+    "new_authored_draft": {
+      "rrf": {
+        "n": 32,
+        "quality_counts": {
+          "correct": 27,
+          "partial": 5
+        },
+        "correct_rate": 0.84375,
+        "program_refusal_count": 0,
+        "all_gold_in_packed_context": 32,
+        "answers_with_invalid_citations": 0,
+        "mean_relevance": 5.0,
+        "faithfulness_macro_nonabstaining": 0.9573784722222223,
+        "faithfulness_micro_nonabstaining": 0.9328358208955224,
+        "faithfulness_answer_denominator": 32,
+        "claim_denominator": 134,
+        "supported_claims_with_invalid_quote": 0,
+        "human_calibrated": false
+      },
+      "graph": {
+        "n": 32,
+        "quality_counts": {
+          "correct": 26,
+          "partial": 6
+        },
+        "correct_rate": 0.8125,
+        "program_refusal_count": 0,
+        "all_gold_in_packed_context": 32,
+        "answers_with_invalid_citations": 0,
+        "mean_relevance": 5.0,
+        "faithfulness_macro_nonabstaining": 0.9447296626984127,
+        "faithfulness_micro_nonabstaining": 0.9202453987730062,
+        "faithfulness_answer_denominator": 32,
+        "claim_denominator": 163,
+        "supported_claims_with_invalid_quote": 1,
+        "human_calibrated": false
+      }
+    }
+  },
+  "exploratory_paired_correctness": {
+    "all": {
+      "delta_graph_minus_rrf": 0.2540983606557377,
+      "cluster_bootstrap_95_percentile": [
+        0.14285714285714285,
+        0.368
+      ],
+      "paper_connected_clusters": 116,
+      "replicates": 2000,
+      "seed": 20261109,
+      "interpretation": "Exploratory DEV interval; configurations selected on this DEV set, uncalibrated automatic judge. Not confirmatory test evidence."
+    },
+    "single": {
+      "delta_graph_minus_rrf": 0.12087912087912088,
+      "cluster_bootstrap_95_percentile": [
+        0.0,
+        0.24175824175824176
+      ],
+      "paper_connected_clusters": 91,
+      "replicates": 2000,
+      "seed": 20261109,
+      "interpretation": "Exploratory DEV interval; configurations selected on this DEV set, uncalibrated automatic judge. Not confirmatory test evidence."
+    },
+    "bridge": {
+      "delta_graph_minus_rrf": 0.6451612903225806,
+      "cluster_bootstrap_95_percentile": [
+        0.42424242424242425,
+        0.8334677419354831
+      ],
+      "paper_connected_clusters": 25,
+      "replicates": 2000,
+      "seed": 20261109,
+      "interpretation": "Exploratory DEV interval; configurations selected on this DEV set, uncalibrated automatic judge. Not confirmatory test evidence."
+    }
+  },
+  "a_only_diagnostic": {
+    "n": 31,
+    "quality_counts": {
+      "abstained": 24,
+      "partial": 7
+    },
+    "candidates_for_A_only_sufficiency_review": [],
+    "interpretation": "Same prompt/model with gold A only. Automatic judge, not human validation or primary retrieval. Do not modify frozen QA from this diagnostic."
+  },
+  "limits": [
+    "DEV selected retrieval configurations; not confirmatory held-out results.",
+    "Benchmark source curation includes assistant review; not all independent human labels.",
+    "Faithfulness is a judge claim-support score on nonabstaining answers. Literal quote checks are a separate witness diagnostic, not proof of entailment.",
+    "Provider model labels are recorded; labels alone cannot prove actual model weights.",
+    "Bridge questions were screened for BM25 difficulty; conclusions are scoped to this sample."
+  ]
+}

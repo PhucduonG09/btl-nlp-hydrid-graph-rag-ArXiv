@@ -1,0 +1,21 @@
+{
+  "stage": "pilot",
+  "n_requested": 12,
+  "n_records": 12,
+  "errors": 0,
+  "new_calls_or_cache_lookups": 12,
+  "usage_this_invocation": {
+    "tokens_in": 61753,
+    "tokens_out": 7931,
+    "usd_est": null,
+    "served_models": [
+      "claude-sonnet-5"
+    ]
+  },
+  "served_labels": {
+    "claude-sonnet-5": 12
+  },
+  "normalized_label_mismatches": 0,
+  "elapsed_seconds": 94.41638329999842,
+  "human_calibrated": false
+}

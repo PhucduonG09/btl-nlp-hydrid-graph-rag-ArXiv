@@ -1,0 +1,182 @@
+[
+  {
+    "n": 31,
+    "a": "rrf_base",
+    "b": "rrf_ce",
+    "a_only": 1,
+    "b_only": 0,
+    "p_exact": 1.0,
+    "metric": "All@10 (hai hop trong top-10)"
+  },
+  {
+    "n": 91,
+    "a": "rrf_base",
+    "b": "rrf_ce",
+    "a_only": 3,
+    "b_only": 2,
+    "p_exact": 1.0,
+    "metric": "Hit@1"
+  },
+  {
+    "n": 31,
+    "a": "rrf_base",
+    "b": "rrf_ce_mix_w0.25",
+    "a_only": 0,
+    "b_only": 0,
+    "p_exact": 1.0,
+    "metric": "All@10 (hai hop trong top-10)"
+  },
+  {
+    "n": 91,
+    "a": "rrf_base",
+    "b": "rrf_ce_mix_w0.25",
+    "a_only": 0,
+    "b_only": 1,
+    "p_exact": 1.0,
+    "metric": "Hit@1"
+  },
+  {
+    "n": 31,
+    "a": "rrf_base",
+    "b": "rrf_ce_mix_w0.5",
+    "a_only": 0,
+    "b_only": 0,
+    "p_exact": 1.0,
+    "metric": "All@10 (hai hop trong top-10)"
+  },
+  {
+    "n": 91,
+    "a": "rrf_base",
+    "b": "rrf_ce_mix_w0.5",
+    "a_only": 1,
+    "b_only": 1,
+    "p_exact": 1.0,
+    "metric": "Hit@1"
+  },
+  {
+    "n": 31,
+    "a": "rrf_base",
+    "b": "rrf_ce_mix_w1",
+    "a_only": 0,
+    "b_only": 0,
+    "p_exact": 1.0,
+    "metric": "All@10 (hai hop trong top-10)"
+  },
+  {
+    "n": 91,
+    "a": "rrf_base",
+    "b": "rrf_ce_mix_w1",
+    "a_only": 2,
+    "b_only": 1,
+    "p_exact": 1.0,
+    "metric": "Hit@1"
+  },
+  {
+    "n": 31,
+    "a": "rrf_base",
+    "b": "rrf_ce_mix_w2",
+    "a_only": 1,
+    "b_only": 0,
+    "p_exact": 1.0,
+    "metric": "All@10 (hai hop trong top-10)"
+  },
+  {
+    "n": 91,
+    "a": "rrf_base",
+    "b": "rrf_ce_mix_w2",
+    "a_only": 2,
+    "b_only": 2,
+    "p_exact": 1.0,
+    "metric": "Hit@1"
+  },
+  {
+    "n": 31,
+    "a": "graph_base",
+    "b": "graph_ce",
+    "a_only": 19,
+    "b_only": 1,
+    "p_exact": 4.00543212890625e-05,
+    "metric": "All@10 (hai hop trong top-10)"
+  },
+  {
+    "n": 91,
+    "a": "graph_base",
+    "b": "graph_ce",
+    "a_only": 2,
+    "b_only": 4,
+    "p_exact": 0.6875,
+    "metric": "Hit@1"
+  },
+  {
+    "n": 31,
+    "a": "graph_base",
+    "b": "graph_ce_mix_w0.25",
+    "a_only": 2,
+    "b_only": 0,
+    "p_exact": 0.5,
+    "metric": "All@10 (hai hop trong top-10)"
+  },
+  {
+    "n": 91,
+    "a": "graph_base",
+    "b": "graph_ce_mix_w0.25",
+    "a_only": 0,
+    "b_only": 1,
+    "p_exact": 1.0,
+    "metric": "Hit@1"
+  },
+  {
+    "n": 31,
+    "a": "graph_base",
+    "b": "graph_ce_mix_w0.5",
+    "a_only": 4,
+    "b_only": 0,
+    "p_exact": 0.125,
+    "metric": "All@10 (hai hop trong top-10)"
+  },
+  {
+    "n": 91,
+    "a": "graph_base",
+    "b": "graph_ce_mix_w0.5",
+    "a_only": 1,
+    "b_only": 3,
+    "p_exact": 0.625,
+    "metric": "Hit@1"
+  },
+  {
+    "n": 31,
+    "a": "graph_base",
+    "b": "graph_ce_mix_w1",
+    "a_only": 10,
+    "b_only": 1,
+    "p_exact": 0.01171875,
+    "metric": "All@10 (hai hop trong top-10)"
+  },
+  {
+    "n": 91,
+    "a": "graph_base",
+    "b": "graph_ce_mix_w1",
+    "a_only": 2,
+    "b_only": 3,
+    "p_exact": 1.0,
+    "metric": "Hit@1"
+  },
+  {
+    "n": 31,
+    "a": "graph_base",
+    "b": "graph_ce_mix_w2",
+    "a_only": 15,
+    "b_only": 1,
+    "p_exact": 0.000518798828125,
+    "metric": "All@10 (hai hop trong top-10)"
+  },
+  {
+    "n": 91,
+    "a": "graph_base",
+    "b": "graph_ce_mix_w2",
+    "a_only": 2,
+    "b_only": 4,
+    "p_exact": 0.6875,
+    "metric": "Hit@1"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "configured_model": "claude-sonnet-5.5",
+  "input_price_configured": false,
+  "output_price_configured": false,
+  "matching_metadata": [
+    {
+      "id": "claude-sonnet-5.5"
+    }
+  ],
+  "listed_model_count": 18
+}

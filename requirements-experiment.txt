@@ -1,0 +1,27 @@
+# Direct experiment dependencies observed in .venv-kg, Python 3.12, Windows.
+numpy==2.5.4
+torch==2.14.1
+sentence-transformers==6.1.0
+transformers==5.20.1
+huggingface-hub==1.33.0
+networkx==3.3
+openpyxl==3.1.5
+streamlit==1.67.0
+pandas==3.1.1
+pyarrow==26.0.1
+bottleneck==1.6.0
+numexpr==2.14.2
+pytest==7.4.4
+openai==3.46.0
+python-dotenv==0.21.0
+
+# --- Bổ sung 2026-11-13: code có import nhưng danh sách quan sát ở trên chưa liệt kê. CHƯA ghim phiên bản:
+# sau khi cài xong chạy `pip freeze` rồi dán đúng phiên bản vào đây để tái lập.
+# scipy>=1.14 để tương thích numpy 2.5 (cảnh báo khi dùng scipy 1.13.1 với numpy 2.5.4)
+scipy
+tiktoken
+rank-bm25
+requests
+tqdm
+pyyaml
+# Tùy chọn: faiss-cpu (scripts/pick_slice.py), neo4j (src/kg/neo4j_io.py), scikit-learn (pick_slice.py), pydantic (src/kg/extract.py)

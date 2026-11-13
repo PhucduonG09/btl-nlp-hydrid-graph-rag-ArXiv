@@ -1,0 +1,149 @@
+{
+  "scope": "Amendment A2 metrics. Primary: refusal, substantive-answer rate (correct+partial), conditional on gold in context, faithfulness. correct_rate = judge sensitivity only.",
+  "judge_caveat": "Judge calibration (DEV, n=50): quality agreement 76%, kappa 0.58; judge stricter than humans; partial/incorrect not validated.",
+  "n_questions": 122,
+  "n_rows": 244,
+  "dev_check": true,
+  "bootstrap": {
+    "B": 5000,
+    "seed": 20261111,
+    "cluster": "gold-paper connected component"
+  },
+  "groups": {
+    "all": {
+      "rrf": {
+        "n": 122,
+        "refused": 11,
+        "answered_substantive": 105,
+        "gold_in_context": 92,
+        "answered_given_gold_in_context": [
+          92,
+          92
+        ],
+        "faithfulness_macro_nonabstaining": 0.9000210085531186,
+        "faithfulness_answers": 109,
+        "correct_rate_judge_only_sensitivity": 0.5081967213114754
+      },
+      "graph": {
+        "n": 122,
+        "refused": 2,
+        "answered_substantive": 117,
+        "gold_in_context": 116,
+        "answered_given_gold_in_context": [
+          116,
+          116
+        ],
+        "faithfulness_macro_nonabstaining": 0.9322857128591187,
+        "faithfulness_answers": 119,
+        "correct_rate_judge_only_sensitivity": 0.7622950819672131
+      },
+      "graph_minus_rrf": {
+        "substantive_answer_rate": {
+          "point": 0.09836065573770492,
+          "ci95": [
+            0.040983606557377095,
+            0.16260635280771404
+          ]
+        },
+        "gold_in_context_rate": {
+          "point": 0.19672131147540983,
+          "ci95": [
+            0.125,
+            0.2734375
+          ]
+        },
+        "note": "Difference in answering is mediated by retrieval (gold in context); do not attribute to the generation step."
+      }
+    },
+    "single": {
+      "rrf": {
+        "n": 91,
+        "refused": 0,
+        "answered_substantive": 91,
+        "gold_in_context": 90,
+        "answered_given_gold_in_context": [
+          90,
+          90
+        ],
+        "faithfulness_macro_nonabstaining": 0.9143806498751554,
+        "faithfulness_answers": 91,
+        "correct_rate_judge_only_sensitivity": 0.6483516483516484
+      },
+      "graph": {
+        "n": 91,
+        "refused": 0,
+        "answered_substantive": 91,
+        "gold_in_context": 90,
+        "answered_given_gold_in_context": [
+          90,
+          90
+        ],
+        "faithfulness_macro_nonabstaining": 0.9200419561764099,
+        "faithfulness_answers": 91,
+        "correct_rate_judge_only_sensitivity": 0.7692307692307693
+      },
+      "graph_minus_rrf": {
+        "substantive_answer_rate": {
+          "point": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "gold_in_context_rate": {
+          "point": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "note": "Difference in answering is mediated by retrieval (gold in context); do not attribute to the generation step."
+      }
+    },
+    "bridge": {
+      "rrf": {
+        "n": 31,
+        "refused": 11,
+        "answered_substantive": 14,
+        "gold_in_context": 2,
+        "answered_given_gold_in_context": [
+          2,
+          2
+        ],
+        "faithfulness_macro_nonabstaining": 0.8274250440917108,
+        "faithfulness_answers": 18,
+        "correct_rate_judge_only_sensitivity": 0.0967741935483871
+      },
+      "graph": {
+        "n": 31,
+        "refused": 2,
+        "answered_substantive": 26,
+        "gold_in_context": 26,
+        "answered_given_gold_in_context": [
+          26,
+          26
+        ],
+        "faithfulness_macro_nonabstaining": 0.972077922077922,
+        "faithfulness_answers": 28,
+        "correct_rate_judge_only_sensitivity": 0.7419354838709677
+      },
+      "graph_minus_rrf": {
+        "substantive_answer_rate": {
+          "point": 0.38709677419354843,
+          "ci95": [
+            0.1842105263157895,
+            0.588235294117647
+          ]
+        },
+        "gold_in_context_rate": {
+          "point": 0.7741935483870968,
+          "ci95": [
+            0.6363636363636364,
+            0.9032258064516129
+          ]
+        },
+        "note": "Difference in answering is mediated by retrieval (gold in context); do not attribute to the generation step."
+      }
+    }
+  }
+}

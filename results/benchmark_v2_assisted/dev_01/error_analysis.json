@@ -1,0 +1,37 @@
+{
+  "failed_query_method_pairs": 973,
+  "unique_queries_with_any_failure": 56,
+  "selected_graph": "linked_k1_rrf_w2",
+  "selected_graph_bridge_causes": {
+    "COMPLETE_TOP10": 26,
+    "A_NOT_IN_SEEDS": 1,
+    "B_CANDIDATE_RANKED_BELOW10": 4
+  },
+  "bridge_queries": 31,
+  "B_with_recorded_graph_path": 30,
+  "recorded_path_matching_expected_entity": 30,
+  "oracle_A_only_diagnostic": {
+    "all": {
+      "n": 31,
+      "R@1": 0.5,
+      "R@5": 0.9193548387096774,
+      "R@10": 0.967741935483871,
+      "MRR@10": 1.0,
+      "nDCG@10": 0.9084059637103375,
+      "All@10": 0.9354838709677419
+    },
+    "bridge": {
+      "n": 31,
+      "R@1": 0.5,
+      "R@5": 0.9193548387096774,
+      "R@10": 0.967741935483871,
+      "MRR@10": 1.0,
+      "nDCG@10": 0.9084059637103375,
+      "All@10": 0.9354838709677419,
+      "Hop1@10": 1.0,
+      "Hop2@10": 0.9354838709677419
+    }
+  },
+  "oracle_scope": "Gold A seed on DEV, fixed one-hop and weight2 diagnostic. Not an inference system, not selected/tuned using these oracle results.",
+  "caution": "A MENTIONS path is a literal shared-name path, not proof of USES/PROPOSES or correctness. Automatic causes are not independent human error annotation. Repeated methods on one query are not independent cases."
+}

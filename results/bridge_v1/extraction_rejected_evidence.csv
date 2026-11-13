@@ -1,0 +1,7 @@
+﻿paper_id,relation,target,rejected_evidence,action
+2403.11904,PROPOSES,CICLe,"we present an LLM-in-the-loop framework, based on Conformal Prediction, which boosts the performance of the base classifier",Review verbatim source span and relation semantics; not automatically restored.
+2410.01257,PROPOSES,Llama-3.1-Nemotron-70B-Instruct,openly release the trained Reward and Instruct models at https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct,Review verbatim source span and relation semantics; not automatically restored.
+2501.09056,PROPOSES,Decompose-ToM,we propose ``Decompose-ToM'': an LLM-based inference algorithm that improves model performance on complex ToM tasks,Review verbatim source span and relation semantics; not automatically restored.
+2508.16153,PROPOSES,Memento,"We instantiate our agent model in the deep research setting, namely Memento",Review verbatim source span and relation semantics; not automatically restored.
+2508.16153,EVALUATES_ON,GAIA,attains top-1 on GAIA validation (87.88% Pass@3) and 79.40% on the test set,Review verbatim source span and relation semantics; not automatically restored.
+2508.16153,EVALUATES_ON,DeepResearcher,It reaches 66.6% F1 and 80.4% PM on the DeepResearcher dataset,Review verbatim source span and relation semantics; not automatically restored.

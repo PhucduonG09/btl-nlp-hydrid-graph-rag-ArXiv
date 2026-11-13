@@ -1,0 +1,668 @@
+{
+  "mentions(baseline)": {
+    "n_entities": 5408,
+    "mean_entities_per_paper": 1.45,
+    "n_edges": 29791,
+    "pairs": {
+      "concept_llm_verified": {
+        "n": 30,
+        "one_hop": 6,
+        "rate": 0.2
+      },
+      "concept_triage": {
+        "n": 10,
+        "one_hop": 4,
+        "rate": 0.4
+      },
+      "named_bridge_dev": {
+        "n": 31,
+        "one_hop": 31,
+        "rate": 1.0
+      },
+      "named_bridge_test(no selection)": {
+        "n": 14,
+        "one_hop": 14,
+        "rate": 1.0
+      },
+      "random_pairs": {
+        "n": 5000,
+        "one_hop": 7,
+        "rate": 0.0014
+      }
+    }
+  },
+  "phrase_all_df2-200": {
+    "n_entities": 106848,
+    "mean_entities_per_paper": 25.61,
+    "n_edges": 525102,
+    "pairs": {
+      "concept_llm_verified": {
+        "n": 30,
+        "one_hop": 30,
+        "rate": 1.0
+      },
+      "concept_triage": {
+        "n": 10,
+        "one_hop": 10,
+        "rate": 1.0
+      },
+      "named_bridge_dev": {
+        "n": 31,
+        "one_hop": 15,
+        "rate": 0.4839
+      },
+      "named_bridge_test(no selection)": {
+        "n": 14,
+        "one_hop": 8,
+        "rate": 0.5714
+      },
+      "random_pairs": {
+        "n": 5000,
+        "one_hop": 103,
+        "rate": 0.0206
+      }
+    },
+    "examples_shared_concept_llm_verified": [
+      {
+        "pair": [
+          "2310.00806",
+          "2402.06535"
+        ],
+        "shared": [
+          "bandit convex"
+        ]
+      },
+      {
+        "pair": [
+          "2311.01212",
+          "2501.13418"
+        ],
+        "shared": [
+          "few-shot learning",
+          "sample relation"
+        ]
+      },
+      {
+        "pair": [
+          "2312.15204",
+          "2309.06440"
+        ],
+        "shared": [
+          "anthropomorphic hand",
+          "dexterous manipulation"
+        ]
+      },
+      {
+        "pair": [
+          "2404.16155",
+          "2506.16237"
+        ],
+        "shared": [
+          "information gain"
+        ]
+      },
+      {
+        "pair": [
+          "2405.12983",
+          "2303.00628"
+        ],
+        "shared": [
+          "audio-visual speech",
+          "audio-visual speech recognition",
+          "multilingual audio-visual",
+          "multilingual audio-visual speech"
+        ]
+      },
+      {
+        "pair": [
+          "2406.16751",
+          "2310.13812"
+        ],
+        "shared": [
+          "arabic dialect",
+          "arabic dialect identification",
+          "dialect identification"
+        ]
+      },
+      {
+        "pair": [
+          "2407.11370",
+          "2306.00697"
+        ],
+        "shared": [
+          "generative spoken",
+          "generative spoken language",
+          "spoken language"
+        ]
+      },
+      {
+        "pair": [
+          "2407.19990",
+          "2410.05623"
+        ],
+        "shared": [
+          "boosting classifier",
+          "gradient boosting",
+          "gradient boosting classifier"
+        ]
+      },
+      {
+        "pair": [
+          "2410.17338",
+          "2305.18450"
+        ],
+        "shared": [
+          "granular ball",
+          "granular computing"
+        ]
+      },
+      {
+        "pair": [
+          "2411.09943",
+          "2407.07728"
+        ],
+        "shared": [
+          "singing voice",
+          "singing voice conversion",
+          "timbre feature",
+          "voice conversion"
+        ]
+      },
+      {
+        "pair": [
+          "2412.10251",
+          "2412.09800"
+        ],
+        "shared": [
+          "next-generation reservoir",
+          "next-generation reservoir computing",
+          "reservoir computing"
+        ]
+      },
+      {
+        "pair": [
+          "2501.12598",
+          "2411.05097"
+        ],
+        "shared": [
+          "agglomerative clustering",
+          "hierarchical agglomerative",
+          "hierarchical agglomerative clustering"
+        ]
+      }
+    ]
+  },
+  "phrase_top10": {
+    "n_entities": 84704,
+    "mean_entities_per_paper": 9.2,
+    "n_edges": 188518,
+    "pairs": {
+      "concept_llm_verified": {
+        "n": 30,
+        "one_hop": 27,
+        "rate": 0.9
+      },
+      "concept_triage": {
+        "n": 10,
+        "one_hop": 9,
+        "rate": 0.9
+      },
+      "named_bridge_dev": {
+        "n": 31,
+        "one_hop": 7,
+        "rate": 0.2258
+      },
+      "named_bridge_test(no selection)": {
+        "n": 14,
+        "one_hop": 2,
+        "rate": 0.1429
+      },
+      "random_pairs": {
+        "n": 5000,
+        "one_hop": 3,
+        "rate": 0.0006
+      }
+    },
+    "examples_shared_concept_llm_verified": [
+      {
+        "pair": [
+          "2310.00806",
+          "2402.06535"
+        ],
+        "shared": [
+          "bandit convex"
+        ]
+      },
+      {
+        "pair": [
+          "2311.01212",
+          "2501.13418"
+        ],
+        "shared": [
+          "sample relation"
+        ]
+      },
+      {
+        "pair": [
+          "2312.15204",
+          "2309.06440"
+        ],
+        "shared": [
+          "anthropomorphic hand",
+          "dexterous manipulation"
+        ]
+      },
+      {
+        "pair": [
+          "2405.12983",
+          "2303.00628"
+        ],
+        "shared": [
+          "audio-visual speech recognition",
+          "multilingual audio-visual speech",
+          "robust speech recognition"
+        ]
+      },
+      {
+        "pair": [
+          "2406.16751",
+          "2310.13812"
+        ],
+        "shared": [
+          "arabic dialect",
+          "arabic dialect identification",
+          "dialect identification"
+        ]
+      },
+      {
+        "pair": [
+          "2407.11370",
+          "2306.00697"
+        ],
+        "shared": [
+          "generative spoken",
+          "generative spoken language"
+        ]
+      },
+      {
+        "pair": [
+          "2407.19990",
+          "2410.05623"
+        ],
+        "shared": [
+          "boosting classifier",
+          "gradient boosting classifier"
+        ]
+      },
+      {
+        "pair": [
+          "2410.17338",
+          "2305.18450"
+        ],
+        "shared": [
+          "granular ball",
+          "granular computing"
+        ]
+      },
+      {
+        "pair": [
+          "2411.09943",
+          "2407.07728"
+        ],
+        "shared": [
+          "singing voice conversion",
+          "timbre feature",
+          "zero-shot singing",
+          "zero-shot singing voice"
+        ]
+      },
+      {
+        "pair": [
+          "2412.10251",
+          "2412.09800"
+        ],
+        "shared": [
+          "next-generation reservoir",
+          "next-generation reservoir computing"
+        ]
+      },
+      {
+        "pair": [
+          "2501.12598",
+          "2411.05097"
+        ],
+        "shared": [
+          "agglomerative clustering",
+          "hierarchical agglomerative",
+          "hierarchical agglomerative clustering"
+        ]
+      },
+      {
+        "pair": [
+          "2502.01630",
+          "2411.09297"
+        ],
+        "shared": [
+          "timeline summarization"
+        ]
+      }
+    ]
+  },
+  "phrase_top20": {
+    "n_entities": 106853,
+    "mean_entities_per_paper": 18.73,
+    "n_edges": 384046,
+    "pairs": {
+      "concept_llm_verified": {
+        "n": 30,
+        "one_hop": 28,
+        "rate": 0.9333
+      },
+      "concept_triage": {
+        "n": 10,
+        "one_hop": 9,
+        "rate": 0.9
+      },
+      "named_bridge_dev": {
+        "n": 31,
+        "one_hop": 8,
+        "rate": 0.2581
+      },
+      "named_bridge_test(no selection)": {
+        "n": 14,
+        "one_hop": 3,
+        "rate": 0.2143
+      },
+      "random_pairs": {
+        "n": 5000,
+        "one_hop": 18,
+        "rate": 0.0036
+      }
+    },
+    "examples_shared_concept_llm_verified": [
+      {
+        "pair": [
+          "2310.00806",
+          "2402.06535"
+        ],
+        "shared": [
+          "bandit convex"
+        ]
+      },
+      {
+        "pair": [
+          "2311.01212",
+          "2501.13418"
+        ],
+        "shared": [
+          "sample relation"
+        ]
+      },
+      {
+        "pair": [
+          "2312.15204",
+          "2309.06440"
+        ],
+        "shared": [
+          "anthropomorphic hand",
+          "dexterous manipulation"
+        ]
+      },
+      {
+        "pair": [
+          "2405.12983",
+          "2303.00628"
+        ],
+        "shared": [
+          "audio-visual speech",
+          "audio-visual speech recognition",
+          "multilingual audio-visual",
+          "multilingual audio-visual speech"
+        ]
+      },
+      {
+        "pair": [
+          "2406.16751",
+          "2310.13812"
+        ],
+        "shared": [
+          "arabic dialect",
+          "arabic dialect identification",
+          "dialect identification"
+        ]
+      },
+      {
+        "pair": [
+          "2407.11370",
+          "2306.00697"
+        ],
+        "shared": [
+          "generative spoken",
+          "generative spoken language",
+          "spoken language"
+        ]
+      },
+      {
+        "pair": [
+          "2407.19990",
+          "2410.05623"
+        ],
+        "shared": [
+          "boosting classifier",
+          "gradient boosting classifier"
+        ]
+      },
+      {
+        "pair": [
+          "2410.17338",
+          "2305.18450"
+        ],
+        "shared": [
+          "granular ball",
+          "granular computing"
+        ]
+      },
+      {
+        "pair": [
+          "2411.09943",
+          "2407.07728"
+        ],
+        "shared": [
+          "singing voice conversion",
+          "timbre feature",
+          "zero-shot singing",
+          "zero-shot singing voice"
+        ]
+      },
+      {
+        "pair": [
+          "2412.10251",
+          "2412.09800"
+        ],
+        "shared": [
+          "next-generation reservoir",
+          "next-generation reservoir computing"
+        ]
+      },
+      {
+        "pair": [
+          "2501.12598",
+          "2411.05097"
+        ],
+        "shared": [
+          "agglomerative clustering",
+          "hierarchical agglomerative",
+          "hierarchical agglomerative clustering"
+        ]
+      },
+      {
+        "pair": [
+          "2502.01630",
+          "2411.09297"
+        ],
+        "shared": [
+          "significant challenge",
+          "timeline summarization"
+        ]
+      }
+    ]
+  },
+  "union_mentions+top10": {
+    "n_entities": 89625,
+    "mean_entities_per_paper": 10.63,
+    "n_edges": 217879,
+    "pairs": {
+      "concept_llm_verified": {
+        "n": 30,
+        "one_hop": 27,
+        "rate": 0.9
+      },
+      "concept_triage": {
+        "n": 10,
+        "one_hop": 9,
+        "rate": 0.9
+      },
+      "named_bridge_dev": {
+        "n": 31,
+        "one_hop": 31,
+        "rate": 1.0
+      },
+      "named_bridge_test(no selection)": {
+        "n": 14,
+        "one_hop": 14,
+        "rate": 1.0
+      },
+      "random_pairs": {
+        "n": 5000,
+        "one_hop": 10,
+        "rate": 0.002
+      }
+    },
+    "examples_shared_concept_llm_verified": [
+      {
+        "pair": [
+          "2310.00806",
+          "2402.06535"
+        ],
+        "shared": [
+          "bandit convex"
+        ]
+      },
+      {
+        "pair": [
+          "2311.01212",
+          "2501.13418"
+        ],
+        "shared": [
+          "few shot",
+          "sample relation"
+        ]
+      },
+      {
+        "pair": [
+          "2312.15204",
+          "2309.06440"
+        ],
+        "shared": [
+          "anthropomorphic hand",
+          "dexterous manipulation"
+        ]
+      },
+      {
+        "pair": [
+          "2405.12983",
+          "2303.00628"
+        ],
+        "shared": [
+          "audio visual",
+          "audio-visual speech recognition",
+          "muavic",
+          "multilingual audio-visual speech"
+        ]
+      },
+      {
+        "pair": [
+          "2406.16751",
+          "2310.13812"
+        ],
+        "shared": [
+          "arabic dialect",
+          "arabic dialect identification",
+          "dialect identification"
+        ]
+      },
+      {
+        "pair": [
+          "2407.11370",
+          "2306.00697"
+        ],
+        "shared": [
+          "generative spoken",
+          "generative spoken language"
+        ]
+      },
+      {
+        "pair": [
+          "2407.19990",
+          "2410.05623"
+        ],
+        "shared": [
+          "boosting classifier",
+          "gradient boosting classifier"
+        ]
+      },
+      {
+        "pair": [
+          "2410.17338",
+          "2305.18450"
+        ],
+        "shared": [
+          "granular ball",
+          "granular computing"
+        ]
+      },
+      {
+        "pair": [
+          "2411.09943",
+          "2407.07728"
+        ],
+        "shared": [
+          "singing voice conversion",
+          "timbre feature",
+          "zero-shot singing",
+          "zero-shot singing voice"
+        ]
+      },
+      {
+        "pair": [
+          "2412.10251",
+          "2412.09800"
+        ],
+        "shared": [
+          "next-generation reservoir",
+          "next-generation reservoir computing"
+        ]
+      },
+      {
+        "pair": [
+          "2501.12598",
+          "2411.05097"
+        ],
+        "shared": [
+          "agglomerative clustering",
+          "hierarchical agglomerative",
+          "hierarchical agglomerative clustering"
+        ]
+      },
+      {
+        "pair": [
+          "2502.01630",
+          "2411.09297"
+        ],
+        "shared": [
+          "timeline summarization"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+[
+  {
+    "id": "s2001",
+    "question": "For minority-stress classification on LGBTQ+ MiSSoM+, how are labeled and unlabeled posts used during representation learning, and what accuracy and F1 were reported for RoBERTa-GCN?",
+    "reference_answer": "Transductive learning jointly develops representations for labeled training posts and unlabeled test posts. RoBERTa-GCN reports accuracy 0.86 and F1 0.86.",
+    "evidence": [
+      "engaging in transductive learning to jointly develop representations for both labeled training data and unlabeled test data",
+      "The RoBERTa-GCN model achieved an accuracy of 0.86 and an F1 score of 0.86"
+    ]
+  },
+  {
+    "id": "s2002",
+    "question": "How does the RAG-based depression detector construct its auxiliary emotional modality, and what results does it report on AVEC 2019?",
+    "reference_answer": "It retrieves semantically relevant emotional content from a sentiment dataset and has an LLM generate an Emotion Prompt as an auxiliary modality. On AVEC 2019 it reports CCC 0.593 and MAE 3.95.",
+    "evidence": [
+      "our method retrieves semantically relevant emotional content from a sentiment dataset and uses a Large Language Model (LLM) to generate an Emotion Prompt as an auxiliary modality",
+      "Experiments on the AVEC 2019 dataset show our approach achieves state-of-the-art performance with CCC of 0.593 and MAE of 3.95"
+    ]
+  },
+  {
+    "id": "s2003",
+    "question": "How were relation-extraction datasets constructed for ten low-resource languages using NYT10, FewRel and CrossRE, and how was translation quality filtered?",
+    "reference_answer": "The English datasets were translated with multilingual machine translation into ten low-resource languages across Central Asia, Southeast Asia and the Middle East. Language perplexity was used to filter low-quality translated data.",
+    "evidence": [
+      "this paper constructs low-resource relation extraction datasets in 10 LRLs in three regions (Central Asia, Southeast Asia and Middle East)",
+      "The corpora are constructed by translating the original publicly available English RE datasets (NYT10, FewRel and CrossRE) using an effective multilingual machine translation",
+      "we use the language perplexity (PPL) to filter out the low-quality data from the translated datasets"
+    ]
+  },
+  {
+    "id": "s2004",
+    "question": "In the ChatGPT review-of-reviews search ending on April 30, 2023, how many reviews survived screening and how were they divided by topic?",
+    "reference_answer": "Eleven reviews were selected: nine focused specifically on ChatGPT, while two covered broader AI topics that also discussed ChatGPT.",
+    "evidence": [
+      "from 2022 to 4/30/2023",
+      "11 reviews were selected, consisting of 9 reviews specifically focused on ChatGPT and 2 reviews on broader AI topics that also included discussions on ChatGPT"
+    ]
+  },
+  {
+    "id": "s2005",
+    "question": "For privately deployed medical-record QA using FHIR, what two-stage workflow is proposed before and during answer generation?",
+    "reference_answer": "Task1 identifies the FHIR resources most relevant to the user's query. Task2 answers that query using the selected resources.",
+    "evidence": [
+      "first identifying the most relevant FHIR resources for a user query (Task1) and subsequently answering the query based on these resources (Task2)"
+    ]
+  },
+  {
+    "id": "s2006",
+    "question": "In Context-Aware Neural Gradient Mapping, how are contextual embeddings obtained and used to adapt an LLM without retraining the whole model?",
+    "reference_answer": "A supplementary neural network maps input features to adaptation gradients. The framework uses contextual embeddings in gradient-descent modifications and represents high-dimensional input dependencies in low-dimensional gradient manifolds, enabling adaptation without retraining the entire model.",
+    "evidence": [
+      "contextual embeddings are derived from a supplementary neural network trained to map input features to optimal adaptation gradients",
+      "By employing differential geometry principles, high-dimensional input dependencies are encoded into low-dimensional gradient manifolds, enabling efficient adaptation without necessitating the retraining of the entire model"
+    ]
+  },
+  {
+    "id": "s2007",
+    "question": "What operations does AMDM combine, and what latency and false-positive results are reported for its monitoring experiments?",
+    "reference_answer": "AMDM normalizes heterogeneous metrics, applies per-axis exponentially weighted moving-average thresholds, and uses Mahalanobis distance for joint anomaly detection. On simulated goal drift, latency falls from 12.3 to 5.6 seconds. The reported false-positive rate falls from 4.5% to 0.9% compared with static thresholds.",
+    "evidence": [
+      "normalises heterogeneous metrics, applies per-axis exponentially weighted moving-average thresholds and performs joint anomaly detection via the Mahalanobis distance",
+      "AMDM cuts anomaly-detection latency from 12.3 s to 5.6 s on simulated goal drift and reduces false-positive rates from 4.5% to 0.9% compared with static thresholds"
+    ]
+  },
+  {
+    "id": "s2008",
+    "question": "In the loanword-identification evaluation spanning ten languages, did explicit instructions and contextual information enable models to reliably distinguish borrowed from native words?",
+    "reference_answer": "No. Models still performed poorly at distinguishing loanwords from native vocabulary despite explicit instructions and contextual information; the findings support a bias toward loanwords rather than native equivalents.",
+    "evidence": [
+      "We evaluate multiple models across 10 languages",
+      "Despite explicit instructions and contextual information, our results show that models perform poorly in distinguishing loanwords from native ones",
+      "modern NLP systems exhibit a bias toward loanwords rather than native equivalents"
+    ]
+  },
+  {
+    "id": "s2009",
+    "question": "Which three reward signals does FgB2I use to guide decoding of detailed text from fMRI, and what role do those descriptions play in reconstruction?",
+    "reference_answer": "It uses object accuracy, text-image semantic similarity and image-image semantic similarity. The decoded fine-grained descriptions serve as a text bridge that can be integrated into existing brain-to-image reconstruction methods.",
+    "evidence": [
+      "We propose three reward metrics (object accuracy, text-image semantic similarity, and image-image semantic similarity) to guide the language model in decoding fine-grained text descriptions from fMRI signals",
+      "The fine-grained text descriptions can be integrated into existing reconstruction methods"
+    ]
+  },
+  {
+    "id": "s2010",
+    "question": "When representation engineering steers Big Five traits during LLM play in the Iterated Prisoner's Dilemma, what trade-off is reported for higher Agreeableness and Conscientiousness?",
+    "reference_answer": "Both traits improve cooperation but also make the agents more susceptible to exploitation.",
+    "evidence": [
+      "Using representation engineering, we steer Big Five traits (e.g., Agreeableness, Conscientiousness) in LLMs and analyze their impact on IPD decision-making",
+      "higher Agreeableness and Conscientiousness improve cooperation but increase susceptibility to exploitation"
+    ]
+  },
+  {
+    "id": "s2011",
+    "question": "Across the 24-model altruism study, how do self-reported and behavioral altruism differ, and what correlation between implicit associations and behavior is reported?",
+    "reference_answer": "Models report 77.5% altruism but behave altruistically at 65.6%. The reported association between implicit measures and behavior is r = .22 with p = .29; the study concludes that implicit associations do not predict behavior.",
+    "evidence": [
+      "we tested 24 frontier LLMs",
+      "Implicit associations do not predict behavior (r = .22, p = .29)",
+      "claiming 77.5% altruism while acting at 65.6%"
+    ]
+  },
+  {
+    "id": "s2012",
+    "question": "Relative to WEClustering, what median silhouette-score improvements are reported for its K-means and agglomerative extensions?",
+    "reference_answer": "The proposed WE-Clustering_K++ variant based on K-means reports a 45% increase, while the WEClustering_A++ agglomerative variant reports a 67% increase in median silhouette score.",
+    "evidence": [
+      "An increase of 45% and 67% of median silhouette score is reported for the proposed WE-Clustering_K++ (based on K-means) and WEClustering_A++ (based on Agglomerative models), respec-tively"
+    ]
+  },
+  {
+    "id": "s2013",
+    "question": "How does tensor decomposition defend a pretrained CLIP model without retraining, and what Flickr30K Recall@1 change is reported under attack?",
+    "reference_answer": "It decomposes and reconstructs vision-encoder representations to filter adversarial noise. Flickr30K Recall@1 rises from 7.5% to 19.8%.",
+    "evidence": [
+      "a lightweight defense using tensor decomposition suitable for any pre-trained VLM, requiring no retraining",
+      "By decomposing and reconstructing vision encoder representations, it filters adversarial noise while preserving meaning",
+      "On Flickr30K, it restores 12.3\\% performance lost to attacks, raising Recall@1 accuracy from 7.5\\% to 19.8\\%"
+    ]
+  },
+  {
+    "id": "s2014",
+    "question": "In the three-agent business-negotiation setup, what does the remediator do, and what criterion selects its in-context examples?",
+    "reference_answer": "The third LLM rewrites utterances that violate norms. Its examples are selected with a tuning-free, label-free ICL approach using value impact, a criterion measuring negotiation-outcome quality.",
+    "evidence": [
+      "A third LLM acts as a remediator agent to rewrite utterances violating norms for improving negotiation outcomes",
+      "a simple tuning-free and label-free In-Context Learning (ICL) method to identify high-quality ICL exemplars for the remediator",
+      "a novel select criteria, called value impact, to measure the quality of the negotiation outcomes"
+    ]
+  },
+  {
+    "id": "s2015",
+    "question": "In the phrase-mining method evaluated on an augmented STS-B dataset, why is a whole-sentence vector inadequate in noisy context, and what property should the trained token embeddings support?",
+    "reference_answer": "A whole-sentence vector can fail to retrieve a target phrase embedded in noisy surrounding text. The contrastive-loss modification encourages contextualized word/token embeddings that can be aggregated into arbitrary consecutive spans while preserving the meaning of each span.",
+    "evidence": [
+      "when target phrases reside inside noisy context, representing the full sentence with a single dense vector, is not sufficient for effective phrase retrieval",
+      "this technique is much more effective for phrase mining, yet requires considerable compute to obtain useful span representations",
+      "contextualized word/token embeddings that can be aggregated for arbitrary word spans while maintaining the span's semantic meaning",
+      "a modification to the common contrastive loss used for sentence embeddings that encourages word embeddings to have this property",
+      "a dataset based on the STS-B dataset with additional generated text"
+    ]
+  }
+]

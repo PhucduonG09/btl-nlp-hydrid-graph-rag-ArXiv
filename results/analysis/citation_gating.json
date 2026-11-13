@@ -1,0 +1,61 @@
+{
+  "n": 4000,
+  "base_hit10": 0.247,
+  "ungated_graph_hit10": 0.1782,
+  "ungated_minus_base": [
+    -0.0688,
+    [
+      -0.0785,
+      -0.0587
+    ]
+  ],
+  "per_tau": {
+    "2": {
+      "hit10": 0.2305,
+      "share_gated": 0.213
+    },
+    "3": {
+      "hit10": 0.2258,
+      "share_gated": 0.309
+    },
+    "5": {
+      "hit10": 0.2182,
+      "share_gated": 0.394
+    },
+    "10": {
+      "hit10": 0.2122,
+      "share_gated": 0.481
+    },
+    "20": {
+      "hit10": 0.2008,
+      "share_gated": 0.559
+    },
+    "50": {
+      "hit10": 0.188,
+      "share_gated": 0.629
+    },
+    "200": {
+      "hit10": 0.1782,
+      "share_gated": 0.713
+    }
+  },
+  "cross_fit_tau": {
+    "0": 2,
+    "1": 2
+  },
+  "gated_heldout_hit10": 0.2305,
+  "gated_minus_base_heldout": [
+    -0.0165,
+    [
+      -0.0217,
+      -0.0117
+    ]
+  ],
+  "gated_minus_ungated_graph_heldout": [
+    0.0522,
+    [
+      0.0435,
+      0.0612
+    ]
+  ]
+}

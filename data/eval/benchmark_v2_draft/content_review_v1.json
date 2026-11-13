@@ -1,0 +1,647 @@
+{
+  "reviewed_at": "2026-11-09T05:17:50.681107+07:00",
+  "reviewer": "Codex",
+  "reviewer_kind": "assistant_source_review",
+  "scope": "Title/abstract grounded content review, not independent human annotation or full-paper scientific verification. Prior bridge approval unchanged.",
+  "ambiguity_check": "Exact question duplicates checked. BM25 top alternatives inspected for 16 non-rank-1 single questions; rank is only an inspection aid, never proof of ambiguity, uniqueness or a difficulty selection rule. Candidate ranks were computed before revisions.",
+  "reviewed_single": 105,
+  "cleared_single": 102,
+  "needs_hill": [
+    "s2006",
+    "s2019",
+    "q056"
+  ],
+  "bridge_preserved": 45,
+  "rows": [
+    {
+      "id": "q001",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "8d216372d09f1d6c1d82bea04cde4f03f36b080bcd58acad28e29fd82272d43b"
+    },
+    {
+      "id": "q002",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "930363fb2594a3433d5d17b04dba566400476a2a215e664f276e6b513ab69075"
+    },
+    {
+      "id": "q003",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "2b1e8cdfae41dd3da1b6449fa6fb1805d2fbd8161dae5bba3eb4d357d7958b52"
+    },
+    {
+      "id": "q004",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "25e32ad799b8043f758ea9311a532dba8d0d2827e5020fdff7a5c239d38ae4b9"
+    },
+    {
+      "id": "q005",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "2b886f534ba9e270ee74e9ba317ce63ebb1f048105a0e2866d195191f2dd3038"
+    },
+    {
+      "id": "q006",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "6c45de65c8fc56b9d0d683fb15c544c384e95807f8267653e55b2d93b8e538b3"
+    },
+    {
+      "id": "q007",
+      "status": "cleared",
+      "note": "Câu cũ hỏi cách tích hợp cụ thể nhưng abstract chỉ mô tả phạm vi tổng quan. Thu hẹp câu hỏi về thông tin thực sự có trong abstract.",
+      "source_fingerprint": "d0067e3e6018a4848993ab4ec7416566b9af84836084721b9d1efeec32a4b434"
+    },
+    {
+      "id": "q008",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "572233291cb4052cca8cd83da0fb39ba6bcff60d3c33cd7751ad8fd8f626706c"
+    },
+    {
+      "id": "q009",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "a7b3b2e91b669311b09541bf30492a6bb31aef841334b6f0cc09a1cabc8837a7"
+    },
+    {
+      "id": "q010",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "22d326d2f2de2d3d109cad6e45959720012a873a1878e9be50b39d521122d551"
+    },
+    {
+      "id": "q011",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "e6ac83b4b3b2dd4faa433f46d40e390ba8422cabaa097b97e23a1efd75903c2f"
+    },
+    {
+      "id": "q012",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "ad6bc20fe15abcc454425bc65888413690184a6092da767efb6c83b628dffbba"
+    },
+    {
+      "id": "q013",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "bb964e8ea290b37b8143207c7b283806629e0fd55712d3566eb11d595fd180d6"
+    },
+    {
+      "id": "q014",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "02b01e74d97fc8c281afc8b9aad60ce63e1e05249d95dbb0c7c042e1b9749070"
+    },
+    {
+      "id": "q015",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "a05647e741898d15f96c8808891b86a20a0b480876b46fae6cb8142023b4e483"
+    },
+    {
+      "id": "q016",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "768c6c2c0385bc2ffcc1c80c10827e524ee6bdbe39de249c67015b334f004b29"
+    },
+    {
+      "id": "q017",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "bdc624d54c67bbd513c7d441bca495e11800c44a12515c7bff8494b72dbfbdbf"
+    },
+    {
+      "id": "q018",
+      "status": "cleared",
+      "note": "Làm rõ mô hình được hỏi bằng thành phần TAMformer có trong nguồn; không coi các cách docking bất kỳ là đáp án thay thế tương đương.",
+      "source_fingerprint": "dd974a203fb8dfb6e25eabcf928b3bafe832f8084f01d6e12746042ce2707acc"
+    },
+    {
+      "id": "q019",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "42af78d99c671e3f902905ed4bb70d3f2bef84be9bf1cfde15840ba0b3191b65"
+    },
+    {
+      "id": "q020",
+      "status": "cleared",
+      "note": "Đặt rõ giả thiết và hai đại lượng đầu ra, tránh lẫn với bài toán hiệu chuẩn đa lớp hoặc các khái niệm smooth calibration khác.",
+      "source_fingerprint": "a7ba31bdb9191d54817ee2d31edd4234f0c0e40e848b1723da2d8f9c210aba2e"
+    },
+    {
+      "id": "q021",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "20a4f2b2a539d144b90db9844b1972c118d0410847fea984ea7eaa45e5cf7d4b"
+    },
+    {
+      "id": "q022",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "57418942fcc9c37f8a4875eee8b8b17ecc0c677777f6f0193033221a28eadec1"
+    },
+    {
+      "id": "q023",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "77ab824c92f7285fd8bab0ac5c918695bca1cefec60995d5ebfc40423814c5ac"
+    },
+    {
+      "id": "q024",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "0a294c5a19c38e39f37a4057e5f24c17725eac00351fadf4c26dd980476c4c96"
+    },
+    {
+      "id": "q025",
+      "status": "cleared",
+      "note": "Giới hạn về STEER và hai nhánh logit reshaping có nguồn; câu cũ cho phép nhiều giải pháp sinh dữ liệu khác nhau.",
+      "source_fingerprint": "a3de319a5b3748798abc6ed203e1885cc596d2093ff67ff837c8a9dcdbc4e909"
+    },
+    {
+      "id": "q026",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "6e7bf6102e9c25db0ec1f08b51975a7008b2fe5862561fe6c81736e1e8774f01"
+    },
+    {
+      "id": "q027",
+      "status": "cleared",
+      "note": "Đặt rõ cách biểu diễn dual-view và benchmark có trong nguồn, thay cho câu hỏi chung về mọi web agent.",
+      "source_fingerprint": "fc90c5e5d6c2d377073cd974199edaf9738c7a08eb170a423850db6339785830"
+    },
+    {
+      "id": "q028",
+      "status": "cleared",
+      "note": "Bổ sung điều kiện năng lượng và độ chính xác electron, tránh hiểu hai tỷ lệ được đo trên cùng điều kiện.",
+      "source_fingerprint": "1c7229bf0f0b6782fd026bf6c7fa8e865bbfa106df711207faf1bf91aa69ba9d"
+    },
+    {
+      "id": "q029",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "4f739896cb455d2bbae28d48e4769b10802bb384104073fd9695d00c552a5612"
+    },
+    {
+      "id": "q030",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "d42c3ee4391ecb976229563bd0513d8835acc8ae79eea685dba37012391582af"
+    },
+    {
+      "id": "q031",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "b6e60fcacd9851e2db43be7b0119ff9f18e3d10cbacbd19e2273552ee516fcba"
+    },
+    {
+      "id": "q032",
+      "status": "cleared",
+      "note": "Câu cũ cho phép trả lời bằng query rewriting hoặc các phương pháp retrieval khác. Bản sửa hỏi đúng so sánh atoms/chunks/synthetic questions được abstract nêu.",
+      "source_fingerprint": "8220896a8b9604b0d420515ced3e339aa249fb603234f75ce1fc0ad884bd5f78"
+    },
+    {
+      "id": "q033",
+      "status": "cleared",
+      "note": "Chỉ hỏi các hệ quả và nền tảng được abstract nêu; không yêu cầu công thức hoặc khẳng định down-weight chưa có trong nguồn.",
+      "source_fingerprint": "da048ba94fa4fe844f3f7a29dc8233a02c5592228fbb6e790125531d621efc88"
+    },
+    {
+      "id": "q034",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "7c5070d782569dfeb76c6a2f35a409c21d3d6c71f934f29d461b5766746090f6"
+    },
+    {
+      "id": "q035",
+      "status": "cleared",
+      "note": "Thay cụm framework không xác định bằng kernel scores và hai bộ đánh giá cụ thể, phân biệt với các framework uncertainty khác.",
+      "source_fingerprint": "207c80bb9667ad44ec728f11041e869f5a0c3003213c7c0b0fb3d85b5b5b0794"
+    },
+    {
+      "id": "q036",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "d9e18c25db67ad8af0f3093d90ecceb2bba8330f6744f47ff38ad0aa1b71f595"
+    },
+    {
+      "id": "q037",
+      "status": "cleared",
+      "note": "Giới hạn vào quy trình khám phá loss và cấu trúc DiscoPOP, thay vì hỏi mọi cách tìm objective để alignment.",
+      "source_fingerprint": "634418a866e2d8b53de0633f659b7060c54c7d6d34c06dcf3b40ad454a8e263c"
+    },
+    {
+      "id": "q038",
+      "status": "cleared",
+      "note": "Câu cũ là vấn đề few-shot rất rộng. Bản sửa bám tổ hợp neural memory, MAML và hai ứng dụng 3D được nguồn mô tả.",
+      "source_fingerprint": "487d4b1ba6b3f7179a716262c3d8232d2ee617007194b170453b8235548018df"
+    },
+    {
+      "id": "q039",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "4db8a56e18acedb81093095ea32f65ab7b4d74156c402f44d936017f1ff1a185"
+    },
+    {
+      "id": "q040",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "363fe0ddbc1fd54799d96901582d7bcd3619ef95bebfa30abf8df32396073043"
+    },
+    {
+      "id": "q041",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "3ee05d8722513bcb48bfbd022687d02e6d0afa1ca122a48e60e856005680b1e1"
+    },
+    {
+      "id": "q042",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "823a419ba734079fe5d102be7ff73d4252e9127503e24ae97cd8fc06cb4f4730"
+    },
+    {
+      "id": "q043",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "78c5278d8ac9f7e4e62b539c0df84eed87a08b09535f63d7454177b20c4cd626"
+    },
+    {
+      "id": "q044",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "29639ee2e3023e1ca9211ca19ec10b19f3e806673c43a7cc7fbdf9ccc33b1ca1"
+    },
+    {
+      "id": "q045",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "4b9b4320b5861e801a6f3dbbf34157beae102b321b4c203b650a4b08a265963b"
+    },
+    {
+      "id": "q046",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "e0f34f6e160140c897ec1aba017b68b3d2c299077c2631b6bb556efe27163fde"
+    },
+    {
+      "id": "q047",
+      "status": "cleared",
+      "note": "Không suy diễn thủ tục nội suy từ tên phương pháp; hỏi mục tiêu, phạm vi bảo đảm và thiết lập đã nêu.",
+      "source_fingerprint": "16e94805c7f8751e529daf196e8e2c16b902a8f61bfe66ceb0db78616abf99aa"
+    },
+    {
+      "id": "q048",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "d01187cc1f685ef275547cdf9fc2438ccc15bebabc4c044641fe0d3fa544336f"
+    },
+    {
+      "id": "q049",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "97faf524af1a76e4aa6f84040f1b7599ae954d013c9c04425f29da381e65ce7b"
+    },
+    {
+      "id": "q050",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "b1e2fcca65930e15ff5d44d80785ecdc8177bd68cfee842b85a50b8ec2900204"
+    },
+    {
+      "id": "q051",
+      "status": "cleared",
+      "note": "Đặt rõ AdaFish và generalized Fisher để phân biệt với các phương pháp low-rank adaptation không dùng lập luận này.",
+      "source_fingerprint": "0d374b3c778f438ef2a01689ab5dbe98210a8488d58505557037102a2187a745"
+    },
+    {
+      "id": "q052",
+      "status": "cleared",
+      "note": "Đặt rõ hệ thống và comparator; giữ kết luận fairness trong phạm vi đoàn hệ đánh giá thay vì coi là bảo đảm chung.",
+      "source_fingerprint": "ded40a0043015098868a1e67d6d9301103ea26fdd91c75596be041a274d6b075"
+    },
+    {
+      "id": "q053",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "df31e3ad27db2e5be6209984cf800bc229f8ff6e51a22c750e5844a2b8f1f8b9"
+    },
+    {
+      "id": "q054",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "bd02c45c79ae1faabe3a9c0a80ec4970ae5326c36389b665c44dff038ebf9668"
+    },
+    {
+      "id": "q055",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "04d759abc6e9a709c2af010cb09e43dc2fca5efab7000dca6a156505885765b8"
+    },
+    {
+      "id": "q056",
+      "status": "needs_hill_decision",
+      "note": "Câu gốc đòi chiến lược post-training/inference nhưng abstract chỉ mô tả phạm vi survey. Bản sửa về phạm vi trả lời được, nhưng vẫn gần như một câu giới thiệu survey, ít giá trị đo chất lượng.",
+      "source_fingerprint": "79db75c610e7d5f8af0706a191c5532ba881b538663ed69a5c052b01d68b1636"
+    },
+    {
+      "id": "q057",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "803917d1da1eae90f67a92d5c86ed837d689acd0cd278f56d1cefb1b5fa7457f"
+    },
+    {
+      "id": "q058",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "145e885b7041a9191fef66b33b791e54f0027f74640cc19f865069e2fbfefb8d"
+    },
+    {
+      "id": "q059",
+      "status": "cleared",
+      "note": "Khớp đúng đại lượng 25% là average global lower bound; câu cũ hỏi cả upper bound dù abstract không nêu mức tăng của upper bound.",
+      "source_fingerprint": "d51254895e353904dd08c0692dc54ba7d8d75bca9cdfee5831e4482be6254a1c"
+    },
+    {
+      "id": "q060",
+      "status": "cleared",
+      "note": "Đối chiếu nội dung với title/abstract ở lượt rà nguồn trước; không thấy thiếu sót trọng yếu cần đổi đáp án. Không xác nhận đây là lượt gán nhãn độc lập của người.",
+      "source_fingerprint": "e69242d645049e38b03046aa13328b5df1cce0072f1f5fca2cfb900d3b849ba2"
+    },
+    {
+      "id": "s2001",
+      "status": "cleared",
+      "note": "Phân biệt transductive dùng biểu diễn test không nhãn với việc dùng nhãn test; accuracy/F1 đều 0.86 trong nguồn.",
+      "source_fingerprint": "733b1046143ae9e823ba1edc01873e243293f9bca31c1b87b31804dc3ac161bd"
+    },
+    {
+      "id": "s2002",
+      "status": "cleared",
+      "note": "Đủ chuỗi sentiment retrieval → Emotion Prompt; giữ CCC 0.593 và MAE 3.95 đúng AVEC 2019.",
+      "source_fingerprint": "119030b4bf690f93cb812a4f8d1c9217a9e7b3b49cfd4d3610cf9cf42726fed4"
+    },
+    {
+      "id": "s2003",
+      "status": "cleared",
+      "note": "Đủ ba corpus, dịch sang 10 ngôn ngữ và lọc bằng perplexity; không bổ sung tên ngôn ngữ không có trong abstract.",
+      "source_fingerprint": "15e8abe02425ad59eed32d4e888323a699fa43ff7b81f79c565ea757e0f3b41a"
+    },
+    {
+      "id": "s2004",
+      "status": "cleared",
+      "note": "11 review = 9 ChatGPT + 2 AI rộng; mốc tìm kiếm đã có nguồn.",
+      "source_fingerprint": "2add69a6b699bed4f767c3718ab67e4bc19c30e0d737a155725a0185b8938906"
+    },
+    {
+      "id": "s2005",
+      "status": "cleared",
+      "note": "Hai task FHIR được nêu trực tiếp; không suy ra bảo đảm privacy chỉ từ private deployment.",
+      "source_fingerprint": "54be210aaf20df2ea32a6f2ecd6e6080c02556ef3a0a431d839add79c1482e01"
+    },
+    {
+      "id": "s2006",
+      "status": "needs_hill_decision",
+      "note": "Abstract mô tả gradient manifolds và dynamic adjustment rất chung, không định nghĩa thao tác đủ rõ để chấm đáp án cơ chế. Có thể thu hẹp thành câu hỏi input/output của mạng phụ, nhưng sẽ khá dễ.",
+      "source_fingerprint": "0f56f8f2f6b4cb5dfda6bb5130c17c99497b56425bd76f1f4a888f1420706194"
+    },
+    {
+      "id": "s2007",
+      "status": "cleared",
+      "note": "Tách latency trên simulated goal drift khỏi so sánh false positive với static thresholds.",
+      "source_fingerprint": "533a5d5c3f08adda1f8f70b39bad4f639c3389c7ec8620f692b8748221d46736"
+    },
+    {
+      "id": "s2008",
+      "status": "cleared",
+      "note": "Giữ kết luận định tính trong nghiên cứu 10 ngôn ngữ; không bịa accuracy hoặc tên từng ngôn ngữ.",
+      "source_fingerprint": "d5e3b8ebc062cac98c2784428ca5243fbcfd338cb6d5dbb8c3a4ee4237b4d7e0"
+    },
+    {
+      "id": "s2009",
+      "status": "cleared",
+      "note": "Ba reward và vai trò text bridge đều được nguồn nêu trực tiếp.",
+      "source_fingerprint": "fe66c523845a33b81a4e47ba22f021e4f38850029491d84db90676b988a99184"
+    },
+    {
+      "id": "s2010",
+      "status": "cleared",
+      "note": "Cả tăng cooperation và tăng khả năng bị exploitation đều có trong nguồn.",
+      "source_fingerprint": "f808c0adff11de3b7a54b55b55b43dcbfb5f7b59b22e0583dda109dca844f686"
+    },
+    {
+      "id": "s2011",
+      "status": "cleared",
+      "note": "Giữ r/p và quy kết kết luận cho nghiên cứu; không biến tương quan không rõ thành bằng chứng không có hiệu ứng ở mọi trường hợp.",
+      "source_fingerprint": "9ef2dff584d22d120e923fce2df5576fc7797f899da7638fd819f2bce8d58444"
+    },
+    {
+      "id": "s2012",
+      "status": "cleared",
+      "note": "45%/67% là mức tăng median silhouette được báo cáo; giữ đúng tên biến thể K-means/agglomerative.",
+      "source_fingerprint": "4d89b20da94527930365e1fbde71a29042acf652ddf8990adceb9b410a399114"
+    },
+    {
+      "id": "s2013",
+      "status": "cleared",
+      "note": "Giữ Recall@1 từ 7.5% lên 19.8%, không nhầm mức tăng tuyệt đối và tương đối.",
+      "source_fingerprint": "79dd8b62f331595f64fe584364871592d40935ee67655e24ec8e92f055426710"
+    },
+    {
+      "id": "s2014",
+      "status": "cleared",
+      "note": "Remediator và value-impact được nguồn nêu; DICE tìm được bằng lexical search không đáp ứng ngữ cảnh business negotiation này.",
+      "source_fingerprint": "319323753edf788fb293600952939d6248c2064f394713945d295a50ae4989a5"
+    },
+    {
+      "id": "s2015",
+      "status": "cleared",
+      "note": "Chỉ hỏi hạn chế vector toàn câu và thuộc tính span aggregation; không khẳng định tiết kiệm tính toán định lượng chưa có.",
+      "source_fingerprint": "865e722047f594ab582f1667da302e6a7dd52e7a4748d5d2294c12c23b346849"
+    },
+    {
+      "id": "s2016",
+      "status": "cleared",
+      "note": "Đánh giá trong generation và hybridization được nêu trực tiếp; không khẳng định hybrid luôn thắng.",
+      "source_fingerprint": "80169ddad562e06bc43b39f1845a1cc3d24cee98ec1f809752a64f638c33a26f"
+    },
+    {
+      "id": "s2017",
+      "status": "cleared",
+      "note": "Nguồn cho phép giải thích metadata thiếu/cũ, review phong phú và RA-Rec state tracking; không thêm metric.",
+      "source_fingerprint": "d24b6d2c2cba3bbdaf3ef8dfaa3fbb16a5e4a5d11bc57960bab02eeb6184cca3"
+    },
+    {
+      "id": "s2018",
+      "status": "cleared",
+      "note": "Ba nguyên tắc human context, vượt nhóm và biến đổi theo thời gian đều có nguồn.",
+      "source_fingerprint": "5e7164b02ed2dc69d8f22eeefa1667568a4cf2c61709892d2580a9e8082b5224"
+    },
+    {
+      "id": "s2019",
+      "status": "needs_hill_decision",
+      "note": "Nguồn chỉ nói một số paradigm mạnh về question, số khác mạnh về question-context, không nêu paradigm nào hay kết quả cụ thể. Đáp án hiện tại đúng ở mức tóm tắt nhưng quá chung để phân biệt chất lượng hệ thống.",
+      "source_fingerprint": "8aeda73a43e78c246391a9d5acbb4d34719ac1bafff68b565bad8319866a15d1"
+    },
+    {
+      "id": "s2020",
+      "status": "cleared",
+      "note": "Giữ điều kiện moderate noise và visual filtering; không gán mức tăng số chưa có.",
+      "source_fingerprint": "e17ff7fe403da5297979cb487d52ca8aff1f14d8ffc4ce5793c7e69d90291164"
+    },
+    {
+      "id": "s2021",
+      "status": "cleared",
+      "note": "Đủ ba nhóm phương pháp, bốn LVLM và kết luận supervised uncertainty trong phạm vi đã thử.",
+      "source_fingerprint": "05e48605dc8f1a8e99ffcaab7c0e9e387689f87b8dded820544a41cd051fe203"
+    },
+    {
+      "id": "s2022",
+      "status": "cleared",
+      "note": "18.2% là WER improvement tương đối; 54% forgetting giảm so với naive; EWC có trade-off plasticity.",
+      "source_fingerprint": "6ace793713849e6e219e3ada385b770270aaf63ad56bac5b53e9e8551f9a4733"
+    },
+    {
+      "id": "s2023",
+      "status": "cleared",
+      "note": "Phân biệt pretraining/fine-tuning với adaptation in-context không gradient update mới.",
+      "source_fingerprint": "145759d3f5099f07ae2a151cc904ac17d107531473a161ba1a48f8ae8b621782"
+    },
+    {
+      "id": "s2024",
+      "status": "cleared",
+      "note": "Giữ phân biệt giả thuyết với nguyên nhân đã được chứng minh; freezing experiments inconclusive.",
+      "source_fingerprint": "a47a465d9d0a76863c7d891b32f8598596ac8d09069815d273c4e8cbbbedd3f1"
+    },
+    {
+      "id": "s2025",
+      "status": "cleared",
+      "note": "Precision cao không đủ cho F1 khi recall 12.87%; ba classifier đều có nguồn.",
+      "source_fingerprint": "d1a4faee79e133d411180b3409c17fabb46a6abc1e0460d8f1403e80af300eb0"
+    },
+    {
+      "id": "s2026",
+      "status": "cleared",
+      "note": "Browser/TSV và bốn task được nêu; không suy ra mọi bài toán annotation được hỗ trợ.",
+      "source_fingerprint": "89536a11f5f4b04f8bf4bcc0101b8881c5268ca915e3eb075f4a5368b35ec1ef"
+    },
+    {
+      "id": "s2027",
+      "status": "cleared",
+      "note": "Phân biệt accuracy-oriented calibration và calibration theo human distributions trên BEiT3.",
+      "source_fingerprint": "94f9265b2f4fbd97d48a6ea94be415d604350b2d5205aff9678ec15356a6ddad"
+    },
+    {
+      "id": "s2028",
+      "status": "cleared",
+      "note": "Giữ up to cho 2.16x latency và 3.18x throughput; ký hiệu 3.18x không phải con số ngoài nguồn.",
+      "source_fingerprint": "f738a093ee85286f29859e7a92d5d15ae0c979f22c16fa1b6dfdcb42bedf8f02"
+    },
+    {
+      "id": "s2029",
+      "status": "cleared",
+      "note": "Chỉ giữ role optimizer và mức chứng cứ preliminary; không tự thêm kết luận định lượng hoặc bảo đảm tổng quát.",
+      "source_fingerprint": "775b11e8aa1fb68f0c623509166be4969246e13b02c11bee06b93549a5cebc8b"
+    },
+    {
+      "id": "s2030",
+      "status": "cleared",
+      "note": "Explicitness và narrative element là hai thuộc tính khác nhau; chứng cứ được mô tả là preliminary.",
+      "source_fingerprint": "a4aa6aa2aa8343e0ab96f9454fea1af889aa6819fe0b95d65346e47e2f7a2bf7"
+    },
+    {
+      "id": "s2031",
+      "status": "cleared",
+      "note": "0.5% parameters, adaptive instruction MoE và mutual-information linkage đều trong nguồn; không thêm công thức.",
+      "source_fingerprint": "7df049abf2ab8e1ce8353da1fa9419e2aa94694dc83bfcf6716f1c1341cffea0"
+    },
+    {
+      "id": "s2032",
+      "status": "cleared",
+      "note": "Giữ hai mức budget/cache và tỷ lệ 1.7%/85% trong LongBench; không lẫn thử nghiệm Needle.",
+      "source_fingerprint": "537c131aca5d7a772f5946722152f8a01739ad65ed6e587b4c61a7a2e55e4736"
+    },
+    {
+      "id": "s2033",
+      "status": "cleared",
+      "note": "9–52% áp dụng related probe score của các auxiliary tasks, không phải toàn bộ recommendation accuracy.",
+      "source_fingerprint": "eee38e841781eac3464c154f02364339aa14a82fc49f4d357263a687f7b41c7d"
+    },
+    {
+      "id": "s2034",
+      "status": "cleared",
+      "note": "Hai dataset, không fine-tuning/ground-truth rationales; không bịa tên hai dataset.",
+      "source_fingerprint": "a0e53fd613d075b5b977d744e1f7133b8c7a681a56beffa04cbc2fd5e62c773e"
+    },
+    {
+      "id": "s2035",
+      "status": "cleared",
+      "note": "Hai chiều populist language và host ideologies đều có nguồn; không đưa diễn giải chính trị ngoài bài.",
+      "source_fingerprint": "211a840949c0df521815c50730962015fb0f8594fc688f1f3ed139dd4447e84e"
+    },
+    {
+      "id": "s2036",
+      "status": "cleared",
+      "note": "Nguồn có metadataset, năm model/sáu dataset; không khẳng định đã public release hoặc tự đặt tên model.",
+      "source_fingerprint": "0bde671d9d26b3b0ad9aab081e50172cccb8293c9db7cd3a3cee022fc3b3f6c0"
+    },
+    {
+      "id": "s2037",
+      "status": "cleared",
+      "note": "Can thiệp đích và nhiễu ngoài đích được phân biệt; không coi amnesic probing là chứng minh nhân quả tuyệt đối.",
+      "source_fingerprint": "62cf92a7ab0fb4ae9832e9f4cd08597353f371ee46f69b36f85ec008d2598489"
+    },
+    {
+      "id": "s2038",
+      "status": "cleared",
+      "note": "Adversarial consistency không teacher và một/hai sampling steps được nguồn nêu.",
+      "source_fingerprint": "796dfcc725deb2960220a61a7f5e55e538da26731062793e721da4b268a1c450"
+    },
+    {
+      "id": "s2039",
+      "status": "cleared",
+      "note": "Không longer-context training; gains có cả trong/vượt context với cùng lượng knowledge; không suy diễn orchestration cụ thể.",
+      "source_fingerprint": "cefb975293a357f7c920676f8523b837ac77e7e4ef1742aede7e0c3f46833c98"
+    },
+    {
+      "id": "s2040",
+      "status": "cleared",
+      "note": "Drift các functional directions và gradient orthogonality có nguồn; không hứa triệt tiêu hoàn toàn forgetting.",
+      "source_fingerprint": "04fc0bc522e2f069a96a4f25c2c1cbb23b3e351d092bbc4d380413d591c9af6e"
+    },
+    {
+      "id": "s2041",
+      "status": "cleared",
+      "note": "Chỉ hỏi phép đo và human evaluation được nêu, không hỏi period/term/model ranking chưa liệt kê.",
+      "source_fingerprint": "ed03b748239e6857f3b90bd563ab98a592fb2117d414f93c16ddd549647ca704"
+    },
+    {
+      "id": "s2042",
+      "status": "cleared",
+      "note": "Context-size curriculum khác ba curricula của CLIMB; không coi bài CLIMB là gold thay thế cho kết quả này.",
+      "source_fingerprint": "cd54cd9dcf11174ce10bcdeecf6dfad6537f1a756fe89d309fc9ae508e76863b"
+    },
+    {
+      "id": "s2043",
+      "status": "cleared",
+      "note": "Giới hạn vào roles, hidden states/output features và semantic similarity; không hỏi công thức constraint không có.",
+      "source_fingerprint": "49f184a6fcd4cc831113c2cafbc56bb2ac4d32a978cec0efa406e1cf3309d7ef"
+    },
+    {
+      "id": "s2044",
+      "status": "cleared",
+      "note": "Mixture thuộc tokenizer training set, không tự gán thành LM pretraining distribution.",
+      "source_fingerprint": "623fbd3e241c569cc3c0fc69a4f80700cdc30ba77941572beeffccdc1906150f"
+    },
+    {
+      "id": "s2045",
+      "status": "cleared",
+      "note": "Giữ up to 78.52% và fluency drop 0.052%; không hứa vô hại hoặc loại mọi toxicity.",
+      "source_fingerprint": "ed73671e23023191effee8890440cda52a207855db4f563a66978d315814a80e"
+    }
+  ]
+}

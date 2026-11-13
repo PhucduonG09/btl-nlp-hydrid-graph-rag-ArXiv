@@ -1,0 +1,88 @@
+{
+  "tag": "v3",
+  "n_papers_with_extraction": 500,
+  "n_nodes": 5298,
+  "n_edges": 6069,
+  "nodes_by_type": {
+    "Paper": 500,
+    "Author": 2513,
+    "Category": 72,
+    "Concept": 2213
+  },
+  "edges_by_rel": {
+    "written_by": 2574,
+    "belongs_to": 1149,
+    "ADDRESSES": 785,
+    "PROPOSES": 792,
+    "USES": 529,
+    "EVALUATES_ON": 240
+  },
+  "papers_without_relation": 0,
+  "concepts_in_ge2_papers": 84,
+  "concepts_in_ge2_papers_pct": 3.8,
+  "top_concepts": [
+    [
+      "llama",
+      6
+    ],
+    [
+      "low rank adaptation",
+      6
+    ],
+    [
+      "clip",
+      5
+    ],
+    [
+      "cifar 10",
+      5
+    ],
+    [
+      "gpt 4o",
+      5
+    ],
+    [
+      "mnist",
+      4
+    ],
+    [
+      "gpt 4",
+      4
+    ],
+    [
+      "dpo",
+      4
+    ],
+    [
+      "catastrophic forgetting",
+      3
+    ],
+    [
+      "chatgpt",
+      3
+    ],
+    [
+      "bert",
+      3
+    ],
+    [
+      "topic modeling",
+      3
+    ],
+    [
+      "mistral",
+      3
+    ],
+    [
+      "random forest",
+      3
+    ],
+    [
+      "umap",
+      3
+    ]
+  ],
+  "largest_component_size": 325,
+  "n_components": 385,
+  "extraction_json_errors": 0
+}

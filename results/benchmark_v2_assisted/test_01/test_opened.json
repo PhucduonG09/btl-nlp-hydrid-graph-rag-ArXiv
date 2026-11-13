@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-11-11T20:06:29+0700",
+  "protocol_sha256": "2584b35829d485832fea52cc5052a9a719c43ff9a59bf9b494d982b38c421046",
+  "human_gate": {
+    "n_resolved": 50,
+    "n_reference_issue_flagged": 16,
+    "amendment": "A1-2026-11-11",
+    "ratings_sha256": "b7188b22e13e5f03705737908edf7fff7ca9ef753c390c482b14bc54741b8957",
+    "items_sha256": "100f4110b5b439d5abe515b8af3ade0600a4f2bce90ddd22e04953c32a2afe40",
+    "policy": "Named human ratings; no unrated, uncertain or disagreeing label. Amendment A1: reference_issue is recorded as a stratum flag and does not block when raters agree."
+  }
+}

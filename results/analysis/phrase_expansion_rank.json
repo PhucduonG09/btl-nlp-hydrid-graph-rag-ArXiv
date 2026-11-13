@@ -1,0 +1,132 @@
+{
+  "concept_llm_verified(30)": {
+    "mentions": {
+      "n": 30,
+      "hit10": 5,
+      "hit100": 6,
+      "median_rank_if_found": 2.0,
+      "mrr100": 0.109
+    },
+    "union_top10": {
+      "n": 30,
+      "hit10": 27,
+      "hit100": 27,
+      "median_rank_if_found": 2.0,
+      "mrr100": 0.578
+    },
+    "union_top20": {
+      "n": 30,
+      "hit10": 27,
+      "hit100": 28,
+      "median_rank_if_found": 2.0,
+      "mrr100": 0.596
+    },
+    "phrase_top10": {
+      "n": 30,
+      "hit10": 27,
+      "hit100": 27,
+      "median_rank_if_found": 2.0,
+      "mrr100": 0.609
+    },
+    "rrf2(mentions,phrase10)": {
+      "n": 30,
+      "hit10": 15,
+      "hit100": 27,
+      "median_rank_if_found": 9.0,
+      "mrr100": 0.305
+    },
+    "dense_A": {
+      "n": 30,
+      "hit10": 8,
+      "hit100": 12,
+      "median_rank_if_found": 3.5,
+      "mrr100": 0.203
+    },
+    "bm25_A": {
+      "n": 30,
+      "hit10": 8,
+      "hit100": 18,
+      "median_rank_if_found": 16.5,
+      "mrr100": 0.171
+    },
+    "rrf(dense_A+union_top10)": {
+      "n": 30,
+      "hit10": 22,
+      "hit100": 28,
+      "median_rank_if_found": 6.5,
+      "mrr100": 0.397
+    },
+    "rrf(dense_A+rrf2)": {
+      "n": 30,
+      "hit10": 15,
+      "hit100": 24,
+      "median_rank_if_found": 9.0,
+      "mrr100": 0.308
+    }
+  },
+  "named_bridge_dev(31)": {
+    "mentions": {
+      "n": 31,
+      "hit10": 30,
+      "hit100": 31,
+      "median_rank_if_found": 1.0,
+      "mrr100": 0.812
+    },
+    "union_top10": {
+      "n": 31,
+      "hit10": 24,
+      "hit100": 31,
+      "median_rank_if_found": 2.0,
+      "mrr100": 0.569
+    },
+    "union_top20": {
+      "n": 31,
+      "hit10": 23,
+      "hit100": 29,
+      "median_rank_if_found": 4.0,
+      "mrr100": 0.429
+    },
+    "phrase_top10": {
+      "n": 31,
+      "hit10": 7,
+      "hit100": 7,
+      "median_rank_if_found": 2.0,
+      "mrr100": 0.151
+    },
+    "rrf2(mentions,phrase10)": {
+      "n": 31,
+      "hit10": 29,
+      "hit100": 31,
+      "median_rank_if_found": 1.0,
+      "mrr100": 0.744
+    },
+    "dense_A": {
+      "n": 31,
+      "hit10": 18,
+      "hit100": 20,
+      "median_rank_if_found": 2.0,
+      "mrr100": 0.361
+    },
+    "bm25_A": {
+      "n": 31,
+      "hit10": 15,
+      "hit100": 21,
+      "median_rank_if_found": 2.0,
+      "mrr100": 0.372
+    },
+    "rrf(dense_A+union_top10)": {
+      "n": 31,
+      "hit10": 25,
+      "hit100": 31,
+      "median_rank_if_found": 1.0,
+      "mrr100": 0.617
+    },
+    "rrf(dense_A+rrf2)": {
+      "n": 31,
+      "hit10": 27,
+      "hit100": 31,
+      "median_rank_if_found": 1.0,
+      "mrr100": 0.645
+    }
+  }
+}

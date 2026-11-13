@@ -1,0 +1,38 @@
+{
+  "benchmark_v2_bridge_dev": {
+    "n": 31,
+    "one_hop": 31,
+    "one_hop_rate": 1.0,
+    "up_to_two_hops": 31,
+    "two_hop_rate": 1.0
+  },
+  "benchmark_v2_bridge_test": {
+    "n": 14,
+    "one_hop": 14,
+    "one_hop_rate": 1.0,
+    "up_to_two_hops": 14,
+    "two_hop_rate": 1.0
+  },
+  "concept_verified_by_llm_reviewer": {
+    "n": 30,
+    "one_hop": 6,
+    "one_hop_rate": 0.2,
+    "up_to_two_hops": 9,
+    "two_hop_rate": 0.3
+  },
+  "concept_assistant_triage_kept": {
+    "n": 10,
+    "one_hop": 4,
+    "one_hop_rate": 0.4,
+    "up_to_two_hops": 5,
+    "two_hop_rate": 0.5
+  },
+  "control_random_pairs": {
+    "n": 2000,
+    "one_hop": 4,
+    "one_hop_rate": 0.002,
+    "up_to_two_hops": 112,
+    "two_hop_rate": 0.056
+  },
+  "notes": "Cặp concept: reviewer LLM, chưa duyệt người; triage do trợ lý, chưa duyệt người. n nhỏ. Hai hop dùng thực thể df 2..200; đối chứng ngẫu nhiên 2 hop cao hơn mong đợi vì thực thể phổ biến. Đây là TRẦN: nối được trong đồ thị không bảo đảm truy xuất đúng."
+}
